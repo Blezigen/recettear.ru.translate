@@ -1,0 +1,180 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_myroom.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+chr:5:dir:left
+chr:5:grp:bmp/ivent/kuro.tga 640,480
+chr:5:move:0,0
+chr:5:disp
+
+//�L�����Ɋւ���ݒ�
+
+wait:60
+
+// <KEY>���L�[���͑҂��A<W>��10�t���[���̃E�F�C�g�A<C>�̓��b�Z�[�W�E�B���h�E�����
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48				//	�\���ʒu
+chr:0:move:-100,0			//	�ړ���
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:col:255,255,255,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+se:bin/se/01ti/event/tea_mataku.bin
+msg:0:2:...Это какая-то шутка, уверена.<KEY>
+msg:0:2:Если б я не знала лучше,<BR>я бы сказала, что ты впала<BR>в кому.<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:240,0
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,-1
+se:bin/se/00re/event/re_tear.bin
+msg:1:1:...Э? Тия?<KEY>
+msg:1:1:Хм-м-м-м... Но ведь я же сплю...<KEY>
+msg:1:1:М-м-м-м... Значит, Тия, видимо,<BR>была всего лишь сном...<KEY>
+se:bin/se/00re/event/re_demo.bin
+msg:1:1:Но ведь тот сон казался<BR>таким реальным...<KEY>
+msg:1:1:Я подумала...<BR>Ну, то есть, мне понравилось...<KEY>
+msg:1:1:...<KEY>
+msg:1:1:...М-м-м...<BR>Подушечка...<KEY><W><C>
+
+wait:60
+windowpos:304,0
+//se:bin/se/wav/bomm.bin
+se:bin/se/01ti/tuika/ti_okina.bin
+msg:0:2:МОЖЕШЬ ПРОСНУТЬСЯ, Я<BR>ТЕБЯ ПРОШУ, А?!<KEY><C><W>
+wait:40
+
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:move:0,0
+chr:5:disp
+wait:120
+
+//�L�����Ɋւ���ݒ�
+
+
+windowpos:304,-1
+se:bin/se/00re/event/re_fue.bin
+msg:1:1:ХЙЯА-АЙ-йя-йя-йя-я-яй!<BR>Я в шерифа не стреляла!<BR>Клянусь!<KEY><C><W>
+wait:40
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+msg:1:1:Оу! Тия!<BR>Э-эм-м, это...<BR>Ах да, утречка!<KEY><C><W>
+
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+se:bin/se/01ti/event/tea_mataku.bin
+msg:0:2:Господи Иисусе. Я так полагаю,<BR>ты до сих пор в полудрёме,<BR>не так ли?<KEY>
+msg:0:2:Рисетт, ты ведь теперь<BR>собственница торговой лавки.<KEY>
+msg:0:2:Тебе необходимо научиться быть<BR>ответственной и не просыпать<BR>весь день почём зря.<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+msg:1:1:Ты... Ты права. Мне нужно...<BR>Эм-м...<KEY>
+msg:1:1:...Не припоминаю что-то.<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:То, что ты, по всей видимости,<BR>способна пребывать одновременно<BR>и во сне, и наяву, было бы<KEY>
+msg:0:2:своего рода чудом... если бы<BR>не наполняло меня беспросветным<BR>ужасом безнадёжности.<KEY>
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:Вчера мы навестили Гильдию<BR>Торговцев в дань уважения,<BR>и затем в скором порядке<KEY>
+msg:0:2:открыли эту лавку. Неужели ты<BR>уже забыла?<KEY>
+msg:0:2:С этого дня мы теперь<BR>полноценно завязаны в<BR>бизнесе.<KEY>
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:Хотя, учитывая то, как идут дела,<BR>у меня есть большие опасения<BR>насчёт будущего.<KEY><C><W>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Э-эм-м... Хе-хе...<BR>Да уж...<KEY>
+msg:1:1:Ведь... всё так и есть же.<BR>Мы теперь... в бизнесе.<KEY><C><W>
+msg:1:1:Эхехе<KEY><C><W>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:...<KEY>
+msg:0:2:И по какому же ты это,<BR>во имя всего святого,<BR>поводу так улыбаешься?<KEY>
+msg:0:2:Эта твоя улыбка, которой ты<BR>улыбалась во сне, становится<BR>лишь шире и шире.<KEY><C><W>
+windowpos:304,-1
+msg:1:1:А-а... Да просто так...<KEY>
+msg:1:1:Просто я думаю... Что<BR>увидела кое-что хорошее<BR>в моих снах...<KEY>
+msg:1:1:...Давай же постараемся<BR>изо всех наших сил, Тия!<KEY><C><W>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:...Ну, если ты действительно<BR>настроена на то, чтобы<BR>всё это сработало,<KEY>
+msg:0:2:тогда иди умойся, и<BR>встретимся потом на<BR>первом этаже.<KEY><C><W>
+
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+windowpos:304,-1
+se:bin/se/00re/event/re_hai.bin
+msg:1:1:Окей, будет сделано!<KEY><C><W>
+
+chr:0:moveto:-600,0
+chr:0:speed:8
+chr:1:moveto:600,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:
+/wait:60
+end:

@@ -1,0 +1,120 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-80,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+wait:60
+//�ړ��̌�̓E�F�C�g������
+
+msg:1:1:It looks like nobody's<BR>here...<KEY><W><C>
+
+//�L�����Ɋւ���ݒ�
+//�t�F����
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+
+windowpos:304,-1	
+msg:2:4:Heeeey, I'm here!<KEY><W><C>
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:4			
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:Hmph. There's a reason we<BR>didn't notice YOU.<KEY>
+msg:0:2:Given how often you are in<BR>here, you may as well be<BR>part of the scenery.<KEY><W><C>
+
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/04charme_11.tga 512,512
+msg:2:4:Pshhhhaw, y'r sucha mean<BR>little fairy, y'know that?...<KEY>
+msg:2:4:Why, 'fya keep bein' mean<BR>t'me like that, yanno wha?<KEY>
+msg:2:4:I won' share m'super-<BR>shecret booze info with<BR>ya, s'wha I won't do!<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:As if we would have any<BR>interest in such<BR>information regardless!<KEY><W><C>
+
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+msg:2:4:So there's a brand 'o<BR>shtuff called "Ponce",<BR>shee...<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+se:bin/se/01ti/event/tea_haa.bin
+msg:0:2:What happened to "not<BR>sharing info" with us?<KEY><W><C>
+
+windowpos:304,-1	
+msg:2:4:Sho folks foun' out tha'<BR>"Ponce" ish rice-based,<BR>see...<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/01ti/event/tea_desukara.bin
+msg:0:2:Are you listening to a<BR>WORD I am saying?!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Hehe! That's how Charme<BR>is, I guess.<KEY><W><C>
+
+
+chr:1:moveto:-390,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-490,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+chr:2:moveto:600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:2:speed:8
+chr:2:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

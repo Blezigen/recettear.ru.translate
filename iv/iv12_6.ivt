@@ -1,0 +1,238 @@
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-512,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_08.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Arma!<KEY><W><C>
+windowpos:304,-1
+msg:4:10:...<KEY><W><C>
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:4				//	�ړ����x
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+windowpos:304,1
+msg:0:2:Be careful! Something is<BR>wrong here.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Bwuh?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_11.tga 512,512
+wait:60
+msg:4:0:Well judged.<KEY>
+msg:4:0:I would expect nothing<BR>less from you... Tear.<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/01ti/event/tea_oh.bin
+//�I
+chr:6:dir:left
+chr:6:grp:bmp/ivent/bikuri.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:210,100
+chr:6:moveto:210,00
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+
+//�I
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,100
+chr:5:moveto:100,00
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:A-Arma wouldn't say that!<BR>Who?...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_12.tga 512,512
+msg:4:0:Is it so obvious? Hm.<KEY>
+msg:4:0:I would suspect that<BR>Tear knows who I am,<BR>though, yes?<KEY>
+msg:4:0:After all, we have been...<BR>associates... for so very<BR>long.<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+windowpos:304,1
+//�r�N�b
+chr:6:dir:left
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:240,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:left
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:240,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:30
+
+msg:0:2:This can not be...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_11.tga 512,512
+msg:4:0:But it most certainly is,<BR>Tear.<KEY>
+msg:4:0:This would, however, be<BR>the first time Mademoiselle<BR>Recette and I have met.<KEY><W><C>
+wait:30
+msg:4:27:I am Avall, the President<BR>of Terme Finance.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Huh? Wait, why does the<BR>President of Terme look<BR>like Arma?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:27:Hmm. It would seem the<BR>reports were accurate.<BR>Predictable, if pathetic.<KEY>
+msg:4:27:Terme Finance has<BR>confiscated operational<BR>control of this golem.<KEY>
+msg:4:27:I believe the technical<BR>term used was... "hacking"?<KEY>
+msg:4:27:Those who attempted it<BR>are now bleeding out of<BR>their eye sockets,<KEY>
+msg:4:27:but it does not matter.<BR>They were successful, and<BR>I now have full control<KEY>
+msg:4:27:over this terminal. I am<BR>simply using it to<BR>communicate.<KEY>
+msg:4:27:With this terminal under<BR>our control, anything is<BR>possible.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:This is...<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:Well, whatever!<BR>Give us Arma back!<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:You WERE seeking Arma's<BR>power all along, weren't<BR>you?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:27:Naturally. After all, I<BR>assigned you to gather<BR>information in Pensee<KEY>
+msg:4:27:after tricking that fool<BR>into... well.<KEY>
+msg:4:27:Have you forgotten? I<BR>would guess you did,<BR>given how the reports<KEY>
+msg:4:27:dried up so quickly.<BR>After I made your orders<BR>so clear, too.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:I...<KEY>
+msg:0:2:I was instructed to help<BR>a young girl with an<BR>impossible situation.<KEY>
+msg:0:2:I carried out those<BR>instructions as I saw fit.<KEY>
+msg:0:2:Along the way, I did<BR>observe what was happening<BR>in the town of Pensee,<KEY>
+msg:0:2:what the dungeons could<BR>mean, and what role Arma<BR>might play in all of it...<KEY>
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:... and I realized that it<BR>was a power no mortal<BR>was ever meant to wield.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_12.tga 512,512
+
+//���ߑ�
+chr:6:dir:right
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:350,180
+chr:6:moveto:320,210
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+
+msg:4:27:Hmm. Such a pity.<BR>An opinionated fairy.<KEY>
+msg:4:27:Quite a problem, when<BR>fairies are supposed to<BR>be nothing more than<KEY>
+msg:4:27:mankind's loyal servants...<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:How dare!...<KEY><W><C>
+
+chr:4:grp:bmp/ivent/10arma_11.tga 512,512
+windowpos:304,-1
+msg:4:27:Regardless. I have<BR>scant little need to bandy<BR>words about with you.<KEY>
+msg:4:27:Even without your<BR>reports, I found the<BR>information I required.<KEY>
+chr:4:grp:bmp/ivent/10arma_12.tga 512,512
+msg:4:27:Even if it was a little...<BR>costly, in the short term.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Who on Earth could you<BR>have bargained with?...<KEY>
+msg:0:2:Very few people should<BR>be aware of what Arma is<BR>capable of.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_11.tga 512,512
+msg:4:27:Ah, but I'm afraid that<BR>is a little secret.<KEY>
+msg:4:27:Blackmail is so much less<BR>effective if word of it<BR>gets out, you see.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Blackmail?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:27:Now then. While you have<BR>come quite far, I must<BR>ask you to depart<KEY>
+msg:4:27:like good little children.<KEY>
+chr:4:grp:bmp/ivent/10arma_12.tga 512,512
+msg:4:27:If you don't... well.<KEY><W><C>
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:10	
+chr:0:moveto:-512,0			//	�ړ���
+chr:0:speed:10
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:10
+
+wait:60
+
+end:

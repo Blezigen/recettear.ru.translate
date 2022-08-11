@@ -1,0 +1,69 @@
+skipoff:
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:3:dir:right				//	����
+chr:3:center:-48
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-130,0			//	�ړ���
+chr:3:speed:8				//	�ړ����x
+chr:3:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:3:col:255,255,255,255	//�`��q�f�a�`�l
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+
+chr:3:disp
+
+wait:60
+
+windowpos:304,1
+msg:3:2:Это, значит, плата за эту<BR>неделю. Так, ну-ка, ну-ка...<KEY><W><C>
+
+wait:60
+chr:3:grp:bmp/ivent/02tear_04.tga 512,512
+se:bin/se/01ti/system/01ti_sys13.bin
+msg:3:2:Поздравляю.<BR>Превосходно.<KEY>
+se:bin/se/01ti/system/01ti_sys14.bin
+msg:3:2:Я официально получила<BR>предоставленный вами платёж<BR>за эту неделю.<KEY>
+se:bin/se/01ti/system/01ti_sys15.bin
+msg:3:2:Ну, давайте же и следующей<BR>неделей поработаем от души!<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,-1
+se:bin/se/00re/shop/re_yata.bin
+msg:1:1:ЙЕ-Е-ЕЙ! У меня получилось!<KEY>
+
+msg:1:1:Рассчитываю на тебя и<BR>на следующей неделе, Тия!<KEY><C><W>
+
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:8	
+
+chr:3:moveto:-420,0			//	�ړ���
+chr:3:speed:8	
+wait:60
+
+
+end:

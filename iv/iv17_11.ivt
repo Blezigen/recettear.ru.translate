@@ -1,0 +1,171 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_hiro2.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60				//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+//�G����
+chr:4:dir:left
+chr:4:center:-62
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/07elan_03.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60	
+windowpos:304,-1
+se:bin/se/06el/shop/kai21.bin
+msg:4:7:Ah, hell's bells. Now<BR>what do I do?<KEY><W><C>
+
+//���Z�b�g
+chr:3:dir:right				//	����
+chr:3:center:-32
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-100,0			//	�ړ���
+chr:3:speed:10			
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+wait:60
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:3:1:Hi, Elan! Is something<BR>wrong?<KEY>
+msg:3:1:You look like you're<BR>thinking about something.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:Oh... hi, Recette.<KEY>
+msg:4:7:Well, I stopped by the<BR>orphanage, but nobody was<BR>around.<KEY>
+msg:4:7:There was this odd<BR>note by the door, too.<KEY>
+msg:4:7:Here, take a look.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+msg:3:1:Hmm...<KEY>
+msg:3:1:It says "15poundcake", as<BR>one word. I think a little<BR>kid wrote this...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+msg:4:7:Yeah, I figure it's a<BR>shopping list of some<BR>kind.<KEY>
+msg:4:7:I dunno what it means,<BR>though. Go get 15 cakes?<KEY><W><C>
+
+windowpos:304,1
+msg:3:1:Hmmmmm...<KEY><W><C>
+wait:30
+
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:180,120
+chr:5:moveto:180,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:3:1:Wait! I've got it!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_06.tga 512,512
+msg:4:7:You do?<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_a.bin
+msg:3:1:It's "a 15 pound cake!"<KEY>
+msg:3:1:You know, like they<BR>forgot the spaces!<KEY><W><C>
+
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:340,20
+chr:5:moveto:340,-80
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+msg:4:7:Ahhh, I get it! Just<BR>what I'd expect from you,<BR>Recette!<KEY>
+msg:4:7:Right then! I need to<BR>get to the pastry shop!<KEY>
+msg:4:7:I'll surprise the kids<BR>when they get back!<KEY><W><C>
+
+chr:4:moveto:640,0
+chr:4:speed:10
+wait:60
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/action/00re_btl01a.bin
+msg:3:1:Good luck!<KEY><W><C>
+
+chr:3:moveto:-160,0			//	�ړ���
+chr:3:speed:4	
+chr:3:disp
+
+//�e�B�A
+chr:1:dir:right				//	����
+chr:1:center:-48
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-60,0			//	�ړ���
+chr:1:speed:10	
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+msg:1:2:You are looking at the<BR>paper again. Is something<BR>wrong?<KEY><W><C>
+
+se:bin/se/00re/event/re_nene.bin
+msg:3:1:Hey, Tear, do you know<BR>what this little bit might<BR>be?<KEY>
+msg:3:1:It's sorta unclear so I<BR>ignored it earlier.<KEY><W><C>
+
+msg:1:2:Two crossed lines...<BR>they look like an "x",<BR>perhaps.<KEY>
+msg:1:2:Next to the fifteen...<BR>that might signify a<BR>multiplier, or...<KEY><W><C>
+wait:30
+msg:3:1:Huh?<KEY><W><C>
+
+msg:1:2:Or perhaps an enumerative<BR>mark? It could not be<BR>anything else...<KEY><W><C>
+
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+msg:3:1:Uh...<KEY><W><C>
+
+chr:3:moveto:-512,0
+chr:3:speed:8
+chr:1:moveto:-512,0
+chr:1:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

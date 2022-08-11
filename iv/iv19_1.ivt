@@ -1,0 +1,102 @@
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+se:bin/se/01ti/event/tea_chot.bin
+msg:0:2:Recette. May I have a<BR>moment?<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Sure, what's up?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Given how well you are<BR>doing, I think it is time<BR>I explained how to<KEY>
+msg:0:2:take an order in advance.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:"Take an order in<BR>advance"?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Up until now, customers<BR>have simply been purchasing<BR>items from us immediately.<KEY>
+msg:0:2:With an advance order,<BR>however, a customer will let<BR>us know what they want<KEY>
+msg:0:2:and return in a set<BR>number of days to pick up<BR>the items in question.<KEY>
+msg:0:2:Obviously not every<BR>customer will want to do<BR>this,<KEY>
+msg:0:2:but if a customer tells<BR>you they want something in<BR>so many days,<KEY>
+msg:0:2:it is an advance order,<BR>so try to take it.<KEY>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Only do so if you feel<BR>we can fulfill the order,<BR>of course.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Can I just give them<BR>what they want if I have<BR>it on hand?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:No, you can not.<KEY>
+msg:0:2:If they simply wanted<BR>the items now, they would<BR>purchase the items now.<KEY>
+msg:0:2:The date is based on<BR>what is convenient for the<BR>customer, not you.<KEY>
+msg:0:2:So if they want an item<BR>in, say, 3 days, you must<BR>give it to them then.<KEY>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:And remember, we must<BR>be open to actually sell<BR>an item to someone!<KEY>
+msg:0:2:So make sure the store<BR>is open that day, or we<BR>can not fill the order.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Oh, right! I'll make sure<BR>the store's open on<BR>those days, then.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:Also. People use advance<BR>orders to purchase<BR>multiple items<KEY>
+msg:0:2:at once. It is an<BR>excellent chance to sell<BR>many items in one go,<KEY>
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+msg:0:2:so try to fill as many<BR>orders as you can, yes?<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_uu.bin
+msg:1:1:Maaan, this really seems<BR>complicated.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:I will keep track of all<BR>our outstanding orders.<KEY>
+msg:0:2:If you need to check when<BR>certain orders are due,<KEY>
+msg:0:2:simply ask me whenever<BR>we are in the shop.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_wakata_b.bin
+msg:1:1:Advance kayos! I'll do<BR>my best!<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+chr:1:moveto:500,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

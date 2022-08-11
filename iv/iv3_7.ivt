@@ -1,0 +1,198 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�V������
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:10
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+se:bin/se/00re/shop/re_ira.bin
+msg:1:1:Oh, Charme! Welcome!<KEY><W><C>
+windowpos:304,-1
+msg:2:4:HEEEeeeey! Recette!<BR>Lishen t'thish!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:170,120
+chr:5:moveto:170,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:40
+windowpos:304,1
+msg:1:1:What is it?<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:And... are you OK?<BR>You seem a little...<BR>different.<KEY><KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:Sho, I gots a meshage<BR>fr'm th' guild t'day.<KEY>
+msg:2:4:They've TOOOOTALLY<BR>foun' a new dungeon!<BR>... or shumsuch'. *hic*<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+//�I
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:170,120
+chr:5:moveto:170,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+windowpos:304,1
+msg:1:1:Whoa, really?!<KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:Really really SUPER really!<KEY>
+msg:2:4:Ever'one'sh callin' it th'<BR>"Amber Garden"!<KEY>
+msg:2:4:... Boy, I hope it'sh that<BR>kinda... amber...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,1
+msg:1:1:The Amber Garden?...<KEY><W><C>
+
+wait:30
+chr:2:grp:bmp/ivent/04charme_15.tga 512,512
+wait:30
+windowpos:304,-1
+msg:2:4:...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:... Uh, Charme?<KEY><W><C>
+
+wait:30
+//zzz
+chr:5:dir:left
+chr:5:grp:bmp/ivent/zzz.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:330,100
+chr:5:moveto:230,0
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,-1
+msg:2:4:*snork* Amber...<BR>like water... hurble...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:20,80
+chr:5:moveto:20,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+msg:1:1:Uhhhh...<KEY><W><C>
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,20
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,20
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+windowpos:304,-1
+msg:2:4:Huah! Whawas I talkin'<BR>'bout?...<KEY>
+msg:2:4:Awyea! Sho if you get<BR>th' chance, we should<BR>totally go!<KEY>
+msg:2:4:I mean, who knows whu'<BR>kinda, uh, "items" we could<BR>find?! Yeah, items...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Yeah, that's true!<KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:Well then! Back t'th' pub<BR>with me! Fwoosh!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Um, right!<KEY>
+msg:1:1:Thanks for letting me<BR>know, Charme!<KEY><W><C>
+
+chr:2:moveto:640,0
+chr:2:speed:8
+chr:2:disp
+wait:30
+
+wait:60
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+wait:30
+msg:1:1:A new dungeon, huh...<KEY><W><C>
+
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:8	
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

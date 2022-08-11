@@ -1,0 +1,322 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_misesoto.bmp 1024,512
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+chr:2:dir:right				//	����
+chr:2:center:-32
+chr:2:move:-390,0				//	�\���ʒu
+chr:2:moveto:-160,0			//	�ړ���
+chr:2:speed:10			
+chr:2:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+//�e�B�A
+chr:1:dir:right				//	����
+chr:1:center:-48
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-60,0			//	�ړ���
+chr:1:speed:10	
+chr:1:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+msg:2:1:Whew, we finally made it<BR>back...<KEY>
+se:bin/se/00re/system/00re_sys02a.bin
+chr:2:grp:bmp/ivent/01recette_05.tga 512,512
+msg:2:1:Maaaaan, I could sleep<BR>for a week. So tired...<KEY><W><C>
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:300,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+//�v����
+chr:3:dir:left
+chr:3:center:-48
+chr:3:move:600,0
+chr:3:moveto:200,0
+chr:3:speed:10
+chr:3:grp:bmp/ivent/12prime_00.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+wait:60
+chr:2:grp:bmp/ivent/01recette_04.tga 512,512
+msg:2:1:Yayerations! Alouette and<BR>Prime are back, too!<KEY><W><C>
+chr:4:grp:bmp/ivent/11alouette_03.tga 512,512
+wait:30
+windowpos:304,-1
+msg:4:19:Um...<KEY><W><C>
+
+windowpos:304,1	
+chr:2:grp:bmp/ivent/01recette_00.tga 512,512
+msg:2:1:Is something wrong,<BR>Alouette?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:Well, you see, that is,<BR>I, uh, um, ah...<KEY><W><C>
+windowpos:304,1	
+msg:2:1:Bwuh?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+msg:4:19:I...<KEY>
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+se:bin/se/10al/event/a_14_b.bin
+msg:4:19:I... wasn't thinking I<BR>must've been an awful pain<BR>in the rear or anything!<KEY>
+msg:4:19:Naturally I could've<BR>solved this entire crisis<BR>on my own!<KEY>
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:I just... allowed you to<BR>solve it! So don't get a <BR>big head over it!<KEY><W><C>
+
+windowpos:304,1	
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+msg:2:1:Uh... I won't, then.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:Very good! Now, I have<BR>no time to waste here!<KEY>
+msg:4:19:I have a company to take<BR>back, and that starts with<BR>a long talk with Father!<KEY>
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+msg:4:19:So, I need to be going.<BR>And Recette...<BR>Well...<KEY>
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+se:bin/se/10al/event/a_13_b.bin
+msg:4:19:Well, pardonne moi!<BR>I really must be going!<KEY><W><C>
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:8	
+wait:60
+
+windowpos:304,-1
+chr:3:grp:bmp/ivent/12prime_03.tga 512,512
+
+//���ߑ�
+chr:6:dir:right
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:300,190
+chr:6:moveto:250,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+se:bin/se/11pr/prim13.bin
+msg:3:20:Oi... friggin', merde,<BR>and a buncha other swear<BR>words, too.<KEY>
+chr:3:grp:bmp/ivent/12prime_01.tga 512,512
+msg:3:20:Well, despite the endless<BR>fountain of nonsense that<BR>spews from her mouth,<KEY>
+msg:3:20:she really is thankful,<BR>y'know. And... so am I.<BR>Thanks, guys.<KEY><W><C>
+chr:4:center:-280
+se:bin/se/10al/event/a_01_a.bin
+msg:4:19:Prime, what are you<BR>DOING?! Come on! We have<BR>ground to cover!<KEY><W><C>
+
+chr:3:grp:bmp/ivent/12prime_06.tga 512,512
+se:bin/se/11pr/prim09-03.bin
+msg:3:20:Shyeah, yeah...<BR>never ends, does it...<KEY>
+chr:3:grp:bmp/ivent/12prime_07.tga 512,512
+msg:3:20:Well, I'll see you two<BR>around the shop, yeah?<KEY><W><C>
+
+windowpos:304,1
+msg:1:2:We will be looking<BR>forward to it.<BR>Farewell, Prime.<KEY><W><C>
+chr:3:moveto:640,0			//	�ړ���
+chr:3:speed:10	
+wait:60
+
+windowpos:304,1	
+chr:2:grp:bmp/ivent/01recette_04.tga 512,512
+msg:2:1:Yep, we'll be here!<BR>Always! Baibai!<KEY><W><C>
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:1:2:Always... indeed.<KEY><W><C>
+
+wait:60
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/01recette_01.tga 512,512
+msg:2:1:Oh, Arma! Thanks for<BR>everything...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_01.tga 512,512
+msg:4:10:I am the one who owes<BR>you a debt of gratitude<BR>that cannot truly be<KEY>
+msg:4:10:repaid, Recette.<BR>However...<KEY>
+se:bin/se/09ar/shop/aruma20.bin
+msg:4:10:Here.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+chr:0:dir:left
+chr:0:grp:bmp/ivent/meisi.tga 256,256
+chr:0:move:205,46
+chr:0:col:255,255,255,0
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,255
+chr:0:disp
+wait:60
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/01recette_07.tga 512,512
+se:bin/se/00re/event/re_fue.bin
+msg:2:1:Heuwha? An... Adventurer's<BR>Guild card?!<KEY>
+msg:2:1:When did you... wait, you<BR>didn't, uh...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_03.tga 512,512
+msg:4:10:It... is not a forgery.<BR>I obtained it via legal<BR>channels.<KEY><W><C>
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/01recette_04.tga 512,512
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+msg:2:1:Ahahaha yeah I had no<BR>doubt of that at all no<BR>sir!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,0
+chr:0:disp
+wait:80
+msg:2:1:Really... thank you, Arma.<BR>I can't wait to go<BR>dungeon-diving with you!<KEY><W><C>
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_01.tga 512,512
+msg:4:10:I... look forward to it<BR>as well. I now have a large<BR>amount of free time,<KEY>
+msg:4:10:so simply ask whenever<BR>you wish.<KEY><W><C>
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:8	
+wait:80
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/01recette_01.tga 512,512
+msg:2:1:Neat!<KEY>
+msg:2:1:Well, let's go home too,<BR>Tear.<KEY><W><C>
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+chr:2:moveto:250,0			//	�ړ���
+chr:2:speed:6
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:2
+wait:80
+msg:1:2:...<KEY><W><C>
+wait:40
+chr:2:dir:left
+wait:20
+windowpos:304,-1
+chr:2:grp:bmp/ivent/01recette_00.tga 512,512
+msg:2:1:Uh, Tear? What's...<BR>what's wrong?<KEY><W><C>
+wait:30
+windowpos:304,1
+msg:1:2:I...<BR>I have no home now.<KEY>
+msg:1:2:I can not return to<BR>Terme Finance after what I<BR>have done,<KEY>
+msg:1:2:and once it is known I<BR>defied a powerful human,<BR>I will be unable<KEY>
+msg:1:2:to return to the land<BR>of the fairies, either.<KEY>
+chr:1:grp:bmp/ivent/02tear_04.tga 512,512
+msg:1:2:It seems I am truly<BR>alone in the world, now.<KEY><W><C>
+windowpos:304,-1
+msg:2:1:Tear...<KEY><W><C>
+wait:30
+
+chr:2:grp:bmp/ivent/01recette_02.tga 512,512
+wait:30
+msg:2:1:Now hang on a minute!<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+msg:1:2:Recette?<KEY><W><C>
+windowpos:304,-1
+msg:2:1:Don't you get it yet?!<BR>You have a place right<BR>here!<KEY>
+msg:2:1:And don't be all "oh I<BR>did not think of it",<BR>either!<KEY><W><C>
+chr:1:grp:bmp/ivent/02tear_03.tga 512,512
+windowpos:304,1
+msg:1:2:But... I-<KEY><W><C>
+windowpos:304,-1
+chr:2:grp:bmp/ivent/01recette_04.tga 512,512
+msg:2:1:No buts! And maybe no<BR>if or ands, either!<KEY>
+msg:2:1:C'mon, Tear, let's go!<KEY>
+msg:2:1:Let's go back to the<BR>place we call home,<KEY>
+msg:2:1:and the place where<BR>everyone is waiting for<BR>us...<KEY>
+msg:2:1:Let's go back to<BR>Recettear!<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+msg:1:2:R-Recette...<KEY><W><C>
+wait:30
+chr:1:grp:bmp/ivent/02tear_04.tga 512,512
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:1:2:Yes. Let's... go home.<KEY><W><C>
+
+chr:5:dir:left
+chr:5:grp:bmp/ivent/kuro.tga 640,480
+chr:5:move:0,0
+chr:5:col:255,255,255,0
+chr:5:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,128
+chr:5:move:0,0
+chr:5:disp
+wait:120
+
+//��������
+se:bin/se/00re/event/re_tudukku.bin
+chr:6:dir:left
+chr:6:grp:bmp/ivent/tuduku.tga 640,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:0,160
+chr:6:disp
+wait:400
+
+chr:9:dir:left
+chr:9:grp:bmp/ivent/kuro.tga 640,480
+chr:9:col:255,255,255,0
+chr:9:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:9:colto:255,255,255,255
+chr:9:move:0,0
+chr:9:disp
+wait:200
+
+//fadeoutb:60
+//wait:60
+end:

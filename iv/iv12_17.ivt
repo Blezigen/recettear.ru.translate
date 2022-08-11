@@ -1,0 +1,188 @@
+fadein:60:0,0,0,255
+wait:60
+
+//�w�i�̐ݒ�
+lighton:300:4000
+bgset:bmp/ivent/bg_goremin.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+windowpos:160,2
+chr:1:center:-32
+msg:1:20:...ime...<KEY>
+chr:1:center:-12
+msg:1:20:Prime!<KEY>
+chr:1:center:-112
+msg:1:20:Prime! Answer me, Prime!<KEY><W><C>
+
+//�v����
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-150,0			//	�ړ���
+chr:1:speed:6			
+chr:1:grp:bmp/ivent/12prime_06.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,1
+msg:1:20:Muuuh...<KEY><W><C>
+msg:1:20:Shhhhyeeeah,<BR>yeaaaahh, I hear ya,<BR>Mis... tr...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/12prime_05.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:130,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:130,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+msg:1:20:Huh? What's...<KEY>
+msg:1:20:Lesse, I was... absorbed<BR>into that gem by the old-<BR>dude-controlled golem.<KEY>
+msg:1:20:And then...<KEY><W><C>
+wait:30
+windowpos:160,2
+chr:1:center:-128
+msg:1:20:Prime! Answer me! Please!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_02.tga 512,512
+chr:1:center:-32
+msg:1:20:Yeah, that's right.<KEY>
+msg:1:20:The Mistr- no.<BR>ALOUETTE is calling for me!<KEY>
+msg:1:20:Gotta bust outta this<BR>joint somehow. Hrm.<KEY>
+msg:1:20:I doubt I can pull it off<BR>alone, tho-<KEY><W><C>
+wait:60
+//�H
+chr:1:grp:bmp/ivent/12prime_05.tga 512,512
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:130,120
+chr:5:moveto:130,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+msg:1:20:Eh? Heeey...<KEY><W><C>
+
+//�e�B�A
+chr:2:dir:left			//	����
+chr:2:center:-48
+chr:2:move:640,0				//	�\���ʒu
+chr:2:moveto:270,0			//	�ړ���
+chr:2:speed:8			
+chr:2:grp:bmp/ivent/02tear_05.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+windowpos:304,-1
+msg:2:2:Nmm...<KEY><W><C>
+
+windowpos:304,1
+msg:1:20:Got sucked in too, I<BR>guess. Well, I won't<BR>complain, if it means...<KEY>
+chr:1:grp:bmp/ivent/12prime_02.tga 512,512
+msg:1:20:Oi! Bookworm! Up an' at<BR>'em!<KEY><W><C>
+
+windowpos:304,-1
+msg:2:2:Nnnmnmmm...<KEY><W><C>
+
+windowpos:304,1
+msg:1:19:You hear it too, don'cha?!<BR>Someone's calling for you!<KEY>
+msg:1:19:Can't you hear the voice<BR>of the one who cares<BR>about you?!<KEY><W><C>
+
+wait:60
+windowpos:160,2
+chr:3:center:-20
+msg:3:20:Tear! TEAR!<KEY><W><C>
+wait:60
+windowpos:304,-1
+chr:2:center:-48
+msg:2:2:Nnmnmm... Re... cette...<KEY><W><C>
+
+windowpos:304,1
+chr:1:center:-32
+chr:1:grp:bmp/ivent/12prime_01.tga 512,512
+msg:1:20:Come on, bookworm!<BR>You with us yet?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/02tear_00.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:380,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:380,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:20
+
+msg:2:2:... Hm? I...<KEY>
+chr:2:grp:bmp/ivent/02tear_01.tga 512,512
+msg:2:2:I... am. Yes, I am.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_07.tga 512,512
+msg:1:20:Aight! Popsicle stand,<BR>blowing, LET'S DO THIS!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/02tear_04.tga 512,512
+msg:2:2:I agree. Let us not keep<BR>them waiting!<KEY><W><C>
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+chr:2:moveto:640,0
+chr:2:speed:8
+wait:60
+
+fadeout:60:0,0,0,255
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

@@ -1,0 +1,207 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_sakaba.bmp
+lighton:300:4000
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-120,0			//	�ړ���
+chr:0:speed:8	
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:col:255,255,255,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:30,80
+chr:5:moveto:30,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+se:bin/se/01ti/event/tea_mataku.bin
+msg:0:2:Merde. Into her cups again,<BR>I see...<KEY><W><C>
+
+
+//�L�����Ɋւ���ݒ�
+//�V������
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+windowpos:304,-1
+msg:2:4:Hahaaaah! Shilly fairy,<BR>you can't shtick a person<BR>in a cup!<KEY>
+msg:2:4:Maybe I coul' stuff you<BR>inta one, though...<KEY>
+msg:2:4:Heeeeey, Teeeeah, y'want<BR>shome'o'thish?<KEY><W><C>
+windowpos:304,1
+msg:0:2:I believe... I shall pass.<KEY><W><C>
+chr:2:grp:bmp/ivent/04charme_12.tga 512,512
+windowpos:304,-1
+se:bin/se/03sy/shop/sya23.bin
+msg:2:4:Whelp, yer loss, then,<BR>y'stick-in-tha-mud.<KEY>
+msg:2:4:Maybe Recette'll wan'<BR>shome...<KEY><W><C>
+
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:4	
+chr:0:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,1
+se:bin/se/00re/event/re_fue.bin
+msg:1:1:HeuWHA? Er, that is, uh,<BR>um...<KEY><W><C>
+
+msg:0:2:Stop clinging to her, for<BR>Heaven's sake. I swear, for<BR>a "professional berk",<KEY>
+msg:0:2:you can not hold your<BR>liquor at all...<KEY><W><C>
+wait:40
+
+chr:5:move:640,0
+chr:5:center:-370
+chr:5:disp
+windowpos:304,0
+msg:5:0:What the... you again?!<BR>I told you, no means NO!<KEY><W><C>
+
+windowpos:304,1
+
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+//�H
+chr:6:dir:left
+chr:6:grp:bmp/ivent/hatena.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:220,120
+chr:6:moveto:220,20
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:30
+msg:0:2:Hmm? What is...<KEY><W><C>
+
+chr:0:moveto:-570,0			//	�ړ���
+chr:0:speed:10
+chr:1:moveto:-670,0			//	�ړ���
+chr:1:speed:10
+
+chr:2:moveto:-270,0
+chr:2:speed:10
+
+//�G����
+chr:4:dir:right
+chr:4:center:
+chr:4:move:750,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/07elan_03.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:80
+
+windowpos:304,-1
+se:bin/se/06el/shop/kai15.bin
+msg:4:0:C'mon, can't a guy get a<BR>break? Cut me just a little<BR>slack, here!<KEY><W><C>
+
+windowpos:304,0
+msg:5:0:Not just no, but HELL no!<KEY>
+msg:5:0:Do you have any idea how<BR>long your tab already is?!<KEY>
+msg:5:0:You'll drink me out of<BR>business at this rate!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:0:Son of a...<KEY><W><C>
+
+wait:40
+
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+se:bin/se/06el/shop/kai12.bin
+msg:4:0:Alright, alright, I can<BR>take a hint. I'll call it for<BR>the day.<KEY><W><C>
+
+
+chr:4:moveto:600,0
+chr:4:speed:10
+chr:4:disp
+
+chr:2:grp:bmp/ivent/04charme_09.tga 512,512
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:10
+chr:2:moveto:240,0
+chr:2:speed:10
+
+wait:80
+
+windowpos:304,1
+msg:0:2:Goodness, quite an<BR>argument.<KEY><W><C>
+windowpos:304,-1
+chr:2:grp:bmp/ivent/04charme_10.tga 512,512
+msg:2:4:Aw, him? Tha' happensh<BR>all tha'time.<KEY>
+msg:2:4:That guy keepsh puttin'<BR>shtuff on 'is tab and<BR>doesn' pay up,<KEY>
+msg:2:4:so he keepsh gettin'<BR>chased out.<KEY>
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+se:bin/se/03sy/shop/sya32.bin
+msg:2:4:Haha! I think he even has<BR>Louie beat when it comesh<BR>t'bein' poor!<KEY>
+msg:2:4:Well, eitha whey, don'<BR>worry t'much 'bout 'im.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:Hmph. The unwise use of<BR>money is the human trait<KEY>
+msg:0:2:which I find the most<BR>perplexing by far.<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/04charme_10.tga 512,512
+msg:2:4:"Unwise ush of..." huh...<BR>well, anyway...<KEY>
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+msg:2:4:C'mon, Recette, yer big<BR>sis wantshta introdush ya<BR>to a man named "Jack"...<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:Oh, absolutely NOT!<KEY><W><C>
+
+chr:0:moveto:-512,0			//	�ړ���
+chr:0:speed:10
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:10
+chr:2:moveto:640,0
+chr:2:speed:10
+
+wait:60
+
+
+//fadeoutb:60
+//wait:60
+end:

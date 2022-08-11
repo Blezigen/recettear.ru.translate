@@ -1,0 +1,374 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Man, it sure is dark<BR>tonight.<KEY>
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+se:bin/se/00re/event/re_soieba.bin
+msg:1:1:... Yanno, I'm kind of<BR>getting a sense of<BR>deja-vu...<KEY><W><C>
+
+//�O���t
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:This is just like that<BR>night that weird demon-<BR>guy appeared...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+//�r�N�b
+chr:5:dir:left
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:130,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:left
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:130,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:1:1:Wait, OH CARP!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:490,0
+chr:5:moveto:490,120
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+windowpos:304,-1
+msg:4:0:"Oh carp"? What in the<BR>world.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:H-hey! You just totally<BR>ambushed us so I had to<BR>come up with something<KEY>
+msg:1:1:on the fly, okay?!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:0:Enough. A child like you<BR>should not be outdoors at<BR>this dark hour.<KEY>
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+msg:4:0:Go home! Sleep! Stay<BR>safe beneath your covers!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+msg:1:1:Hey, don't treat me like<BR>I'm a kid!<KEY>
+msg:1:1:I know I'm young, but I'm<BR>the owner of an item shop,<BR>you know!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_01.tga 512,512
+windowpos:304,-1
+msg:4:0:Really. Ah, that explains<BR>it, then.<KEY>
+msg:4:0:I had wondered why you<BR>needed the advice of one<BR>of the ever-clever,<KEY>
+msg:4:0:ever-handy, ever-servile<BR>fey.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:Awww... I want to make a<BR>snappy comeback, but he's<BR>totally right...<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+windowpos:304,-1
+msg:4:0:And so the dance of fairy<BR>and man continues. How<BR>utterly pathetic.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:I...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+//�r�N�b
+chr:5:dir:left
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:130,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:left
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:130,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:1:1:Now that I think about<BR>it, you keep going on about<BR>fairies this and fey that,<KEY>
+msg:1:1:but what's Tear ever done<BR>to you? Why are you...<KEY><W><C>
+wait:30
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:120,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:120,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:30
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:OH! Wait, I get it!<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Let me guess: youuuu<BR>have a crush on Teeeear,<BR>don'cha?<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+windowpos:304,-1
+se:bin/se/08gr/shop/gr_nani01.bin
+msg:4:0:... What. Is. This. That<BR>idea is so disconnected<BR>from reality that I<KEY>
+msg:4:0:cannot tell whether you<BR>are mocking me or are<BR>trying to be profound.<KEY>
+msg:4:0:And... failing. Badly.<BR>Speak plainly.<KEY><W><C>
+windowpos:304,1
+msg:1:1:Yeeeah, I bet I'm right!<BR>Some guys do show their<BR>affection by teasing...<KEY>
+msg:1:1:But too bad, mister!<BR>'Cause Tear is my...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:0:You're... actually serious.<BR>I think you may have<BR>misunderstood me.<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Huh?<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+windowpos:304,-1
+msg:4:0:I despise the race of<BR>fey. Utterly.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,1
+msg:1:1:Wha...<BR>...<KEY>
+msg:1:1:... why?<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+//���ߑ�
+chr:7:dir:right
+chr:7:grp:bmp/ivent/tameiki.tga 128,128
+chr:7:col:255,255,255,0
+chr:7:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,255
+chr:7:move:340,120
+chr:7:moveto:310,150
+chr:7:speed:0.5
+chr:7:col:255,255,255,255
+chr:7:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,0
+chr:7:disp
+wait:60
+
+windowpos:304,-1
+msg:4:0:Well. Let me guess.<BR>Your conception of fairies<BR>is something like this...<KEY>
+msg:4:0:"Physically slight and at<BR>a disadvantage against<BR>larger creatures,<KEY>
+msg:4:0:but innately talented at<BR>administration and<BR>management...<KEY>
+msg:4:0:Quite possibly the only<BR>nonhuman race to easily<BR>adapt to human culture,<KEY>
+msg:4:0:by utilizing their unique<BR>talents"?<KEY>
+msg:4:0:That about sums it up,<BR>yes?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Uh... yeah, I guess so?<BR>I don't-<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+windowpos:304,-1
+msg:4:0:In truth, fairies are<BR>devious tricksters, not<BR>brilliant administrators.<KEY>
+msg:4:0:Humanity despised them<BR>as a result and began to<BR>exterminate them...<KEY>
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:4:0:Facing genocide, can you<BR>guess what they did?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:Stop...<KEY><W><C>
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+wait:30
+msg:4:0:They began raising a<BR>class of fairy who could<BR>"live with the humans".<KEY>
+msg:4:0:Children educated from<BR>birth on the social mores<BR>of human society,<KEY>
+msg:4:0:with only the most apt<BR>allowed contact with<BR>humanity...<KEY>
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:4:0:... or, rather, those<BR>who could suppress their<BR>instincts around humans<KEY>
+msg:4:0:and act in ways man would<BR>find "acceptable" were<BR>allowed out.<KEY>
+msg:4:0:The failures, condemned<BR>to hide from humanity with<BR>the rest of their kind...<KEY>
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:0:That is how the modern<BR>society of the fey works,<BR>child.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:4:0:There are, of course,<BR>certain exceptions. Humans<BR>transformed into fairies<KEY>
+msg:4:0:by magic and the like.<KEY>
+msg:4:0:The true fey, however,<BR>I despise. I despise them<BR>for cowering before<KEY>
+msg:4:0:mankind like whipped dogs<BR>before an overly-cruel<BR>master.<KEY>
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:0:Even more than fairies,<BR>however, I loathe humanity<BR>for being so arrogant<KEY>
+msg:4:0:as to think they are the<BR>natural masters of the<BR>world.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_sona.bin
+msg:1:1:No way...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:0:This may be too complex<BR>for a child such as<BR>yourself to grasp...<KEY>
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:4:0:but if you do not<BR>understand, then keep<BR>quiet!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:N-NO!<BR>NO, I WON'T!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+msg:4:0:What?<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Okay, so there's a lot<BR>of stuff I don't get, like<BR>why the sky is blue,<KEY>
+msg:1:1:why garlic smells bad or<BR>why lemon candy makes you<BR>pucker up!<KEY>
+msg:1:1:But I know more about<BR>Tear than you do!<BR>A LOT more!<KEY>
+msg:1:1:I've only gotten as far<BR>as I have because Tear's<BR>supported me all the way!<KEY>
+msg:1:1:I don't care about<BR>instinct or tricks or<BR>genohide or whatever...<KEY>
+chr:1:grp:bmp/ivent/01recette_06.tga 512,512
+msg:1:1:None of that changes<BR>what Tear's done for me!<BR>NONE OF IT, YOU HEAR?!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Recette...<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_01.tga 512,512
+windowpos:304,-1
+se:bin/se/08gr/attack/08gr_04.bin
+msg:4:0:Such conviction in your<BR>voice... hm.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+windowpos:304,1
+msg:1:1:I'm not "you"! My name is<BR>Recette Lemongrass!<KEY>
+msg:1:1:Recette Lemongrass of<BR>the item store at the top<BR>of the hill - "Recettear"!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+se:bin/se/08gr/shop/gr_sona01.bin
+msg:4:0:Recette-Tear... I see.<KEY>
+chr:4:grp:bmp/ivent/09griffe_01.tga 512,512
+msg:4:9:I am known as Griff.<BR>Griff of the race of<BR>demons.<KEY>
+msg:4:9:I cannot imagine why you<BR>would bother to remember<BR>my name, though.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Griff...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+se:bin/se/08gr/shop/gr_maa01.bin
+msg:4:9:Recette, and... Tear, was<BR>it?<KEY>
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:9:The night is dangerous.<BR>You should go home.<KEY><W><C>
+
+chr:4:moveto:650,0
+chr:4:speed:8
+chr:4:disp
+wait:100
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Wait, was he... really<BR>worried about us? Huh.<KEY><W><C>
+
+wait:30
+msg:0:2:...<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Tear? You okay?<KEY><W><C>
+
+wait:30
+chr:0:grp:bmp/ivent/02tear_06.tga 512,512
+msg:0:2:T... thank...<BR>thank... you... *sniff*<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Don't worry about it,<BR>okay? Let's go home!<KEY><W><C>
+
+chr:0:moveto:-512,0
+chr:0:speed:8
+chr:0:disp
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:1:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

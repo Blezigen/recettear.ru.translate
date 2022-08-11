@@ -1,0 +1,210 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-110,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/system/00re_sys01b.bin
+msg:1:1:Alright! Gonna work hard<BR>today, too!<BR>Capitalism, ho!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:170,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:170,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:20
+
+msg:1:1:Huh? Hey, what's that girl<BR>doing outside the shop?<KEY><W><C>
+
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:340,0
+chr:4:speed:6
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+msg:4:0:...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:She's, uh... just kind of<BR>staring into the shop.<KEY>
+msg:1:1:Does she want to come<BR>inside, maybe? Or are our<BR>windows that gripping?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:0:...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Well, smile, Recette!<BR>Come on, smile, look<BR>friendly...<KEY>
+
+
+windowpos:304,1
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Eheh, heh... heh...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:0:...<KEY><W><C>
+
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:0,80
+chr:5:moveto:0,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Okaaaaaay, what should<BR>I do here...<KEY><W><C>
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:4	
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+msg:0:2:... please tell me you have<BR>not reached the point<BR>wherein your face is<KEY>
+msg:0:2:frozen in a vapid smile for<BR>all eternity.<KEY><W><C>
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:4	
+chr:4:disp
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+se:bin/se/00re/event/re_tear_b.bin
+msg:1:1:Oh, Tear!<KEY>
+msg:1:1:There's a girl at the<BR>window who looked curious<BR>about the inside of<KEY>
+msg:1:1:the shop, so I tried to<BR>give her my best "come in<KEY>
+msg:1:1:and buy lots of stuff"<BR>smile!<KEY><W><C>
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:120,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:120,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:20
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Aww, she's not there<BR>anymore...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+wait:30
+msg:1:1:I wonder why she...<KEY>
+msg:1:1:It must've been your<BR>sudden, terrifying<BR>appearance, Tear! Yeah!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+se:bin/se/01ti/tuika/ti_sodesuka.bin
+msg:0:2:So I am TERRIFYING, you<BR>say? Really? Terrifying...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+se:bin/se/00re/event/re_ano_b.bin
+msg:1:1:Um, that smile you have<BR>is kind of... yeah, I think<BR>"terror" sounds abou-<KEY><W><C>
+
+rmb:40,120
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+se:bin/se/00re/event/re_uwa.bin
+msg:1:1:AAAAAA WAIT NO IT WAS<BR>A JOOOOKE NOT MY<BR>HAAAAAIR!...<KEY><W><C>
+
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-512,0
+chr:0:speed:8
+chr:0:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

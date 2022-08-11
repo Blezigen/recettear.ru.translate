@@ -1,0 +1,130 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_hiro1.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̎s��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�				//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+
+//�m�o�b
+chr:2:dir:left				
+chr:2:center:-32						
+chr:2:move:640,0
+chr:2:moveto:220,0
+chr:2:speed:8								
+chr:2:grp:bmp/ivent/25machi_00.tga 512,512	
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp	
+
+wait:60
+windowpos:304,-1
+msg:2:13:Let's see, Venus is in<BR>the fifth house, and the<BR>moon's mooning the sun?<KEY>
+msg:2:13:Average luck, then. So<BR>today's lucky item will<BR>be...<KEY><W><C>
+
+
+
+//���Z�b�g
+chr:1:dir:right				
+chr:1:center:-32			
+chr:1:move:-390,0			
+chr:1:moveto:-80,0			
+chr:1:speed:8				
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp		
+wait:60
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Hello!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/25machi_04.tga 512,512
+msg:2:13:Oh, Recette!<BR>Good day, good day!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:What're you looking at<BR>so closely?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/25machi_01.tga 512,512
+msg:2:13:Why, my horoscope, of<BR>course! My fortune!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:A fortune?<KEY><W><C>
+
+windowpos:304,-1				
+msg:2:13:Do you believe in fortune<BR>telling, dear?<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/event/re_uu.bin
+msg:1:1:Hmm... I guess you could<BR>say...<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:"Good" means yay,<BR>"bad" means nay!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/25machi_04.tga 512,512
+msg:2:13:Haha! That's the<BR>pragmatic approach to it,<BR>yes.<KEY>
+chr:2:grp:bmp/ivent/25machi_01.tga 512,512
+msg:2:13:Oh! Have you heard of<BR>the super-accurate<BR>fortune teller?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512			
+msg:1:1:The super-accurate<BR>whoswhat?<KEY><W><C>
+
+windowpos:304,-1
+msg:2:13:Well, rumor has it that<BR>in this tiny city<BR>somewhere,<KEY>
+msg:2:13:there's a fortune-teller<BR>whose predictions are<BR>always accurate!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512			
+msg:1:1:Holy cow!<KEY><W><C>
+
+windowpos:304,-1
+msg:2:13:People from whole other<BR>countries come to her for<BR>advice.<KEY>
+msg:2:13:She's supposedly a bit of<BR>a handful, though.<KEY>
+msg:2:13:It's hard to get her to<BR>predict much.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512			
+msg:1:1:... really?<KEY><W><C>
+
+windowpos:304,-1
+msg:2:13:That's why the important<BR>people go to other<BR>fortune-tellers, so they<KEY>
+msg:2:13:know when she'll be in a<BR>good mood for accurate<BR>predictions!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//���Z�b�g�̕\���Ί�ɕϊ�
+//���G�t�F�N�g��o���܂�chr:5�L�����ԍ����b���Ă���L�����̉��ɂȂ�Ȃ��悤�ɒ��ӂ��Ă�������
+//iv�t�H���_�̊���G�t�F�N�gtxt�ɃT���v���������Ă���̂ŃR�s�y���č��W�������킹��ƃ��N�ł�
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:40,80
+chr:5:moveto:40,200
+chr:5:speed:0.5				//�X�s�[�h�͏����_��g���܂�
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+
+wait:60
+//���G�t�F�N�g�I���
+
+windowpos:304,1
+msg:1:1:Doesn't that kinda...<BR>well, never mind!<KEY><W><C>
+
+
+chr:2:moveto:600,0
+chr:2:speed:8
+chr:1:moveto:-600,0
+chr:1:speed:8
+
+wait:60
+//fadeoutb:60
+//wait:60
+
+end:
+//�C�x���g�I��

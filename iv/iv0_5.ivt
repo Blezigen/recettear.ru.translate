@@ -1,0 +1,60 @@
+skipoff:
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:3:dir:right				//	����
+chr:3:center:-48
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-130,0			//	�ړ���
+chr:3:speed:8				//	�ړ����x
+chr:3:grp:bmp/ivent/02tear_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:3:col:255,255,255,255	//�`��q�f�a�`�l
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+
+chr:3:disp
+
+wait:60
+
+windowpos:304,1
+se:bin/se/01ti/system/01ti_sys16.bin
+msg:3:2:Боюсь, этих денег недостаточно.<KEY>
+msg:3:2:Сожалею, но как представитель<BR>финансовой компании "Терме",<BR>я обязана конфисковать этот<KEY>
+msg:3:2:дом для оплаты<BR>непогашенной задолженности.<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,-1
+se:bin/se/00re/system/00re_sys20.bin
+msg:1:1:Что?...Нет!<BR>Я ведь... Я...<KEY><W><C>
+
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:10	
+
+chr:3:moveto:-420,0			//	�ړ���
+chr:3:speed:10	
+wait:60
+
+end:

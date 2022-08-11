@@ -1,0 +1,202 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+
+//���C
+chr:2:dir:left
+chr:2:center:-32:
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:10	
+chr:2:grp:bmp/ivent/03lui_02.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+windowpos:304,-1
+msg:2:3:HOY! Recette!<BR>Big news! Really, really<BR>big news!<KEY><W><C>
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-120,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+windowpos:304,1
+msg:0:2:What is all this fuss<BR>about?<KEY>
+msg:0:2:Have you won the lottery<BR>or somesuch?<KEY><W><C>
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_03.tga 512,512
+se:bin/se/02li/event/ryui_050_b.bin
+msg:2:3:Nah, lost it this week.<BR>With ten tickets, too...<KEY><W><C>
+
+wait:30
+
+chr:2:grp:bmp/ivent/03lui_02.tga 512,512
+msg:2:3:But... hold on, that's<BR>not why I'm here!<KEY>
+msg:2:3:The guild's discovered a<BR>new dungeon! A BIG one!<KEY><W><C>
+
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:4
+chr:0:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32:
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:10				//	�ړ����x
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Wha? Again?<KEY>
+msg:1:1:It seems like they only<BR>just found the Amber<BR>Garden...<KEY><W><C>
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_03.tga 512,512
+msg:2:3:Yeah, but...<KEY>
+msg:2:3:Thing is... there's<BR>something up with this<BR>one.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,120
+chr:5:moveto:100,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+windowpos:304,1
+msg:1:1:Something up? Like<BR>stairs?<KEY><W><C>
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_00.tga 512,512
+msg:2:3:Don't we wish. Nobody<BR>can get in.<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Huh? But if nobody can<BR>get in, how do they know<BR>it's a dungeon?<KEY><W><C>
+windowpos:304,-1
+se:bin/se/02li/event/ryui_054.bin
+msg:2:3:Well, the entrance is<BR>sealed, so there must be<BR>something in there.<KEY>
+msg:2:3:I dunno much beyond<BR>that, though.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:I guess that makes sense.<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/01ti/system/01ti_sys09.bin
+msg:0:2:It barely makes sense at<BR>all!<KEY>
+msg:0:2:You should actually get<BR>details before you spread<BR>rumors like this!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_04.tga 512,512
+msg:2:3:Well, I, uh... thought it'd<BR>be good to let you guys<BR>know quickly?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+
+//���ߑ�
+chr:6:dir:left
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:230,190
+chr:6:moveto:260,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+
+se:bin/se/01ti/event/tea_mataku.bin
+msg:0:2:Merde. Of all...<KEY><W><C>
+wait:10
+
+rmb:40,120
+se:bin/se/00re/event/re_fue.bin
+chr:2:moveto:512,0
+chr:2:speed:10
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	
+wait:60
+msg:0:2:What in - an earthquake?<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:W-whoa! We haven't had<BR>one of those in a long<BR>time!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:It seems to be over.<BR>Is everyone all right?<KEY><W><C>
+
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	
+msg:1:1:I'm okay. Louie is...<BR>where'd he...<KEY>
+msg:1:1:Huh?<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	
+//�r�N�b
+chr:5:dir:left
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:130,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:left
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:130,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+windowpos:304,0
+se:bin/se/00re/event/re_uwa.bin
+msg:1:1:    Louie's under that<BR>  knocked-over counter!<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+//���ߑ�
+chr:6:dir:left
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:230,190
+chr:6:moveto:260,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+
+msg:0:2:He really is entirely<BR>luckless...<KEY><W><C>
+chr:0:moveto:-512,0			//	�ړ���
+chr:0:speed:10	
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:10
+
+//fadeoutb:60
+wait:60
+end:

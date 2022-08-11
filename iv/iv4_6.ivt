@@ -1,0 +1,120 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�G�[��
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:640,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/06tiers_01.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+msg:1:1:Welcome to...<KEY>
+msg:1:1:... oh! Tielle!<KEY><W><C>
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/06tiers_04.tga 512,512	
+se:bin/se/05ti/shop/t_kai_ehehe_01.bin
+msg:2:6:Ehehe!<KEY><W><C>
+windowpos:304,1	
+msg:1:1:What's up? You seem super<BR>happy.<KEY><W><C>
+windowpos:304,-1	
+
+chr:0:dir:left
+chr:0:grp:bmp/ivent/meisi.tga 256,256
+chr:0:move:205,46
+chr:0:col:255,255,255,0
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,255
+chr:0:disp
+
+wait:30
+msg:2:6:Ta-da-daaaaah!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+
+windowpos:304,1	
+msg:1:1:This is!...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/06tiers_01.tga 512,512	
+msg:2:6:Up until now I could only<BR>tag along with sis,<KEY>
+msg:2:6:but I just finished the<BR>Hall of Trials!<KEY>
+msg:2:6:And so, and so... I heard<BR>I should give my card<BR>to all the<KEY>
+msg:2:6:people I want to help,<BR>and I thought of you,<BR>Recette!<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Oooh! I see!<KEY>
+
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,0
+chr:0:disp
+wait:80
+
+msg:1:1:Thank you so much, Tielle!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/06tiers_04.tga 512,512	
+se:bin/se/05ti/shop/t_kai_yokatta_01.bin
+msg:2:6:I'm just glad you're happy!<BR>Ask me to come with you<BR>any time you want!<KEY><W><C>
+
+chr:0:moveto:-512,0
+chr:0:speed:10
+chr:1:moveto:-512,0
+chr:1:speed:10
+chr:2:moveto:640,0
+chr:2:speed:10
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

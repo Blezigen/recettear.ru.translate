@@ -1,0 +1,100 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro2.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_02.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+msg:4:10:Assigning variables.<BR>Difficulty: check,<BR>power crystals: check.<KEY>
+msg:4:10:Energy release confirmed.<BR>Calculation error<BR>detected, correcting.<KEY>
+msg:4:10:Transfer begun...<BR>3... 2... 1...<BR>complete.<KEY>
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+msg:4:10:Dungeon floor tuning<BR>complete.<KEY><W><C>
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:330,30
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:330,30
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:20
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Good evening, Arma!<KEY>
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:1:1:Whatcha doing out here?<KEY><W><C>
+windowpos:304,-1
+msg:4:10:Nothing... in particular.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Oh, okay. I get it, I like<BR>watching the sunset out<BR>here too!<KEY>
+msg:1:1:It feels good to just<BR>space out here sometimes,<BR>even if it annoys Tear.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:The sunset is... pretty?<KEY><W><C>
+
+se:bin/se/00re/event/re_un_a.bin
+windowpos:304,1
+msg:1:1:Isn't it? Especially today,<BR>just look!...<KEY><W><C>
+
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:1:disp
+chr:4:moveto:640,0
+chr:4:speed:8
+chr:4:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

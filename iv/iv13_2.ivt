@@ -1,0 +1,144 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro1.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadein:120:0,0,0,255
+//60�t���҂�
+
+//�L�����Ɋւ���ݒ�
+//�J�C��
+chr:4:dir:right
+chr:4:center:22
+chr:4:move:180,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/05caillou_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+wait:160
+//��ʂ̉���}�X�N
+//windowset:
+windowpos:304,-1
+msg:4:5:Hmm...<KEY><W><C>
+
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:8	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Hi, Caillou! In front of<BR>the orphanage again, huh?<KEY><W><C>
+
+
+//�r�N�b
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:300,40
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:300,40
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+chr:4:dir:left
+wait:30
+chr:4:moveto:240,0
+chr:4:speed:4
+chr:4:grp:bmp/ivent/05caillou_10.tga 512,512
+chr:4:center:-48
+wait:30
+
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou21a.bin
+msg:4:5:Ugh! You again?<KEY><W><C>
+
+wait:30
+chr:4:grp:bmp/ivent/05caillou_03.tga 512,512
+//���ߑ�
+chr:6:dir:right
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:340,190
+chr:6:moveto:310,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+msg:4:5:You seriously have way<BR>too much free time for a<BR>merchant...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+windowpos:304,1
+msg:1:1:Hey! N-no I don't! I'm<BR>super duper busy!<KEY>
+msg:1:1:In fact I'm totally on my<BR>way to conduct super<BR>ultra hyper important<KEY>
+msg:1:1:business that may or may<BR>not coincidentally<BR>involve eating tons of<KEY>
+msg:1:1:walnut bread! And...<BR>selling a little too.<BR>I guess.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/05caillou_02.tga 512,512
+se:bin/se/04ca/shop/caillou34b.bin
+msg:4:5:Then get to your<BR>business and leave me<BR>ALONE!<KEY><W><C>
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:10	
+chr:4:disp
+wait:60
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+msg:1:1:Ergh, what is his<BR>problem?!<KEY>
+msg:1:1:I mean, everyone likes<BR>walnut bread, right?<KEY><W><C>
+
+msg:0:2:Hm.<KEY>
+msg:0:2:He does seem to be<BR>unusually preoccupied<BR>with something.<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Preoccupied?...<BR>Huh...<KEY><W><C>
+
+
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:8	
+chr:1:disp
+chr:0:moveto:-490,0
+chr:0:speed:8
+chr:0:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

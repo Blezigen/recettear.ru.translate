@@ -1,0 +1,73 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_hiro2.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+//wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-440,0
+chr:0:moveto:-100,0
+chr:0:speed:8			
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:580,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Oh, I can hear the crows<BR>cawing... time to go home!<KEY>
+msg:1:1:Wow, it's already<BR>evening...<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:You enjoy the evening,<BR>don't you?<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:...<KEY>
+msg:1:1:To be honest... until<BR>recently, I despised<BR>evenings.<KEY>
+msg:1:1:I always had to go home<BR>to an empty house...<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512			
+msg:0:2:Ah...<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/00re/event/re_demo.bin
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:But, now...<KEY><W><C>
+wait:30
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Now I have you at home,<BR>so I'm not lonely anymore!<KEY><W><C>
+
+windowpos:304,1				
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512			
+msg:0:2:... I...<KEY>
+msg:0:2:... We should get home,<BR>then.<KEY><W><C>
+
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:8	
+
+chr:0:moveto:-420,0			//	�ړ���
+chr:0:speed:8	
+wait:60
+
+
+//fadeoutb:60
+//wait:60
+
+end:
+//�C�x���g�I��

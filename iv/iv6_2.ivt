@@ -1,0 +1,109 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+//�M���h�}�X�^�[
+chr:2:dir:right
+chr:2:center:-32
+chr:2:move:-512,0				//	�\���ʒu
+chr:2:moveto:-120,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/13syounin_00.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+//�L�����Ɋւ���ݒ�
+
+
+//���Z�b�g
+chr:1:dir:left				//	����
+chr:1:center:-32
+chr:1:move:640,0				//	�\���ʒu
+chr:1:moveto:300,0			//	�ړ���
+chr:1:speed:8				//	�ړ����x
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:left				//	����
+chr:0:center:-48
+chr:0:move:640,0				//	�\���ʒu
+chr:0:moveto:200,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+windowpos:304,-1
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Good day!<KEY><W><C>
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/13syounin_04.tga 512,512
+msg:2:11:Oh! You two! Your timing<BR>is great!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,-1
+msg:1:1:Really?<KEY><W><C>
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/13syounin_00.tga 512,512
+msg:2:11:I have a little problem<BR>that I need your help w-<KEY><W><C>
+
+windowpos:304,-1
+msg:0:2:We automatically refuse<BR>to place horse heads in<BR>anyone's bed.<KEY><W><C>
+
+windowpos:304,1
+msg:2:11:Er, no, nothing like that,<BR>really!<KEY>
+msg:2:11:Actually, I have a package<BR>that needs to be delivered<KEY>
+msg:2:11:to the orphanage near<BR>town square. You've<BR>seen it, right?<KEY>
+msg:2:11:I'm a bit busy right now,<BR>so...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,-1
+msg:1:1:Oh yeah! Sure! We can<BR>do that!<KEY><W><C>
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/13syounin_04.tga 512,512
+msg:2:11:Thanks, girls! This'll<BR>help me out a lot.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Alright then! Package<BR>acquired, charge forth!<KEY><W><C>
+
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,-1
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Indeed, not a bad idea.<KEY>
+msg:0:2:The Merchant's Guild has<BR>been generous to us<BR>in the past...<KEY>
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+msg:0:2:... so getting them into<BR>our pocket now will only<BR>help us down the road.<KEY><W><C>
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/13syounin_03.tga 512,512
+msg:2:11:In your?... now, uh, wait a<BR>minute, I-<KEY><W><C>
+
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,-1
+se:bin/se/00re/system/00re_sys09.bin
+msg:1:1:For the orphans! Let's go!<KEY><W><C>
+
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:8
+chr:0:moveto:640,0			//	�ړ���
+chr:0:speed:8
+chr:2:moveto:-512,0			//	�ړ���
+chr:2:speed:8
+
+wait:60
+
+fadeout:60:0,0,0,255
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

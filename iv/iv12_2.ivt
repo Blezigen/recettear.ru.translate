@@ -1,0 +1,91 @@
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//�L�����Ɋւ���ݒ�
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+se:bin/se/00re/shop/re_ira.bin
+msg:1:1:Welcome!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:I stand welcomed.<KEY>
+msg:4:10:Today I wo-<KEY><W><C>
+wait:30
+msg:4:10:...<KEY><W><C>
+
+wait:60
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,120
+chr:5:moveto:100,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+windowpos:304,1
+msg:1:1:Uh, Arma? You what?<KEY><W><C>
+
+//�n�k
+rmb:40,120
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/01ti/event/tea_oh.bin
+msg:0:2:What in the?!...<KEY><W><C>
+
+fadeout:120:255,255,255,255
+wait:180
+
+end:

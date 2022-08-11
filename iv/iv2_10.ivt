@@ -1,0 +1,136 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Значит, вот это и называют подземельем?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Ну да. "Добро пожаловать в<BR>джунгли", как говорится.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+
+windowpos:304,-1
+msg:1:1:Слушай...разве<BR>мы не будем ждать Луи<BR>здесь?<KEY>
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:В плане, я не охотник на<BR>монстров...Я напугана!..<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Мы двое в<BR>полной безопасности.<KEY>
+msg:0:2:Вокруг нас<BR>стоит защитное<BR>поле...<KEY>
+msg:0:2:Для монстров мы<BR>полностью невидимы.<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_sonano.bin
+msg:1:1:Да?! Это потрясающе!<KEY>
+msg:1:1:Значит Луи тоже<BR>полностью защищен?<KEY><W><C>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Эм...не совсем.<KEY><W><C>
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+se:bin/se/00re/event/re_nande_a.bin
+msg:1:1:Эм, почему нет?<KEY><W><C>
+windowpos:304,1
+msg:0:2:Пока мы под защитным полем, нам<BR>не надо беспокоиться о<BR>монстрах,<KEY>
+msg:0:2:но это достигается за счет того,<BR>что мы практически<BR>неосязаемы ко всему,<KEY>
+msg:0:2:что здесь находится. Мы не можем<BR>ничем напрямую<BR>манипулировать.<KEY><W><C>
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_uu.bin
+msg:1:1:Подожди, значит мы не можем<BR>собирать лут? Тогда зачем мы<BR>вообще здесь?<KEY><W><C>
+windowpos:304,1
+msg:0:2:Именно поэтому наш искатель приключений<BR>снаружи поля.<KEY><W><C>
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+se:bin/se/00re/event/re_sonanda_b.bin
+msg:1:1:Оу, понятно. Значит он подберет все<BR>для нас!<KEY><W><C>
+windowpos:304,1
+msg:0:2:Если наш искатель приключений будет<BR>ранен, он может зайти в поле<BR>и позже отступить.<KEY>
+msg:0:2:Однако нам придётся самим<BR>выносить его обратно, так что с собой<BR>мы сможем взять совсем немного.<KEY>
+msg:0:2:Максимум один предмет.<KEY><W><C>
+
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:350,120
+chr:5:moveto:350,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+windowpos:304,-1
+msg:1:1:Так значит, если мы всё-таки<BR>попадём в передрягу, то<BR>потеряем не всё, да?<KEY>
+msg:1:1:Так погоди, ты же вроде сказала,<BR>что мы не можем -<KEY><W><C>
+
+
+windowpos:304,1
+msg:0:2:Именно. Я оставлю подробности<BR>по этому поводу на потом, если<BR>они потребуются.<KEY>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Естественно, что если нам удастся<BR>благополучно выбраться, мы сможем<BR>унести с собой столько,<KEY>
+msg:0:2:сколько позволит объём<BR>всех наших сумок.<KEY><W><C>
+windowpos:304,-1
+msg:1:1:Круто!... эм-м, постой-ка, "сколько<BR>позволит объём наших сумок"?...<KEY><W><C>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:Ну, наши сумки не бездонны.<BR>Если в них закончится место,<BR>то нам всё же придётся решать,<KEY>
+msg:0:2:что оставлять, а от чего<BR>нужно будет избавиться.<KEY>
+msg:0:2:Хм, значит, искатель приключений<BR>сосредотачивается на,<BR>собственно, приключении,<KEY>
+msg:0:2:пока мы присматриваем за тем,<BR>что из лута ему стоит попридержать.<KEY><W><C>
+windowpos:304,-1
+msg:1:1:Думаю, смысл мне понятен...<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_wkata_a.bin
+msg:1:1:...Вот и прекрасненько!<BR>Ну, приступаем тогда!<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+chr:1:moveto:500,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

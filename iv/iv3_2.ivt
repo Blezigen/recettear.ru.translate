@@ -1,0 +1,70 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+/
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-512,0
+chr:0:moveto:-60,0
+chr:0:speed:10				//	�\���ʒu
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:
+chr:1:move:-512,0
+chr:1:moveto:-160,0
+chr:1:speed:10		
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+			//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�V������
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:10
+chr:2:grp:bmp/ivent/04charme_01.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+se:bin/se/03sy/event/sya49-3.bin
+msg:2:4:Evenin'. Name's Charme,<BR>the Lady Thief.<KEY><W><C>
+windowpos:304,0
+msg:1:0:        TH-THIEF?!<KEY><W><C>
+windowpos:304,-1
+chr:2:grp:bmp/ivent/04charme_06.tga 512,512
+msg:2:4:So. Your treasures,<BR>valuables, and assorted<BR>shiny bits.<KEY>
+msg:2:4:I'll be taking them, if<BR>you please.<KEY><W><C>
+windowpos:304,0
+msg:1:0:    We won't let you!<KEY><W><C>
+
+chr:2:grp:bmp/ivent/04charme_07.tga 512,512
+windowpos:304,-1
+msg:2:4:*Sigh*... always the way.<BR>Well then.<KEY>
+chr:2:grp:bmp/ivent/04charme_02.tga 512,512
+msg:2:4:In that case, looks like<BR>it's time to CUT some<BR>fools!<KEY><W><C>
+
+chr:1:moveto:-512,0
+chr:1:speed:10	
+chr:0:moveto:-512,0
+chr:0:speed:10	
+chr:2:moveto:640,0
+chr:2:speed:10
+wait:60
+//fadeoutb:60
+//wait:60
+end:

@@ -1,0 +1,114 @@
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+bgset:bmp/ivent/bg_myroom.bmp
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:3:dir:right				//	����
+chr:3:center:-48
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-100,0			//	�ړ���
+chr:3:speed:8				//	�ړ����x
+chr:3:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:3:col:255,255,255,255	//�`��q�f�a�`�l
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:3:2:Всем привет! Добро пожаловать в<BR>то, что мы называем "Адским<BR>Режимом Выживания"!<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Как Алуэтт с Прайм и<BR>сказали в конце<BR>главного сюжета,<KEY>
+msg:1:1:в Режиме Выживания вам<BR>придётся выплачивать<BR>еженедельный долг... вечно!<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/02tear_04.tga 512,512
+msg:3:2:И, конечно же, его объём<BR>также будет расти каждую неделю,<BR>почти до бесконечности,<KEY>
+msg:3:2:так что дерзайте, и поглядите,<BR>сколь долго вы сможете<BR>продержаться перед тем,<KEY>
+msg:3:2:как вас раздавит беспощадная<BR>машина капитализма!<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Геймплей более-менее такой же<BR>как и в основной игре,<KEY>
+msg:1:1:правда, никаких событий и<BR>всяких там сюжетных штучек-дрючек<BR>в нём не имеется.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/02tear_00.tga 512,512
+msg:3:2:Иными словами
+msg:3:2:Вы сможете выбрать только тех,<BR>кто дал вам свою<KEY>
+msg:3:2:"Карточку Верности" в том сохранении, <BR>с которого вы <BR>загружаетесь.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Oh yeah, and in "Survival<BR>Hell" mode, lesse...<KEY>
+msg:1:1:Вы не сохраняете ни своих<BR>средств, ни предметов,<BR>и никаких уровней торговца<KEY>
+msg:1:1:и приключенца! Всё, что у вас<BR>перенесётся с сохранения - это<BR>ваши покупатели<KEY>
+msg:1:1:и уровни репутации<BR>среди них.<KEY>
+msg:1:1:...<KEY>
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/system/00re_sys20.bin
+msg:1:1:Эй-эй, погоди-ка, ЧТО-О?<BR>Как тогда вообще кто-то должен<BR>справляться в таких условиях?<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Ну-у, это ж ведь не просто так<BR>"Адским Режимом Выживания"<BR>называется.<KEY>
+chr:3:grp:bmp/ivent/02tear_04.tga 512,512
+msg:3:2:Помните: если этот режим<BR>заставляет вас рвать волосы на<BR>голове и кипеть от ярости,
+msg:3:2:значит, свою работу<BR>мы исполняем исправно!<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Boy, that'll sure<BR>encourage people to<BR>play...<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/02tear_01.tga 512,512
+msg:3:2:You may also save and<BR>load as normal, of course.<BR>Survival mode saves<KEY>
+msg:3:2:will be clearly marked<BR>as such.<KEY>
+msg:3:2:Once you finally reach<BR>a point where you can no<BR>longer pay back any debt,<KEY>
+msg:3:2:you will get a game over,<BR>and if you set a new<BR>record, it will be<KEY>
+msg:3:2:recorded in the Survival<BR>Score section of the<BR>title menu.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Ну что ж, удачи!<KEY>
+se:bin/se/00re/action/00re_btl01a.bin
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+chr:3:grp:bmp/ivent/02tear_04.tga 512,512
+msg:1:1:Постарайтесь продержаться<BR>как можно больше дней!<KEY><W><C>
+wait:60
+msg:1:1:(Вот так-та-а-ак, им же ведь,<BR>значит, просто каюк<BR>так будет, да?) <KEY><W><C>
+windowpos:304,1
+msg:3:2:(Цыц!)<KEY><W><C>
+
+chr:3:moveto:-420,0			//	�ړ���
+chr:3:speed:8	
+chr:1:moveto:480,0
+chr:1:speed:8
+
+wait:60
+
+
+end:

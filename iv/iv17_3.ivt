@@ -1,0 +1,147 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/10al/event/a_14_b.bin
+msg:4:19:Oh, hello there, Recette.<BR>Still manning the store<BR>as always, I see.<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Hi, Alouette! You look like<BR>you're in a good mood.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:I am! Father and I are<BR>going on an excursion to<BR>eat foie gras in a bit.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:140,120
+chr:5:moveto:140,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:1:1:Wwwwhat's a foe-grub?<BR>It sounds kinda mean.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+msg:4:19:What in!- You don't know<BR>what foie gras is?!<BR>Poverty IS a curse!<KEY><W><C>
+
+windowpos:304,1
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:Awww... Teeeear!<BR>Help me out here!<KEY><W><C>
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:4	
+chr:1:disp
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10	
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+msg:0:2:Yes, very well.<KEY><W><C>
+wait:30
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:Foie gras is a food made<BR>from goose liver, and is<BR>generally considered<KEY>
+msg:0:2:to be a "high-class" dish,<BR>due in part to what is<BR>involved in creating it.<KEY>
+msg:0:2:By overfeeding the geese,<BR>excess fat accumulates in<BR>the liver,<KEY>
+msg:0:2:significantly changing<BR>the taste. The process is<BR>lengthy, naturally.<KEY>
+se:bin/se/01ti/tuika/ti_konna.bin
+msg:0:2:As a dish, it is typically<BR>sauteed, then eaten.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Oooo... kay. Is it yummy,<BR>though?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:Naturally! It's a delicacy<BR>of the upper crust, after<BR>all.<KEY>
+msg:4:19:It utterly lacks any<BR>texture...<KEY>
+msg:4:19:It's strangely meaty and<BR>oily!...<KEY>
+msg:4:19:It's truly the ultimate<BR>in rare tastes!<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:But... it's yummy, right?<KEY><W><C>
+
+windowpos:304,-1
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+msg:4:19:Of-of course it is.<BR>S-silly plebeian...<KEY><W><C>
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:8	
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+chr:0:moveto:-512,0
+chr:0:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

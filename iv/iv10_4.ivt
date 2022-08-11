@@ -1,0 +1,121 @@
+fadein:60:0,0,0,255
+wait:60
+
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_aluet.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�A���G�b�g
+chr:4:dir:right
+chr:4:center:-32
+chr:4:move:-390,0
+chr:4:moveto:-100,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+chr:1:dir:left
+chr:1:center:-300
+chr:1:move:640,0
+chr:1:disp
+wait:60
+windowpos:304,1
+se:bin/se/10al/event/a_14_a.bin
+msg:4:19:Father, what is it? You<BR>seem so... serious.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:26:Ah. Alouette...<KEY>
+msg:1:26:Yes, I... thought you<BR>should know ahead of time,<BR>before we tell everyone...<KEY><W><C>
+
+windowpos:304,1
+msg:4:19:Telling me first? Well,<BR>this is rare.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:26:The truth is, Alouette...<KEY><W><C>
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+chr:4:grp:bmp/ivent/11alouette_03.tga 512,512
+fadein:60:0,0,0,255
+wait:80
+
+windowpos:304,1
+se:bin/se/10al/event/a_19_b.bin
+msg:4:19:Wh... wh-what are you<BR>talking about...<KEY>
+msg:4:19:What... do you mean,<BR>we've been bought out?!<KEY><W><C>
+
+windowpos:304,-1
+msg:1:26:I know it is not what<BR>you wanted, but...<KEY><W><C>
+
+windowpos:304,1
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:N-no... NO! I won't accept<BR>this! I can't!<KEY>
+msg:4:19:I'm going to talk to the<BR>board directly! They<BR>can't... they CAN'T!...<KEY><W><C>
+//chr:4:dir:left
+chr:4:moveto:-640,0
+chr:4:speed:10
+wait:60
+
+windowpos:304,-1
+msg:1:26:Alouette!...<BR>... Alouette...<KEY><W><C>
+
+//�v����
+chr:3:dir:right
+chr:3:center:-48
+chr:3:move:-512,0
+chr:3:moveto:-100,0
+chr:3:speed:8
+chr:3:grp:bmp/ivent/12prime_00.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+wait:60
+windowpos:304,1
+se:bin/se/11pr/prim13.bin
+msg:3:20:Off she goes...<KEY><W><C>
+
+windowpos:304,-1
+msg:1:26:Prime... please make sure<BR>Alouette does nothing<BR>too rash.<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/11pr/prim09-03.bin
+chr:3:grp:bmp/ivent/12prime_06.tga 512,512
+msg:3:20:Shyeah, yeah. I hear you.<KEY>
+msg:3:20:I owe you my freedom,<BR>pops, and I'm your man.<BR>... Uh, as it were.<KEY>
+msg:3:20:I'll keep my promise to<BR>keep her safe.<KEY>
+chr:3:grp:bmp/ivent/12prime_00.tga 512,512
+se:bin/se/11pr/prim11-05.bin
+msg:3:20:Trick is, though...<KEY>
+msg:3:20:I dunno if I can stop<BR>Her Grand Young<BR>Mistressness once she<KEY>
+msg:3:20:gets a head of steam like<BR>this.<KEY><W><C>
+
+chr:3:grp:bmp/ivent/12prime_01.tga 512,512
+wait:30
+msg:3:20:Bet I know someone who<BR>can, though...<KEY><W><C>
+
+chr:3:moveto:-512,0
+chr:3:speed:8
+wait:60
+
+fadeout:60:0,0,0,255
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

@@ -1,0 +1,111 @@
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+se:bin/se/01ti/event/tea_chot.bin
+msg:0:2:Ah, Recette. A moment,<BR>if you would.<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Are you down with<BR>something, Tear?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:No, I'm quite well.<BR>I simply thought it was<BR>time to explain<KEY>
+msg:0:2:how to place and use<BR>vending machines.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Vending machines?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Vending machines allow<BR>you to sell a larger volume<BR>of items in a shorter<KEY>
+msg:0:2:amount of time, compared<BR>to handling each customer<BR>yourself.<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/00re/event/re_sonanda_b.bin
+msg:1:1:Really? I guess that<BR>makes sense.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:To place a vending machine,<BR>choose the vending machine<BR>from the item placement<KEY>
+msg:0:2:menu at a counter as if<BR>it were a normal item.<KEY>
+msg:0:2:The counter will become<BR>that vending machine.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:And after I put it down,<BR>it just starts selling<BR>stuff?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:No, you will have to keep<BR>the machine stocked<BR>yourself.<KEY>
+msg:0:2:There is a limit to how<BR>much you can place in a<BR>vending machine as well,<KEY>
+msg:0:2:so be mindful of what you<BR>put inside.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_un_b.bin
+msg:1:1:Kayo!<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:There is... a downside,<BR>however.<KEY>
+msg:0:2:Because the machine is<BR>automatic, the price of<BR>an item sold from a<KEY>
+msg:0:2:vending machine can not<BR>be negotiated.<KEY>
+msg:0:2:Items will sell for their<BR>base price. Keep that in<BR>mind.<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/00re/event/re_demo.bin
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:Aw. I like being able to<BR>haggle 'till I turn blue in<BR>the face...<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:It is a drawback.<BR>The extra volume can often<BR>make up for the lower<KEY>
+msg:0:2:price, however, so for<BR>cheap items, a vending<BR>machine is helpful.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Well, I guess so...<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:Finally, remember that<BR>we can not sell off the<BR>machines ourselves.<KEY>
+msg:0:2:If you wish to dispose<BR>of a machine, we must sell<BR>it back to the<KEY>
+msg:0:2:Merchant's Guild or<BR>market... at a steep loss.<KEY>
+msg:0:2:Keep that in mind if you<BR>decide to invest in one.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_wakata_b.bin
+msg:1:1:Will do!<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+chr:1:moveto:500,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

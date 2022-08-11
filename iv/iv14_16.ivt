@@ -1,0 +1,220 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_hiro1.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:30					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+//�����C
+chr:2:dir:left				
+chr:2:center:-32			
+chr:2:move:560,0
+chr:2:moveto:220,0			
+chr:2:speed:8							
+chr:2:grp:bmp/ivent/03lui_00.tga 512,512	
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp	
+wait:60
+windowpos:304,-1				
+msg:2:03:Hmm...<KEY><W><C>
+chr:2:moveto:-60,0			
+chr:2:speed:6		
+wait:60
+windowpos:304,1
+chr:2:center:0
+msg:2:03:Yes!...<KEY><W><C>
+chr:2:dir:right
+wait:30
+chr:2:moveto:220,0
+chr:2:speed:6	
+windowpos:304,-1
+wait:60				
+msg:2:03:... No.<KEY><W><C>
+
+fadeout:60:0,0,0,255
+wait:80
+chr:2:move:560,0
+chr:2:speed:6	
+chr:2:disp
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//���Z�b�g
+chr:1:dir:right				
+chr:1:center:-32			
+chr:1:move:-160,0						
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp		
+
+//�e�B�A
+chr:0:dir:right				
+chr:0:center:-48			
+chr:0:move:-60,0						
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+	
+fadein:60:0,0,0,255
+
+wait:80
+
+windowpos:304,1
+msg:1:1:Huh? That's Louie!<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:What in the name of<BR>Heaven is he searching for<BR>over there?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Hey, let's go ask!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512	
+windowpos:304,1
+
+msg:0:2:Why do I get the feeling<BR>that I would much rather<BR>not get involved...<KEY><W><C>
+
+fadeout:60:0,0,0,255
+wait:80
+chr:1:move:-390,0						
+chr:0:move:-490,0					
+
+chr:2:dir:right				
+chr:2:center:-32
+chr:2:move:220,0			
+chr:2:disp
+fadein:60:0,0,0,255
+
+wait:80
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	
+
+chr:1:moveto:-160,0			
+chr:1:speed:8				
+chr:0:moveto:-60,0			
+chr:0:speed:10	
+wait:80
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Louie! Helloooo!<KEY><W><C>
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+
+chr:2:dir:left
+wait:20
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_04.tga 512,512				
+msg:2:03:Oh! Recette! Tear!<BR>What's up?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:What ARE you doing,<BR>wandering around here?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_01.tga 512,512				
+msg:2:03:Ah, well, I got hungry so<BR>I decided to take a look<BR>and see if I could<KEY>
+chr:2:grp:bmp/ivent/03lui_04.tga 512,512				
+msg:2:03:find some edible grasses<BR>or herbs or something!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+
+se:bin/se/01ti/event/tea_haa.bin
+//���ߑ�
+chr:6:dir:left
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:220,190
+chr:6:moveto:240,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+
+windowpos:304,1
+msg:0:2:Why... does this not<BR>surprise me in the<BR>slightest...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_00.tga 512,512
+msg:2:03:But, uh... I'm not sure<BR>which of these are edible,<BR>y'see...<KEY><W><C>
+
+wait:30
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,1
+msg:1:1:Louie? If you eat that,<BR>you'll blow up your<BR>stomach.<KEY>
+msg:1:1:You can eat those, but<BR>they taste best if you<BR>clean them.<KEY>
+msg:1:1:Now, the plants with the<BR>soft leaves, at the east<BR>end of the plaza?<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Those taste the best!<BR>You should try them!<KEY><W><C>
+
+//���G�t�F�N�g��o���܂�chr:5�L�����ԍ����b���Ă���L�����̉��ɂȂ�Ȃ��悤�ɒ��ӂ��Ă�������
+//iv�t�H���_�̊���G�t�F�N�gtxt�ɃT���v���������Ă���̂ŃR�s�y���č��W�������킹��ƃ��N�ł�
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:210,80
+chr:5:moveto:210,200
+chr:5:speed:0.5				//�X�s�[�h�͏����_��g���܂�
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+//���G�t�F�N�g�I���
+
+windowpos:304,1
+msg:0:2:... How is it that you<BR>know so much about edible<BR>plants?<KEY>
+msg:0:2:Especially ones located<BR>here of all places?<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/event/re_ehe_a.bin
+msg:1:1:Ehehe!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_04.tga 512,512
+msg:2:03:Thanks a ton, Recette!<BR>I owe you again!<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:No problem!<BR>Remember to wash what you<BR>find!<KEY><W><C>
+msg:0:2:Why do I feel as though<BR>that is the least of his<BR>concerns?<KEY><W><C>
+
+chr:0:moveto:-600,0
+chr:0:speed:8
+chr:1:moveto:-600,0
+chr:1:speed:8
+chr:2:moveto:600,0
+chr:2:speed:8
+
+wait:60
+//fadeoutb:60
+//wait:60
+
+end:
+//�C�x���g�I��

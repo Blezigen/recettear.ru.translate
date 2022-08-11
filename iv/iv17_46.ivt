@@ -1,0 +1,275 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Hehe! I like having<BR>dinner here at the pub.<KEY><W><C>
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Indeed. Even if we can not<BR>afford it every night,<KEY>
+msg:0:2:it is still a nice change<BR>of pace.<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+se:bin/se/00re/shop/re_aaa.bin
+msg:1:1:I know, it's expensive,<BR>I'll put up with salt for<BR>breakfast tomorrow...<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:How many times must I<BR>remind you that I did not<BR>actually say that!<KEY><W><C>
+
+//�H�H�H�H
+chr:3:move:640,0
+chr:3:center:-600
+chr:3:disp
+windowpos:0,0	
+msg:3:0: What?!<BR> You THINK you saw her?!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,120
+chr:5:moveto:100,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:40
+
+windowpos:304,1	
+msg:1:1:What's up with the scene<BR>at the counter? They're<BR>so loud...<KEY><W><C>
+msg:0:2:Well, such behavior is not<BR>exactly out of character<BR>for this establishment.<KEY><W><C>
+
+windowpos:0,0	
+msg:3:0: Remember!<BR> Hell take you, REMEMBER!<KEY>
+msg:3:0: Are you playing dumb?<BR> Out with it!<KEY><W><C>
+
+windowpos:304,1	
+msg:0:2:Hm. I must admit, this<BR>does not sound like the<BR>drunken foolishness<KEY>
+msg:0:2:so common to this pub.<KEY><W><C>
+msg:1:1:It sounds like they're<BR>looking for someone.<KEY><W><C>
+
+//�V������
+chr:2:dir:right
+chr:2:center:-32
+chr:2:move:512,0
+chr:2:moveto:240,0
+chr:2:speed:2
+chr:2:grp:bmp/ivent/04charme_00.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:7:dir:left
+chr:7:grp:bmp/ivent/oya.tga 128,128
+chr:7:move:100,60
+chr:7:col:255,255,255,255
+chr:7:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,255
+chr:7:fadeframe:10
+chr:7:colto:255,255,255,0
+chr:7:disp
+wait:10
+chr:7:dir:left
+chr:7:grp:bmp/ivent/oya.tga 128,128
+chr:7:move:100,60
+chr:7:col:255,255,255,255
+chr:7:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,255
+chr:7:fadeframe:10
+chr:7:colto:255,255,255,0
+chr:7:disp
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Oh, hi Charme! You<BR>stopped by tonight too?<KEY><W><C>
+
+chr:2:grp:bmp/ivent/04charme_05.tga 512,512
+//�r�N�b
+chr:6:dir:right
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:360,20
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:right
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:360,20
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:30
+
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:240,0
+wait:30
+
+windowpos:304,-1	
+msg:2:4:Ghkt! Recette?!<KEY><W><C>
+
+windowpos:304,1	
+msg:1:1:Is something up? Why are<BR>you trying to hide in a<BR>corner li-<KEY><W><C>
+
+chr:2:grp:bmp/ivent/04charme_02.tga 512,512
+chr:2:center:10
+chr:2:moveto:-50,0
+chr:2:speed:10
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+se:bin/se/00re/event/re_fue.bin
+msg:1:1:HeuWHA?! Wait, whamrfl!<KEY><W><C>
+
+msg:2:4:SHH! Stow it, Recette.<KEY><W><C>
+msg:1:1:Mgmfhfkr?!<KEY><W><C>
+msg:2:4:Recette, just this once,<BR>STAY QUIET. Please!<KEY><W><C>
+msg:1:1:*Nod*<KEY><W><C>
+msg:2:4:I'm serious, Recette.<BR>Not a sound. Wait for 'em...<KEY><W><C>
+wait:30
+
+chr:2:grp:bmp/ivent/04charme_08.tga 512,512
+chr:2:moveto:240,0
+chr:2:speed:4
+wait:60
+msg:1:1:Phew! What's going on,<BR>Charme?<KEY>
+msg:1:1:Did you forget your<BR>wallet or something?<KEY><W><C>
+
+windowpos:304,-1	
+chr:2:center:-32
+chr:2:grp:bmp/ivent/04charme_03.tga 512,512
+msg:2:4:My?... uh, not... really.<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Aw, no need to be<BR>embarrassed. Louie does it<BR>all the time, too.<KEY><W><C>
+
+windowpos:0,0	
+msg:3:0: See here, cur!<BR> I know for a fact that<KEY>
+msg:3:0: Her Illustriousness has<BR> graced this... place!<KEY>
+msg:3:0: Now out with it, thou<BR> mongrel! Is she here?!<KEY><W><C>
+
+//��
+chr:9:dir:left
+chr:9:grp:bmp/ivent/ase.tga 128,128
+chr:9:col:255,255,255,0
+chr:9:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:9:colto:255,255,255,255
+chr:9:move:500,40
+chr:9:moveto:500,160
+chr:9:speed:0.5
+chr:9:col:255,255,255,255
+chr:9:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:9:colto:255,255,255,0
+chr:9:disp
+wait:60
+
+windowpos:304,-1	
+msg:2:4:Recette, thanks for<BR>your concern, but I'm fine,<BR>really...<KEY><W><C>
+
+windowpos:0,0	
+msg:3:0: Impossible!<BR> Are you hiding her?<KEY>
+msg:3:0: Speak, cur!<BR> I'll have no more lies!<KEY>
+msg:3:0: Bah, useless!<BR> Fan out, search the pub!<KEY><W><C>
+
+chr:2:grp:bmp/ivent/04charme_05.tga 512,512
+//�r�N�b
+chr:6:dir:right
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:330,20
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:right
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:330,20
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:30
+
+windowpos:304,-1	
+msg:2:4:Ah, hell's bells!<BR>Sorry, Recette, but I<BR>gotta scram!<KEY><W><C>
+
+chr:2:moveto:-600,0
+chr:2:speed:12
+wait:80
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Huh...<KEY>
+msg:1:1:So what do you think is<BR>up with Charme?<KEY><W><C>
+msg:0:2:I am not sure, but she<BR>was quite shaken up about<BR>something.<KEY><W><C>
+msg:1:1:It was like she was<BR>scared of something.<KEY><W><C>
+
+windowpos:0,0	
+msg:3:0: Curses!<BR> Where could she BE?!<KEY>
+msg:3:0: PRIIIINCEEEESS!<KEY><W><C>
+
+wait:30
+
+windowpos:304,1	
+msg:0:2:...<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:N-no way. No. Way. Right?<KEY><W><C>
+
+chr:1:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

@@ -1,0 +1,86 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�O���t
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/08gr/damage/08gr_16.bin
+msg:4:9:Impossible!...<KEY><W><C>
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:Enough! Stop this at<BR>once!<KEY><W><C>
+se:bin/se/00re/shop/re_gomen.bin
+msg:1:1:I'm so sorry! We didn't<BR>hurt you, I hope...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:9:How can a human and her<BR>friends drive me to such<BR>desperation...<KEY>
+msg:4:9:Hm...<KEY>
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+se:bin/se/08gr/attack/08gr_04.bin
+msg:4:9:Very well then. Try to<BR>reach the top, if you can!<KEY>
+msg:4:9:I will meet you there -<BR>if you survive!<KEY><W><C>
+
+chr:4:moveto:640,0
+chr:4:speed:10
+wait:60
+
+chr:0:moveto:-512,0
+chr:0:speed:10
+chr:0:disp
+
+chr:1:moveto:-512,0
+chr:1:speed:10
+chr:1:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

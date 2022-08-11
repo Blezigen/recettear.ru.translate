@@ -1,0 +1,317 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+
+//���C
+chr:2:dir:right
+chr:2:center:32:
+chr:2:move:240,0
+chr:2:grp:bmp/ivent/03lui_02.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+fadein:60:0,0,0,255
+wait:60
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+se:bin/se/02li/event/ryui_049_b.bin
+msg:2:0:ПО-СЛУ-ШАЙ-МЕ-НЯ!<KEY>
+msg:2:0:Если я не могу работать, я<BR>не получу денег!<KEY>
+msg:2:0:Если не получу <BR>ДЕНЕГ, не смогу достать<BR>ПРЕДМЕТЫ!<KEY>
+msg:2:0:И если я не достану<BR>предметы, очевидно, я не смогу<BR>РАБОТАТЬ! Аргх!<KEY>
+msg:2:0:Господи, будь у меня пару <BR>вещичек, смог бы попасть хоть в Зал Испытаний...<KEY><W><C>
+
+fadeout:60:0,0,0,255
+wait:80
+
+chr:2:move:600,0			//	�ړ���
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32:
+chr:1:move:-80,0			//	�ړ���
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-10
+chr:0:move:160,0				//	�\���ʒu
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:col:255,255,255,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+fadein:60:0,0,0,255
+wait:80
+
+windowpos:304,1
+msg:1:1:Интересно, что происходит?<KEY><W><C>
+
+windowpos:304,-1
+msg:0:2:Кажется, это новичок-искатель<BR>приключений, который жалуется на<BR>невозможность<KEY>
+msg:0:2:завершить тест на вступление<BR>в гильдию...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Тест?<KEY><W><C>
+
+windowpos:304,-1
+msg:0:2:Ну, гильдия вряд ли<BR>примет в свои ряды любого<BR>оборванца с улицы.<KEY>
+msg:0:2:Официально работать<BR>на гильдию ты можешь только<BR>после сдачи теста.<KEY>
+msg:0:2:Не только у владельца магазина<BR>предметов проблемы<BR>с работой...<KEY><W><C>
+
+wait:30
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:450,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:450,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+
+windowpos:304,-1
+msg:0:2:...Хм! Кажется у меня есть идея...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Подруга?<KEY><W><C>
+
+windowpos:304,-1
+msg:0:2:Думаю, мы нашли<BR>нашего первого<BR>искателя приключений.<KEY><W><C>
+
+chr:0:moveto:600,0			//	�ړ���
+chr:0:speed:10
+chr:0:disp
+
+wait:60
+windowpos:304,1
+msg:1:1:Подожди, что ты имеешь ввиду<BR>под... Ах, Тия! Стой!<KEY><W><C>
+se:bin/se/00re/event/re_chot.bin
+chr:1:moveto:600,0			//	�ړ���
+chr:1:speed:10
+chr:1:disp
+wait:60
+
+fadeout:60:0,0,0,255
+wait:80
+
+chr:2:grp:bmp/ivent/03lui_03.tga 512,512
+chr:2:move:240,0			//	�ړ���
+
+fadein:60:0,0,0,255
+wait:80
+
+windowpos:304,-1
+se:bin/se/02li/event/ryui_050_b.bin
+msg:2:0:Зараза...<KEY>
+msg:2:0:Я потратил все свои деньги на<BR>то, чтобы добраться до этого города...<KEY>
+se:bin/se/02li/event/ryui_051_b.bin
+msg:2:0:Если у меня не получится попасть<BR>в гильдию, даже не знаю<BR>на что мне есть...<KEY>
+msg:2:0:...и я голоден.<BR>Отлично.<KEY><W><C>
+
+//�e�B�A
+windowpos:304,1
+chr:0:center:-48
+chr:0:move:-510,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:6				//	�ړ����x
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+wait:80
+se:bin/se/01ti/event/tea_chot.bin
+msg:0:2:Подожди минутку!<BR>Эй ты, искатель приключений с<BR>потрёпанным видом.<KEY><W><C>
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:500,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_02.tga 512,512
+msg:2:0:...Кого ты назвала<BR>"потрёпанным"?<KEY><W><C>
+
+chr:2:col:255,255,255,255
+chr:2:fadeframe:20			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:2:colto:255,255,255,0
+chr:2:disp
+chr:2:dir:left
+chr:2:col:255,255,255,0
+chr:2:fadeframe:20			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:2:colto:255,255,255,255
+chr:2:disp
+wait:40
+chr:2:center:-32:
+msg:2:0:...<KEY>
+chr:2:grp:bmp/ivent/03lui_00.tga 512,512
+se:bin/se/02li/event/ryui_054.bin
+msg:2:0:Эм...ну, ладно... кто вы,<BR>двое?.. <KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Мы пара торговцев,<BR>которые проходили<BR>мимо.<KEY><W><C>
+windowpos:304,-1
+msg:2:0:Торговцы? Оу... значит вы слышали<BR>что я говорил.<KEY>
+msg:2:0:Извините, но я слишком<BR>вымотан и истощен<BR>чтобы купить хоть что-то.<KEY><W><C>
+windowpos:304,1
+msg:0:2:Поверь, по твоему истощенному<BR>виду и так понятно, что<BR>попытки что-то продать тебе<KEY>
+msg:0:2:просто пустая<BR>трата времени.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Ну блин, Тия, хватит со своим<BR>"истощенным". Он ведь<BR>не растение...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,-1
+msg:2:0:Значит вы пришли поиздеваться<BR> на до мной или что?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Как ты смотришь на то<BR>чтобы мы пошли с тобой в Зал<BR>Испытаний?<KEY>
+msg:0:2:Если тебе нужна экипировка<BR>или предметы, мы можем тебе их<BR>дать.<KEY><W><C>
+windowpos:304,-1
+msg:2:0:Вы просто пара<BR>ангелов, но...<BR>почему?<KEY><W><C>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Бизнес, разумеется.<KEY>
+msg:0:2:Мы поможем тебе пройти испытание,<BR> а ты поделишься своей<BR>картой.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Оу, поняла!<KEY>
+msg:1:1:Мы поможем Мистеру Мечнику<BR>зачистить подземелье,<KEY>
+msg:1:1:и тогда он даст нам<BR>свою карту, как символ нашей<BR>вечной дружбы!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,1
+msg:0:2:"Вечная дружба" мало<BR>подходит под наш<BR>случай,<KEY>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:но мы все с этого<BR>получим выгоду.<BR>Как вы думаете?<KEY><W><C>
+
+windowpos:304,-1
+msg:2:0:Думаю...вы двое<BR>тоже новенькие во всем<BR>этом, а?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Наше предложение, "Мистер Мечник". Да или нет?<KEY><W><C>
+
+windowpos:304,-1
+wait:30
+msg:2:0:...<KEY>
+chr:2:grp:bmp/ivent/03lui_01.tga 512,512
+se:bin/se/02li/event/ryui_052.bin
+msg:2:0:Ладно!<BR>Черт, мне нечего терять!<KEY>
+msg:2:0:Ну, кроме моей<BR>драгоценной жизни, конечно же...<KEY><W><C>
+
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,1
+se:bin/se/00re/shop/re_yata.bin
+msg:1:1:Yayifications!<KEY><W><C>
+
+windowpos:304,-1
+msg:2:0:Приятно познакомиться с вами,<BR>эм...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Меня зовут Рисетт! Рада<BR>знакомству!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Я Тия.<KEY><W><C>
+
+chr:2:grp:bmp/ivent/03lui_04.tga 512,512
+windowpos:304,-1
+se:bin/se/02li/event/ryui_055_b.bin
+msg:2:3:Зовите меня Луи.<BR>Мечник - Луи!<BR>Рад познакомиться!<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Да, да.<KEY>
+msg:0:2:Так. Теперь нам надо<BR>подготовиться к<BR>подземелью,<KEY>
+msg:0:2:в том числе зайти<BR>на центральный рынок и взять<KEY>
+msg:0:2:еды и прочие<BR>восстанавливающие вещи.<KEY>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Мы вернемся сюда<BR>как будем готовы.<KEY><W><C>
+
+windowpos:304,-1
+msg:2:3:Хорошо! Буду ждать вас здесь!<KEY><W><C>
+
+chr:0:moveto:-510,0			//	�ړ���
+chr:0:speed:8
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:8
+chr:2:moveto:640,0			//	�ړ���
+chr:2:speed:8
+chr:0:disp
+
+wait:60
+
+//fadeout:60:0,0,0,255
+//wait:80
+end:

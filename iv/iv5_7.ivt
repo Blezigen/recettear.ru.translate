@@ -1,0 +1,365 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�J�C��
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/05caillou_05.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+
+se:bin/se/00re/shop/re_ira.bin
+msg:1:1:Welcome to Recettear!<KEY><W><C>
+
+windowpos:304,-1
+msg:2:0:Huh.<KEY>
+msg:2:0:This place isn't nearly<BR>as nice as I thought it'd<BR>be...<KEY>
+msg:2:0:Can these people really<BR>get me what I need?...<KEY><W><C>
+
+windowpos:304,1	
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:180,120
+chr:5:moveto:180,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:1:1:Uh, excuse me...<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou36c.bin
+msg:2:0:Well, I've got no choice.<BR>Gotta keep striding<BR>forward.<KEY>
+chr:2:grp:bmp/ivent/05caillou_00.tga 512,512
+msg:2:0:You there! Go fetch the<BR>owner of this place.<BR>I have business with him!<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:The owner? Well, you're<BR>looking at her! What can I<BR>do for you?<KEY><W><C>
+
+chr:2:grp:bmp/ivent/05caillou_06.tga 512,512
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou29a.bin
+msg:2:0:... Surely you're joking.<BR>Don't waste my time, girl.<KEY><W><C>
+
+windowpos:304,1	
+msg:1:1:Huh? No, really, I'm the<BR>owner. Can I help you?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_03.tga 512,512
+msg:2:0:...<KEY><W><C>
+
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:0,80
+chr:5:moveto:0,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,1	
+se:bin/se/00re/event/re_ano_a.bin
+msg:1:1:Uh, sir?...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_02.tga 512,512
+se:bin/se/04ca/shop/caillou33a.bin
+msg:2:0:You dare make a fool out<BR>of me?! You must think I'm<BR>just some idiot kid...<KEY><W><C>
+
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+//�r�N�b
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:180,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:180,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+se:bin/se/00re/event/re_fue.bin
+msg:1:1:HeuuuWHAAA? I, uh, but...<KEY><W><C>
+
+windowpos:304,-1
+msg:2:0:You expect me to believe<BR>someone as SHORT as you<BR>owns this establishment?!<KEY>
+msg:2:0:Stop playing with me and<BR>bring me the owner!<BR>NOW!<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:Y-you shut up! I AM the<BR>owner! Really!<KEY><W><C>
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-512,0
+chr:0:moveto:-60,0
+chr:0:speed:10					//	�\���ʒu
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:disp
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:4			
+
+wait:60
+
+msg:0:2:What in the world is<BR>going on here? Why are you<BR>shouting at a customer?<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:Teeeear... listen, he's<BR>being...<KEY><W><C>
+
+msg:0:2:Merde. Some kind of<BR>problem, I assume?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_00.tga 512,512
+msg:2:0:... Hmmm...<KEY>
+msg:2:0:A fairy... interesting.<BR>Not what I expected.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Pardon?<KEY><W><C>
+
+windowpos:304,-1
+msg:2:0:Physically slight and at<BR>a disadvantage against<BR>larger creatures,<KEY>
+msg:2:0:but innately talented at<BR>administration and<BR>management...<KEY>
+msg:2:0:Quite possibly the only<BR>nonhuman race to easily<BR>adapt to human culture,<KEY>
+msg:2:0:by utilizing their unique<BR>talents...<KEY><W><C>
+wait:30
+
+chr:2:grp:bmp/ivent/05caillou_04.tga 512,512
+msg:2:0:In other words, you must<BR>be the proprietor, madam<BR>fairy. Good day.<KEY>
+msg:2:0:I apologize for having<BR>to raise my voice at<BR>your servant.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Ah, well...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+
+
+//�r�N�b
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:120,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:120,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+se:bin/se/00re/event/re_chot.bin
+msg:1:1:Now hang on just a-<KEY><W><C>
+
+wait:30
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+msg:2:5:It's a pleasure to meet<BR>you, madam fairy. Caillou<BR>is my name.<KEY>
+msg:2:5:I am a magician by trade,<BR>and I need to place an<BR>order for some reagents.<KEY><W><C>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+msg:0:2:An item order? Very well,<BR>what can we get you?<KEY><W><C>
+windowpos:304,-1
+msg:2:5:I require three items<BR>specifically.<KEY>
+msg:2:5:A charred lizard, a bat<BR>wing, and a slime liver. I<BR>only need one of each.<KEY>
+msg:2:5:There's no need for a<BR>precise deadline, but<BR>obviously, the sooner<KEY>
+msg:2:5:you can provide them,<BR>the better it will be for<BR>everyone.<KEY>
+msg:2:5:Can I assume you will<BR>take the order?<KEY><W><C>
+
+wait:60
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:leftt
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:100,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:100,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+msg:1:1:A charred lizard, a bat<BR>wing, and a slime liver? But<BR>we have those now! See?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_02.tga 512,512
+wait:10
+msg:2:5:Blast it, girl, I told you<BR>not to fool around with<BR>me. If you think... I...<KEY><W><C>
+
+chr:2:grp:bmp/ivent/05caillou_06.tga 512,512
+//��
+chr:4:dir:left
+chr:4:grp:bmp/ivent/ase.tga 128,128
+chr:4:col:255,255,255,0
+chr:4:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:move:500,80
+chr:4:moveto:500,200
+chr:4:speed:0.5
+chr:4:col:255,255,255,255
+chr:4:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:60
+msg:2:5:WH-WHAT'N THE CRAZY<BR>CRAP CRACKERS?! That...<BR>where... HOW?!<KEY>
+msg:2:5:Some of these are nearly<BR>IMPOSSIBLE to!... How the<BR>flippin' flapjacks did y...<KEY>
+msg:2:5:Ah, well, ahem! I seem to<BR>have greatly misjudged<BR>your store, madam fairy!<KEY>
+msg:2:5:Please accept my most<BR>profound apologies!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_a.bin
+msg:1:1:Hehe! Apology accepted!<BR>It isn't a suprise, we're<BR>just that amazing!<KEY><W><C>
+
+chr:2:grp:bmp/ivent/05caillou_03.tga 512,512
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou24a.bin
+msg:2:5:... why are you getting<BR>so proud over this?<KEY>
+msg:2:5:You're not the owner,<BR>you're the counter-<BR>jockey.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:I TOLD you!<BR>I! AM! THE! OWNER!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_07.tga 512,512
+//���ߑ�
+chr:6:dir:right
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:340,190
+chr:6:moveto:310,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+msg:2:5:You really don't know<BR>when to give up on a<BR>prank, do you?<KEY>
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+msg:2:5:In any event, you do<BR>need to learn to deal with<BR>customers better.<KEY>
+msg:2:5:I'll be coming in here<BR>more often from now on,<BR>especially after what<KEY>
+msg:2:5:I've seen here today...<BR>and frankly, I may have<BR>something I wish to<KEY>
+msg:2:5:discuss with you later,<BR>madam fairy.<BR>Farewell for now!<KEY><W><C>
+chr:2:moveto:640,0
+chr:2:speed:8
+wait:60
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+chr:1:moveto:240,0
+chr:1:speed:10					//	�\���ʒu
+chr:0:moveto:-60,0
+chr:0:speed:10					//	�\���ʒu
+
+wait:60
+
+windowpos:304,-1
+chr:1:center:32
+chr:1:grp:bmp/ivent/01recette_06.tga 512,512
+msg:1:1:Hmph!<KEY>
+msg:1:1:I can deal with NORMAL<BR>customers just fine,<BR>thank you!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+windowpos:304,1
+wait:30
+msg:0:2:Now now. There's no need<BR>to get angry, it's an easy<BR>mistake to make.<KEY>
+msg:0:2:Perhaps he's right, and<BR>you do need more<BR>practice...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+chr:1:dir:left
+chr:1:center:-32
+windowpos:304,-1
+wait:30
+msg:1:1:If it's so simple, then<BR>why do you look so happy<BR>about it?<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+windowpos:304,1
+se:bin/se/01ti/event/tea_sorenai.bin
+msg:0:2:You, uh, clearly<BR>misunderstand me. Yes,<BR>clearly...<KEY><W><C>
+
+chr:0:moveto:-512,0
+chr:0:speed:10
+chr:1:moveto:640,0
+chr:1:speed:10
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

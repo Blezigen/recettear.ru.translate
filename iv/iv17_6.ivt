@@ -1,0 +1,131 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro1.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32:
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8				//	�ړ����x
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:col:255,255,255,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+msg:1:1:Ahh, it's such a nice<BR>day today!<KEY>
+msg:1:1:Bright sun, blue skies,<BR>white clouds, happy people,<KEY>
+//���C
+chr:2:dir:left
+chr:2:center:-32:
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:4	
+chr:2:grp:bmp/ivent/03lui_03.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+msg:1:1:and a collapsed Louie!<KEY><W><C>
+wait:30
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+
+se:bin/se/01ti/event/tea_oh.bin
+//�r�N�b
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:130,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:130,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+
+windowpos:304,1
+msg:1:1:... Er, wait. A co-<KEY>
+se:bin/se/00re/action/00re_btl02b.bin
+msg:1:1:LOUIE! Louie, are you<BR>okay?!<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/02li/event/ryui_050_b.bin
+msg:2:3:Orange... mush... rooms...<KEY>
+msg:2:3:Thought if I ate one...<BR>I'd get... bigger...<BR>arghle...<KEY><W><C>
+
+chr:2:moveto:640,0			//	�ړ���
+chr:2:speed:4				//	�ړ����x
+chr:2:disp
+wait:60
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+windowpos:304,1
+se:bin/se/00re/event/re_chot.bin
+msg:1:1:W-w-wait, Louie, where're<BR>you going?!<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+se:bin/se/01ti/event/tea_mataku.bin
+msg:0:2:Merde. This is why you<BR>investigate whether a<BR>type of mushroom<KEY>
+msg:0:2:is poisonous BEFORE you<BR>eat it...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+se:bin/se/00re/event/re_demo.bin
+msg:1:1:But... I thought all the<BR>mushrooms around here<BR>were safe.<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+se:bin/se/01ti/event/tea_uwa.bin
+msg:0:2:Meaning... you have<BR>already "checked", I<BR>imagine.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Wellllll, maybe! Hehe.<KEY><W><C>
+
+chr:0:moveto:-510,0			//	�ړ���
+chr:0:speed:8
+chr:0:disp
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:8
+chr:1:disp
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

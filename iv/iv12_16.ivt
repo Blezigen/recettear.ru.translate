@@ -1,0 +1,82 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:The barrier's fading!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:Well, of course it's<BR>disappearing, Prime and<BR>Tear were powering it.<KEY>
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:I hardly think we're<BR>safe, though!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:Well I don't care!<BR>I'm gonna save Tear!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+msg:4:19:So darn reckless and<BR>stubborn...<KEY>
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:I like that side of you,<BR>you know.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Come on, let's call to<BR>them! They'll hear us, I<BR>know it!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:Naturally! Prime and I<BR>have been together<BR>forever!<KEY>
+msg:4:19:And... I don't intend<BR>for that to stop now!<KEY><W><C>
+wait:30
+chr:1:center:-64
+windowpos:304,0
+msg:1:1:      Prime! Tear!<KEY><W><C>
+
+fadeout:60:0,0,0,255
+wait:80
+
+//chr:1:moveto:-512,0			//	�ړ���
+//chr:1:speed:10	
+//chr:4:moveto:640,0
+//chr:4:speed:10
+//wait:60
+
+//fadeoutb:60
+//wait:60
+end:

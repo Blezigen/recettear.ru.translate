@@ -1,0 +1,159 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�e�B�G�[��
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:640,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/06tiers_03.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+
+se:bin/se/05ti/shop/t_kai_uun_02.bin
+msg:2:0:*sniffle*... Sis...<BR>Where are you?...<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,1
+msg:1:1:H-hey there!<KEY><W><C>
+windowpos:304,-1
+chr:2:grp:bmp/ivent/06tiers_05.tga 512,512
+//�r�N�b
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:340,40
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:340,40
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+msg:2:0:Ah!<KEY><W><C>
+windowpos:304,1
+msg:1:1:Are you okay? If you're<BR>lost, we can...<KEY><W><C>
+
+chr:2:grp:bmp/ivent/06tiers_02.tga 512,512
+chr:2:moveto:280,0
+chr:2:speed:8
+chr:2:center:-256
+windowpos:304,0
+se:bin/se/05ti/damage/05ti_18.bin
+msg:2:0:  D-DON'T COME NEAR ME!<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Heuwha?<KEY><W><C>
+windowpos:304,0
+se:bin/se/05ti/start/05ti_14.bin
+msg:2:0:  Don't come any closer,<BR>   nasty humanperson!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:00,80
+chr:5:moveto:00,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+windowpos:304,1
+msg:1:1:Uh, what are you, I mean,<BR>uh...<BR>humanperson?<KEY><W><C>
+windowpos:304,0
+msg:2:2:        Get away...<BR>      GET AWAAAAAY!<KEY><W><C>
+rmb:40,120
+chr:2:col:255,255,255,255	//�`��q�f�a�`�l
+chr:2:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:2:colto:160,160,255,255	//�`��q�f�a�`�l
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+wait:60
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Wait, WHAT?!<KEY><W><C>
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:10	
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:14	
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+msg:0:2:This girl...<KEY>
+msg:0:2:I am sure of it...<BR>she is an elf!<KEY><W><C>
+msg:1:1:An elf?<KEY><W><C>
+msg:0:2:Yes, but... this is<BR>shocking.<KEY>
+msg:0:2:I did not think I would<BR>ever meet an elf this<BR>young.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:Uh, I don't think we have<BR>time to wonder about her<BR>age...<KEY><W><C>
+chr:2:moveto:200,0
+se:bin/se/05ti/attack/05ti_01.bin
+chr:2:speed:8
+wait:30
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:She's coming!<KEY><W><C>
+
+chr:0:moveto:-510,0			//	�ړ���
+chr:0:speed:10	
+chr:0:disp
+
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:10	
+chr:1:disp
+
+
+chr:2:moveto:640,0
+chr:2:speed:10
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

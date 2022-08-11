@@ -1,0 +1,69 @@
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Ну, вот так всё, в принципе,<BR>и работает. Для той, кто<BR>доселе никогда в жизни<KEY>
+msg:0:2:с этим дела не имел,<BR>у тебя вышло достаточно<BR>неплохо.<KEY><W><C>
+
+windowpos:304,-1	
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_b.bin
+msg:1:1:Э-хе-хе-хе... Правда?<KEY><W><C>
+
+wait:60
+windowpos:304,1
+msg:0:2:У нас ещё осталось до<BR>конца дня немного времени,<BR>так что давай-ка откроем нашу<KEY>
+msg:0:2:лавку как положено.<KEY>
+msg:0:2:Если кто-нибудь зайдёт,<BR>просто обращайся с ними так,<BR>как мы с тобой практиковались<BR>только что.<KEY><W><C>
+
+windowpos:304,-1	
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Уо-оу. А ты уверена, что<BR>всё пройдёт нормально, а?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Не волнуйся. Как говорится,<BR>торговля – сродни искусству,<BR>нежели науке.<KEY>
+msg:0:2:Чем больше этим занимаешься,<BR>тем больше узнаёшь.<KEY>
+se:bin/se/01ti/event/tea_miseake.bin
+msg:0:2:Ну что ж, я открою лавку.<BR>А ты садись пока за<BR>прилавок.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_un_b.bin
+msg:1:1:Окей-ки!<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+chr:1:moveto:500,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

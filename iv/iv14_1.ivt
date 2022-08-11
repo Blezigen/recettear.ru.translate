@@ -1,0 +1,143 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:30					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�m�o�b�P
+chr:3:dir:right				
+chr:3:center:-52			
+chr:3:move:-390,0			
+chr:3:moveto:-80,0			
+chr:3:speed:8				
+chr:3:grp:bmp/ivent/22machi_03.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp		
+
+//�m�o�b�Q
+chr:2:dir:left				
+chr:2:center:-62			
+chr:2:move:540,0			
+chr:2:moveto:220,0			
+chr:2:speed:8				
+chr:2:grp:bmp/ivent/26machi_00.tga 512,512	
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp	
+
+wait:60
+
+windowpos:304,1
+msg:3:14:I've been hearing rumors<BR>of a thief robbing people<BR>in or near the city lately.<KEY><W><C>
+
+chr:2:grp:bmp/ivent/26machi_03.tga 512,512	
+windowpos:304,-1				
+msg:2:22:Heaven! Thieves! Sneakin'<BR>round our city! Barbarism,<BR>I tell you!<KEY><W><C>
+
+windowpos:304,1
+msg:3:14:Apparently, a lot of<BR>adventurers have already<BR>been hurt...<KEY><W><C>
+
+windowpos:304,-1				
+msg:2:22:Terrifying!<KEY><W><C>
+
+chr:3:grp:bmp/ivent/22machi_00.tga 512,512
+windowpos:304,1
+msg:3:14:Well, supposedly, the only<BR>ones being targeted are<BR>adventurers,<KEY>
+msg:3:14:so people like us don't have<BR>much to worry about...<KEY><W><C>
+
+windowpos:304,-1				
+msg:2:22:Maybe. We'd best be<BR>careful, though!<KEY><W><C>
+
+
+fadeout:60:0,0,0,255
+wait:80
+
+chr:2:move:600,0			//	�ړ���
+chr:2:disp
+chr:3:move:600,0			//	�ړ���
+chr:3:disp
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32:
+chr:1:move:-80,0			//	�ړ���
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-10
+chr:0:move:160,0				//	�\���ʒu
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:col:255,255,255,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+fadein:60:0,0,0,255
+wait:80
+
+windowpos:304,1
+msg:1:1:There's a thief sneaking<BR>around the city?...<KEY><W><C>
+
+windowpos:304,-1
+msg:0:2:Evidently. That is<BR>troubling.<KEY>
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:Hmph. Unforgivable!<BR>Stealing the possessions<BR>of others ranks<KEY>
+msg:0:2:only below outright<BR>murder on the scale of<BR>barbarity!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:I wonder what kind of<BR>person it could be...<KEY><W><C>
+
+windowpos:304,-1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:Doubtlessly some filthy,<BR>unkept bearded man with<BR>an axe.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:So, uh... a little like the<BR>Merchant's Guild Master?<KEY><W><C>
+
+windowpos:304,-1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Well... something like that,<BR>perhaps.<KEY><W><C>
+
+fadeout:60:0,0,0,255
+wait:80
+lightoff:
+bgset:bmp/ivent/bg_guild.bmp
+chr:0:move:600,0			//	�ړ���
+chr:0:disp
+chr:1:move:600,0			//	�ړ���
+chr:1:disp
+fadein:60:0,0,0,255
+
+
+//�m�o�b�P
+chr:4:dir:right				
+chr:4:center:-32			
+chr:4:move:-390,0			
+chr:4:moveto:-80,0			
+chr:4:speed:8				
+chr:4:grp:bmp/ivent/13syounin_03.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp		
+
+wait:80
+windowpos:304,1
+msg:4:11:HAAACHOOO!<BR>Tarnation...<KEY>
+msg:4:11:Someone's spreadin'<BR>rumors about me, aren't<BR>they...<KEY><W><C>
+
+
+fadeout:60:0,0,0,255
+wait:80
+
+end:
+//�C�x���g�I��

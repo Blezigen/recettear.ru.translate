@@ -1,0 +1,237 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�O���t
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:4:9:So... you have reached<BR>the top at last.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Griff... what's going on<BR>here? What are you doing?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:9:The monster you see here<BR>has been sealed in this<BR>place for ages.<KEY>
+chr:4:grp:bmp/ivent/09griffe_01.tga 512,512
+msg:4:9:Hmm. No, calling it a<BR>"monster" is inaccurate.<BR>Better to call what<KEY>
+msg:4:9:slumbers here by its<BR>proper title...<BR>an Archdevil.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:AN ARCHDEVIL?!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:9:For ages he has slept.<BR>And now... the time has<BR>come for him to awaken.<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/01ti/event/tea_oh.bin
+msg:0:2:If... if something like that<BR>is loosed upon the world...<BR>upon Pensee...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+msg:4:9:Above all else, what the<BR>race of demons needs now<BR>is power.<KEY>
+msg:4:9:So many of us hide and<BR>lock ourselves away like<BR>cowards and sheep!<KEY>
+msg:4:9:We need the power to<BR>challenge our enemies and<BR>revive the warrior<KEY>
+msg:4:9:spirit of our people!<BR>We can survive no other<BR>way!<KEY>
+msg:4:9:And if no one else will<BR>bring forth such power...<BR>then I shall!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_sona.bin
+msg:1:1:No... no way...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:9:Do you understand now?!<KEY>
+msg:4:9:To humanity, demonkind<BR>is nothing more than a<BR>source of fear,<KEY>
+msg:4:9:a foe to conquer! And<BR>demonkind is all too happy<BR>to reciprocate!<KEY>
+msg:4:9:Our future is naught but<BR>mountains of skulls, with<BR>rivers of blood running<KEY>
+msg:4:9:between them! THIS is the<BR>destiny of our two kinds,<BR>as it always has been!<KEY>
+msg:4:9:Man will fight demon, and<BR>demon will fight man, until<BR>one ceases to exist!<KEY>
+msg:4:9:There is no other way!<BR>There CAN BE no other<BR>way!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_06.tga 512,512
+msg:1:1:S-Shut up! THIS IS DUMB!<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/08gr/damage/08gr_15.bin
+msg:4:9:What?!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:Griff... you're trying to<BR>become some kind of Lord<BR>of Darkness, right?<KEY>
+msg:1:1:Lead demonkind to a new<BR>age of strife and stuff?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+msg:4:9:... What?...<KEY>
+msg:4:9:Well, uh...<BR>that... is the general<BR>idea, yes...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:A Lord of Darkness in<BR>this day and age?<KEY>
+msg:1:1:Please tell me you're not<BR>actually serious!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_05.tga 512,512
+//�r�N�b
+chr:6:dir:right
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:330,-10
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:right
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:330,-10
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:30
+
+windowpos:304,-1
+msg:4:9:Ghkt! What is...<KEY>
+msg:4:9:Is there something WRONG<BR>with being a Lord of<BR>Darkness?!<KEY>
+msg:4:9:... Obvious objections<BR>aside, that is!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+msg:1:1:Well, it's good to have a<BR>big dream and aim high, and<BR>conquering the world and<KEY>
+msg:1:1:covering it in darkness<BR>and a lack of candy is<BR>definitely a big dream!<KEY>
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:But still...<KEY>
+msg:1:1:A darkly handsome demonic<BR>overlord who wants only<BR>war and suffering,<KEY>
+msg:1:1:and uses an ancient,<BR>sealed evil to achieve his<BR>ends?<KEY>
+msg:1:1:Nowadays? Are you<BR>serious? People will just<BR>laugh at you!<KEY>
+msg:1:1:I'm kind of embarrassed<BR>just listening to all this!<KEY>
+msg:1:1:Oh yeah, the "everybody<BR>kills everybody forever"<BR>stuff is dumb too,<KEY>
+msg:1:1:but the "Lord of<BR>Darkness" stuff is just...<BR>man!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,0
+chr:5:moveto:500,120
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/08gr/shop/gr_sona03.bin
+msg:4:9:Well... having it put like<BR>that is certainly...<BR>hmm...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Oh!<KEY>
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/shop/re_gomen.bin
+msg:1:1:Sorry, I got a little<BR>carried away...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+wait:40
+se:bin/se/08gr/shop/gr_maa01.bin
+msg:4:9:... It matters not,<BR>either way.<KEY>
+msg:4:9:Soon I'll have the power<BR>of a Lord of Darkness,<BR>opinion be damned!<KEY>
+msg:4:9:The Archdevil is only<BR>half-awake, but so long<BR>as I have his arm!...<KEY>
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+msg:4:9:Come! Face me!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Griff... you remember what<BR>you said when we last met,<BR>right?<KEY>
+msg:1:1:"When next we meet, if<BR>you can still think of me<BR>as a customer..."<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:4:9:Hm...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:My opinion of you hasn't<BR>changed at all, you know!<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Please... when this is all<BR>over... come by the shop<BR>and buy something!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+se:bin/se/08gr/shop/gr_soka01.bin
+msg:4:9:I see... I did swear to,<BR>didn't I.<KEY>
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+msg:4:9:Well then! See if you can<BR>stop me!<KEY><W><C>
+
+rmb:40,120
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+
+windowpos:304,1
+msg:0:2:He is attacking!<BR>Defend yourselves!<KEY><W><C>
+
+chr:4:moveto:650,0
+chr:4:speed:10
+chr:4:disp
+
+chr:1:moveto:-512,0
+chr:1:speed:10
+chr:1:disp
+chr:0:moveto:-512,0
+chr:0:speed:10
+chr:0:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

@@ -1,0 +1,108 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+se:bin/se/10al/event/a_14_b.bin
+windowpos:304,-1
+msg:4:19:Oho! Recette!<KEY>
+msg:4:19:What a COINCIDENCE,<BR>meeting you here!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Oh, Alouette! How are<BR>you?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:Ah, you're dungeon-<BR>crawling as well, I see...<KEY>
+msg:4:19:And with such a seedy-<BR>looking adventurer. Tsk...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+//�r�N�b
+chr:6:dir:left
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:200,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:left
+chr:6:grp:bmp/ivent/giku.tga 128,128
+chr:6:move:200,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:30
+windowpos:304,1
+msg:1:1:Wha?! My adventurer<BR>friend isn't seedy-looking!<KEY>
+msg:1:1:And we did this joke<BR>already!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:Well... I suppose a seedy<BR>adventurer is<BR>appropriate for a<KEY>
+msg:4:19:seedy merchant...<KEY>
+se:bin/se/10al/event/a_03_a.bin
+msg:4:19:O-hohohoho!<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Knock it off!...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+se:bin/se/10al/event/a_13_b.bin
+msg:4:19:Well, come on, everyone!<KEY>
+msg:4:19:Don't bother picking up<BR>the inexpensive garbage!<BR>Only the best for us!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+wait:30
+se:bin/se/10al/event/a_09.bin
+msg:4:19:Well, if you'll excuse me...<KEY><W><C>
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+chr:4:moveto:640,0
+chr:4:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

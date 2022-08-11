@@ -1,0 +1,181 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_ichiba.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�e�B�G�[��
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:640,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/06tiers_05.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+//�e�B�A
+chr:1:dir:right				//	����
+chr:1:center:-48
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-60,0			//	�ړ���
+chr:1:speed:10	
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//���Z�b�g
+chr:3:dir:right				//	����
+chr:3:center:-32
+chr:3:move:-512,0				//	�\���ʒu
+chr:3:moveto:-160,0			//	�ړ���
+chr:3:speed:8			
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:3:col:255,255,255,255	//�`��q�f�a�`�l
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+wait:60
+
+windowpos:304,-1
+msg:2:6:Hey Receeeeette!<BR>Look at this!<KEY><W><C>
+
+windowpos:304,1	
+msg:3:1:What's up, Tielle?<BR>You sure seem worked up<BR>about something.<KEY><W><C>
+
+windowpos:304,-1
+msg:2:6:I... I got a letter!<KEY><W><C>
+
+windowpos:304,1	
+msg:3:1:A letter?<KEY><W><C>
+
+windowpos:304,-1	
+msg:2:6:When I stopped by the<BR>Adventurer's Guild a<BR>little while ago,<KEY>
+msg:2:6:they had a letter from<BR>my big sister!<KEY><W><C>
+
+windowpos:304,1	
+msg:3:1:Really? Neat!<KEY><W><C>
+chr:1:grp:bmp/ivent/02tear_01.tga 512,512
+msg:1:2:It is good to hear she is<BR>safe, at least.<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/06tiers_04.tga 512,512
+se:bin/se/05ti/shop/t_kai_yokatta_02.bin
+msg:2:6:Yeah, I'm really happy!<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:2:So what does the letter<BR>say?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/06tiers_01.tga 512,512
+msg:2:6:I haven't read it yet,<BR>actually. I'll do that right<BR>now!<KEY><W><C>
+wait:60
+chr:2:grp:bmp/ivent/06tiers_03.tga 512,512
+se:bin/se/05ti/shop/t_kai_uun_02.bin
+msg:2:6:Um... "deer"?<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+msg:1:2:"Dear", you mean.<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/06tiers_01.tga 512,512
+msg:2:6:Oh yeah! "To my dear<BR>little sister Tielle..."<KEY><W><C>
+
+chr:4:dir:left
+chr:4:grp:bmp/ivent/kuro.tga 640,480
+chr:4:col:255,255,255,0
+chr:4:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,128
+chr:4:move:0,0
+chr:4:disp
+wait:120
+
+windowpos:100,2
+chr:2:center:-370
+msg:2:6:To my dear little sister Tielle,<BR>Are you doing well?<KEY><W><C>
+msg:2:6:Word has reached my ears that<BR>you are working as an<BR>adventurer in Pensee now, after<BR>you got lost in the Garden.<KEY><W><C>
+msg:2:6:If you are reading this letter,<BR>that means you are doing<BR>fairly well for yourself<BR>as far as the Guild is<BR>concerned.<KEY><W><C>
+msg:2:6:Your graduation test is coming<BR>up, so I believe it would be<BR>best for you to remain in<BR>Pensee for now and train in the<BR>"real world" for a while.<BR>You can return when you<BR>become a better archer.<KEY><W><C>
+msg:2:6:Oh, and do take it easy on<BR>the sweets, alright? And<BR>brush your teeth every night,<BR>polish your bow, and, well,<BR>other sisterly advice.<BR>I'm sure you remember.<KEY><W><C>
+msg:2:6:Stay safe, Tielle.<BR>- Your older sister<BR>   <BR>P.S. I've long since returned to<BR>the village, so don't worry<BR>about looking for me.<KEY><W><C>
+
+chr:4:dir:left
+chr:4:grp:bmp/ivent/kuro.tga 640,480
+chr:4:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,0
+chr:4:move:0,0
+chr:4:disp
+wait:120
+
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+chr:2:grp:bmp/ivent/06tiers_03.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+windowpos:304,-1
+chr:2:center:-32
+se:bin/se/05ti/shop/t_kai_ee_02.bin
+msg:2:6:What... in... the...<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+msg:3:1:Wow, your older sister is<BR>kinda harsh.<KEY><W><C>
+msg:1:2:She has already gone<BR>home, then. That is rather...<BR>abrupt of her.<KEY><W><C>
+
+windowpos:304,-1
+msg:2:6:Aww...<KEY>
+chr:2:grp:bmp/ivent/06tiers_01.tga 512,512
+se:bin/se/05ti/shop/t_kai_maa_01.bin
+msg:2:6:Well, okay! I'll do what<BR>she says and stay around<BR>here for a while longer!<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512
+msg:3:1:Tielle...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/06tiers_04.tga 512,512
+msg:2:6:I mean, there are so many<BR>sweets around here I<BR>haven't tried yet!<KEY>
+msg:2:6:I can't possibly go home<BR>until I try them all!<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+msg:3:1:Yeah! Good luck, Tielle!<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/05ti/shop/t_kai_ehehe_01.bin
+msg:2:6:See you guys! Remember<BR>to ask me if you wanna<BR>go into a dungeon!<KEY><W><C>
+
+chr:3:moveto:-512,0
+chr:3:speed:8
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:2:moveto:640,0
+chr:2:speed:8
+
+wait:60
+//fadeoutb:60
+//wait:60
+end:

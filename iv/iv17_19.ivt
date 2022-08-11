@@ -1,0 +1,174 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_kyoukai.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60				//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+//�G����
+chr:4:dir:left
+chr:4:center:-62
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//���Z�b�g
+chr:3:dir:right				//	����
+chr:3:center:-32
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-160,0			//	�ړ���
+chr:3:speed:10			
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+//�e�B�A
+chr:1:dir:right				//	����
+chr:1:center:-48
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-60,0			//	�ړ���
+chr:1:speed:10	
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:3:1:Hello, Elan!<KEY><W><C>
+msg:1:2:It is rare to see you<BR>wearing such a serious<BR>expression.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:Oh, hey, you two.<KEY>
+msg:4:7:I was just doin' some<BR>thinking about the future,<BR>y'know?<KEY><W><C>
+
+windowpos:304,1
+msg:1:2:And I thought you lived<BR>exclusively in the present.<BR>Interesting.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_03.tga 512,512
+se:bin/se/06el/shop/kai21.bin
+msg:4:7:Do I really look that<BR>aimless?<KEY><W><C>
+
+windowpos:304,1
+msg:1:2:Well... to be honest...<KEY>
+chr:1:grp:bmp/ivent/02tear_04.tga 512,512
+msg:1:2:You wear your aimlessness<BR>as though it were a cape.<BR>A proud cape, mind.<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/06el/shop/kai13.bin
+msg:4:7:Well, I guess that's about<BR>right, really.<KEY>
+msg:4:7:I am technically a<BR>priest in training, though,<BR>y'know!<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+chr:1:grp:bmp/ivent/02tear_02.tga 512,512
+//�I
+chr:6:dir:left
+chr:6:grp:bmp/ivent/bikuri.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:210,100
+chr:6:moveto:210,00
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+
+//�I
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,100
+chr:5:moveto:100,00
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+se:bin/se/00re/event/re_ee_a.bin
+se:bin/se/01ti/event/tea_oh.bin
+msg:3:1:HeuWHA?!<KEY><W><C>
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+msg:1:2:You do not look the<BR>part, if I may say so.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:Yeah, I get that a lot.<KEY><W><C>
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+msg:4:7:Still, I guess what I<BR>really want to do is run<BR>an orphanage.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+msg:3:1:Oh, so you want to take<BR>over the one you're always<BR>helping?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:Nah... something out in<BR>the countryside, maybe.<BR>They need help out there.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_demo.bin
+msg:3:1:But then, who'll run the<BR>Pensee orphanage in a<BR>year or ten?...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+msg:4:7:Ah, no worries. There's<BR>someone perfect for the<BR>job.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+msg:3:1:Wait, there is?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:It's just a BIT early yet,<BR>but when the time comes...<BR>yeah, it'll work out...<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,120
+chr:5:moveto:100,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+msg:3:1:Huh?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_06.tga 512,512
+msg:4:7:Ah, sorry. Just babblin'<BR>to myself a bit.<KEY>
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+se:bin/se/06el/shop/kai11.bin
+msg:4:7:Well, I gotta be off.<BR>See you!<KEY><W><C>
+
+chr:4:moveto:640,0
+chr:4:speed:10
+wait:100
+windowpos:304,1
+msg:3:1:You don't think he means<BR>Caillou, do you?<KEY><W><C>
+msg:1:2:I can not think of<BR>anyone else...<KEY><W><C>
+
+chr:3:moveto:-512,0
+chr:3:speed:8
+chr:1:moveto:-512,0
+chr:1:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

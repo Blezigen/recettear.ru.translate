@@ -1,0 +1,85 @@
+//�w�i�̐ݒ�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-440,0
+chr:0:moveto:-100,0
+chr:0:speed:8			
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:580,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Hehe! The pub is always<BR>so full! It must be doing<BR>really well!<KEY><C><W>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Especially with all of the<BR>adventurers in this city,<BR>it would not surprise me.<KEY><C><W>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+se:bin/se/00re/event/re_demo.bin
+msg:1:1:But... I kinda wonder.<KEY>
+msg:1:1:What'd happen if the<BR>dungeons ran out of<BR>goodies?<KEY>
+msg:1:1:Or if they all<BR>disappeared? Or...<KEY><C><W>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:The adventurer customers<BR>would leave, naturally.<KEY>
+msg:0:2:The shops in this city<BR>would be crushed, as well.<KEY>
+msg:0:2:Including our own<BR>Recettear...<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:I wonder if that'll ever<BR>happen...<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:The future is shrouded<BR>in fog to us...<KEY>
+msg:0:2:We can only proceed, deal<BR>with what we find,<KEY>
+msg:0:2:and do our best with the<BR>time given to us.<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:Hmm...<KEY><C><W>
+
+chr:1:moveto:600,0
+chr:1:speed:8
+
+chr:0:moveto:-600,0
+chr:0:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:
+

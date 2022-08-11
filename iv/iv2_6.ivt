@@ -1,0 +1,85 @@
+/fadein:60:0,0,0,255
+/wait:60
+
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Итак! У меня теперь есть своя<BR>торговая лавка! И всё такое.<BR>И всё это, конечно, круто<BR>и просто потрясно!<KEY>
+msg:1:1:...Так что, эм-м-м... И что<BR>мне, собственно, теперь<BR>делать?<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+windowpos:304,1
+msg:0:2:А это уже на твоё<BR>усмотрение.<KEY>
+msg:0:2:Если сядешь за прилавок, то<BR>мы сможем открыться хоть<BR>сейчас, или же можно пока<KEY>
+msg:0:2:переобустроить лавку, или же<BR>мы можем даже взять и<BR>отправиться на поиски товаров<KEY>
+msg:0:2:на продажу где-нибудь<BR>в городе... ну или же<BR>где-то ещё.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+windowpos:304,-1
+msg:1:1:О-охо-хо, как много<BR>вариантов-то, а... И как же<BR>мне выбрать?<KEY><W><C>
+windowpos:304,1
+msg:0:2:Всё как я и сказала прежде.<BR>Управление таким местом больше<BR>сродни искусству, нежели<KEY>
+msg:0:2:чему-либо, достижимому<BR>каким-нибудь руководством<BR>или схематикой.<KEY>
+msg:0:2:Просто выбери что тебе угодно.<BR>Там уже разберёмся с тем,<BR>что получится.<KEY><W><C>
+windowpos:304,-1
+msg:1:1:Ну-у-у, хорошо...<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+chr:1:moveto:500,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

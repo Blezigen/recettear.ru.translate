@@ -1,0 +1,174 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:2:dir:right				//	����
+chr:2:center:-48
+chr:2:move:-390,0				//	�\���ʒu
+chr:2:moveto:-100,0			//	�ړ���
+chr:2:speed:8				//	�ړ����x
+chr:2:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+//���Z�b�g
+chr:3:dir:left
+chr:3:center:-32
+chr:3:move:480,0
+chr:3:moveto:240,0
+chr:3:speed:8
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/00re/event/re_nene.bin
+msg:3:1:Ого! Эй, Тия? Что<BR>это сейчас было такое?<KEY><W><C>
+
+windowpos:304,1
+msg:2:2:А, это? Это было<BR>"объявление".<KEY>
+msg:2:2:О важных событиях<BR>оповещаются все,<BR>кто есть в городе.<KEY>
+msg:2:2:Это объявление гласило о<BR>"внезапном прыжке цен на<BR>конфеты".<KEY>
+msg:2:2:Так что если ты продаёшь или<BR>покупаешь конфеты, обращай<BR>на это пристальное внимание!<KEY><W><C>
+
+windowpos:304,-1
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+msg:3:1:"Внезапном прыжке"?...<KEY><W><C>
+
+windowpos:304,1
+msg:2:2:Иными словами, неожиданный<BR>дефицит привёл к росту<BR>цен на конфеты.<KEY>
+msg:2:2:В целом это означает, что<BR>цены возрастут примерно<BR>вдвое.<KEY>
+msg:2:2:Так что конфету, которая<BR>продавалась за 300 пиксов,<BR>теперь можно продавать по 600.<KEY><W><C>
+
+windowpos:304,-1
+chr:3:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_sonanda_a.bin
+msg:3:1:П-погоди-ка! Так значит,<BR>конфеты теперь до скончания<BR>времён будут стоить<KEY>
+msg:3:1:кучу денег, да? Это же просто<BR>кошмар! Как же мне<BR>выживать теперь?!<KEY>
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+msg:3:1:Постой... Я закуплю все конфеты<BR>в городе, и сохраню<BR>их при себе!<KEY>
+msg:3:1:Ну-у... может, я и поделюсь, или<BR>продам немножко, конечно,<BR>но ведь ЭТО ЖЕ КОНФЕТЫ...<KEY><W><C>
+
+windowpos:304,1
+rmb:10,10
+chr:2:grp:bmp/ivent/02tear_05.tga 512,512
+msg:2:2:КГХМ-КГХМ!<KEY>
+chr:2:grp:bmp/ivent/02tear_00.tga 512,512
+msg:2:2:Нет, цены стабилизируются<BR>по прошествии некоторого<BR>времени.<KEY>
+msg:2:2:Однако никто не может с уверенностью<BR>сказать, сколь долго это<BR>продлится в точности.<KEY>
+chr:2:grp:bmp/ivent/02tear_01.tga 512,512
+msg:2:2:Но всё же тебе удалось уловить<BR>одну очень полезную деталь. <KEY>
+msg:2:2:Хотя и предсказать эти<BR>ценовые колебания может быть<BR>довольно затруднительно,<KEY>
+msg:2:2:если ты будешь держать<BR>при себе достаточно большой<BR>запас конфет, то это даст<KEY>
+msg:2:2:возможность воспользоваться<BR>подобной ситуацией на свою пользу...<BR>и довольно быстро сколотить<BR>неплохие деньги!<KEY>
+msg:2:2:Конечно, ты можешь попытаться<BR>воспользоваться ситуацией и после<BR>того, как об этом будет<KEY>
+msg:2:2:объявлено, однако таким<BR>способом обеспечить хорошую<BR>прибыль будет труднее.<KEY><W><C>
+
+windowpos:304,-1
+chr:3:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/shop/re_aaa.bin
+msg:3:1:У-уо-о-о-оа-а-ау...<BR>Как же сложно-то...<BR>Да я и проголодалась ещё теперь...<KEY><W><C>
+
+
+windowpos:304,1
+msg:2:2:Ну, освоить всё это вот так сразу<BR>действительно достаточно сложно...<KEY>
+chr:2:grp:bmp/ivent/02tear_04.tga 512,512
+se:bin/se/01ti/event/tea_desukara.bin
+msg:2:2:Так что давай лучше посмотрим<BR>на это в деле, как считаешь?<KEY><W><C>
+
+chr:0:dir:left
+chr:0:grp:bmp/ivent/news_bg.tga 640,64
+chr:0:move:0,40
+chr:0:disp
+wait:20
+se:bin/se/wav/pingpong.bin
+chr:1:dir:left
+chr:1:grp:bmp/ivent/news_bel.tga 256,64
+chr:1:move:200,40
+chr:1:col:255,255,255,255
+chr:1:disp
+wait:20
+chr:1:move:200,-128
+wait:20
+chr:1:move:200,40
+wait:20
+chr:1:move:200,-128
+
+wait:40
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/02tear_02.tga 512,512
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+msg:3:1:О, опять новости!<KEY><W><C>
+
+windowpos:304,1
+msg:2:2:Смотри внимательно!<BR>Эта информация может оказаться<BR>жизненно важной!<KEY><W><C>
+windowpos:304,-1
+chr:3:grp:bmp/ivent/01recette_02.tga 512,512
+se:bin/se/00re/event/re_un_a.bin
+msg:3:1:Хорошо!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/news_messe.tga 640,64
+chr:1:move:600,40
+chr:1:moveto:-650,40
+chr:1:speed:2
+wait:620
+chr:0:col:255,255,255,255
+chr:0:fadeframe:20
+chr:0:colto:255,255,255,0
+chr:0:disp
+
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,-1
+msg:3:1:...Угх-х...<KEY><W><C>
+
+windowpos:304,1
+chr:2:grp:bmp/ivent/02tear_06.tga 512,512
+se:bin/se/01ti/event/tea_uwa.bin
+msg:2:2:...Порой, в принципе, могут возникать<BR>и ТАКИЕ новости.<KEY><W><C>
+
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_ehe_c.bin
+msg:3:1:Хе-хе. Ну, для кого-то такие<BR>новости уж точно жизненно важны!<BR>Беги, Луи, беги!<KEY><W><C>
+
+chr:2:moveto:-500,0
+chr:2:speed:10
+chr:3:moveto:500,0
+chr:3:speed:10
+
+wait:40
+
+//fadeoutb:60
+//wait:60
+end:

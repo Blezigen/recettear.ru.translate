@@ -1,0 +1,84 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_rurilast.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-512,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_11.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//�A���G�b�g
+chr:5:dir:left
+chr:5:center:-32
+chr:5:move:600,0
+chr:5:grp:bmp/ivent/11alouette_02.tga 512,512
+chr:5:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:5:disp
+wait:80
+
+windowpos:304,-1
+msg:4:27:... You absorb a fairy<BR>into the crystal, using<BR>the fairy's own soul<KEY>
+msg:4:27:to fuel its power.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:TEAR!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_12.tga 512,512
+msg:4:27:I've spent decades<BR>learning how to best<BR>utilize fairies.<KEY>
+msg:4:27:Ironic that, for all<BR>their attempts to<BR>integrate into our<KEY>
+msg:4:27:society, they are most<BR>useful in this state of<BR>pseudo-death, no?<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Wh-wh... y-you...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_11.tga 512,512
+msg:4:27:First that fairy "Prime",<BR>and now dear little Tear,<BR>useful at last.<KEY>
+msg:4:27:With two fairies behind<BR>this crystal, it should<BR>become a fountain<KEY>
+msg:4:27:of raw power. Power I<BR>can use.<KEY><W><C>
+
+windowpos:304,-1
+chr:5:center:-250
+msg:5:19:Gh!...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:27:Yes, with the souls of<BR>those two fairies<BR>powering the crystal,<KEY>
+msg:4:27:I should be able to do<BR>anything I desire...<BR>even this.<KEY><W><C>
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:10	
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:10	
+
+wait:60
+
+end:

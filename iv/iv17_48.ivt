@@ -1,0 +1,117 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+//�V������
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/04charme_09.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+se:bin/se/00re/event/re_ano_b.bin
+msg:1:1:Um. Yanno, Charme, I've<BR>been wondering...<KEY>
+msg:1:1:What made you want to<BR>become a thief?<KEY><W><C>
+
+chr:0:dir:left				//	����
+chr:0:center:0
+chr:0:move:-20,0
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/01ti/event/tea_oh.bin
+msg:0:2:Wha?!... that is quite a<BR>question to bring up at<BR>random!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Really?<KEY><W><C>
+
+msg:0:2:For all we know, it could<BR>be a sensitive subject<BR>for her!<KEY>
+msg:0:2:Try to show some consid-<KEY><W><C>
+
+
+wait:60
+windowpos:304,-1
+se:bin/se/03sy/shop/sya32.bin
+msg:2:4:Wellll, lesshe...<KEY><W><C>
+
+chr:0:dir:right
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:move:-50,0
+chr:0:center:-48
+
+
+wait:60
+msg:2:4:At firsht I did it 'cuz I<BR>had to shurvive, y'know?<KEY>
+msg:2:4:I left home with nothin'<BR>but the clothes on m'back,<BR>shee.<KEY>
+msg:2:4:Oh, and I did turn out<BR>to be pretty good at<BR>the whole<KEY>
+msg:2:4:"murderoush thug" thing.<KEY>
+msg:2:4:I mean, it'sh not like I<BR>don't feel BAD for takin'<BR>people's shtuff...<KEY><W><C>
+wait:30
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+msg:2:4:... but the more I do it,<BR>th'more I enjoy it!<BR>Can't help m'shelf!<KEY><W><C>
+
+wait:30
+windowpos:304,1	
+se:bin/se/01ti/event/tea_uwa.bin
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:What.<KEY><W><C>
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Oh, I, uh... see...<KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:I got my booze, I got<BR>my work, an' I enjoy both.<KEY>
+chr:2:grp:bmp/ivent/04charme_10.tga 512,512
+msg:2:4:... Y'don't need anything<BR>more'n that to be happy,<BR>right?<KEY>
+msg:2:4:So...<KEY><W><C>
+
+wait:30
+msg:2:4:So I'm... happy... with the<BR>way things are. Don't<BR>need nothin' else.<KEY><W><C>
+
+chr:1:moveto:-390,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-490,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+chr:2:moveto:600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:2:speed:8
+chr:2:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

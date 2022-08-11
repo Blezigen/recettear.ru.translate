@@ -1,0 +1,197 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_hiro1.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:30					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//���Z�b�g
+chr:1:dir:right				
+chr:1:center:-32			
+chr:1:move:-390,0			
+chr:1:moveto:-80,0			
+chr:1:speed:8				
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:disp		
+
+//�m�o�b
+chr:2:dir:left				
+chr:2:center:-34			
+chr:2:move:540,0			
+chr:2:moveto:220,0			
+chr:2:speed:8				
+chr:2:grp:bmp/ivent/21machi_03.tga 512,512	
+chr:2:disp	
+
+
+wait:60
+
+windowpos:304,-1				
+msg:2:17:Whaaaahaaahaaaa...<KEY><W><C>
+
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:180,120
+chr:5:moveto:180,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+windowpos:304,1
+msg:1:1:Hey, hey now. What's<BR>wrong?<KEY><W><C>
+
+windowpos:304,-1				
+se:bin/se/21syo/shop/syozyo01-3.bin
+msg:2:17:M-m-my dolly...<BR>*sniffle*<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+windowpos:304,1
+msg:1:1:Aw... the shoulder's been<BR>ripped.<KEY><W><C>
+
+windowpos:304,-1				
+msg:2:17:This is my favorite...<BR>Whaaa....<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+windowpos:304,1
+msg:1:1:Hey, wait! Can you give it<BR>to me for a second?<KEY><W><C>
+
+chr:2:grp:bmp/ivent/21machi_00.tga 512,512	
+windowpos:304,-1				
+se:bin/se/21syo/shop/syozyo03.bin
+msg:2:17:O-okay...<KEY><W><C>
+
+//chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,1
+msg:1:1:Lesse, I have a little<BR>thread and a needle in my<BR>apron pocket here...<KEY>
+msg:1:1:And loop, loop, don't poke<BR>myself...<KEY><W><C>
+
+fadeout:60:0,0,0,255
+wait:80
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+
+fadein:60:0,0,0,255
+
+wait:80
+
+windowpos:304,1
+msg:1:1:... And done! How does<BR>that look?<KEY><W><C>
+
+chr:2:grp:bmp/ivent/21machi_04.tga 512,512	
+windowpos:304,-1				
+se:bin/se/21syo/shop/syozyo02-2.bin
+msg:2:17:You... you fixed her!<BR>YAY! Thank you so much,<BR>lady!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,1
+msg:1:1:You're welcome!<KEY><W><C>
+
+chr:2:moveto:540,0			//	�ړ�����W�A���̎q�ޏ�
+chr:2:speed:8
+chr:2:disp
+
+wait:30
+chr:2:dir:right				
+chr:2:center:200			//�t�L�_�V�����؂�߂��Ȃ��悤�ɂ�␔���𑽂߂ɂ���
+windowpos:304,-1
+wait:30	
+
+windowpos:304,-1				
+msg:2:17:I need to go now!<BR>Baibai!<KEY><W><C>
+
+wait:30	
+
+//�e�B�A
+chr:3:dir:left				
+chr:3:center:-48			
+chr:3:move:540,0			
+chr:3:moveto:220,0			
+chr:3:speed:8				
+chr:3:grp:bmp/ivent/02tear_01.tga 512,512	
+chr:3:disp	
+
+wait:60
+
+windowpos:304,-1				
+msg:3:2:Hmm. Not only are you<BR>good at sign-crafting,<KEY>
+msg:3:2:but you have a fairly<BR>deft hand at needlework,<BR>too.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,1
+msg:1:1:How about you, Tear?<BR>I bet you sew a lot of<BR>stuff!<KEY><W><C>
+
+chr:3:grp:bmp/ivent/02tear_00.tga 512,512
+windowpos:304,-1				
+msg:3:2:Er.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,1
+msg:1:1:Huh?<KEY><W><C>
+
+chr:3:grp:bmp/ivent/02tear_06.tga 512,512
+windowpos:304,-1				
+msg:3:2:There is no time for<BR>dawdling... where to next?<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//���Z�b�g�̕\���Ί�ɕϊ�
+
+//���G�t�F�N�g��o���܂�chr:5�L�����ԍ����b���Ă���L�����̉��ɂȂ�Ȃ��悤�ɒ��ӂ��Ă�������
+//iv�t�H���_�̊���G�t�F�N�gtxt�ɃT���v���������Ă���̂ŃR�s�y���č��W�������킹��ƃ��N�ł�
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:30,80
+chr:5:moveto:30,200
+chr:5:speed:0.5				//�X�s�[�h�͏����_��g���܂�
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+//���G�t�F�N�g�I���
+
+windowpos:304,1
+msg:1:1:I guess fairies aren't<BR>very good at using big<BR>needles, huh...<KEY><W><C>
+
+chr:3:moveto:640,0			//	�ړ���
+chr:3:speed:8	
+
+chr:1:moveto:-420,0			//	�ړ���
+chr:1:speed:8	
+wait:60
+
+//fadeout:60:0,0,0,255
+//wait:60
+
+end:
+//�C�x���g�I��

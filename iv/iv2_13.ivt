@@ -1,0 +1,73 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:О нет! Ч-что же нам<BR>теперь делать?!<KEY><W><C>
+windowpos:304,1
+msg:0:2:Успокойся. Я уже предусмотрела<BR>подобный случай. В общем,<BR>как я и сказала ранее,<KEY>
+msg:0:2:если искатель приключений,<BR>исследуя для нас местность,<BR>вдруг окажется ранен,<KEY>
+msg:0:2:мы отнесём его в наше поле<BR>и затем, как говорится,<BR>"унесём ноги" домой.<KEY>
+msg:0:2:В обычном случае мы не смогли бы<BR>взять с собой ни одного предмета,<BR>будь то лут или что-либо ещё,<KEY>
+msg:0:2:но благодаря вот этой вот<BR>особой маленькой коробочке, что<BR>выдала нам гильдия...<KEY>
+msg:0:2:Мы сможем взять с собой<BR>хотя бы один предмет.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+msg:1:1:Ладно... ого, НАСКОЛЬКО же<BR>она маленькая. Много мы туда<BR>не поместим, это уж точно.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Именно. Так что выбирай с умом.<KEY>
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Мы сможем забрать лишь один<BR>предмет, так что удостоверься в том,<BR>что он действительно ценен!<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+se:bin/se/00re/event/re_wkata_a.bin
+msg:1:1:Постараюсь!<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+chr:1:moveto:500,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

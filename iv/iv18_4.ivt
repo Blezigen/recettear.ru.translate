@@ -1,0 +1,137 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//�O���t
+chr:3:dir:right
+chr:3:center:-32
+chr:3:move:-512,0
+chr:3:moveto:-220,0
+chr:3:speed:8
+chr:3:grp:bmp/ivent/09griffe_06.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//�V������
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:640,0
+chr:2:moveto:220,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/04charme_09.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+wait:60
+
+windowpos:304,-1	
+se:bin/se/03sy/shop/sya37.bin
+//msg:2:4:�ȁ[��<BR>����ȏ��ɓ˂������Ă�̂�<KEY>
+//msg:2:4:���������č���Ȃ���<KEY><W><C>
+msg:2:4:Oi, again? Arright, you,<BR>go ahead and shiddown.<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:3:9:I would really rather sta-<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/04charme_11.tga 512,512	
+msg:2:4:SHIDDOWN, YOU, and make<BR>with the queshtion<BR>already!<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/09griffe_03.tga 512,512
+msg:3:9:V-very well...<KEY><W><C>
+chr:3:moveto:-80,0
+chr:3:speed:2
+wait:60
+chr:3:grp:bmp/ivent/09griffe_00.tga 512,512
+windowpos:304,-1
+msg:2:4:Shoulda jus' done that<BR>fr'm the shtart.<KEY><W><C>
+wait:30
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+msg:2:4:Aaaanyway! Waiter!<BR>Another eight shots of<BR>scotch on the rocks!<KEY><W><C>
+wait:60
+windowpos:304,-1
+chr:2:grp:bmp/ivent/04charme_10.tga 512,512	
+msg:2:4:Nowwen. You have<BR>somethin' you wanna ask<BR>'bout the town, right?<KEY>
+chr:2:grp:bmp/ivent/04charme_09.tga 512,512	
+msg:2:4:'Courshe, who you really<BR>wanna know about ish<BR>Recette, yeah?<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/09griffe_06.tga 512,512
+se:bin/se/08gr/shop/gr_nani01.bin
+msg:3:9:I have no idea what on<BR>earth you are talking<BR>about.<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/04charme_10.tga 512,512	
+msg:2:4:Well, wha'ever.<KEY>
+msg:2:4:I, Charme, th' radiant<BR>jewel of Penshee, shall<BR>tell you ever'thing<KEY>
+msg:2:4:y'need or want t'know!<KEY>
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+msg:2:4:Oh, that "Charme ish<BR>th'radianted gem of<BR>Benshee" bit is crushial!<KEY>
+msg:2:4:Make shure you write<BR>that one down!<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/09griffe_03.tga 512,512
+se:bin/se/08gr/shop/gr_sona03.bin
+msg:3:9:It... is? I'm not...<KEY><W><C>
+
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+chr:3:move:-512,0
+chr:3:disp
+chr:2:move:640,0
+fadein:60:0,0,0,255
+wait:80
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+msg:1:1:There goes Charme...<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Why does she remind me<BR>of a kid with a new toy?...<KEY><W><C>
+msg:0:2:He really has picked the<BR>wrong person to get help<BR>from, this time...<KEY><W><C>
+
+chr:1:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

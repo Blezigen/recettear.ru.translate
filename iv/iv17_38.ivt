@@ -1,0 +1,105 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+//lighton:300:4000
+bgset:bmp/ivent/bg_hiro2.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//�v����
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:640,0
+chr:2:moveto:220,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/12prime_04.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+wait:60
+
+windowpos:304,-1
+se:bin/se/11pr/prim29-04.bin
+msg:2:20:Heeey, you guys! What's<BR>happenin'?<KEY><W><C>
+
+windowpos:304,1	
+msg:1:1:Huh. You're alone today,<BR>Prime? Where's Alouette?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/12prime_06.tga 512,512
+msg:2:20:Maaaan, it is not like we<BR>are attached at the hip<BR>24/7!<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+se:bin/se/00re/event/re_sonano.bin
+msg:1:1:You're... not?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/12prime_00.tga 512,512
+msg:2:20:Oi. Look - Alouette and I<BR>have been together for a<BR>long time. A LONG time.<KEY>
+msg:2:20:Now, when we were both<BR>younger? Yeah, a crowbar<BR>couldn't pry us apart.<KEY>
+msg:2:20:Nowadays, though? We<BR>aren't ALWAYS together,<BR>though I still have to<KEY>
+msg:2:20:keep an eye on her<BR>because of... well, that's<BR>somethin' else.<KEY><W><C>
+wait:30
+chr:2:grp:bmp/ivent/12prime_06.tga 512,512
+msg:2:20:... Although.<KEY>
+chr:2:grp:bmp/ivent/12prime_07.tga 512,512
+msg:2:20:I'm not tryin' to say<BR>that you two shouldn't be<BR>together all the time.<KEY>
+msg:2:20:Ah, the joys of youth.<BR>... Er, not that I'm old or<BR>anything.<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_06.tga 512,512
+se:bin/se/01ti/event/tea_sonako.bin
+msg:0:2:Y-you're misund...<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/11pr/prim30-02.bin
+msg:2:20:Heh, score one<BR>embarrassment point on<BR>the bookworm!<KEY><W><C>
+
+windowpos:304,1	
+se:bin/se/01ti/tuika/ti_chigau_b.bin
+msg:0:2:No! Please stop teasing<BR>me!<KEY><W><C>
+
+
+
+chr:2:moveto:600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:2:speed:8
+chr:2:disp
+chr:1:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

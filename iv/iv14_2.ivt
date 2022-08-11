@@ -1,0 +1,93 @@
+//�w�i�̐ݒ�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-440,0
+chr:0:moveto:-100,0
+chr:0:speed:8			
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:580,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Hmmm...<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:What is it?<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:Say, Tear? Is alcohol<BR>yummy?<KEY><C><W>
+windowpos:304,1
+msg:0:2:I have only tried it once<BR>before, myself.<KEY><C><W>
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Really? Wow, you're so<BR>grown up, Tear!<KEY><C><W>
+
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+windowpos:304,1
+msg:0:2:I hated it. It stank of<BR>barrels...<KEY><C><W>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Barrels?...<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:Typically, most alcoholic<BR>beverages are left to age<BR>in barrels...<KEY>
+msg:0:2:so the drink had a strong<BR>wooden smell, and it was not<BR>dissimilar to attempting<KEY>
+msg:0:2:to drink a tree...<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:... Okay, that doesn't<BR>sound yummy at all.<KEY><C><W>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:To be honest, the<BR>popularity of the<BR>substance baffles me.<KEY>
+msg:0:2:It always sells well, so<BR>stocking it is always a<BR>good way to make<KEY>
+msg:0:2:some money, but...<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,-1
+msg:1:1:But, barrels!<KEY><C><W>
+
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+windowpos:304,1
+msg:0:2:... Barrels...<KEY><C><W>
+
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:8	
+
+chr:0:moveto:-420,0			//	�ړ���
+chr:0:speed:8	
+wait:60
+
+
+//fadeoutb:60
+//wait:60
+end:

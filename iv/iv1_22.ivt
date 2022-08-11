@@ -1,0 +1,192 @@
+//�w�i�̐ݒ�
+mfadein:0	//�V�����ȏo���F����
+music:15
+bgset:bmp/ivent/bg_aluet.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/10al/event/a_14_a.bin
+msg:4:19:Что ж! Тебе, значит, удалось<BR>уплатить свой долг перед<BR>этой феей-ростовщицей, так?<KEY>
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+msg:4:19:Ну-у, полагаю, за это всё же<BR>причитаются УЖ КАКИЕ-НИКАКИЕ<BR>поздравления.<KEY>
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+msg:4:19:И всё же, как по мне,<BR>у каждого простого пролетария<BR>хватило бы ума и<KEY>
+msg:4:19:сноровки, чтобы<BR>всего этого достичь!<KEY><W><C>
+
+//���ߑ�
+chr:6:dir:right
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:340,190
+chr:6:moveto:310,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:80
+
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+msg:4:19:Ну а теперь...<BR>ко второй части!<KEY>
+msg:4:19:"Повести о Прекрасной,<BR>Элегантной Алуэтт!"<KEY><W><C>
+
+//�v����
+chr:1:dir:right				//	����
+chr:1:center:-42
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/12prime_06.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,1
+se:bin/se/11pr/prim13.bin
+msg:1:20:Пфнда уж, будто ИГС<BR>заинтересована в том, чтобы<BR>воплотить ЭТО в реальность.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_09.tga 512,512
+//�r�N�b
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:330,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:330,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+se:bin/se/10al/event/a_20_b.bin
+msg:4:19:Ч-...ЧТО ТЫ СКАЗАЛА?!<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_03.tga 512,512
+se:bin/se/11pr/prim28.bin
+msg:1:20:Успокойтесь, милочка.<BR>Не нужно так заводиться<BR>по такому поводу.<KEY>
+chr:1:grp:bmp/ivent/12prime_00.tga 512,512
+msg:1:20:Что куда важнее –<BR>постарайтесь, пожалуйста уж<BR>хотя бы в этот раз объяснить всё<BR>как положено, хорошо?<KEY><W><C>
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+se:bin/se/10al/event/a_12_b.bin
+msg:4:19:Не понимаю, почему из всех<BR>людей именно я должна...<KEY><W><C>
+windowpos:304,1
+se:bin/se/11pr/prim02.bin
+chr:1:grp:bmp/ivent/12prime_02.tga 512,512
+msg:1:20:Так, ну, смотрите сюда,<BR>"Госпожа"...<KEY><W><C>
+
+wait:60
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_03.tga 512,512
+msg:4:19:Ладно-ладно, так и быть.<BR>Если уж так нужно.<KEY><W><C>
+wait:30
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+msg:4:19:Ну что ж, тогда не будем<BR>тянуть кота за хвост...<KEY>
+msg:4:19:Позвольте же мне объяснить<BR>про "пост-игровой контент"!<KEY>
+msg:4:19:Или же "как наслаждаться<BR>игрой после её прохождения"!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_06.tga 512,512
+msg:1:20:Да, думаю, так будет лучше.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:Итак, для начала вот что:<BR>если вы загрузитесь с того<BR>сохранения, которое сейчас<BR>сделаете,<KEY>
+msg:4:19:то вы запустите "Бесконечный<BR>Режим", в котором вы сможете<BR>играть сколько пожелаете,<KEY>
+msg:4:19:не утруждая себя заботами<BR>о каких бы то ни было<BR>долгах!<KEY>
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+msg:4:19:Можете работать (самой<BR>обычной) лавочницей сколько<BR>вашей душе угодно!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_01.tga 512,512
+msg:1:20:Ну-у-у, и, знаеть'ли,<BR>вполне возмо-о-ожно, что<BR>мо-о-огут появиться...<KEY>
+chr:1:grp:bmp/ivent/12prime_07.tga 512,512
+msg:1:20:...какие-нибудь предметы или<BR>подземелья, которых вы<BR>до сего момента и не видели!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
+windowpos:304,-1
+msg:4:19:К тому же вам теперь<BR>доступны "Новая Игра+" и<BR>Режимы Выживания.<KEY>
+msg:4:19:В Новой Игре+ вы начинаете<BR>заново, однако суть такова,<BR>что вы выбираете сохранение,<KEY>
+msg:4:19:и все ваши предметы и уровни<BR>переносятся с этого сохранения<BR>в Новую Игру+!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_06.tga 512,512
+msg:1:20:Но помните - долг вам снова<BR>придётся выплачивать<BR>с самого начала!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:Режим же Выживания - это<BR>такая каверзная штука,<BR>в которой вы будете вынуждены<KEY>
+msg:4:19:выплачивать долг *каждую*<BR>неделю то тех пор, пока,<BR>наконец, в нём не утонете.<KEY>
+msg:4:19:Любопытно, сколько же вы<BR>продержитесь против 6-значных<BR>долгов неделями подряд, хм-м?<KEY>
+msg:4:19:Особенно в этом совершенно<BR>безумном "Адском Режиме<BR>Выживания"...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_04.tga 512,512
+se:bin/se/11pr/prim30-02.bin
+msg:1:20:Ах да, кто-то из приключенцев<BR>мог поделиться с вами<BR>своей "Истинной Карточкой".<KEY>
+msg:1:20:Её вам дают лишь те из<BR>приключенцев, с кем вы очень<BR>близки, однако если она<KEY>
+msg:1:20:у вас имеется, вы можете<BR>нанять их с самого начала<BR>игры в Новой Игре+ и<KEY>
+msg:1:20:в Режимах Выживания!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+msg:4:19:Ну, за сим, я так думаю, всё!<KEY>
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:Короче говоря, настоящий<BR>игрок не станет довольствоваться<BR>лишь однократным прохождением<BR>игры!<KEY>
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:Уж как минимум попробуйте<BR>заполнить всю энциклопедию<BR>предметов!<KEY><W><C>
+wait:30
+
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+se:bin/se/10al/event/a_09.bin
+msg:4:19:Ну что ж, за сим, миль пардон!<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/12prime_04.tga 512,512
+msg:1:20:Пока-пока, ребятушки!<BR>Приятной игры в то, что<BR>ещё в игре не пройдено!<KEY><W><C>
+
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+chr:4:moveto:640,0
+chr:4:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

@@ -1,0 +1,134 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-340,0
+chr:0:moveto:-100,0				//	�\���ʒu
+chr:0:speed:8
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:col:255,255,255,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+
+chr:0:disp
+
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,-1
+msg:1:1:Скажи, что это за место?<KEY><C><W>
+windowpos:304,1
+msg:0:2:Это<BR>"Гильдия искателей приключений".<KEY>
+msg:0:2:Она специализируется на<BR>экспедициях в различные<BR>неукротимые дикие<KEY>
+msg:0:2:местности или в заброшенные руины<BR>недалеко от города,<KEY>
+msg:0:2:Без одобрения гильдии,<BR>искатели приключений не могут посещать<BR>подземелья.<KEY>
+msg:0:2:Оу, чёрт, значит нам нельзя<BR>просто пойти в подземелье<BR>и забрать всё<KEY><C><W>
+windowpos:304,-1
+se:bin/se/00re/event/re_sonanda_b.bin
+msg:1:1:что там найдём? Но мы могли бы<BR>все найденное<BR>продать<KEY>
+msg:1:1:we see? If we could do<BR>that, we could sell<BR>everything we<KEY>
+msg:1:1:со 100% прибылью...<KEY><C><W>
+windowpos:304,1
+msg:0:2:Это довольно хорошая<BR>идея, немало людей таким способом<BR>добились успеха.<KEY>
+msg:0:2:Впрочем, если ты хочешь<BR>сделать это, нам сперва нужно<BR>нанять искателя приключений.<KEY><C><W>
+windowpos:304,-1
+msg:1:1:Нанять? А я не могу просто взять<BR>кого-нибудь с собой?<KEY><C><W>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Всё<BR>несколько сложнее.<KEY>
+msg:0:2:Пускай ты им и платишь, не<BR>каждый искатель приключений готов<BR>рисковать своей жизнью<KEY>
+msg:0:2:ради прибыли<BR>совсем незнакомого человека.<KEY><C><W>
+windowpos:304,-1
+msg:1:1:Оооу. Значит они не помогут<BR>человеку, которого не очень хорошо<BR>знают?<KEY><C><W>
+windowpos:304,1
+msg:0:2:Верно. Поэтому сперва<BR>тебе стоит познакомиться<BR> с несколькими искателями приключений<KEY>
+msg:0:2:и добиться определенного<BR>уровня доверия с ними.<KEY>
+msg:0:2:Если всё получится, то они<BR>дадут тебе свои символы<BR>членства в гильдии,<KEY>
+msg:0:2:обычно в<BR>форме карточки.<KEY>
+msg:0:2:С этим будет проще<BR>привлечь искателя приключений<BR>пойти с нами.<KEY><C><W>
+windowpos:304,-1
+msg:1:1:Звучит как<BR>если бы они позвали нас на<BR>пикник!<KEY><C><W>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Ну, редко когда<BR>на пикниках попадаются<BR>безумные монстры,<KEY>
+msg:0:2:жаждающие разорвать тебя<BR>на части...<KEY>
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Всё же аналогия <BR>прослеживается. В какой-то степени.<KEY><C><W>
+windowpos:304,-1
+msg:1:1:Ладно. Сперва мне нужно<BR>найти искателя приключений...<BR>Хм...<KEY><C><W>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+windowpos:304,1
+msg:0:2:Что для нас должно быть не так уж<BR>и сложно, да?<KEY>
+msg:0:2:В конце концов, мы открываем<BR>магазин предметов и нам нужно<BR>пару<KEY>
+msg:0:2:постоянных<BR>клиентов.<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,-1
+msg:1:1:О да!<KEY>
+msg:1:1:Ну тогда, сделаю все возможное<BR>чтобы получить приглашение на пикник!<KEY><C><W>
+windowpos:304,1
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:...Угу. Просто будь<BR>осторожна, "Рисетт"<BR>не входит в меню.<KEY><C><W>
+
+wait:60
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+msg:1:1:...А?<KEY><C><W>
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+windowpos:304,1
+msg:0:2:Что-то не так?<KEY><C><W>
+windowpos:304,-1
+msg:1:1:Ну, этот парень где-то<BR>там...<KEY><C><W>
+
+fadeout:60:0,0,0,255
+wait:60
+
+end:

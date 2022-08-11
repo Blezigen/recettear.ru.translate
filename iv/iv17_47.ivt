@@ -1,0 +1,142 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+se:bin/se/00re/event/re_ehe_a.bin
+msg:1:1:Hehe! I really like having<BR>dinner at the pub!<KEY><W><C>
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:It can be expensive, but<BR>it is important to treat<BR>yourself sometimes.<KEY><W><C>
+
+msg:1:1:You really packed away<BR>the food, Tear!<KEY>
+msg:1:1:I thought your tummy<BR>would be too small for all<BR>that food!<KEY><W><C>
+se:bin/se/01ti/event/tea_sorenai.bin
+chr:0:grp:bmp/ivent/02tear_06.tga 512,512
+msg:0:2:I... did no such thing!<KEY><W><C>
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+chr:1:move:-512,0
+chr:1:disp
+chr:0:move:-512,0
+chr:0:disp
+
+//�i�M
+chr:3:dir:right
+chr:3:center:-32
+chr:3:move:-100,0
+chr:3:grp:bmp/ivent/08nagi_04.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//�V������
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:220,0
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+fadein:60:0,0,0,255
+wait:80
+
+windowpos:304,-1	
+msg:2:4:Ahhhh, now THAT wash a<BR>meal! Thanksh fer treatin'<BR>me, Nahgi.<KEY><W><C>
+
+windowpos:304,1	
+msg:3:8:You are welcome, although<BR>I think you did not so much<BR>"eat" a meal<KEY>
+msg:3:8:as you "drank" one...<KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:Baaaaah, beer'sh wheat,<BR>right? Sho it'sh just like<BR>drinkin' bread!<KEY><W><C>
+
+windowpos:304,1	
+msg:3:8:Well, that is a... sensible<BR>argument, I suppose.<KEY><W><C>
+wait:60
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/08nagi_05.tga 512,512
+msg:3:8:Oh, incidentally...<KEY>
+chr:3:grp:bmp/ivent/08nagi_01.tga 512,512
+msg:3:8:You have a very refined<BR>way of eating, if I may be<BR>so bold as to say so.<KEY>
+msg:3:8:I wonder, were you<BR>taught somewhere?<KEY><W><C>
+
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/04charme_05.tga 512,512
+se:bin/se/03sy/shop/sya30-3.bin
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:320,120
+chr:5:moveto:320,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:2:4:Eh-huh?!<KEY><W><C>
+wait:30
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+msg:2:4:Wh-whatchu talkin'<BR>about?! Th' way I eat ish<BR>perfectly normal!<KEY><W><C>
+
+windowpos:304,1	
+msg:3:8:Is it? I see.<KEY>
+msg:3:8:I'm afraid I am still not<BR>very good with a knife and<BR>fork.<KEY>
+msg:3:8:Perhaps you could help<BR>me improve my manners<BR>next time, Charme?<KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:Uhhh, yeah, n'problem.<KEY><W><C>
+wait:30
+msg:2:4:(Mmmph...)<KEY>
+chr:2:grp:bmp/ivent/04charme_09.tga 512,512
+msg:2:4:(Way sharper than she<BR>looks, this one...)<KEY><W><C>
+
+chr:2:moveto:600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:2:speed:8
+chr:2:disp
+chr:3:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:3:speed:8
+chr:3:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

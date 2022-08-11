@@ -1,0 +1,82 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Whoa.<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:So. It has happened.<BR>At last. As I thought it<BR>might.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_uu.bin
+msg:1:1:... But it's been so long.<BR>I... I never thought...<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+se:bin/se/01ti/event/tea_ee.bin
+msg:0:2:Yes. I know. But we must<BR>make do with the hand<BR>dealt to us by fate...<KEY><W><C>
+
+msg:1:1:But... this is still a good<BR>thing, right?<KEY><W><C>
+msg:0:2:Only time... and fate...<BR>will tell...<KEY><W><C>
+
+//�i�M
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/08nagi_04.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+windowpos:304,-1
+msg:4:8:Oh, my! The atmosphere<BR>in here feels so dramatic!<BR>I wonder why.<KEY>
+msg:4:8:... Are you two all<BR>right?...<KEY><W><C>
+
+chr:4:moveto:650,0
+chr:4:speed:8
+chr:4:disp
+
+chr:1:moveto:-512,0
+chr:1:speed:10
+chr:1:disp
+chr:0:moveto:-512,0
+chr:0:speed:10
+chr:0:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

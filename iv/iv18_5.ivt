@@ -1,0 +1,158 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//�A���}
+chr:3:dir:right
+chr:3:center:-32
+chr:3:move:-512,0
+chr:3:moveto:-100,0
+chr:3:speed:8
+chr:3:grp:bmp/ivent/10arma_00.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//�i�M
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:640,0
+chr:2:moveto:220,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/08nagi_01.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+wait:60
+
+windowpos:304,-1
+se:bin/se/07na/shop/n_33.bin
+msg:2:8:Ah, so in other words,<BR>you wish to learn the<BR>unspoken rules<KEY>
+msg:2:8:of etiquette, yes?<KEY><W><C>
+
+windowpos:304,1	
+se:bin/se/09ar/shop/aruma21.bin
+msg:3:10:Correct. I have recorded<BR>all standard laws and<BR>behavioral rules into<KEY>
+msg:3:10:my databanks, but<BR>observation suggests<BR>there are further<KEY>
+msg:3:10:concepts which are<BR>not typically<BR>expressed in language.<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/08nagi_00.tga 512,512	
+msg:2:8:That's true. I suppose<BR>there are a lot of things<BR>which would seem odd<KEY>
+msg:2:8:if you did not know<BR>about them already...<KEY>
+msg:2:8:These are what we call<BR>"etiquette", "courtesy"<BR>and whatnot.<KEY><W><C>
+
+windowpos:304,1	
+msg:3:10:I would be grateful if<BR>you could teach me<BR>"etiquette".<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/08nagi_04.tga 512,512
+se:bin/se/07na/shop/n_30.bin
+msg:2:8:I'd be happy to! I'll<BR>teach you as much as I<BR>can.<KEY><W><C>
+
+windowpos:304,1	
+msg:3:10:You have my thanks.<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/08nagi_02.tga 512,512
+msg:2:8:To start with, I think<BR>we should cover something<BR>that could<KEY>
+msg:2:8:get you into a lot of<BR>trouble if you don't know<BR>about it!<KEY><W><C>
+
+windowpos:304,1	
+msg:3:10:Very well.<KEY><W><C>
+
+windowpos:304,-1
+msg:2:8:If you are in someone's<BR>home, and they offer you<BR>chaduzuke tea rice...<KEY>
+msg:2:8:Then you need to leave,<BR>right away!<KEY><W><C>
+
+windowpos:304,1
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:200,120
+chr:5:moveto:200,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+se:bin/se/09ar/shop/aruma23.bin
+msg:3:10:"Chaduzuke"... unable<BR>to comprehend.<KEY><W><C>
+
+windowpos:304,-1
+msg:2:8:If they actually have to<BR>serve you chaduzuke,<BR>then your family will<KEY>
+msg:2:8:be treated like<BR>honorless ronin for the<BR>rest of the jidai!<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/10arma_06.tga 512,512
+se:bin/se/09ar/shop/aruma27.bin
+msg:3:10:"Ronin"... "Jidai"...<BR>unable to index in<BR>linguistic database...<KEY><W><C>
+
+windowpos:304,-1
+msg:2:8:This is the sort of thing<BR>people call "etiquette".<BR>Keep it in mind!<KEY>
+msg:2:8:And, if you ever hear<BR>someone say, "Have some<BR>pickled bubuduzuke",<KEY>
+msg:2:8:then fear for your head!<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/10arma_00.tga 512,512
+msg:3:10:Total comprehension<BR>failure... disengaging<BR>primary logic circuits...<KEY><W><C>
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+chr:3:move:-512,0
+chr:3:disp
+chr:2:move:640,0
+fadein:60:0,0,0,255
+wait:80
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+msg:1:1:Wow, those two are<BR>really into whatever<BR>they're talking about.<KEY><W><C>
+msg:0:2:Yes, we should not<BR>disturb them. But why do<BR>I want tea, suddenly?...<KEY><W><C>
+
+chr:1:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

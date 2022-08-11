@@ -1,0 +1,151 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+//�O���t
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/08gr/damage/08gr_13b.bin
+msg:4:9:Uwagh!<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,1
+msg:1:1:Griff...<KEY><W><C>
+
+rmb:40,60
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+se:bin/se/00re/event/re_fue.bin
+msg:1:1:HeuWHA?!<KEY><W><C>
+windowpos:304,-1
+msg:4:9:No!... Run, quickly! Go!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_demo.bin
+msg:1:1:But!...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:9:The Archdevil is going<BR>berserk!<KEY>
+msg:4:9:At this rate, I won't be<BR>able to control him at all!<KEY>
+msg:4:9:If you want to live...<BR>FLEE! NOW!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:You have to come with<BR>us, Griff!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:4:9:...<KEY>
+chr:4:grp:bmp/ivent/09griffe_01.tga 512,512
+msg:4:9:You... are a unique girl,<BR>Recette Lemongrass.<KEY><W><C>
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+se:bin/se/08gr/shop/gr_waru02.bin
+msg:4:9:Forgive me, but I must<BR>stay! I'm going to re-seal<BR>everything left here!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:WHAT?!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:9:Don't misunderstand me!<BR>I simply have no use for a<BR>power I cannot control.<KEY>
+msg:4:9:That's all! I still intend<BR>to bring power to<BR>demonkind!<KEY>
+msg:4:9:Just... not this way.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Griff...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+msg:4:9:You, fairy... no. Tear!<KEY>
+msg:4:9:I leave the rest in your<BR>hands! Do you understand?<KEY><W><C>
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:10	
+
+wait:60
+windowpos:304,1
+msg:0:2:I do!<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:Wait, Griff!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:9:Now hurry! GO!<KEY><W><C>
+chr:4:moveto:360,0
+chr:4:speed:10
+wait:10
+windowpos:304,1
+msg:1:1:Wait!<KEY>
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Remember - you promised<BR>you'd come to the store!<BR>Don't forget!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+wait:30
+se:bin/se/08gr/attack/08gr_04.bin
+msg:4:9:... Hm.<KEY><W><C>
+
+chr:4:moveto:650,0
+chr:4:speed:10
+chr:4:disp
+wait:60
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:0:2:Come, Recette! We must<BR>hurry!<KEY><W><C>
+
+chr:1:moveto:-512,0
+chr:1:speed:10
+chr:1:disp
+chr:0:moveto:-512,0
+chr:0:speed:10
+chr:0:disp
+wait:60
+
+
+//fadeoutb:60
+//wait:60
+end:

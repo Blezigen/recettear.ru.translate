@@ -1,0 +1,87 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/01ti/event/tea_juyou.bin
+msg:0:2:Так, хорошо. Настало время провести<BR>тебя через "ускоренный курс<BR>обучения" азам управления<KEY>
+msg:0:2:торговой лавкой.<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/00re/event/re_un_a.bin
+msg:1:1:Хорошо! Что мне сначала делать?<KEY><W><C>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Для начала нам нужно<BR>выложить некоторые товары<BR>на витрину.<KEY>
+msg:0:2:Ведь если мы не выставим<BR>наши товары напоказ, то<BR>вряд ли мы сможем ожидать,<KEY>
+msg:0:2:что кто-либо из наших<BR>покупателей вообще захочет<BR>их купить, в конце концов!<KEY><W><C>
+windowpos:304,-1
+msg:1:1:Так значит, мне нужно просто<BR>подойти к этим стендам, да?<KEY><W><C>
+windowpos:304,1
+msg:0:2:Именно. Когда найдёшь место,<BR>куда захочешь поместить<BR>что-либо, выбери,<KEY>
+msg:0:2:что именно ты хочешь там<BR>расположить, нажатием<BR>"основной кнопки".<KEY><W><C>
+windowpos:304,-1
+msg:1:1:Основной... кнопки?...<KEY><W><C>
+windowpos:304,1
+msg:0:2:...Когда попробуешь –<BR>поймёшь, поверь мне.<KEY>
+msg:0:2:А теперь запомни – то,<BR>что ты выставляешь, влияет<BR>на то, как люди воспринимают<KEY>
+msg:0:2:магазин, так что подумай<BR>хорошенько, прежде чем<BR>что-либо помещать.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_un_b.bin
+msg:1:1:Верно!<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Так, ну а теперь, для начала...<KEY>
+msg:0:2:Почему бы нам не<BR>разместить на одном из стендов<BR>то, что мы только что приобрели?<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/00re/event/re_hai.bin
+msg:1:1:Йей-окей!<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:10
+chr:1:moveto:500,0
+chr:1:speed:10
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

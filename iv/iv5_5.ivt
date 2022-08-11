@@ -1,0 +1,244 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:3:dir:right				//	����
+chr:3:center:-32
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-100,0			//	�ړ���
+chr:3:speed:8			
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:3:col:255,255,255,255	//�`��q�f�a�`�l
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+wait:60
+se:bin/se/00re/shop/re_ira.bin
+msg:3:1:Welcome to-<KEY>
+
+chr:3:grp:bmp/ivent/01recette_02.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+msg:3:1:- oh, great.<KEY><W><C>
+
+//�J�C��
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou17a.bin
+msg:2:5:Good day. You seem to be<BR>lounging about as usual.<KEY><W><C>
+
+windowpos:304,1
+msg:3:1:Well, that's NOT true! I'm<BR>really very, very busy!<KEY>
+msg:3:1:... Even if I do have my<BR>feet up on the counter!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_00.tga 512,512
+msg:2:5:... Rrriiight. Putting<BR>that aside for a moment...<KEY>
+msg:2:5:I assume you've heard<BR>about the recent...<BR>issues... concerning the<KEY>
+msg:2:5:trade of items deemed<BR>by the chapel-masters to<BR>be "magical"?<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:180,120
+chr:5:moveto:180,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+windowpos:304,1
+msg:3:1:... Uh...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_05.tga 512,512
+msg:2:5:... Typical.<KEY><W><C>
+
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+chr:3:moveto:-160,0			//	�ړ���
+chr:3:speed:4	
+chr:3:disp
+
+//�e�B�A
+chr:1:dir:right				//	����
+chr:1:center:-48
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-60,0			//	�ړ���
+chr:1:speed:10	
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:2:I have heard about that.<KEY>
+msg:1:2:The chapel-masters have<BR>been seizing items that<BR>they claim have a...<KEY>
+msg:1:2:"corrupting influence<BR>on man's immortal soul",<BR>I believe the claim was.<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_04.tga 512,512
+msg:2:5:Hah, spot on. Just as I'd<BR>expect of you, madam<BR>fairy.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_03.tga 512,512
+msg:3:1:Hey...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_00.tga 512,512
+msg:2:5:Anyway, it's all<BR>sanctimonious nonsense.<BR>Interestingly, though...<KEY>
+msg:2:5:The items that the chapel<BR>gathers for destruction?<KEY>
+msg:2:5:A lot of them are turning<BR>up in the dungeons. And I<BR>do mean a LOT.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/02tear_02.tga 512,512
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+msg:3:1:Wh-whaa? Why?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_07.tga 512,512
+msg:2:5:A very good question.<BR>The dungeons have always<BR>been packed with<KEY>
+msg:2:5:mysteries, however, so<BR>it may not be worth<BR>thinking about too hard.<KEY><W><C>
+
+wait:40
+
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+msg:2:5:It does, however, present<BR>an opportunity. Which<BR>leads me to...<KEY><W><C>
+
+chr:0:dir:left
+chr:0:grp:bmp/ivent/meisi.tga 256,256
+chr:0:move:205,46
+chr:0:col:255,255,255,0
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,255
+chr:0:disp
+wait:80
+
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512
+windowpos:304,1
+msg:1:2:A guild card...<KEY><W><C>
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+msg:3:1:Ooooh, you want us to<BR>give the items back to the<BR>chapel-masters!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_00.tga 512,512
+msg:2:5:...<KEY><W><C>
+
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,0
+chr:0:disp
+wait:80
+
+chr:2:grp:bmp/ivent/05caillou_03.tga 512,512
+se:bin/se/04ca/shop/caillou28c.bin
+msg:2:5:How can you be so dense<BR>and still be capable of<BR>breathing?<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512
+msg:3:1:Dense? Uh...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+msg:2:5:I want to make sure that<BR>these items return to<BR>general circulation!<KEY>
+msg:2:5:The chapel-masters are<BR>standing astride curiosity<BR>and knowledge, and<KEY>
+msg:2:5:I won't have it! If you<BR>help me, you can recover<BR>some items to sell,<KEY>
+msg:2:5:while I lay hands on<BR>other things for... study.<KEY>
+msg:2:5:The chapel-masters won't<BR>try to seize property<BR>from a secular shop,<KEY>
+msg:2:5:so you would have<BR>nothing to worry about.<KEY><W><C>
+
+windowpos:304,1
+msg:1:2:Ah, of course.<KEY>
+msg:1:2:The Merchant's Guild has<BR>jurisdiction over the<BR>behavior of the city's<KEY>
+msg:1:2:merchants, and the guild<BR>master would never cede<BR>authority to anyone, so...<KEY><W><C>
+
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+msg:3:1:So they can't touch us...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_07.tga 512,512
+msg:2:5:Aren't city politics<BR>wonderfully headache-<BR>inducing?<KEY><W><C>
+
+wait:40
+chr:2:grp:bmp/ivent/05caillou_04.tga 512,512
+msg:2:5:Regardless, madam fairy.<KEY>
+msg:2:5:You provide the material<BR>support, I provide the<BR>quite literal firepower,<KEY>
+msg:2:5:we go into a dungeon<BR>together and get what we<BR>need. Agreed?<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+msg:3:1:Well, we'll pay the<BR>adventurer fee for sure,<BR>but you'll have to buy<KEY>
+msg:3:1:what we find here in the<BR>shop, just like everybody<BR>else!<KEY><W><C>
+
+wait:60
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_05.tga 512,512
+msg:2:5:Awwww maaaan, you gotta<BR>be... ahem. Well, yes,<BR>that's acceptable.<KEY><W><C>
+
+windowpos:304,1
+msg:3:1:I'm looking forward to<BR>seeing you in action! I<BR>expect a lot, Mr. Magician!<KEY><W><C>
+
+windowpos:304,-1
+msg:2:5:You hardly need to worry<BR>on that front, Miss<BR>Counter-jockey.<KEY>
+msg:2:5:Just make sure you can<BR>identify everything we<BR>find, alright?<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/event/re_un_b.bin
+msg:3:1:You bet! See you!<KEY><W><C>
+
+chr:1:moveto:-512,0
+chr:1:speed:10
+chr:3:moveto:-512,0
+chr:3:speed:10
+chr:2:moveto:640,0
+chr:2:speed:10
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

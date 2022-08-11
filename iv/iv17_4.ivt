@@ -1,0 +1,197 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/10al/event/a_09.bin
+msg:4:19:Ah, pardonne moi!<BR>Still WORKING as always,<BR>I see.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Oh, hi Alouette.<BR>What're you up to today?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:Father and I are<BR>going on an airship<BR>sightseeing tour soon!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Airship... wait, like<BR>one of those big things<BR>that float in the sky?<KEY>
+msg:1:1:Wow, I've never met<BR>anyone who's ridden on one<BR>before!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+se:bin/se/10al/event/a_03_c.bin
+msg:4:19:Ohohoho! Yes, be amazed!<BR>Being dazzled works too!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+se:bin/se/00re/event/re_demo.bin
+msg:1:1:I wonder, though...<BR>how do airships fly?<KEY>
+msg:1:1:I mean, they're so big<BR>and heavy and clunky...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+msg:4:19:Eh?<KEY>
+msg:4:19:How do they?... well,<BR>they...<KEY><W><C>
+wait:30
+
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:T-to think you don't<BR>know such a thing!<BR>How ignorant!<KEY><W><C>
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+se:bin/se/10al/event/a_01_a.bin
+msg:4:19:Prime!<KEY><W><C>
+
+chr:4:moveto:320,0			//	�ړ���
+chr:4:speed:4	
+chr:4:disp
+
+//�v����
+chr:3:dir:left
+chr:3:center:-48
+chr:3:move:600,0
+chr:3:moveto:220,0
+chr:3:speed:8
+chr:3:grp:bmp/ivent/12prime_00.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+wait:60
+se:bin/se/11pr/prim09-03.bin
+msg:3:20:Do I really gotta be<BR>involved in this?<KEY><W><C>
+msg:4:19:Explain to this ignorant<BR>peasant how airships<BR>stay aloft!<KEY><W><C>
+
+chr:3:grp:bmp/ivent/12prime_03.tga 512,512
+se:bin/se/11pr/prim08-05.bin
+msg:3:20:Whaaat... well, aight.<BR>You listen up too,<BR>"mistress".<KEY><W><C>
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+se:bin/se/10al/event/a_19_b.bin
+msg:4:19:Wh-what d'you mean,<BR>"listen"?!<KEY>
+msg:4:19:I don't need to be<BR>lectured on something so<BR>commonplace!<KEY>
+msg:4:19:This is for the sole<BR>benefit of the ignorant<BR>proletarian!<KEY><W><C>
+chr:3:grp:bmp/ivent/12prime_06.tga 512,512
+se:bin/se/11pr/prim04-03.bin
+msg:3:20:Uh-huh. Anyway.<KEY><W><C>
+wait:30
+
+chr:3:grp:bmp/ivent/12prime_00.tga 512,512
+msg:3:20:Basically, airships float<BR>using the magic power<BR>of their passengers.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+se:bin/se/00re/event/re_sonano.bin
+msg:1:1:Really?!<KEY><W><C>
+
+windowpos:304,-1
+msg:3:20:A single given rider<BR>might not have that<BR>much magic in 'em,<KEY>
+msg:3:20:but put together a ton<BR>of passengers and it<BR>becomes practical.<KEY>
+msg:3:20:So airships can't leave<BR>port without a certain<BR>number of passengers.<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/event/re_sonanda_b.bin
+msg:1:1:That's... kinda amazing.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:A-as I said, perfectly<BR>common knowledge!<KEY><W><C>
+msg:3:20:That DOES mean the<BR>passengers affect the<BR>airship's speed, though.<KEY>
+msg:3:20:So it's impossible to<BR>really make schedules<BR>for 'em.<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/event/re_soieba.bin
+msg:1:1:Yeah, I do remember<BR>hearing that airships are<BR>often late and stuff...<KEY>
+msg:1:1:So that's why it<BR>happens!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:So, do you understand<BR>now?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_wakata_b.bin
+msg:1:1:Yeah, I do! Thanks, you<BR>guys! I feel a bit smarter,<BR>now.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+se:bin/se/10al/event/a_03_c.bin
+msg:4:19:Ohoho! You SHOULD be<BR>thankful for the scraps of<BR>knowledge we give you!<KEY><W><C>
+
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:8	
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+wait:60
+
+//���ߑ�
+se:bin/se/11pr/prim13.bin
+chr:3:grp:bmp/ivent/12prime_06.tga 512,512
+chr:6:dir:right
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:300,190
+chr:6:moveto:270,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+msg:3:20:Wonder when they'll<BR>realize I made that all<BR>up...<KEY><W><C>
+
+chr:3:moveto:640,0
+chr:3:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

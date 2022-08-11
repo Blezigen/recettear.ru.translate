@@ -1,0 +1,109 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+//�M���h�}�X�^�[
+chr:2:dir:right
+chr:2:center:-62
+chr:2:move:-512,0				//	�\���ʒu
+chr:2:moveto:-120,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/13syounin_01.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+//�L�����Ɋւ���ݒ�
+
+
+//���Z�b�g
+chr:1:dir:left				//	����
+chr:1:center:-32
+chr:1:move:640,0				//	�\���ʒu
+chr:1:moveto:300,0			//	�ړ���
+chr:1:speed:10				//	�ړ����x
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:180,00
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+
+//�e�B�A
+chr:0:dir:left				//	����
+chr:0:center:-48
+chr:0:move:640,0				//	�\���ʒu
+chr:0:moveto:200,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+wait:60
+
+chr:2:grp:bmp/ivent/13syounin_01.tga 512,512
+windowpos:304,1
+msg:2:11:Так, ну что ж, значит!<BR>Это всё, да? <KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Да-да, как раз то,<BR>что надо!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Мы вернёмся, когда у нас<BR>снова возникнет нужда в<BR>запасе товаров на продажу.<KEY><W><C>
+
+chr:2:grp:bmp/ivent/13syounin_04.tga 512,512
+windowpos:304,1
+msg:2:11:Ха-ха, ну что же,<BR>буду вас ждать!<KEY>
+msg:2:11:Вот, держи – кое-что<BR>в подарочек. В дополнение<BR>к начальным продажам,<BR>так сказать!<KEY><W><C>
+
+chr:3:dir:left
+chr:3:grp:bmp/ivent/present.tga 128,128
+chr:3:move:245,70
+chr:3:col:255,255,255,0
+chr:3:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:3:colto:255,255,255,255
+chr:3:disp
+wait:80
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+se:bin/se/00re/shop/re_yata.bin
+msg:1:1:Йе-е-ей, хлеб с орехами!<BR>Пасиб'большое!<KEY><W><C>
+chr:3:fadeframe:60
+chr:3:colto:255,255,255,0
+chr:3:disp
+wait:80
+
+windowpos:304,1
+msg:2:11:Ну что ж, дерзайте, юная леди!<BR>Покажите им всё,<BR>на что способны!<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Во славу капитализма!<KEY><W><C>
+
+// Extra localization line, go!
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:Ну, так или иначе,<BR>Адам Смит бы нами<BR>гордился...<KEY><W><C>
+
+chr:0:moveto:640,0			//	�ړ���
+chr:0:speed:10
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:10
+chr:2:moveto:-512,0			//	�ړ���
+chr:2:speed:10
+
+wait:40
+
+//fadeout:20:0,0,0,255
+//wait:60
+
+end:

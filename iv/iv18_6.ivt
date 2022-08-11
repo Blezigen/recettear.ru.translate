@@ -1,0 +1,135 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//�����C
+chr:3:dir:right
+chr:3:center:-32
+chr:3:move:-512,0
+chr:3:moveto:-100,0
+chr:3:speed:8
+chr:3:grp:bmp/ivent/03lui_04.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//�G����
+chr:2:dir:left
+chr:2:center:-62
+chr:2:move:640,0
+chr:2:moveto:220,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/07elan_04.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+wait:60
+
+windowpos:304,-1
+se:bin/se/06el/shop/kai18a.bin
+msg:2:7:'Zat right... so you're<BR>from the northern<BR>kingdoms, huh?<KEY>
+msg:2:7:Don't you guys get<BR>crazy winters up there?<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/03lui_01.tga 512,512
+msg:3:3:Like you wouldn't<BR>believe! It's like the snow<BR>is trying to bury us!<KEY>
+msg:3:3:I got stranded right in<BR>front of my own house a<BR>couple times!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/07elan_01.tga 512,512
+msg:2:7:Yeah, but I bet your<BR>legs are strong from<BR>carrying around<KEY>
+msg:2:7:all that snow, right?<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/03lui_04.tga 512,512
+msg:3:3:You're the strong one,<BR>Elan! I've never met such<BR>a strong priest aspirant!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/07elan_04.tga 512,512
+msg:2:7:Haha!... well, it's just<BR>one style, y'know?<KEY>
+msg:2:7:Fits me just fine, though,<BR>so I sure don't mind!<KEY><W><C>
+
+wait:60
+chr:2:grp:bmp/ivent/07elan_02.tga 512,512
+msg:2:7:Well then.<KEY>
+msg:2:7:I'd say it's about time.<KEY><W><C>
+
+windowpos:304,1	
+se:bin/se/02li/action/02li_09.bin
+chr:3:grp:bmp/ivent/03lui_01.tga 512,512
+msg:3:3:Right, let's do it, then!<BR>I'm not gonna lose!<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/06el/start/06el_12.bin
+chr:2:grp:bmp/ivent/07elan_05.tga 512,512
+msg:2:7:I'll take you up on that!<BR>Alright, go!<KEY><W><C>
+wait:60
+windowpos:304,0
+chr:3:grp:bmp/ivent/03lui_02.tga 512,512
+chr:2:grp:bmp/ivent/07elan_02.tga 512,512
+se:bin/se/wav/bomm.bin
+se:bin/se/wav/bomm.bin
+msg:3:3: Bartender!<BR> Put it on our tab!<KEY><W><C>
+
+chr:2:moveto:640,0
+chr:2:speed:20
+chr:3:moveto:-512,0
+chr:3:speed:20
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+chr:3:move:-512,0
+chr:3:disp
+chr:2:move:640,0
+fadein:60:0,0,0,255
+wait:80
+
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+msg:1:1:Wow, they really can run<BR>when they need to.<KEY><W><C>
+se:bin/se/01ti/event/tea_mataku.bin
+msg:0:2:Merde... they might as<BR>well steal from the<BR>cupboards in that case...<KEY><W><C>
+
+chr:1:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

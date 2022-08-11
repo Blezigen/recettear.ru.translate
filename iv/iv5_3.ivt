@@ -1,0 +1,139 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+se:bin/se/00re/shop/re_ira.bin
+msg:1:1:Welcome to-<KEY>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+msg:1:1:- oh. Right.<KEY><W><C>
+
+//�J�C��
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou17a.bin
+msg:2:5:Good day!<KEY>
+msg:2:5:Have you completed my<BR>order yet?<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,1
+se:bin/se/00re/event/re_ehe_a.bin
+msg:1:1:Ehehehe!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_03.tga 512,512
+msg:2:5:Is your laugh supposed<BR>to creep out the<BR>customers,<KEY>
+msg:2:5:or is that just one of<BR>your natural talents?<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Da-ta-daaa!<KEY><W><C>
+
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+windowpos:304,-1
+msg:2:5:Oooh! Well, I'll be!<BR>Your boss works fast!<BR>I'm impressed!<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Aw, getting all of this<BR>together was child's play!<KEY><W><C>
+
+chr:2:grp:bmp/ivent/05caillou_03.tga 512,512
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou24a.bin
+msg:2:5:... Why are you getting<BR>so proud over this?<KEY>
+msg:2:5:You're not the owner,<BR>you're the counter-<BR>jockey.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:I TOLD you!<BR>I! AM! THE! OWNER!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/05caillou_07.tga 512,512
+//���ߑ�
+chr:6:dir:right
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:340,190
+chr:6:moveto:310,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+msg:2:5:You really don't know<BR>when to give up on a<BR>prank, do you?<KEY>
+chr:2:grp:bmp/ivent/05caillou_01.tga 512,512
+msg:2:5:In any event, you do<BR>need to learn to deal with<BR>customers better.<KEY>
+msg:2:5:I'll be coming in here<BR>more often from now on,<BR>so I expect good service.<KEY><W><C>
+
+chr:2:moveto:640,0
+chr:2:speed:8
+wait:80
+
+chr:1:grp:bmp/ivent/01recette_06.tga 512,512
+windowpos:304,1
+msg:1:1:Hmph!<KEY>
+msg:1:1:I can deal with NORMAL<BR>customers just fine,<BR>thank you!<KEY><W><C>
+
+chr:1:moveto:-640,0
+chr:1:speed:10
+wait:60
+
+
+//fadeoutb:60
+//wait:60
+end:

@@ -1,0 +1,133 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_sakaba.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60				//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+//�G����
+chr:4:dir:left
+chr:4:center:-62
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//���Z�b�g
+chr:3:dir:right				//	����
+chr:3:center:-32
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-160,0			//	�ړ���
+chr:3:speed:10			
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+//�e�B�A
+chr:1:dir:right				//	����
+chr:1:center:-48
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-60,0			//	�ړ���
+chr:1:speed:10	
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/event/re_soieba.bin
+msg:3:1:Oh yeah, you're an<BR>aspiring priest, right,<BR>Elan?<KEY>
+msg:3:1:Are all priests as<BR>crazily strong as you are?<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/06el/shop/kai17.bin
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+msg:4:7:Heh, not really. The way<BR>my sect does it just<BR>happens to have<KEY>
+msg:4:7:a martial, "matter as a<BR>way to the mind" way of<BR>doing it.<KEY>
+chr:4:grp:bmp/ivent/07elan_05.tga 512,512
+msg:4:7:"If you are not strong of<BR>body and mind, you cannot<BR>hope to defend the weak!"<KEY>
+msg:4:7:... That's the idea, at<BR>any rate.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+msg:3:1:Well, you're super-strong,<BR>so I bet you can protect<BR>everyone, right?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+msg:4:7:Heh, thanks, Recette.<KEY><W><C>
+wait:30
+chr:4:grp:bmp/ivent/07elan_01.tga 512,512
+msg:4:7:... but nah, there's lots<BR>of guys who put me to<BR>shame.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512
+msg:3:1:There ARE? Like... who?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+msg:4:7:Yeah, like one guy I know<BR>who doesn't look like a<BR>priest at all...<KEY>
+msg:4:7:but he's built like a bear,<BR>and can do crazy things<BR>like beat up monsters<KEY>
+msg:4:7:totally barehanded and<BR>break through walls like<BR>paper, or...<KEY>
+chr:4:grp:bmp/ivent/07elan_02.tga 512,512
+msg:4:7:... Or get drunk and fall<BR>asleep on the streets, or<BR>never pay his debts...<KEY>
+msg:4:7:Honestly, if he wasn't a<BR>priest, he'd be a monster.<KEY>
+msg:4:7:Yeah, a bald, freakishly<BR>strong monster.<KEY><W><C>
+
+windowpos:304,1
+msg:1:2:That... struck me as more<BR>of a complaint than<BR>anything else.<KEY>
+msg:1:2:If he is so ill-mannered,<BR>why is he a priest?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_01.tga 512,512
+msg:4:7:Well, that's the crazy<BR>thing. Despite his looks,<BR>he's a first-rate priest.<KEY>
+msg:4:7:Never turns down a<BR>request for help, kids and<BR>the elderly love 'im...<KEY>
+msg:4:7:Plus he loves animals.<BR>Silliest thing ever, really.<KEY>
+msg:4:7:'Course, the animals<BR>usually just run away from<BR>him...<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+msg:3:1:He sounds like a nice<BR>person, if a bit weird.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:Yeah... I do respect the<BR>guy, despite his looks and<BR>how he drives me crazy.<KEY><W><C>
+wait:30
+
+msg:4:7:Last I heard he was<BR>chasin' after a pharmacist<BR>he fell in love with,<KEY>
+msg:4:7:and took up the position<BR>in some small town's<BR>chapel.<KEY>
+msg:4:7:Wonder if he's finally<BR>protecting what's<BR>important to him?...<KEY><W><C>
+
+wait:30
+windowpos:304,1
+msg:1:2:Perhaps you should have<BR>a reunion with him?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:Hah, if I ever go visit<BR>him, it'll be after I<BR>become a full priest.<KEY>
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+msg:4:7:Otherwise he'd just laugh<BR>at me 'n say, "What're you<BR>doing here, bonehead?"<KEY>
+chr:4:grp:bmp/ivent/07elan_01.tga 512,512
+msg:4:7:I still got a ways to go<BR>to catch up with him.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_01.tga 512,512
+msg:3:1:Then maybe you should<BR>drink less so you can get<BR>there sooner?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+msg:4:7:Haha... ouch, I just got<BR>told again, didn't I.<KEY><W><C>
+
+
+chr:4:moveto:640,0
+chr:4:speed:8
+chr:3:moveto:-512,0
+chr:3:speed:8
+chr:1:moveto:-512,0
+chr:1:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

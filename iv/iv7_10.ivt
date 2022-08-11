@@ -1,0 +1,192 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+//bgset:bmp/ivent/bg_guild.bmp		//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60	
+
+//�L�����Ɋւ���ݒ�
+
+//�e�B�A
+chr:3:dir:right				//	����
+chr:3:center:-48:
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-60,0			//	�ړ���
+chr:3:speed:10				//	�ړ����x
+chr:3:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+//���Z�b�g
+chr:5:dir:right				//	����
+chr:5:center:-32
+chr:5:move:-390,0				//	�\���ʒu
+chr:5:moveto:-160,0			//	�ړ���
+chr:5:speed:10			
+chr:5:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:5:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:5:disp
+
+//�O���t
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/shop/re_ira.bin
+msg:5:1:Welcome! Can I get...<KEY>
+chr:5:grp:bmp/ivent/01recette_01.tga 512,512
+msg:5:1:Oh! Griff, hi!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:9:Hm...<KEY><W><C>
+
+wait:60
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+msg:4:9:May I have a moment of<BR>your time?<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/01recette_07.tga 512,512
+msg:5:1:What's this about? You're<BR>being so formal...<KEY>
+chr:5:grp:bmp/ivent/01recette_02.tga 512,512
+msg:5:1:Wait. This is it, isn't it?!<BR>The moment I've been<BR>dreading!<KEY>
+msg:5:1:You're going to ask for<BR>Tear's hand in marriage,<BR>aren't you?!<KEY><W><C>
+
+windowpos:304,-1
+chr:3:grp:bmp/ivent/02tear_03.tga 512,512
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+se:bin/se/08gr/shop/gr_nani01.bin
+msg:4:9:... Misunderstanding as<BR>profound as hers leads<BR>to religions. BAD ones.<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/01recette_04.tga 512,512
+msg:5:1:Well, you're not getting<BR>her, mister! Not while I'm<BR>still around!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+se:bin/se/08gr/shop/gr_hana01.bin
+msg:4:9:What is this...<BR>enough foolishness. Here.<KEY><W><C>
+
+chr:2:dir:left
+chr:2:grp:bmp/ivent/meisi.tga 256,256
+chr:2:move:205,46
+chr:2:col:255,255,255,0
+chr:2:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:2:colto:255,255,255,255
+chr:2:disp
+wait:60
+
+chr:3:grp:bmp/ivent/02tear_02.tga 512,512
+chr:5:grp:bmp/ivent/01recette_07.tga 512,512
+windowpos:304,1
+msg:5:1:Eh?... EH?! This is!...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+msg:4:9:Why are you so shocked?<KEY>
+msg:4:9:This is what humans do<BR>when they seek to work<BR>with one another, yes?<KEY>
+msg:4:9:It's what the woman in<BR>that pub suggested, at<BR>least.<KEY><W><C>
+
+windowpos:304,1
+msg:5:1:It is, but... when did you<BR>join the Adventurer's Guild?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_01.tga 512,512
+msg:4:9:Being called "adventurer"<BR>seems to make living in<BR>this city quite easy.<KEY>
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+msg:4:9:Is it... strange for me to<BR>be one?<KEY><W><C>
+
+chr:5:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,1
+msg:5:1:... No. No, not at all!<KEY><W><C>
+
+chr:3:grp:bmp/ivent/02tear_00.tga 512,512
+msg:3:2:You certainly do seem to<BR>have done your research.<BR>I am surprised.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_04.tga 512,512
+se:bin/se/08gr/attack/08gr_04.bin
+msg:4:9:Why wouldn't I? I've<BR>already had one lecture<BR>about my future.<KEY>
+msg:4:9:I have no desire to get<BR>another one from HER.<KEY><W><C>
+
+chr:5:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,1
+//��
+chr:6:dir:left
+chr:6:grp:bmp/ivent/ase.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:-40,80
+chr:6:moveto:-40,200
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+msg:5:1:Oh, her lecture kind of<BR>stung, didn't it? She does<BR>that.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:9:She does... what do you<BR>mean?<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/01recette_01.tga 512,512
+msg:5:1:Oh, er, nothing!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_01.tga 512,512
+msg:4:9:So. Do you want the card<BR>or not?<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/01recette_07.tga 512,512
+msg:5:1:O-oh! Of course I do!<KEY><W><C>
+
+chr:2:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:2:colto:255,255,255,0
+chr:2:disp
+wait:80
+
+chr:5:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/shop/re_yata.bin
+msg:5:1:Yay-hay! Thank you,<BR>Griff!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+msg:4:9:I... don't need your<BR>thanks.<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/01recette_01.tga 512,512
+msg:5:1:So...<KEY>
+chr:5:grp:bmp/ivent/01recette_04.tga 512,512
+msg:5:1:Back to the first topic.<BR>When ARE you going to<BR>propose to Tear?<KEY><W><C>
+
+windowpos:304,-1
+chr:3:grp:bmp/ivent/02tear_03.tga 512,512
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+se:bin/se/08gr/shop/gr_yate01.bin
+msg:4:9:I really could write<BR>books about her reality...<KEY><W><C>
+
+chr:4:moveto:650,0
+chr:4:speed:8
+chr:4:disp
+
+chr:3:moveto:-650,0
+chr:3:speed:8
+chr:3:disp
+
+chr:5:moveto:-512,0
+chr:5:speed:8
+chr:5:disp
+wait:60
+//fadeoutb:60
+//wait:60
+end:

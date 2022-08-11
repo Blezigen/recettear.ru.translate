@@ -1,0 +1,118 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+msg:1:1:Man, even though I'm under<BR>the drinking age, I keep<BR>ending up in the pub!<KEY>
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:I wonder... could this<BR>feeling be the smouldering<BR>flame of... love?<KEY><W><C>
+
+windowpos:304,1	
+msg:0:2:As ever, you are spewing<BR>indecipherable nonsense.<KEY>
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:If you spend too much<BR>time wandering around in<BR>here,<KEY>
+msg:0:2:you will end up like<BR>those two, I fear.<KEY><W><C>
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+chr:1:move:-512,0
+chr:1:disp
+chr:0:move:-512,0
+chr:0:disp
+
+//�i�M
+chr:3:dir:right
+chr:3:center:-32
+chr:3:move:-100,0
+chr:3:grp:bmp/ivent/08nagi_04.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//�V������
+chr:2:dir:left
+chr:2:center:-32
+chr:2:move:220,0
+chr:2:grp:bmp/ivent/04charme_10.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+fadein:60:0,0,0,255
+wait:80
+
+windowpos:304,-1	
+msg:2:4:Sho look... wha' I'm<BR>tryin' t'say ish...<KEY>
+msg:2:4:There'sh no way killer<BR>bee pickled 'n whiskey<BR>can beat volcanicrab<KEY>
+msg:2:4:pickled in ale!<KEY>
+chr:2:grp:bmp/ivent/04charme_09.tga 512,512
+msg:2:4:... tho where y'd get a<BR>vat big enough issa good<BR>queshtion...<KEY><W><C>
+
+windowpos:304,1	
+msg:3:8:Dear me, Charme, you do<BR>get quite silly at times,<BR>don't you?<KEY>
+msg:3:8:You keep bringing up<BR>these random and odd<BR>ideas.<KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:Well, shee, wha' I really<BR>wanta say ish...<KEY>
+chr:2:grp:bmp/ivent/04charme_14.tga 512,512
+msg:2:4:HOW IN THE HELL ARE<BR>YOU SHO RESISHTANT<BR>T'ALCOHOL?!<KEY>
+msg:2:4:You've drunk at least<BR>ash much 'sme!...<KEY><W><C>
+
+windowpos:304,1	
+chr:3:grp:bmp/ivent/08nagi_01.tga 512,512
+msg:3:8:Hmhm! It's just the trick<BR>of a lady, Charme. Now, I-<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/03sy/action/03sy_11b.bin
+chr:2:grp:bmp/ivent/04charme_11.tga 512,512
+msg:2:4:SHIDDOWN, WOMAN, AND<BR>GRAB THAT CUP!<KEY>
+msg:2:4:I am PUTTING you under<BR>thish table T'NIGHT if it<BR>kills me!<KEY><W><C>
+
+windowpos:304,1	
+se:bin/se/07na/shop/n_32.bin
+chr:3:grp:bmp/ivent/08nagi_04.tga 512,512
+msg:3:8:Ahh, what am I to do?<BR>You are quite a handful...<KEY><W><C>
+
+
+chr:2:moveto:600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:2:speed:8
+chr:2:disp
+chr:3:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:3:speed:8
+chr:3:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

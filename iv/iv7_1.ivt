@@ -1,0 +1,126 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_myroom3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-120,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+windowpos:304,1
+msg:0:2:Hmm...<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32:
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,-1
+se:bin/se/00re/event/re_tear.bin
+msg:1:1:Oh, Tear! You're still up?<KEY>
+msg:1:1:... What's... up? You look<BR>like you're thinking really<BR>hard about something...<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+windowpos:304,1
+msg:0:2:"What is up" with me?<BR>I should ask you the same<BR>thing.<KEY>
+msg:0:2:If you do not get to bed<BR>soon, you will sleep until<BR>noon - at the earliest.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Hehe!... well, maybe.<KEY><W><C>
+
+wait:40
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+windowpos:304,1
+msg:0:2:... Hm...<KEY>
+msg:0:2:That elven girl...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+msg:1:1:Bwuh? Oh, you mean Tielle?<KEY>
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:She's neat, isn't she?<BR>I've never met an elf<BR>before!<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Hardly surprising. Most<BR>other intelligent races<BR>avoid humanity.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+wait:30
+
+windowpos:304,-1
+se:bin/se/00re/event/re_sona.bin
+msg:1:1:They do? Do other people<BR>really hate humans that<BR>much?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:Hmph. It is hardly just<BR>the fault of humanity.<BR>Every race looks out<KEY>
+msg:0:2:for their own interests<BR>first. Men, elves... even<BR>fairies.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+msg:1:1:Huh?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:I chose... well, no, it was<BR>not just myself alone.<KEY>
+msg:0:2:The entire race of the<BR>fey chose to live<BR>alongside humanity.<KEY>
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:And yet...<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:And yet... what?<BR>Are you okay, Tear?<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+windowpos:304,1
+msg:0:2:Ah. Never mind. I am<BR>rambling.<KEY>
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:I really have no right to<BR>pass judgment upon entire<BR>races.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:But...<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+msg:0:2:Come, we need to get<BR>some sleep.<KEY>
+se:bin/se/01ti/system/01ti_sys03.bin
+msg:0:2:Good night, Recette.<KEY><W><C>
+
+chr:0:moveto:-512,0
+chr:0:speed:10
+wait:60
+
+windowpos:304,-1
+msg:1:1:Tear... you can speak<BR>your mind to me, you<BR>know...<KEY><W><C>
+
+chr:1:moveto:640,0
+chr:1:speed:10
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

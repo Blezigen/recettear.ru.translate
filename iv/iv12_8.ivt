@@ -1,0 +1,58 @@
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:left			//	����
+chr:1:center:-32
+chr:1:move:640,0				//	�\���ʒu
+chr:1:moveto:240,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-512,0				//	�\���ʒu
+chr:0:moveto:-130,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Holy carp...<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:So many power crystals...<BR>and they are so massive...<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:I wonder if someone could<BR>use these to get more<BR>powerful?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:You are, once again,<BR>speaking utter foolishness.<BR>DANGEROUS foolishness.<KEY>
+msg:0:2:No living creature could<BR>use such crystals safely...<KEY><W><C>
+
+chr:1:moveto:512,0			//	�ړ���
+chr:1:speed:8	
+chr:0:moveto:-512,0			//	�ړ���
+chr:0:speed:8
+wait:60
+
+end:

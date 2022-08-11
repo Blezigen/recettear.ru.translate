@@ -1,0 +1,93 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+//�V������
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+msg:2:4:Pfwhoooooh!<KEY>
+msg:2:4:Heaven a-bove! Beer<BR>truly ish man's greatest<BR>gift to th' world.<KEY><W><C>
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1	
+msg:0:2:The idea of beer being<BR>the finest thing humanity<BR>will ever create fills me<KEY>
+msg:0:2:with stark, soul-<BR>crushing horror.<KEY><W><C>
+wait:30
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Besides... continue to<BR>drink beer like that, and<BR>you will develop a<KEY>
+msg:0:2:beer belly before long.<KEY><W><C>
+
+windowpos:304,-1
+msg:2:4:Pwaaah! Ah'm immune t'<BR>shuch stuff, no worries!<KEY>
+msg:2:4:Beautiful will alwaysh<BR>be beautiful!<KEY>
+chr:2:grp:bmp/ivent/04charme_10.tga 512,512
+msg:2:4:I'm bheauschiful on a<BR>hereditary level, shee.<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:I do wish I could<BR>understand where you get<BR>your well of<KEY>
+msg:0:2:baseless confidence<BR>from.<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Man, that's so cool...<KEY><W><C>
+
+windowpos:304,1	
+msg:0:2:Please do not take a<BR>single thing she says<BR>seriously!<KEY><W><C>
+
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/04charme_13.tga 512,512
+msg:2:4:Awhooo! Beer ish d'best!<KEY><W><C>
+
+chr:1:moveto:-390,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-490,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+chr:2:moveto:600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:2:speed:8
+chr:2:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

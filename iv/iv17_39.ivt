@@ -1,0 +1,134 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+//lighton:300:4000
+bgset:bmp/ivent/bg_hiro2.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:60					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//�v����
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:640,0
+chr:2:moveto:220,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/12prime_04.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+
+wait:60
+
+windowpos:304,-1
+se:bin/se/11pr/prim15-03.bin
+msg:2:20:I see you two are still<BR>stuck together like glue.<KEY><W><C>
+
+windowpos:304,1	
+msg:1:1:Oh, hi, Prime. Out for a<BR>walk?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/12prime_01.tga 512,512
+msg:2:20:Mmm, something like that.<BR>A flap in my case, maybe,<BR>eh?<KEY><W><C>
+wait:30
+chr:2:grp:bmp/ivent/12prime_02.tga 512,512
+msg:2:20:... Oi. Miss Megastudent.<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:Are you referring to me?<BR>I do not know if I deserve<BR>to be called-<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/12prime_06.tga 512,512
+msg:2:20:You ask me, anyone who's<BR>been recognized by the<BR>oh-so-illustrious<KEY>
+msg:2:20:leaders of the fairies<BR>deserves to be called<BR>"megastudent".<KEY>
+msg:2:20:And, well, maybe a<BR>couple other things, too...<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:... But that would imply<BR>that you...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/12prime_00.tga 512,512
+msg:2:20:Are an exception?<BR>Yep.<KEY>
+msg:2:20:I couldn't hack the exams,<BR>so I fled, and ended up<BR>collapsing in some<KEY>
+msg:2:20:human town without a clue<BR>about how to survive.<KEY>
+msg:2:20:Alouette's father ended<BR>up saving my life.<KEY>
+msg:2:20:And as it turned out,<BR>he needed someone to<BR>watch his temperamental<KEY>
+msg:2:20:daughter. This was when<BR>Alouette was... four, I<BR>guess.<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:So that's why you seem<BR>so different from Tear?<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/12prime_02.tga 512,512
+msg:2:20:Darn right. I got no<BR>ties to the dinks I left<BR>behind.<KEY>
+msg:2:20:If it really came down<BR>to it, I'd probably choose<BR>Alouette's family over<KEY>
+msg:2:20:any loyalty I have to the<BR>"fairy people"... or anyone<BR>else for that matter.<KEY>
+msg:2:20:Y'know, you guys might<BR>eventually have to...<KEY><W><C>
+wait:30
+chr:2:grp:bmp/ivent/12prime_06.tga 512,512
+msg:2:20:... Ah, it ain't my place.<KEY>
+msg:2:20:If it comes up, it's<BR>something you guys need<BR>to decide for yourselves.<KEY><W><C>
+
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:What are you...<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/12prime_05.tga 512,512
+msg:2:20:Nuts! Can't stay out too<BR>late or Her Mistressness<BR>will start to worry.<KEY>
+chr:2:grp:bmp/ivent/12prime_04.tga 512,512
+msg:2:20:See ya! Keep bein'<BR>friendly to Alouette,<BR>okay?<KEY><W><C>
+
+chr:2:moveto:600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:2:speed:8
+chr:2:disp
+wait:60
+
+windowpos:304,1	
+msg:0:2:So she is... a free fairy.<KEY>
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+msg:0:2:I believe I may envy her<BR>slightly.<KEY><W><C>
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Tear...<KEY><W><C>
+
+chr:1:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+chr:0:moveto:-600,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:0:speed:8
+chr:0:disp
+
+wait:60
+
+
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

@@ -1,0 +1,133 @@
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//�L�����Ɋւ���ݒ�
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Arma!<KEY><W><C>
+wait:30
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:You seem like you're<BR>back to normal! Are you<BR>okay?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:The strain of combat<BR>momentarily reset this<BR>unit's external<KEY>
+msg:4:10:connections.<BR>Autonomous control has<BR>been restored.<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Yep, same Arma as always.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:This unit will now seal<BR>the Lapis Core so that<BR>further intrusion<KEY>
+msg:4:10:will no longer be<BR>possible.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/01ti/event/tea_oh.bin
+msg:0:2:Seal the... wait!<BR>That would mean...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:Do not worry. This will<BR>simply block all<BR>external connections.<KEY>
+msg:4:10:The processes which<BR>create the dungeons shall<BR>remain active.<KEY>
+msg:4:10:No harm will come to<BR>Pensee's economy or<BR>adventurers.<KEY><W><C>
+windowpos:304,1
+msg:0:2:That is not what I am<BR>concerned about!<KEY>
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:If you seal this area<BR>completely, then you would<BR>have to...<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Wait... what?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:No way... you can't! Arma,<BR>come home with us! Please!<KEY><W><C>
+
+wait:60
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_01.tga 512,512
+msg:4:10:You are... a kind human<BR>being, Recette. Almost<BR>too kind.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Huh?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:Your kindness has<BR>created a bond between<BR>us, and this unit can<KEY>
+msg:4:10:no longer arbitrate the<BR>dungeons fairly if you<BR>enter one.<KEY>
+msg:4:10:This unit is therefore...<BR>severing control links<BR>to the matter<KEY>
+msg:4:10:rearrangement system.<BR>This unit will no longer<BR>arbitrate.<KEY>
+msg:4:10:This unit hesitated to<BR>take this step previously...<BR>but no longer.<KEY>
+msg:4:10:This unit... I... now has<BR>a place in the world as<BR>the individual "Arma".<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:So that means...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:10:I shall lose the vast<BR>majority of my dungeon-<BR>control abilities.<KEY>
+msg:4:10:But... I am comfortable<BR>with this arrangement.<BR>I want to live normally.<KEY>
+msg:4:10:I think... I enjoy<BR>shopping.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Arma...<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512
+se:bin/se/00re/event/re_un_a.bin
+msg:1:1:Right! Let's go home,<BR>then!<KEY>
+msg:1:1:Let's go back to our<BR>Recettear!<KEY><W><C>
+
+chr:5:dir:right
+chr:5:grp:bmp/ivent/siro.tga 640,480
+chr:5:move:0,0
+chr:5:col:255,255,255,0
+chr:5:fadeframe:160
+chr:5:colto:255,255,255,255
+chr:5:normal_shade
+chr:5:disp
+wait:200
+
+end:

@@ -1,0 +1,170 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_hiro3.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:30					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//���Z�b�g
+chr:1:dir:right				
+chr:1:center:-32			
+chr:1:move:-390,0			
+chr:1:moveto:-160,0			
+chr:1:speed:8				
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp		
+
+//�e�B�A
+chr:0:dir:right				
+chr:0:center:-48			
+chr:0:move:-390,0			
+chr:0:moveto:-60,0			
+chr:0:speed:10				
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp	
+
+wait:60
+
+windowpos:304,1
+msg:1:1:Brr...<KEY>
+msg:1:1:At night the plaza is so<BR>quiet, it's almost scary.<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Indeed. It would be best<BR>to return home quickly.<KEY>
+msg:0:2:This is a dangerous time<BR>for a girl to be wandering<BR>about.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+se:bin/se/00re/event/re_un_b.bin
+msg:1:1:Right!<KEY>
+msg:1:1:A cute girl like me could<BR>end up in all kinds of peril!<KEY><W><C>
+
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+//���G�t�F�N�g��o���܂�chr:5�L�����ԍ����b���Ă���L�����̉��ɂȂ�Ȃ��悤�ɒ��ӂ��Ă�������
+//iv�t�H���_�̊���G�t�F�N�gtxt�ɃT���v���������Ă���̂ŃR�s�y���č��W�������킹��ƃ��N�ł�
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:210,80
+chr:5:moveto:210,200
+chr:5:speed:0.5				//�X�s�[�h�͏����_��g���܂�
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+//���G�t�F�N�g�I���
+windowpos:304,1				
+msg:0:2:I do not recall saying<BR>anything about you being<BR>cute.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Ehehe... well, don't sweat<BR>the small stuff!<BR>C'mon, homeward ho!<KEY><W><C>
+
+
+//�m�o�b
+chr:2:dir:left				
+chr:2:center:-210			
+chr:2:move:560,0						
+chr:2:grp:bmp/ivent/13syounin_01.tga 512,512	
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp	
+
+
+windowpos:304,-1				
+msg:2:00:Hey... what are you kids<BR>doing out this late?<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+
+//�I
+chr:6:dir:left
+chr:6:grp:bmp/ivent/bikuri.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:210,100
+chr:6:moveto:210,00
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+
+//�I
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,100
+chr:5:moveto:100,00
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+
+wait:30
+
+windowpos:304,1
+msg:1:1:Oh Heaven!<BR>A hoodlum!<KEY>
+msg:1:1:A HOODLUM'S GONNA STEAL<BR>MY CUUUUUTENEEEEESS!<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Who is there?! Show<BR>yourself!<KEY><W><C>
+
+chr:2:moveto:220,0			
+chr:2:speed:8	
+chr:2:center:-62
+wait:60
+windowpos:304,-1				
+msg:2:11:Calm down, you two!<BR>It's me! No need for<BR>alarm!<KEY><W><C>
+
+wait:30
+windowpos:304,1	
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512			
+msg:0:2:Thank goodness. I was<BR>about to call a gendarme.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:With an appearance like<BR>his, that's not<BR>unreasonable!<KEY><W><C>
+
+chr:2:grp:bmp/ivent/13syounin_03.tga 512,512	
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:480,00
+chr:5:moveto:480,140
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+windowpos:304,-1				
+msg:2:11:Now that's just cruel...<KEY><W><C>
+
+
+chr:0:moveto:-600,0
+chr:0:speed:8
+chr:1:moveto:-600,0
+chr:1:speed:8
+chr:2:moveto:600,0
+chr:2:speed:8
+
+wait:60
+//fadeoutb:60
+//wait:60
+
+end:
+//�C�x���g�I��

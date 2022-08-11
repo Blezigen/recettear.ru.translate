@@ -1,0 +1,91 @@
+//�w�i�̐ݒ�				�u//�v�ڍs�̕����͉e�����Ȃ��̂Œ��߂Ƃ��Ɏg���܂�
+bgset:bmp/ivent/bg_hiro1.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j�R�R�ł͒��̍L��w�i��ݒ肵�Ă��܂�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt�����ɃX�N���[�����܂��A����܂�g���܂���
+//���t�F�[�h�C����60�t���Őݒ�
+wait:30					//wait:60��60�t���[���҂A�L�����������Ă鎞�Ƃ�wait�����Ȃ��Ɠ����Ȃ��璝���Ă��܂��܂�
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:1:move:-390,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:moveto:-80,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:1:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�m�o�b
+chr:2:dir:left				//	����
+chr:2:center:-32			//�t�L�_�V�̏o��ʒu��L�����̊G�ɂ��킹�邽�߂�-32�h�b�g���炷
+chr:2:move:540,0			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i�E�[�j
+chr:2:moveto:220,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�
+chr:2:speed:8				//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:2:grp:bmp/ivent/25machi_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���ŃA�C����������Ă����܂�
+chr:2:disp		//�L������\������Ƃ�������
+
+
+wait:60
+
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Hiya! Isn't the weather<BR>nice?<KEY><W><C>
+//�L�����ԍ��P�ɓo�^���P�i�t�L�_�V�̏�ɏo�閼�O�ł��j�ł���ׂ点�Ă��܂�
+//<BR>�ŉ��s<KEY>�ŃL�[���͑҂�<W><C>�Ńt�L�_�V�����
+
+windowpos:304,-1				//���b�Z�[�W�E�B���h�E�𔽓]
+chr:2:grp:bmp/ivent/25machi_03.tga 512,512
+msg:2:13:Hmm. It's a little hot<BR>for my tastes...<KEY>
+//�L�����ԍ��Q�ɓo�^���P�T�ł���ׂ点�Ă��܂��A�P�T�́u�����v�ł�
+
+chr:2:grp:bmp/ivent/25machi_01.tga 512,512
+msg:2:13:On days like this, you<BR>really want a cold drink<BR>above all else!<KEY><W><C>
+//<BR>�͉��s�A<KEY>�̓L�[���͑҂��A<W><C>�͐��o��������R�}���h�ł�
+//���o���͊�{�����l������ׂ��Ă��鎞�͏������ɏo�����܂܁i�ꕔ��O�A���j�Ⴄ�l���b���ꍇ�͈�U�����܂�
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�𔽓]
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//���Z�b�g�̕\���Ί�ɕϊ�
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:I know what you mean!<KEY><W><C>
+
+chr:1:moveto:-160,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:3
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48			//�t�L�_�V�̏o��ʒu��e�B�A�̊G�ɂ��킹�邽�߂�-48�h�b�g���炷
+chr:0:move:-390,0
+chr:0:moveto:-60,0			//	�ړ�����W
+chr:0:speed:10
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j�e�B�A����
+chr:0:disp		//�L������\������Ƃ�������
+
+wait:60
+//�ړ��̌�̓E�F�C�g������
+
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Perhaps we should add<BR>some cool items to our<BR>stock.<KEY><W><C>
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�𔽓]
+se:bin/se/00re/event/re_un_a.bin
+msg:1:1:Good idea!<KEY><W><C>
+
+chr:1:moveto:-390,0			//	�ړ�����W�A�e�B�A�ޏ�
+chr:1:speed:8
+chr:1:disp
+
+chr:0:moveto:-390,0			//	�ړ�����W�A�e�B�A�ޏ�
+chr:0:speed:8
+chr:0:disp
+
+chr:2:moveto:540,0			//	�ړ�����W�A�A�C������ޏ�
+chr:2:speed:8
+chr:2:disp
+
+wait:60
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

@@ -1,0 +1,309 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�i�M
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/08nagi_06.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Hiya again!<KEY><W><C>
+wait:20
+
+chr:4:grp:bmp/ivent/08nagi_05.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:330,30
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:330,30
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_01.tga 512,512
+se:bin/se/07na/shop/n_32.bin
+msg:4:0:Oh, my. Welcome!<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:"Welcome"? Wait, this can<BR>not possibly be your<BR>home...<KEY><W><C>
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_00.tga 512,512
+msg:4:0:Hmm?...<KEY><W><C>
+
+chr:4:grp:bmp/ivent/08nagi_05.tga 512,512
+//�I
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:340,100
+chr:5:moveto:340,00
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+windowpos:304,-1
+msg:4:0:Oh, my! No, this is not<BR>my home!<KEY><W><C>
+chr:4:grp:bmp/ivent/08nagi_00.tga 512,512
+wait:30
+msg:4:0:Where... am I, exactly?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+msg:1:1:Eh... hehe... heh...<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:This really is going from<BR>mildly amusing to deeply<BR>disturbing!<KEY>
+msg:0:2:HOW is it possible to have<BR>so little spatial<BR>awareness?...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_01.tga 512,512
+msg:4:0:I do seem to run into the<BR>two of you often when<BR>I come this way...<KEY>
+msg:4:0:Do you, by chance, live<BR>here?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:Absolutely NOT!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:We actually run an item<BR>shop.<KEY>
+msg:1:1:Sometimes we go inside<BR>dungeons with<BR>adventurers...<KEY>
+msg:1:1:and then we sell what we<BR>find in our shop!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_04.tga 512,512
+msg:4:0:Oh my! That sounds like a<BR>lot of fun!<KEY>
+msg:4:0:I would like to visit your<BR>shop sometime...<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:We'd love to have you<BR>stop by! Our place is on<BR>top of the hill in town.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_05.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:340,100
+chr:5:moveto:340,0
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+msg:4:0:... The... hill? In... town?<BR>Was there a hill?...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Uh, okay. Y'know the town<BR>market? Head straight to<BR>the square from there...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_00.tga 512,512
+msg:4:0:I... see...<KEY><W><C>
+
+fadeout:60:0,0,0,255
+wait:80
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+fadein:60:0,0,0,255
+
+wait:80
+
+windowpos:304,1
+msg:1:1:... and then, uh, you<BR>turn right...<KEY><W><C>
+windowpos:304,-1
+msg:4:0:I... see?...<KEY><W><C>
+fadeout:60:0,0,0,255
+wait:80
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+fadein:60:0,0,0,255
+
+wait:80
+
+windowpos:304,1
+msg:1:1:... and then you just go<BR>up the stairs, remember? It<BR>isn't hard, really...<KEY><W><C>
+
+wait:30
+
+//���ߑ�
+chr:6:dir:left
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:120,190
+chr:6:moveto:150,220
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:Teeeeeear! I don't think<BR>I can explain this to her!<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:I am struggling to<BR>refrain from all comment.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_04.tga 512,512
+msg:4:0:Oh, don't worry. My sense<BR>of direction is excellent.<KEY>
+msg:4:0:I think I can find your<BR>shop with no problems at<BR>all.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/00re/event/re_fue.bin
+//�I
+chr:6:dir:left
+chr:6:grp:bmp/ivent/bikuri.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:210,100
+chr:6:moveto:210,00
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+
+//�I
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:100,100
+chr:5:moveto:100,00
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+msg:1:1:HeuWHA?! But, I, how...<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:... And this is WHY I<BR>attempt to refrain from<BR>editorial comment.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/08nagi_01.tga 512,512
+msg:4:0:That reminds me...<KEY>
+msg:4:0:I haven't yet asked your<BR>names, have I?...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:1:1:Oh! Well, I'm Recette,<BR>and this is Tear.<KEY><W><C>
+
+windowpos:304,-1
+msg:4:8:Is that so? I am called<BR>Nagi.<KEY>
+chr:4:grp:bmp/ivent/08nagi_04.tga 512,512
+msg:4:8:I apologize for the late<BR>introduction. Recette,<BR>Tear, it is a pleasure<KEY>
+msg:4:8:to meet you both.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:The pleasure's all ours!<BR>See you at the store!<KEY><W><C>
+
+chr:4:moveto:650,0
+chr:4:speed:8
+chr:4:disp
+
+chr:1:moveto:-512,0
+chr:1:speed:10
+chr:1:disp
+chr:0:moveto:-512,0
+chr:0:speed:10
+chr:0:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

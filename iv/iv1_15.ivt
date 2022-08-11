@@ -1,0 +1,30 @@
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+se:bin/se/01ti/event/tea_chot.bin
+msg:0:2:Это всего лишь наш<BR>первичный запас товаров,<BR>так что нет нужды закупать их<BR>в избыточном количестве.<KEY>
+msg:0:2:Того, что у нас есть на<BR>текущий момент, должно быть<BR>более чем достаточно.<KEY><KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

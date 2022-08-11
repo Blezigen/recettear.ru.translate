@@ -1,0 +1,186 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/10al/event/a_09.bin
+msg:4:19:Ah, Recette. Working<BR>like a carriage horse as<BR>always, I see.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:I dunno about a horse,<BR>but I guess I'm working<BR>pretty hard.<KEY><W><C>
+wait:30
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
+msg:4:19:The animal talk reminds<BR>me... it's sturgeon fishing<BR>season, isn't it?<KEY>
+msg:4:19:The season for caviar!<BR>I cannot wait...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:140,120
+chr:5:moveto:140,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+se:bin/se/00re/event/re_sonano.bin
+msg:1:1:Huh, really?<KEY>
+msg:1:1:I've never had caviar,<BR>so...<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/10al/event/a_20_b.bin
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+msg:4:19:What?! Are you serious?<KEY>
+msg:4:19:Never had caviar? Truly,<BR>poverty really is a sin!<KEY><W><C>
+
+windowpos:304,1
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:4	
+chr:1:disp
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10	
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+msg:0:2:Well, for the rich it may<BR>be the season for caviar,<KEY>
+msg:0:2:but it is also eggplant,<BR>and therefore ikra, season.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Wait, it's really ikra<BR>season already?<KEY>
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:I'm kinda glad there's a<BR>few eggplants outside the<BR>store, then!<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:We will need some good<BR>bread for spreading, as<BR>well.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_03.tga 512,512
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:350,120
+chr:5:moveto:350,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+se:bin/se/10al/event/a_19_a.bin
+msg:4:19:What ARE you two going<BR>on about?<KEY>
+msg:4:19:Eggplants and bread and<BR>whatever...<KEY>
+msg:4:19:More importantly, what<BR>on Earth is "ikra"?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Ikra is a kind of<BR>eggplant-based bread<BR>spread.<KEY>
+msg:0:2:The taste is similar to<BR>caviar and it is often<BR>called "poor man's caviar".<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+msg:4:19:"Poor man's caviar"?<BR>Such a thing exists?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:The texture is also<BR>slightly similar to caviar.<KEY><W><C>
+
+msg:1:1:It's pretty yummy if you<BR>put it on bread!<KEY><W><C>
+
+msg:0:2:It is quite a bit easier<BR>to grow, prepare and eat,<KEY>
+msg:0:2:so even people who<BR>dislike caviar tend to<BR>like it.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+msg:4:19:So this "ikra" isn't<BR>fishy and salty then?<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:Given that it is plant-<BR>based, no, of course it is<BR>not fishy.<KEY>
+msg:0:2:And it does not need to<BR>be salted, so it is not<BR>salty, either.<KEY><W><C>
+
+wait:30
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:By the way, Alouette...<BR>is caviar yummy?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+msg:4:19:O-of course it is!<BR>It's expensive, after all.<KEY>
+msg:4:19:It certainly isn't so<BR>salty that it's basically<BR>inedible!<KEY><W><C>
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:8	
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+chr:0:moveto:-512,0
+chr:0:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

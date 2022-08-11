@@ -1,0 +1,154 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/shop/re_aaa.bin
+msg:1:1:Maaan, the square gets<BR>all creepy when it gets<BR>dark...<KEY><W><C>
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:It does. We should return<BR>home directly.<KEY><W><C>
+
+
+//�O���t
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+se:bin/se/00re/event/re_fue.bin
+msg:1:1:HeuAAAAAAAAAH!<BR>IT APPEARED!<BR>SAVE ME, TEAR!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+windowpos:304,-1
+msg:4:9:Must you treat me as<BR>though I'm some kind of<BR>ghost?<KEY><W><C>
+
+wait:30
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+se:bin/se/00re/event/re_soieba.bin
+msg:1:1:Y'know, Griff, come to<BR>think...<KEY>
+msg:1:1:Why do we always find<BR>you in the square?<KEY><W><C>
+wait:30
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Do you... live here?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/09griffe_06.tga 512,512
+se:bin/se/08gr/shop/gr_fuza01.bin
+msg:4:9:Do not be ridiculous.<BR>I would not degrade<BR>myself so.<KEY><W><C>
+wait:30
+
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+msg:4:9:The ones who live in<BR>the square are like that<BR>seedy-looking<KEY>
+msg:4:9:human over there.<KEY><W><C>
+
+chr:2:dir:left
+chr:2:center:-32:
+chr:2:move:600,0
+chr:2:moveto:220,0
+chr:2:speed:8	
+chr:2:grp:bmp/ivent/03lui_00.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+chr:4:moveto:640,0
+chr:4:speed:8
+
+wait:60
+
+windowpos:304,-1
+se:bin/se/02li/event/ryui_053.bin
+msg:2:3:Huh? Oh, hey Recette!<BR>Tear!<KEY>
+msg:2:3:Kinda late, isn't it?<BR>What's up?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-40,80
+chr:5:moveto:-40,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+msg:1:1:Louie, do YOU live in the<BR>square? I didn't...<KEY><W><C>
+windowpos:304,-1
+se:bin/se/02li/shop/ryui_031_b.bin
+chr:2:grp:bmp/ivent/03lui_03.tga 512,512
+msg:2:3:Hey, c'mon, that's kinda<BR>rude. Even I'm not THAT<BR>poor.<KEY>
+chr:2:grp:bmp/ivent/03lui_04.tga 512,512
+msg:2:3:I stay at a place in town<BR>in return for doing the<BR>cleaning and dishes.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+se:bin/se/00re/event/re_sonanda_a.bin
+msg:1:1:Ohh, I see! That's<BR>surprisingly normal!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/03lui_03.tga 512,512
+msg:2:3:Surprisingly?...<KEY><W><C>
+
+chr:4:moveto:640,0
+chr:4:speed:8
+chr:4:disp
+chr:2:moveto:640,0
+chr:2:speed:8
+chr:2:disp
+chr:0:moveto:-512,0
+chr:0:speed:8
+chr:0:disp
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:1:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

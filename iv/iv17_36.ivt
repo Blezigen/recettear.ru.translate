@@ -1,0 +1,115 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro1.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//���̎q
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/21machi_03.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+windowpos:304,-1
+msg:4:17:*Sniffle*<KEY><W><C>
+
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Heeey, what's wrong?<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/21syo/shop/syozyo01-3.bin
+msg:4:17:I dropped my hairpin.<BR>It's reeeal important, too...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Aww, don't cry. I'll help<BR>you find it!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:17:You will?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_un_a.bin
+msg:1:1:Yeah! Just leave it to me!<KEY>
+msg:1:1:Despite how she may look,<BR>Tear's a master at finding<BR>things!<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+se:bin/se/01ti/event/tea_oh.bin
+msg:0:2:Pardon?<KEY><W><C>
+msg:1:1:She can get into every<BR>nook and cranny and find<BR>anything!<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:Really. I see how it is.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/21machi_04.tga 512,512
+se:bin/se/21syo/shop/syozyo02-2.bin
+msg:4:17:Thank you so much!<KEY><W><C>
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+chr:0:col:80,80,80,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+
+fadein:60:0,0,0,255
+wait:80
+windowpos:304,1
+msg:1:1:I'm really glad we could<BR>find it for you!<KEY><W><C>
+windowpos:304,-1
+msg:4:17:Yeah! Thank you again,<BR>nice ladies!<KEY><W><C>
+chr:4:moveto:640,0
+chr:4:speed:8
+wait:60
+windowpos:304,1
+msg:0:2:Mmph...<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Wow, Tear, you're black<BR>as coal.<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:Why did it have to be in<BR>a drain of all places...<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Hey, you did great!<BR>And we can use you to warm<BR>the store now!<KEY><W><C>
+
+chr:0:moveto:-512,0
+chr:0:speed:8
+chr:1:moveto:-512,0
+chr:1:speed:8
+
+wait:60
+//fadeoutb:60
+//wait:60
+end:

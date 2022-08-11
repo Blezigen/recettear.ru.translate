@@ -1,0 +1,110 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_kyoukai.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+
+//�L�����Ɋւ���ݒ�
+//�J�C��
+chr:4:dir:left
+chr:4:center:-48
+chr:4:move:540,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/05caillou_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Hi, Caillou!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/05caillou_05.tga 512,512
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou21d.bin
+msg:4:5:Oi, what do you want?<BR>Slacking off from the<BR>store again?<KEY>
+msg:4:5:It isn't my fault if the<BR>owner gets angry with<BR>you, remember.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+windowpos:304,1
+msg:1:1:I AM the owner, so it's<BR>perfectly fine!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:5:You still keeping that<BR>up? Good grief...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,1
+se:bin/se/00re/event/re_soieba.bin
+msg:1:1:Y'know, now that I think<BR>about it, you come in here<BR>a lot.<KEY>
+msg:1:1:I guess you're pretty<BR>faithful, huh?<KEY><W><C>
+chr:4:grp:bmp/ivent/05caillou_00.tga 512,512
+windowpos:304,-1
+msg:4:5:Please. I don't come here<BR>because I'm faithful.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,1
+msg:1:1:Ohhh, I get it! You want<BR>the candy you get when<BR>you come!<KEY><W><C>
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou28c.bin
+chr:4:grp:bmp/ivent/05caillou_07.tga 512,512
+msg:4:5:You don't get it at all.<BR>Don't try comparing<BR>yourself to me, okay?<KEY><W><C>
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,1
+msg:1:1:But then... why?<KEY><W><C>
+windowpos:304,-1
+
+chr:4:grp:bmp/ivent/05caillou_00.tga 512,512
+msg:4:5:Well... it isn't exactly<BR>public knowledge, but...<KEY>
+msg:4:5:The chapels get a lot of<BR>information about the<BR>arcane.<KEY>
+msg:4:5:Hanging out here makes<BR>it easier for me to get<BR>that information.<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/event/re_sonano.bin
+msg:1:1:Really?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:5:Yeah, though not much<BR>useful information's<BR>come through, lately.<KEY>
+msg:4:5:Part of it might have to<BR>do with the fact that a<BR>lot of preachers are<KEY>
+msg:4:5:saying that magic and<BR>faith are utterly<BR>opposed.<KEY>
+msg:4:5:There are rumors that<BR>all arcane practices will<BR>be made heretical soon.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Whoa... sounds complicated.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/05caillou_01.tga 512,512
+se:bin/se/04ca/shop/caillou36c.bin
+msg:4:5:Well, for you it would,<BR>I guess. Not like it<BR>involves you.<KEY>
+msg:4:5:Just do what you do<BR>best. Don't worry about<BR>this.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Do what I do...<KEY><W><C>
+
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:8	
+chr:1:disp
+chr:4:moveto:640,0
+chr:4:speed:8
+chr:4:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

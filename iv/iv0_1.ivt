@@ -1,0 +1,60 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_gameover.bmp
+bgscroll:0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+lighton:600:8000
+
+chr:5:dir:left
+chr:5:grp:bmp/ivent/kuro.tga 640,480
+chr:5:col:255,255,255,255
+chr:5:fadeframe:240			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:move:0,0
+chr:5:disp
+wait:260
+
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:5
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:120
+windowpos:304,-1
+se:bin/se/00re/system/00re_sys22.bin
+msg:1:1:И за сим, на плечи милой,<BR>отважной маленькой героини<KEY>
+se:bin/se/00re/system/00re_sys23.bin
+msg:1:1:обрушилась вся тяжесть<BR>жестокости и горечей<BR>реальности.<KEY><C><W>
+wait:60
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+se:bin/se/00re/system/00re_sys24.bin
+msg:1:1:Уа-а-а-ах-ха-ха-а-а-ах...<BR>И с какой же это стати всё<BR>кончилось в какой-то коробке?!<KEY><C><W>
+
+chr:4:dir:left
+chr:4:grp:bmp/ivent/gameover.tga 512,128
+chr:4:move:50,-128
+chr:4:moveto:50,10
+chr:4:speed:0.5
+chr:4:disp
+wait:320
+
+chr:5:dir:left
+chr:5:grp:bmp/ivent/kuro.tga 640,480
+chr:5:col:255,255,255,0
+chr:5:fadeframe:240			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:0,0
+chr:5:disp
+wait:260
+
+//fadeoutb:240
+//wait:240
+end:

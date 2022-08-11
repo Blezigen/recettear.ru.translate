@@ -1,0 +1,186 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:300,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+//�v����
+chr:3:dir:left
+chr:3:center:-48
+chr:3:move:600,0
+chr:3:moveto:200,0
+chr:3:speed:10
+chr:3:grp:bmp/ivent/12prime_00.tga 512,512
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10	
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:6:dir:right
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:420,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:right
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:420,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:20
+
+windowpos:304,-1
+msg:4:19:*Gasp!* R-Recette?!<KEY><W><C>
+
+
+windowpos:304,1
+msg:1:1:Alouette? What're you<BR>doing in a place like THIS?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+msg:4:19:Me, I'm, uh... I'm<BR>dungeoneering, of<BR>course!<KEY>
+msg:4:19:Can't you tell by my<BR>confident swagger?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Oh, uh, okay... well, be<BR>careful.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:I don't need you telling<BR>me that.<KEY>
+msg:4:19:You're a million light-<BR>years too early to worry<BR>about me!<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Hehe! I guess I am.<KEY><W><C>
+
+windowpos:304,-1
+wait:60
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+wait:30
+se:bin/se/10al/event/a_02_c.bin
+msg:4:19:... Recette.<BR>Recette, hold on.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Huh? What's up?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
+msg:4:19:... I...<KEY>
+msg:4:19:I just wanted to wish<BR>you luck!<KEY>
+msg:4:19:An underskilled plebeian<BR>like you will need it, after<BR>all!<KEY>
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+se:bin/se/10al/event/a_09.bin
+msg:4:19:Now then, pardonne moi!<KEY><W><C>
+
+chr:4:moveto:640,0
+chr:4:speed:10
+wait:40
+
+windowpos:304,-1
+chr:3:grp:bmp/ivent/12prime_05.tga 512,512
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:310,50
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:310,50
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:3:20:WHAT in the?!<KEY>
+se:bin/se/11pr/prim01-05.bin
+msg:3:20:Now just a sec,<BR>"mistress"!<KEY><W><C>
+
+chr:3:moveto:640,0
+chr:3:speed:10
+wait:60
+
+windowpos:304,-1
+chr:3:center:-300
+msg:3:20:Wasn't talking to Recette<BR>the whole point in coming<BR>out here?<KEY>
+msg:3:20:Alouette! Wait up!<KEY><W><C>
+wait:30
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Huh.<KEY>
+msg:1:1:Did Alouette... want to<BR>tell me something?<KEY><W><C>
+msg:0:2:I do wonder.<KEY><W><C>
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+
+chr:0:moveto:-512,0			//	�ړ���
+chr:0:speed:8	
+
+wait:60
+//fadeoutb:60
+//wait:60
+end:

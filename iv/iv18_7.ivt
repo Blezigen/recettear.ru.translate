@@ -1,0 +1,137 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_kyoukai.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+
+//�L�����Ɋւ���ݒ�
+//�J�C��
+chr:4:dir:right
+chr:4:center:22
+chr:4:move:180,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/05caillou_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+
+//�G����
+chr:5:dir:right
+chr:5:center:-62
+chr:5:move:-512,0
+chr:5:moveto:-100,0
+chr:5:speed:10
+chr:5:grp:bmp/ivent/07elan_06.tga 512,512
+chr:5:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:5:disp
+wait:60
+windowpos:304,1
+msg:5:7:Well, Caillou!<BR>Hey, kiddo!<KEY><W><C>
+
+chr:4:dir:left
+wait:30
+chr:4:moveto:240,0
+chr:4:speed:4
+chr:4:grp:bmp/ivent/05caillou_06.tga 512,512
+chr:4:center:-48
+windowpos:304,-1
+se:bin/se/04ca/damage/04ca_15a.bin
+wait:30
+msg:4:5:Whoa! Elan?!<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/07elan_01.tga 512,512
+msg:5:7:Still like hangin'<BR>around the chapel, eh?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/05caillou_02.tga 512,512
+se:bin/se/04ca/shop/caillou24a.bin
+msg:4:5:What do you mean? I<BR>don't come here because<BR>I like it.<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/07elan_04.tga 512,512
+msg:5:7:Aww, come on, we used to<BR>come here together all the<BR>time!<KEY>
+msg:5:7:'Course, you just came<BR>for the candy, but...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/05caillou_07.tga 512,512
+msg:4:5:I've long since put such<BR>childishness out of my<BR>mind.<KEY><W><C>
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/07elan_01.tga 512,512
+msg:5:7:... 'Zat right. You don't<BR>look all that much different<BR>to me, but hey.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/05caillou_03.tga 512,512
+msg:4:5:Well, you just don't want<BR>to SEE any change!<KEY>
+msg:4:5:I can't stay the same way<BR>forever, you know!<KEY><W><C>
+
+chr:4:moveto:640,0
+chr:4:speed:8
+wait:60
+
+windowpos:304,1
+chr:5:grp:bmp/ivent/07elan_06.tga 512,512
+msg:5:7:Wh-hey, Caillou!...<KEY><W><C>
+
+chr:5:grp:bmp/ivent/07elan_00.tga 512,512
+//���ߑ�
+chr:6:dir:left
+chr:6:grp:bmp/ivent/tameiki.tga 128,128
+chr:6:col:255,255,255,0
+chr:6:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:180,80
+chr:6:moveto:210,110
+chr:6:speed:0.5
+chr:6:col:255,255,255,255
+chr:6:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:60
+
+msg:5:7:Guess he still needs<BR>some more time...<KEY><W><C>
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+//���Z�b�g
+//chr:1:�͂��̃C�x���g�̒������Ŏg���L�����ԍ��ł��A�����ł̓��Z�b�g��P�ɂ��Ă��܂��B�������������قǗD��x���Ⴍ�\�������̂ŃL�������d�Ȃ鎞�͒���
+chr:1:dir:right				//	����
+chr:1:center:-32			//�t�L�_�V�̏o��ʒu����Z�b�g�̊G�ɂ��킹�邽�߂�-32�h�b�g���炷			//	�\���ʒu���W�A���̏ꍇ��ʊO�ɕ\�����Ă����܂��i���[�j
+chr:1:move:-160,0			//	�ړ�����W�A�����Ɉړ����Ă��܂�			//�ړ��X�s�[�h�i�����͏������قǒx���j��ňړ����Ă���ړ��X�s�[�h�ł�
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y�i�L�����̉摜��ǂݍ���ł��܂��j���Z�b�g�̔��΂̕\��ł�
+chr:1:disp		//�L������\������Ƃ�������
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48				//	�\���ʒu
+chr:0:move:-60,0			//	�ړ���
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+chr:5:move:-510,0	
+chr:0:move:-50,0	
+fadein:60:0,0,0,255
+wait:80
+
+msg:1:1:So Caillou did come for<BR>the candy after all!<KEY><W><C>
+chr:0:center:-48				//	�\���ʒu
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:I... do not think that is<BR>the main point being made<BR>here...<KEY><W><C>
+
+chr:1:moveto:-560,0			//	�ړ���
+chr:1:speed:8	
+chr:1:disp
+chr:0:moveto:-410,0
+chr:0:speed:8
+chr:0:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

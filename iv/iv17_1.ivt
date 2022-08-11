@@ -1,0 +1,104 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_kyoukai.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+
+//�L�����Ɋւ���ݒ�
+//�J�C��
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:640,0
+chr:4:moveto:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/05caillou_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+windowpos:304,-1
+msg:4:5:Ugh, this place is dull as<BR>a rock today.<KEY><W><C>
+
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Oh, Caillou! Hello.<KEY><W><C>
+
+chr:4:grp:bmp/ivent/05caillou_00.tga 512,512
+chr:4:center:-32
+windowpos:304,-1
+se:bin/se/04ca/shop/caillou21d.bin
+chr:4:grp:bmp/ivent/05caillou_05.tga 512,512
+msg:4:5:What the... you again?<BR>They aren't giving out<BR>candy today, you know.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+windowpos:304,1
+msg:1:1:Oh come on! I'm totally<BR>too old to come in here<BR>fishing for candy!<KEY>
+msg:1:1:... which kind of makes<BR>me sad... but that's not<BR>the point!<KEY><W><C>
+
+windowpos:304,-1
+//chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:4:grp:bmp/ivent/05caillou_01.tga 512,512
+msg:4:5:Oh, that reminds me.<BR>Yesterday Kunurp in the<BR>market was handing out<KEY>
+msg:4:5:those signature mud pies<BR>the store makes to<BR>anyone who wanted one.<KEY>
+chr:4:grp:bmp/ivent/05caillou_04.tga 512,512
+msg:4:5:Heaven, those are great.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+windowpos:304,1
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/bikuri.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:170,120
+chr:5:moveto:170,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+msg:1:1:Heuwuh?!<KEY>
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+msg:1:1:Why didn't you come get<BR>me, then?!<KEY>
+se:bin/se/00re/shop/re_aaa.bin
+msg:1:1:Now I want one, too...<KEY><W><C>
+
+chr:4:grp:bmp/ivent/05caillou_03.tga 512,512
+chr:4:center:-32
+windowpos:304,-1
+msg:4:5:You're about as<BR>predictable as a mud pie,<BR>too...<KEY><W><C>
+
+
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:8	
+chr:1:disp
+chr:4:moveto:640,0
+chr:4:speed:8
+chr:4:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

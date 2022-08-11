@@ -1,0 +1,242 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro1.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+
+//�L�����Ɋւ���ݒ�
+//�G����
+chr:4:dir:right
+chr:4:center:-62
+chr:4:move:240,0
+chr:4:speed:10
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+fadein:60:0,0,0,255
+wait:60
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Hold it! You there!<KEY>
+msg:1:1:Cease whatever vaguely<BR>sneaky thing you're doing<BR>at once!<KEY><W><C>
+
+chr:4:grp:bmp/ivent/07elan_06.tga 512,512
+
+//�r�N�b
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:330,-20
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:330,-20
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+chr:4:dir:left
+
+wait:30
+windowpos:304,-1
+msg:4:0:Whoaho!<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:This is an orphanage!<BR>What are you doing here,<BR>peering at it like that?!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_02.tga 512,512
+se:bin/se/06el/shop/kai15.bin
+msg:4:0:What in... mind tellin'<BR>me who you are, little<BR>miss?<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:My name is Recette!<BR>I run the item shop<BR>"Recettear", on the hill!<KEY>
+msg:1:1:I was on my way home from<BR>delivering a package...<KEY>
+msg:1:1:and saw YOU being all<BR>sneaky!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_01.tga 512,512
+msg:4:0:Oh, you're the one who<BR>runs that... huh.<KEY>
+msg:4:0:Pretty impressive, at<BR>your age...<KEY><W><C>
+
+chr:4:grp:bmp/ivent/07elan_05.tga 512,512
+wait:30
+msg:4:7:We seem to have gotten<BR>off to a bad start.<BR>Name's Elan.<KEY>
+msg:4:7:In the strictest terms,<BR>I guess you could call me<BR>an adventurer.<KEY>
+msg:4:7:I kind of owe something<BR>to this orphanage, so I<BR>stop by a lot.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Why all the sneakification<BR>and peering, then?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_03.tga 512,512
+msg:4:7:I wasn't... peering, really.<BR>It was more... gazing at,<BR>I guess. With guilt.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:What do you...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:Times have been... a little<BR>hard, lately. You know<BR>how it can be.<KEY>
+msg:4:7:I can't afford to buy<BR>the kids who live there<BR>treats anymore...<KEY>
+msg:4:7:So I think to myself,<BR>"it'd just be better if<BR>I didn't show up at all..."<KEY>
+msg:4:7:But... still...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,1
+msg:1:1:Oh, I... I see. I'm sorry<BR>I was angry at you, but...<KEY><W><C>
+wait:30
+chr:6:move:640,0
+chr:6:center:-570
+chr:6:disp
+windowpos:304,0
+msg:6:0:   Hey hey! It's ELAN!<BR>      ELAN'S COME!<KEY><W><C>
+
+//�r�N�b
+chr:4:grp:bmp/ivent/07elan_06.tga 512,512
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:310,-20
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:310,-20
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+windowpos:304,-1
+msg:4:7:Aw, hell's bells! Now<BR>they've seen me!<KEY><W><C>
+chr:4:grp:bmp/ivent/07elan_03.tga 512,512
+wait:30
+se:bin/se/06el/shop/kai21.bin
+msg:4:7:Gotta let 'em down and<BR>go in empty handed,<BR>I guess...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:It'll be okay.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_00.tga 512,512
+msg:4:7:Huh?<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Look at them. The kids<BR>appreciate YOU, not the<BR>gifts!<KEY><W><C>
+
+wait:30
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Hehe. Kind of weird for<BR>a merchant to say you<BR>don't need gifts, I guess...<KEY>
+msg:1:1:But it's true, really!<BR>Go on, they're waiting!<KEY><W><C>
+
+wait:30
+windowpos:304,-1
+msg:4:7:Little miss...<KEY><W><C>
+
+windowpos:304,0
+msg:6:0:   Elaaaaan! Come and<BR>     play with us!<KEY>
+msg:6:0: I'm gonna be the guard,<BR> okay? You're the thief!<KEY><W><C>
+
+windowpos:304,-1
+msg:4:7:I...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Your fans await, Mr. Elan!<BR>Good luck!<KEY>
+msg:1:1:Oh, maybe you should<BR>go easy on the alcohol,<BR>too... for their sake.<KEY><W><C>
+chr:1:moveto:-510,0			//	�ړ���
+chr:1:speed:10	
+chr:1:disp
+wait:80
+windowpos:304,-1
+chr:4:grp:bmp/ivent/07elan_04.tga 512,512
+msg:4:7:Haha... man. She sure told<BR>me.<KEY><W><C>
+chr:4:grp:bmp/ivent/07elan_01.tga 512,512
+wait:40
+msg:4:7:Recette of "Recettear",<BR>huh...<KEY><W><C>
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-250,0			//	�ړ���
+chr:0:speed:8	
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:40
+windowpos:304,1
+msg:0:2:... Hmph.<KEY><W><C>
+
+chr:0:moveto:-390,0
+wait:60
+
+chr:4:grp:bmp/ivent/07elan_03.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:490,0
+chr:5:moveto:490,120
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+windowpos:304,-1
+msg:4:7:... Was it my imagination,<BR>or was that fairy giving<KEY>
+msg:4:7:me a hell of an evil<BR>eye just now?...<KEY><W><C>
+
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:10	
+chr:4:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

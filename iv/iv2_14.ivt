@@ -1,0 +1,214 @@
+//�w�i�̐ݒ�
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:3:dir:right				//	����
+chr:3:center:-48
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-130,0			//	�ړ���
+chr:3:speed:8				//	�ړ����x
+chr:3:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:3:col:255,255,255,255	//�`��q�f�a�`�l
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Ох ничего себе, как поздно уже!<BR>Время сегодня пролетело<BR>как стрела...<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Кстати о времени...<KEY>
+msg:3:2:Я собираюсь с этого момента<BR>ввести для тебя мягкий график<BR>твоей работы, дабы обеспечить<KEY>
+msg:3:2:все условия для максимальной<BR>эффективности твоего труда<BR>ради выплаты задолженности.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:График работы?<KEY><W><C>
+
+chr:0:dir:left
+chr:0:grp:bmp/ivent/time01.tga 256,256
+chr:0:col:255,255,255,0
+chr:0:fadeframe:40			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,255
+chr:0:move:200,80
+chr:0:disp
+wait:60
+
+chr:3:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,1
+msg:3:2:Именно. Для начала я разделила<BR>рабочий день на четыре<BR>временных периода -<KEY>
+msg:3:2:утро, день, вечер, и ночь.<KEY>
+msg:3:2:Чем ты можешь заниматься,<BR>и объём того, что ты можешь<BR>сделать, зависит от времени дня.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Эй, точно, часы теперь<BR>разделены на четыре зоны!<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Представь себе каждую из них как,<BR>так сказать, "кусочек" времени.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Кусочек... м-м-м, прям как<BR>кусочек тортика!<KEY><W><C>
+
+windowpos:304,1
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:3:2:Совершенно верно. Я так и думала,<BR>что смогу привлечь твоё внимание,<BR>если проведу примерную<KEY>
+msg:3:2:параллель с каким-нибудь<BR>сладким продуктом питания.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Так это, значит, утренний<BR>кусочек, затем дневной...<BR>Я теперь есть хочу!<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Кгхм. Как бы то ни было...<KEY><W><C>
+
+chr:0:col:255,255,255,255
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,0
+wait:80
+
+windowpos:304,1
+msg:3:2:Что ж, теперь к деталям:
+msg:3:2:Обычно ты можешь действовать<BR>в промежутке между "утром"<BR>и "ночью" включительно.<KEY>
+msg:3:2:Когда "ночь" кончается, тебе нужно<BR>отправляться в постель.<KEY>
+msg:3:2:Пытаться управлять магазином,<BR>при этом не смыкая глаз ночами,<BR>может быть крайне неприятно,<BR>так что...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_wkata_a.bin
+msg:1:1:Ясненько! Буду закрываться,<BR>когда будет становиться поздно.<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Так что у тебя, по сути, есть<BR>два выбора на каждый кусок.<KEY>
+msg:3:2:Ты можешь открыть свой магазин<BR>на этот период, или же отправиться<BR>в город по делам.<KEY>
+msg:3:2:Оба действия в один период<BR>предпринять невозможно, так что<BR>решай заранее, что тебе нужно<BR>сделать.<KEY>
+msg:3:2:Если точнее: открытие магазина<BR>потратит один кусочек,<BR>возвращение же в магазин
+msg:3:2:после того, как ты куда-либо<BR>отправишься - независимо<BR>от того, что ты делала<KEY>
+msg:3:2:за его пределами - также<BR>затратит один из кусков.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+msg:1:1:Но что если я, скажем, отправлюсь<BR>сначала на центральную площадь,<BR>а затем в часовню?<KEY><W><C>
+
+chr:0:dir:left
+chr:0:grp:bmp/ivent/time02.tga 256,256
+chr:0:col:255,255,255,0
+chr:0:fadeframe:40			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,255
+chr:0:move:190,80
+chr:0:disp
+wait:60
+
+windowpos:304,1
+msg:3:2:Ты можешь перемещаться по городку<BR>с достаточной лёгкостью, чтобы<BR>не затрачивать на каждое<KEY>
+msg:3:2:перемещение по отрезку времени.<BR>День продвинется вперёд лишь<BR>по твоему возвращению в лавку.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:В таком случае, мне стоит выполнять<BR>как можно больше дел, пока я<BR>не в лавке!<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Верно. Отличный настрой,<BR>Рисетт. Так, ну что ж...<KEY><W><C>
+
+chr:0:col:255,255,255,255
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,0
+
+wait:80
+chr:3:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+se:bin/se/01ti/event/tea_juyou.bin
+windowpos:304,1
+msg:3:2:Есть ещё один крайне важный<BR>элемент, а именно уход<BR>за пределы самого городка.<KEY>
+msg:3:2:Посещение подземелья в любом<BR>случае занимает целых два куска.<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/00re/event/re_sonano.bin
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Правда? Оно действительно<BR>занимает так долго, да?<KEY>
+msg:1:1:Значит, если я отправлюсь утром,<BR>то вернусь уже поздним<BR>вечером?<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Да, именно так оно и есть.<KEY>
+msg:3:2:И поэтому ты можешь отправляться<BR>в подземелье лишь<BR>в начале дня.<KEY>
+msg:3:2:Если на дворе ночь, или же ты<BR>уже сделала что-то тем вечером,<BR>направиться туда ты уже<BR>не сможешь.<KEY><W><C>
+
+windowpos:304,-1
+msg:1:1:Потому что если б я всё-таки<BR>решилась, то вернулась бы уже<BR>очень-очень поздно, верно?<KEY><W><C>
+
+windowpos:304,1
+msg:3:2:Exactly. Not only would<BR>you annoy your adventurer<BR>companions with<KEY>
+msg:3:2:staying out so late, you<BR>would also be dead on your<BR>feet the next day<KEY>
+msg:3:2:после возвращения.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/event/re_uu.bin
+msg:1:1:Maaan, this is a lot to<BR>wrap my head around...<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/02tear_01.tga 512,512
+msg:3:2:You will get used to it,<BR>I am sure.<KEY>
+msg:3:2:Before you know it, you<BR>will be thinking about it<BR>naturally.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:You think so?<KEY><W><C>
+
+chr:0:dir:left
+chr:0:grp:bmp/ivent/time03.tga 256,256
+chr:0:col:255,255,255,0
+chr:0:fadeframe:40			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,255
+chr:0:move:160,80
+chr:0:disp
+wait:60
+
+windowpos:304,1
+msg:3:2:Well, it helps that you will<BR>always be able to see how<BR>much time a particular<KEY>
+msg:3:2:action will consume. Simply<BR>pay attention to the clock.<KEY><W><C>
+
+chr:0:col:255,255,255,255
+chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:colto:255,255,255,0
+
+windowpos:304,1
+msg:3:2:That is everything. If you<BR>ever want to go over this<BR>again,<KEY>
+msg:3:2:simply ask me when we are<BR>in the shop.<KEY>
+chr:3:grp:bmp/ivent/02tear_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:3:2:I will be glad to go over<BR>it as often as you need.<KEY><W><C>
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_wakata_b.bin
+msg:1:1:Pie-kay!<KEY><W><C>
+
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:8	
+
+chr:3:moveto:-420,0			//	�ړ���
+chr:3:speed:8	
+wait:60
+
+
+end:

@@ -1,0 +1,172 @@
+/fadein:60:0,0,0,255
+/wait:60
+
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-500,0
+chr:0:moveto:-100,0
+chr:0:speed:10			//	�\���ʒu
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:col:255,255,255,255	//�`��q�f�a�`�l
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+
+chr:0:disp
+
+wait:60
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:5
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+msg:1:1:Хэ-э-эй! Прости, что ждать<BR>заставила!<KEY>
+se:bin/se/00re/event/re_nene.bin
+msg:1:1:Ну что, Тия, давай, открываем<BR>лавку прямо сейчас!<BR>Во славу капитализма!<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:Терпение, Рисетт. Качество,<BR>которое тебе очень<BR>понадобится.<KEY>
+msg:0:2:Нам нужно сперва разобраться<BR>с кое-какими делами, прежде чем<BR>мы сможем официально<BR>открыться.<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+
+//�H
+chr:5:dir:left
+chr:5:grp:bmp/ivent/hatena.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:350,120
+chr:5:moveto:350,20
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+
+windowpos:304,-1
+se:bin/se/00re/event/re_sonano.bin
+msg:1:1:Э? Это с какими же?<KEY><C><W>
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:0:2:Ну, я как-то сомневаюсь, например,<BR>что лавка без единого товара<BR>на продажу сможет<KEY>
+msg:0:2:привлечь хоть какой-либо<BR>бизнес.<KEY><C><W>
+windowpos:304,-1
+msg:1:1:Ух...<KEY><C><W>
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+//�r�N�b
+chr:4:dir:right
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+msg:1:1:А, точно! У нас же нет<BR>ничего на продажу!<KEY>
+msg:1:1:...<BR>Так значит, эм-м...<BR>Что же нам делать, собственно?<KEY><C><W>
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+windowpos:304,1
+msg:0:2:Для начала нам нужно<BR>создать необходимый запас товаров<BR>для магазина.<KEY>
+msg:0:2:Если нам нечего продать,<BR>то мы и лавкой толком-то<BR>не сможем называться!<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+msg:1:1:И правда что... хм-м-м...<KEY>
+msg:1:1:Так значит, куда же нам идти,<BR>чтобы запастись товаром?<KEY><C><W>
+
+windowpos:304,1
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Полагаю, лучшими способами<BR>будет либо посетить<BR>городской рынок, либо<KEY>
+msg:0:2:обратиться к Гильдии торговцев. Нам<BR>так или иначе стоит нанести<BR>приветственный визит<KEY>
+msg:0:2:главе гильдии, так что,<BR>по всей вероятности, это и окажется<BR>нашей первой остановкой.<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,-1
+msg:1:1:О-о-о-о, это же то место,<BR>где заведует тот дядька,<BR>верно?<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:Гильдия выступает как оптовик<BR>для местных торговцев,<BR>так что если мы<KEY>
+msg:0:2:там остановимся, то сможем<BR>приобрести первоначальный запас.<BR>Да и, в принципе, отклан-<KEY>
+msg:0:2:эм-м, любезно поприветствовать<BR>главу гильдии ничем<BR>не помешает.<KEY>
+msg:0:2:Особенно с учётом того,<BR>что именно Гильдия является<BR>той организацией, которая изначально<KEY>
+msg:0:2:и позволяет нам<BR>вести здесь дела.<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_wakata_b.bin
+msg:1:1:Океюшки, понятно! Ну что,<BR>тогда отправляемся сейчас же!<KEY><C><W>
+
+chr:1:moveto:480,0
+chr:1:speed:8
+wait:60
+
+windowpos:304,1
+msg:0:2:Когда захочешь покинуть лавку,<BR>направляйся к парадному<BR>входу, расположенному<KEY>
+msg:0:2:в данный момент<BR>в правом верхнем углу<BR>лавки.<KEY><C><W>
+
+//Begin custom localization event!
+chr:1:center:-160
+windowpos:304,-1
+msg:1:1:Э-э-эх, а я так хотела выйти<BR>прямо через окно, как заправский<BR>герой боевиков!<KEY>
+msg:1:1:ВПЕРЁД, НАВСТРЕЧУ<BR>ВЕЧНОСТИ, И-<KEY><C><W>
+
+rmb:40,40
+//se:bin/se/wav/bomm.bin
+chr:0:grp:bmp/ivent/02tear_07.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+//se:bin/se/wav/bomm.bin
+windowpos:304,0
+msg:0:2:РИСЕТТ!<KEY><C><W>
+//End custom event.
+
+chr:1:center:-160
+windowpos:304,-1
+se:bin/se/00re/event/re_hai.bin
+msg:1:1:Оу, ну ла-а-а-адно...<KEY><C><W>
+
+chr:0:moveto:-600,0
+chr:0:speed:8
+
+wait:80
+
+//fadeoutb:60
+//wait:60
+end:

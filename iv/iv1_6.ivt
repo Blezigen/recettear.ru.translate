@@ -1,0 +1,59 @@
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-100,0			//	�ړ���
+chr:0:speed:8				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+msg:0:2:Хорошо. За сим, думаю,<BR>с расположением наших<BR>товаров покончено.<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:...Ты уверена, что всё<BR>выглядит нормально, а не<BR>по-идиотски как-то? Я ведь...<KEY><W><C>
+
+wait:60
+
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+windowpos:304,1
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:0:2:Не волнуйся. Всё выглядит<BR>достаточно хорошо для<BR>первой попытки.<KEY>
+msg:0:2:Ну а теперь мне нужно<BR>научить тебя, как, собственно,<BR>продавать товары.<KEY>
+msg:0:2:Сядь за прилавок,<BR>пожалуйста.<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_un_a.bin
+msg:1:1:Будь'сделано!<KEY><W><C>
+
+chr:0:moveto:-500,0
+chr:0:speed:8
+chr:1:moveto:500,0
+chr:1:speed:8
+
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

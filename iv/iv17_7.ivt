@@ -1,0 +1,130 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro2.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+msg:4:10:...<KEY><W><C>
+wait:30
+chr:4:grp:bmp/ivent/10arma_01.tga 512,512
+se:bin/se/09ar/shop/aruma21.bin
+msg:4:10:I see. You have<BR>recovered enough to be<BR>mobile again.<KEY>
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+msg:4:10:You should not strain<BR>yourself, however.<KEY>
+msg:4:10:You still require 21 hours<BR>and 32 minutes of rest<BR>before-<KEY><W><C>
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:330,30
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/oya.tga 128,128
+chr:5:move:330,30
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:20
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,1
+se:bin/se/00re/shop/re_kon.bin
+msg:1:1:Hiya, Arma! What're you<BR>up to?<KEY><W><C>
+wait:30
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Hee! What a cute little<BR>squirrel!<KEY><W><C>
+
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:2	
+
+wait:30
+
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+chr:4:grp:bmp/ivent/10arma_06.tga 512,512
+msg:4:10:Stop, it is...<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:It ran away!<KEY>
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+se:bin/se/00re/shop/re_gomen.bin
+msg:1:1:Aww, I'm sorry, it's<BR>because I was so loud...<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+msg:4:10:You are not at fault.<KEY>
+msg:4:10:Squirrels are defensive<BR>and skittish as a species.<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:I guess that's true...<KEY>
+msg:1:1:Even wild squirrels will<BR>attach to people sometimes,<BR>though, huh?<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:I didn't know you could<BR>do that, Arma! You're<BR>amazing!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/10arma_03.tga 512,512
+msg:4:10:I... am not precisely a<BR>"person".<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Aww, I bet a squirrel<BR>knows when someone is kind<BR>to it, no matter what!<KEY><W><C>
+
+wait:30
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+windowpos:304,-1
+msg:4:10:Kind?...<BR>Kind...<KEY><W><C>
+
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:1:disp
+chr:4:moveto:640,0
+chr:4:speed:8
+chr:4:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

@@ -1,0 +1,203 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-130,0			//	�ړ���
+chr:1:speed:10			
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,1
+se:bin/se/00re/shop/re_aaa.bin
+msg:1:1:Aww, I'm hungry.<KEY>
+msg:1:1:I have to stay at the<BR>counter, though...<KEY><W><C>
+wait:30
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Good thing I have a<BR>donut!<KEY>
+msg:1:1:And Tear says I dunno<BR>how to plan in advance!<KEY>
+
+//�A���G�b�g
+chr:4:dir:left
+chr:4:center:-32
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:4
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+se:bin/se/00re/event/re_ehe_b.bin
+msg:1:1:Hehe, perfect, Tear isn't<BR>watching! Now to...<KEY>
+msg:1:1:...<KEY><W><C>
+wait:30
+
+se:bin/se/00re/event/re_fue.bin
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Whoa, uh, Alouette?!<KEY>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:W-welcome! How are you?<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:... What is that thing<BR>you're holding?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512
+msg:1:1:Um... well, I got a little<BR>hungry while watching the<BR>shop... and...<KEY>
+msg:1:1:I don't usually eat on the<BR>job but today was special<BR>you see and and-<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:I wasn't asking about<BR>your slovenly shopkeeping<BR>habits!<KEY>
+msg:4:19:I want to know what that<BR>round, strange object in<BR>your hand is!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Huh? Well, it's a donut,<BR>obviously.<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+msg:4:19:A... "do-nut".<KEY><W><C>
+wait:30
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:I've heard of those!<KEY>
+msg:4:19:"A traveler rested on a<BR>stump and he dropped his<BR>donut, which rolled away.<KEY>
+msg:4:19:The traveler had to<BR>fight through a forest of<BR>foes, chasing his donut,<KEY>
+msg:4:19:until the donut finally<BR>came to a rest in The<BR>Cave of Sizable Rodents!"<KEY>
+msg:4:19:Yes, I imagine everyone<BR>is familiar with that<BR>fairy tale.<KEY><W><C>
+
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:-10,80
+chr:5:moveto:-10,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Are you sure it went<BR>like that?...<KEY><W><C>
+
+windowpos:304,-1
+msg:4:19:I had no idea that the<BR>mythical "donut" actually<BR>existed, though...<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Would you like one,<BR>Alouette?<KEY><W><C>
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+se:bin/se/10al/event/a_20_b.bin
+msg:4:19:W-what did you say?!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:I've got two, so you can<BR>have one, too!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_07.tga 512,512
+msg:4:19:Well, uh, um - if you<BR>insist, Recette, then I<BR>suppose I can have one<KEY>
+msg:4:19:as a courtesy, at least.<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Okay, here you go!<KEY><W><C>
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_09.tga 512,512
+//�r�N�b
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:330,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:10
+chr:5:dir:right
+chr:5:grp:bmp/ivent/giku.tga 128,128
+chr:5:move:330,60
+chr:5:col:255,255,255,255
+chr:5:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:fadeframe:10
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:30
+se:bin/se/10al/event/a_11.bin
+msg:4:19:What the?!... you're just<BR>HANDING it to me?!<KEY>
+msg:4:19:What about a knife and<BR>fork? Or a PLATE for that<BR>matter!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+msg:1:1:Oh, you don't use those!<BR>Just hold it in your hand<BR>and eat it!<KEY>
+msg:1:1:Like this!<BR>*nom*<KEY><W><C>
+wait:60
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_03.tga 512,512
+msg:4:19:(I wonder if I can<BR>master such complicated<BR>eating techniques?...)<KEY>
+msg:4:19:(Still. Recette, of all<BR>people, is doing it.)<KEY>
+chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
+msg:4:19:(It can't possibly be<BR>that hard!)<KEY><W><C>
+wait:30
+msg:4:19:Alright!<BR>*NOM! nom nom!*<KEY><W><C>
+wait:60
+chr:4:grp:bmp/ivent/11alouette_05.tga 512,512
+msg:4:19:D...<KEY>
+chr:4:grp:bmp/ivent/11alouette_04.tga 512,512
+se:bin/se/10al/event/a_06.bin
+msg:4:19:Delicious... these are...<BR>wonderful!<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Snacks always taste<BR>better when you have<BR>someone to eat 'em with!<KEY>
+msg:1:1:Let's do this again<BR>sometime!<KEY><W><C>
+wait:30
+
+windowpos:304,-1
+chr:4:grp:bmp/ivent/11alouette_00.tga 512,512
+msg:4:19:I...<KEY><W><C>
+wait:30
+
+windowpos:304,-1
+se:bin/se/10al/event/a_16_a.bin
+chr:4:grp:bmp/ivent/11alouette_07.tga 512,512
+msg:4:19:... I'd like that, I think.<KEY>
+msg:4:19:Learning how to eat<BR>proletarian food is an<BR>important lesson<KEY>
+msg:4:19:for an aspiring<BR>patrician, after all!<KEY><W><C>
+
+chr:4:moveto:640,0			//	�ړ���
+chr:4:speed:8	
+
+chr:1:moveto:-512,0			//	�ړ���
+chr:1:speed:8	
+chr:0:moveto:-512,0
+chr:0:speed:8
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

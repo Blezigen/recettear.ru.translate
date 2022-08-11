@@ -1,0 +1,158 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+
+//�L�����Ɋւ���ݒ�
+//�t�F����
+chr:2:dir:left
+chr:2:center:-48
+chr:2:move:600,0
+chr:2:moveto:240,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/04charme_08.tga 512,512
+chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:2:disp
+wait:60
+
+se:bin/se/03sy/action/03sy_09b.bin
+msg:2:4:Friggin-fraggin... OW!<KEY>
+msg:2:4:Hell, I'm losing my touch,<BR>gettin' beat like that...<KEY><W><C>
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-100,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:1:col:255,255,255,255	//�`��q�f�a�`�l
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:40
+windowpos:304,1	
+se:bin/se/00re/event/re_ano_b.bin
+msg:1:1:Um... miss? Are...<BR>are you okay?<KEY><W><C>
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/04charme_03.tga 512,512
+wait:30
+msg:2:4:Ugh... I'm mortally<BR>wounded! I can... I can see<BR>the far shore...<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+se:bin/se/00re/event/re_fue.bin
+//�r�N�b
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:180,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:180,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+windowpos:304,1	
+msg:1:1:HeuWHAAA?!?! NO! I, uh,<BR>um...<KEY><W><C>
+chr:2:grp:bmp/ivent/04charme_00.tga 512,512
+windowpos:304,-1	
+msg:2:4:... I'm kidding, girl.<KEY>
+msg:2:4:Really... if you get this<BR>worried about every berk<BR>who tries to slit your<KEY>
+msg:2:4:throat and take your<BR>lucre...<KEY>
+chr:2:grp:bmp/ivent/04charme_03.tga 512,512
+se:bin/se/03sy/action/03sy_09a.bin
+msg:2:4:OW! Friggin'...<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:1:1:Hey! You really ARE hurt!<KEY>
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+msg:1:1:Here, take this wound<BR>ointment!<KEY><W><C>
+
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:4			
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:15
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+se:bin/se/01ti/event/tea_oh.bin
+msg:0:2:What the?! Did you have<BR>that on you this entire<BR>time?!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_c.bin
+msg:1:1:Ehehe... sorry, Tear.<KEY><W><C>
+chr:2:grp:bmp/ivent/04charme_00.tga 512,512
+windowpos:304,-1
+msg:2:4:...<KEY>
+chr:2:grp:bmp/ivent/04charme_01.tga 512,512
+msg:2:4:You two're a pair of<BR>oddballs, you know that?<KEY><W><C>
+
+windowpos:304,1
+msg:0:2:Believe me, she is the only<BR>round, strange object<BR>currently present!<KEY>
+msg:0:2:Please do not assume that<BR>both of us are nearly so<BR>foolish!<KEY><W><C>
+chr:2:grp:bmp/ivent/04charme_04.tga 512,512
+windowpos:304,-1
+msg:2:4:Really? Seems to me like<BR>you two make a good pair.<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+windowpos:304,1
+msg:0:2:... Er...<KEY><W><C>
+chr:2:grp:bmp/ivent/04charme_01.tga 512,512
+windowpos:304,-1
+msg:2:4:Well then, young ladies,<BR>I should scamper, since I've<BR>been beaten like a mutt.<KEY>
+msg:2:4:Enjoy your treasure!<BR>You earned it!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+windowpos:304,1
+msg:1:1:Wait! I'm Recette, and<BR>this is Tear.<KEY>
+msg:1:1:We have an item shop at<BR>the top of the hill in town,<BR>called "Recettear".<KEY>
+msg:1:1:You should stop by!<KEY><W><C>
+
+windowpos:304,-1
+chr:2:grp:bmp/ivent/04charme_04.tga 512,512
+msg:2:4:I should, huh?...<BR>I'll keep that in mind.<BR>See you kids later!<KEY><W><C>
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Goodbye, Charme!<KEY><W><C>
+
+//custom event
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:Merde. Giving her our<BR>shop location... what are<BR>you thinking, Recette?<KEY><W><C>
+
+chr:2:moveto:640,0
+chr:2:speed:8
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:0:moveto:-512,0
+chr:0:speed:8
+wait:60
+//fadeoutb:60
+//wait:60
+end:

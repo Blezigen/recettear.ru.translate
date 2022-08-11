@@ -1,0 +1,102 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro2.bmp
+chr:0:dir:left
+chr:0:grp:bmp/ivent/kuro.tga 640,480
+chr:0:col:255,255,255,100
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:move:0,0
+chr:0:disp
+
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//���Z�b�g
+chr:3:dir:right				//	����
+chr:3:center:-32
+chr:3:move:-390,0				//	�\���ʒu
+chr:3:moveto:-160,0			//	�ړ���
+chr:3:speed:8			
+chr:3:grp:bmp/ivent/01recette_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:3:disp
+//�e�B�A
+chr:1:dir:right				//	����
+chr:1:center:-48
+chr:1:move:-390,0				//	�\���ʒu
+chr:1:moveto:-60,0			//	�ړ���
+chr:1:speed:10	
+chr:1:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+windowpos:304,1
+se:bin/se/00re/shop/re_aaa.bin
+msg:3:1:Aww, it looks like it's<BR>gonna rain.<KEY><W><C>
+se:bin/se/01ti/event/tea_sodesu.bin
+msg:1:2:Indeed. We should return<BR>to the shop quickly.<KEY><W><C>
+
+//�A���}
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/10arma_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+msg:4:10:Precipitation shall occur<BR>in 20 minutes, and shall<BR>total 15 centimeters.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_sonanda_b.bin
+msg:3:1:Really? Twenty minutes<BR>is plenty of time! Thanks,<BR>Arma!<KEY>
+msg:3:1:... To be honest, though,<BR>that's a seriously precise<BR>weather report.<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/09ar/shop/aruma21.bin
+msg:4:10:I... must be cautious.<BR>I do not do well in rain.<KEY>
+msg:4:10:My joints become<BR>difficult to operate when<BR>wet.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_07.tga 512,512
+msg:3:1:You too?<KEY>
+chr:3:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/event/re_ehe_a.bin
+msg:3:1:When it gets cold, my<BR>joints hurt, too!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/02tear_05.tga 512,512
+se:bin/se/01ti/event/tea_desukara.bin
+msg:1:2:In your case, it is<BR>because you are<BR>completely out of shape.<KEY><W><C>
+
+windowpos:304,1
+chr:3:grp:bmp/ivent/01recette_03.tga 512,512
+msg:3:1:Aww...<KEY><W><C>
+
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:1:disp
+chr:3:moveto:-512,0
+chr:3:speed:8
+chr:3:disp
+chr:4:moveto:640,0
+chr:4:speed:8
+chr:4:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

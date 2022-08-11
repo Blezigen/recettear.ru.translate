@@ -1,0 +1,90 @@
+
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+mfadein:10	//�V�����ȏo���F����
+music:12
+
+bgset:bmp/ivent/bg_memory.bmp
+chr:5:dir:left
+chr:5:grp:bmp/ivent/kuro.tga 640,480
+chr:5:col:255,255,255,255
+chr:5:fadeframe:300			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,128
+chr:5:move:0,0
+chr:5:disp
+wait:360
+
+
+chr:6:dir:left
+chr:6:grp:bmp/ivent/kitanokuni01.tga 640,64
+chr:6:col:255,255,255,0
+chr:6:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:move:0,80
+chr:6:disp
+wait:240
+chr:7:dir:left
+chr:7:grp:bmp/ivent/kitanokuni02.tga 640,64
+chr:7:col:255,255,255,0
+chr:7:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,255
+chr:7:move:0,150
+chr:7:disp
+wait:240
+
+
+chr:8:dir:left
+chr:8:grp:bmp/ivent/kitanokuni03.tga 640,64
+chr:8:col:255,255,255,0
+chr:8:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:8:colto:255,255,255,255
+chr:8:move:0,220
+chr:8:disp
+wait:300
+
+
+chr:6:fadeframe:160			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,0
+chr:7:fadeframe:160			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,0
+chr:8:fadeframe:160			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:8:colto:255,255,255,0
+wait:200
+
+se:bin/se/00re/event/re_arekara.bin
+chr:7:dir:left
+chr:7:grp:bmp/ivent/kitanokuni03_2.tga 640,128
+chr:7:col:255,255,255,0
+chr:7:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,255
+chr:7:move:0,128
+chr:7:disp
+wait:320
+chr:7:fadeframe:160			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,0
+wait:200
+
+chr:7:dir:left
+chr:7:grp:bmp/ivent/kitanokuni04.tga 640,128
+chr:7:col:255,255,255,0
+chr:7:fadeframe:200			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:7:colto:255,255,255,255
+chr:7:move:0,150
+chr:7:disp
+wait:400
+
+
+chr:9:dir:left
+chr:9:grp:bmp/ivent/kuro.tga 640,480
+chr:9:col:255,255,255,0
+chr:9:fadeframe:120			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:9:colto:255,255,255,255
+chr:9:move:0,0
+chr:9:disp
+wait:200
+
+//fadeoutb:300
+end:

@@ -1,0 +1,179 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_rurilast.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+//60�t���҂�
+
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:320			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-512,0				//	�\���ʒu
+chr:1:moveto:-160,0			//	�ړ���
+chr:1:speed:8			
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48:
+chr:0:move:-390,0				//	�\���ʒu
+chr:0:moveto:-60,0			//	�ړ���
+chr:0:speed:10				//	�ړ����x
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+wait:60
+
+windowpos:304,1
+msg:1:1:Avall!<KEY>
+msg:1:1:Let Arma go and leave<BR>us alone!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:130,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:10
+chr:6:dir:left
+chr:6:grp:bmp/ivent/oya.tga 128,128
+chr:6:move:130,60
+chr:6:col:255,255,255,255
+chr:6:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:6:colto:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:20
+
+msg:1:1:Er, hold on...<KEY><W><C>
+
+//�A���G�b�g
+chr:5:dir:left
+chr:5:center:-32
+chr:5:move:600,0
+chr:5:moveto:240,0
+chr:5:speed:8
+chr:5:grp:bmp/ivent/11alouette_02.tga 512,512
+chr:5:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:5:disp
+wait:80
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Alouette? But...<KEY>
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+se:bin/se/00re/event/re_nande_b.bin
+msg:1:1:What're you doing here?!<KEY><W><C>
+
+windowpos:304,-1
+se:bin/se/10al/event/a_02_a.bin
+msg:5:19:Recette! Run! Run away!<KEY><W><C>
+
+windowpos:304,1
+msg:1:1:Huh? What d'you mean?<KEY><W><C>
+
+//�A���}
+chr:4:dir:left
+chr:4:center:-242
+chr:4:move:600,0
+chr:4:grp:bmp/ivent/10arma_11.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+
+windowpos:304,-1
+msg:4:27:Will you kindly refrain<BR>from unnecessary intrusion<BR>into my business<KEY>
+msg:4:27:just this once, girl?<KEY><W><C>
+
+chr:4:moveto:240,0
+chr:4:speed:8
+
+chr:5:moveto:600,0
+chr:5:speed:8
+
+wait:60
+
+chr:4:center:-42
+msg:4:27:Ah. Now, welcome to the<BR>Lapis Core, Mademoiselle<BR>Lemongrass... and Tear.<KEY><W><C>
+
+windowpos:304,1
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:Sir...<KEY>
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:A power crystal like this<BR>is... not something that<BR>can be used safely.<KEY><W><C>
+
+wait:30
+windowpos:304,-1
+msg:4:27:I wonder. Tell me: what do<BR>you know of power<BR>crystals?<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:1:1:Uhhh. They come out of<BR>monsters when you beat<BR>them up and they make<KEY>
+msg:1:1:adventurers stronger?<KEY><W><C>
+
+windowpos:304,-1
+msg:4:27:I suppose that would be<BR>the limit of proletarian<BR>knowledge on the subject.<KEY>
+msg:4:27:In truth, these are<BR>nothing less than<BR>crystallized life itself.<KEY>
+msg:4:27:The essence left in<BR>the trail of fairies<BR>encourages their growth,<KEY>
+msg:4:27:and so to rapidly<BR>enhance the growth of<BR>one...<KEY><W><C>
+
+windowpos:304,-1
+chr:5:center:-250
+msg:5:19:NO! RECETTE! RUN,<BR>DARNIT!<KEY><W><C>
+
+windowpos:304,1
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+msg:1:1:Alouette? What are you-<KEY><W><C>
+
+chr:6:dir:right
+chr:6:grp:bmp/ivent/siro.tga 640,480
+chr:6:move:0,0
+chr:6:col:255,255,255,255
+chr:6:fadeframe:10
+chr:6:colto:255,255,255,0
+chr:6:disp
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+msg:0:2:Nnngh! Wha-<KEY><W><C>
+chr:0:grp:bmp/ivent/02tear_07.tga 512,512
+chr:6:col:255,255,255,255
+chr:6:fadeframe:60
+chr:6:colto:255,255,255,0
+chr:6:disp
+wait:100
+//�n�k
+rmb:10,200
+//chr:0:grp:bmp/ivent/02tear_07.tga 512,512
+chr:0:col:255,255,255,255
+chr:0:fadeframe:120
+chr:0:colto:255,255,255,0
+chr:0:disp
+wait:200
+
+chr:1:grp:bmp/ivent/01recette_02.tga 512,512
+msg:1:1:Eh?... Tear?...<BR>TEAR?!<KEY><W><C>
+
+
+chr:1:moveto:-600,0
+chr:1:speed:8
+chr:4:moveto:600,0
+chr:4:speed:8
+
+wait:60
+
+end:

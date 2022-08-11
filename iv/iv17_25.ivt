@@ -1,0 +1,142 @@
+//�w�i�̐ݒ�
+bgset:bmp/ivent/bg_hiro3.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+/���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+wait:60
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�j��
+chr:2:dir:right
+chr:2:center:-52
+chr:2:move:-390,0
+chr:2:moveto:-80,0
+chr:2:speed:8
+chr:2:grp:bmp/ivent/22machi_04.tga 512,512
+chr:2:normal_shade
+chr:2:disp
+wait:60
+
+windowpos:304,1
+msg:2:14:Ahh! Such a wonderfully<BR>clear night tonight!<KEY>
+msg:2:14:This really is the perfect<BR>season for stargazing.<KEY><W><C>
+wait:30
+chr:2:grp:bmp/ivent/22machi_01.tga 512,512
+msg:2:14:Let's see, the Mushroom<BR>constellation should be in<BR>the western skies,<KEY>
+msg:2:14:and to the south, the<BR>Tannhauser Gate and the<BR>Green Onion Girl...<KEY>
+msg:2:14:Now, where's the Milano<BR>constellation?...<KEY><W><C>
+wait:40
+
+chr:2:dir:left
+chr:2:move:-100,0
+chr:2:center:20
+msg:2:14:... Was it this way?<KEY><W><C>
+
+//�O���t
+chr:4:dir:left
+chr:4:center:-42
+chr:4:move:600,0
+chr:4:moveto:240,0
+chr:4:speed:8
+chr:4:grp:bmp/ivent/09griffe_00.tga 512,512
+chr:4:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:4:disp
+wait:60
+
+chr:2:grp:bmp/ivent/22machi_03.tga 512,512
+msg:2:14:Hmm.<KEY>
+msg:2:14:Now that I think about<BR>it, the square is rather<BR>frightening at night.<KEY>
+msg:2:14:And with the rumors of<BR>the "Claw Ghost" that<BR>stalks the area... brr...<KEY><W><C>
+
+chr:4:grp:bmp/ivent/09griffe_02.tga 512,512
+windowpos:304,-1
+msg:4:9:Pardon me... sir. Could I-<KEY><W><C>
+
+windowpos:304,1
+chr:2:dir:right
+chr:2:move:-80,0
+chr:2:center:-52
+chr:2:grp:bmp/ivent/22machi_00.tga 512,512
+msg:2:14:Huh? Oh, sure, can I help<BR>you w-<KEY><W><C>
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:50,0
+chr:5:moveto:50,120
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+msg:2:14:...<KEY><W><C>
+
+windowpos:304,0
+chr:2:grp:bmp/ivent/22machi_02.tga 512,512
+se:bin/se/wav/bomm.bin
+rmb:40,40
+msg:2:14:     THE CLAW GHOST!<BR>   SAVE MEEEEEEeeee!...<KEY><W><C>
+
+chr:2:moveto:-512,0
+chr:2:speed:14
+
+windowpos:304,-1
+msg:4:9:Wait a mo!... ment.<KEY>
+msg:4:9:Hrm...<KEY><W><C>
+chr:4:grp:bmp/ivent/09griffe_03.tga 512,512
+wait:30
+msg:4:9:Do people really think of<BR>me as the "claw ghost"?<KEY><W><C>
+
+//�t�F�[�h�A�E�g�C��
+fadeout:60:0,0,0,255
+wait:80
+//���Z�b�g
+chr:1:dir:right				//	����
+chr:1:center:-32
+chr:1:move:-160,0				//	�\���ʒu
+chr:1:grp:bmp/ivent/01recette_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-60,0				//	�\���ʒu
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+chr:4:move:640,0
+
+fadein:60:0,0,0,255
+wait:80
+
+windowpos:304,1
+msg:1:1:Did I just imagine a<BR>horrible, blood-chilling<BR>scream just now, or...<KEY><W><C>
+msg:0:2:No, I heard it as well.<BR>It was like a dying man's<BR>last scream.<KEY><W><C>
+
+msg:1:1:Okay let's go home right<BR>now okay yeah.<KEY><W><C>
+msg:0:2:A good idea.<KEY><W><C>
+
+chr:0:moveto:-512,0
+chr:0:speed:8
+chr:0:disp
+chr:1:moveto:-512,0
+chr:1:speed:8
+chr:1:disp
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

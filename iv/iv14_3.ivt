@@ -1,0 +1,162 @@
+//�w�i�̐ݒ�
+lighton:300:4000
+bgset:bmp/ivent/bg_sakaba.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:304,-1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
+
+//�L�����Ɋւ���ݒ�
+//�e�B�A
+chr:0:dir:right				//	����
+chr:0:center:-48
+chr:0:move:-440,0
+chr:0:moveto:-100,0
+chr:0:speed:8			
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:0:disp
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:580,0
+chr:1:moveto:240,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+wait:60
+
+windowpos:304,-1
+se:bin/se/00re/event/re_nene.bin
+msg:1:1:Hey, hey, Tear?<KEY><C><W>
+
+windowpos:304,1
+se:bin/se/01ti/tuika/ti_whats.bin
+msg:0:2:Hmm? What is it?<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:Why are adventurers in<BR>the pub so often?<KEY>
+msg:1:1:Do they all like alcohol<BR>that much?<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:Well, adventurers<BR>certainly do enjoy their<BR>liquid pleasure,<KEY>
+msg:0:2:but a pub like this also<BR>handles "quests" for<BR>adventurers.<KEY>
+msg:0:2:Therefore, many of the<BR>people here are looking for<BR>work.<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:Isn't that kind of stuff<BR>handled by the<BR>Adventurer's Guild?<KEY><C><W>
+
+windowpos:304,1
+msg:0:2:The guild does also handle<BR>some quests, but<BR>remember...<KEY>
+msg:0:2:You can only hire a guild<BR>adventurer officially if<BR>you possess the guild<KEY>
+msg:0:2:card of that person -<BR>assuming they have one at<BR>all.<KEY>
+msg:0:2:Therefore, places like<BR>this tend to offer a<BR>different kind of<KEY>
+msg:0:2:quest... more "daily",<BR>run-of-the-mill business,<BR>if you will.<KEY>
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Clients do not pay as much<BR>as guild-sponsored ones,<BR>but this sort of place<KEY>
+msg:0:2:is also far friendlier to<BR>"rookies".<KEY>
+chr:0:grp:bmp/ivent/02tear_05.tga 512,512
+msg:0:2:However... if the request<BR>is too simple or moronic,<KEY>
+msg:0:2:it is likely no one will<BR>even attempt to do it...<KEY><C><W>
+wait:30
+chr:0:grp:bmp/ivent/02tear_01.tga 512,512
+msg:0:2:Look, the requests are<BR>posted up there on the<BR>wall.<KEY>
+msg:0:2:Let us have a look, shall<BR>we?<KEY><C><W>
+
+wait:30
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,-1
+msg:1:1:Umm, let's see...<KEY>
+msg:1:1:"Please find my lost<BR>kitty!"<KEY>
+msg:1:1:"Can I hire someone to<BR>stand in a ticket line for<BR>me?"<KEY>
+msg:1:1:"Please kill ten crows<BR>around the garbage dump.<BR>Green item offered!"<KEY>
+msg:1:1:"Can one of you hot<BR>studs be my..."<KEY><C><W>
+
+
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:500,80
+chr:5:moveto:500,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+msg:1:1:Umm... wow, there's...<BR>quite a variety...<KEY><C><W>
+
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+windowpos:304,1
+msg:0:2:While it is true that they<BR>are often used as<BR>glorified handymen,<KEY>
+msg:0:2:in a way this sort of<BR>thing is a sign of how much<BR>adventurers have<KEY>
+msg:0:2:blended in to daily life<BR>in this city.<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+windowpos:304,-1
+msg:1:1:That's true...<KEY><C><W>
+
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:330,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:60
+
+windowpos:304,-1
+msg:1:1:Hey, actually... we should<BR>do this quest!<KEY>
+msg:1:1:I mean, I'd love to help<BR>someone find their kitty!<KEY><C><W>
+
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+windowpos:304,1
+msg:0:2:Ah... no. I am afraid we<BR>can not.<KEY>
+msg:0:2:While anyone can post a<BR>request, only those<BR>registered with the<KEY>
+msg:0:2:Adventurer's Guild can<BR>legally take on such<BR>requests.<KEY>
+msg:0:2:So I am afraid we can not<BR>do anything listed here.<KEY><C><W>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+windowpos:304,-1
+se:bin/se/00re/event/re_sonanda_a.bin
+msg:1:1:Aww, that's a bummer...<KEY><C><W>
+
+chr:1:moveto:640,0			//	�ړ���
+chr:1:speed:8	
+
+chr:0:moveto:-420,0			//	�ړ���
+chr:0:speed:8	
+wait:60
+
+//fadeoutb:60
+//wait:60
+end:

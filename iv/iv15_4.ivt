@@ -1,0 +1,235 @@
+//�w�i�̐ݒ�				
+bgset:bmp/ivent/bg_sakaba.bmp
+//�w�i�摜��ݒ�i�Q�[����ʂ��̂܂܂̎��͐ݒ肵�Ȃ��Ă悢�j����̕���͎��
+
+lighton:300:4000
+//�w�i��`���`�������܂������́A�����A�����ł�
+
+wait:30					
+
+windowpos:304,1				//���b�Z�[�W�E�B���h�E�̍����f�t�H���g304,�t�L�_�V�̌���1�i�������j-1�i�E�����j0�i�吺�p�j
+
+//���Z�b�g
+chr:1:dir:right				
+chr:1:center:-32			
+chr:1:move:-390,0			
+chr:1:moveto:-80,0			
+chr:1:speed:8				
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+chr:1:disp		
+
+wait:60
+
+//���G�t�F�N�g
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:30,80
+chr:5:moveto:30,200
+chr:5:speed:0.5				//�X�s�[�h�͏����_��g���܂�
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+//���G�t�F�N�g�I���
+
+
+se:bin/se/00re/event/re_uu.bin
+msg:1:1:Wow. No matter how many<BR>times I come here,<KEY>
+msg:1:1:I can never get used to<BR>the atmosphere in this<BR>pub...<KEY><W><C>
+
+//�m�o�b����̓M���h�}�X�^�[�i���ɐ_���j
+chr:2:dir:left				
+chr:2:center:-190			//�t�L�_�V�����؂�߂��Ȃ��悤�ɂ�␔���𑽂߂ɂ���
+chr:2:move:540,0			
+
+//�M���h�}�X�^�[�̃t�L�_�V�̏㖼�O�ԍ��́u11�v�ł������̏ꍇ��ꐺ�͉�ʊO�Ȃ̂Łu0�v�́H�H�ɂ��Ă�ǂ�����
+
+
+windowpos:304,-1
+msg:2:0:Well well! Recette!<BR>This is a surprise!<KEY><W><C>
+//��ʊO����t�L�_�V��o������o���܂�
+
+chr:1:grp:bmp/ivent/01recette_07.tga 512,512
+//�s�R��
+se:bin/se/wav/piko.bin
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:left
+chr:4:grp:bmp/ivent/oya.tga 128,128
+chr:4:move:200,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:20
+
+chr:2:moveto:220,0			
+chr:2:speed:8				
+chr:2:grp:bmp/ivent/13syounin_01.tga 512,512	
+chr:2:disp	
+wait:60
+
+windowpos:304,1	
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+wait:20
+msg:1:1:Oh! The guild master!<BR>Hiya!<KEY><W><C>
+
+chr:2:center:-62			//�_���̃t�L�_�V�̈ʒu��߂�
+windowpos:304,-1	
+msg:2:11:I didn't think you were<BR>old enough to drink,<BR>Recette!<KEY><W><C>
+
+windowpos:304,1	
+msg:1:1:I'm, uh, not here for a<BR>drink, just to visit!<KEY>
+msg:1:1:I guess you're here for<BR>a lot of drinks, though,<BR>huh?<KEY><W><C>
+
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/13syounin_04.tga 512,512	
+msg:2:11:Darn tootin'!<KEY><W><C>
+
+windowpos:304,1			
+msg:1:1:You know, if you drink<BR>too much, your wife might<BR>get mad!<KEY><W><C>
+
+windowpos:304,-1	
+chr:2:grp:bmp/ivent/13syounin_02.tga 512,512	
+msg:2:11:Hah! Nothing could make<BR>her more nightmarish<BR>than she already is!<KEY><W><C>
+
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512	//���Z�b�g�̕\���ϊ�		
+
+//���G�t�F�N�g
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:30,80
+chr:5:moveto:30,200
+chr:5:speed:0.5				//�X�s�[�h�͏����_��g���܂�
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+//���G�t�F�N�g�I���
+windowpos:304,1	
+msg:1:1:Uh... really?<KEY>
+msg:1:1:But isn't that?...<KEY><W><C>
+
+//�L�����o�Ă��܂��񂪃t�L�_�V����
+chr:8:dir:left				
+chr:8:center:-190			//�t�L�_�V�����؂�߂��Ȃ��悤�ɂ�␔���𑽂߂ɂ���
+chr:8:move:540,0			
+wait:30
+windowpos:304,-1
+msg:8:0:WHO are you calling<BR>"nightmarish", mister?!<KEY><W><C>
+//��ʊO����t�L�_�V��o������o���܂�
+
+//�r�N�b
+chr:4:dir:right
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:300,-10
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:300,-10
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+
+wait:30
+chr:2:dir:right				
+chr:2:center:0			//�t�L�_�V�����؂�߂��Ȃ��悤�ɂ�␔���𑽂߂ɂ���
+windowpos:304,-1
+wait:30	
+
+chr:2:grp:bmp/ivent/13syounin_03.tga 512,512	
+msg:2:11:Ghkt! What, when did you<BR>come in? Why are you...<KEY><W><C>
+
+windowpos:304,-1
+msg:8:0:I'm HERE to drag a<BR>certain sluggard of a<BR>guild master back to<KEY>
+msg:8:0:his very important,<BR>high-paying job!<KEY><W><C>
+
+msg:2:11:Oh, Heaven...<KEY><W><C>
+
+chr:2:dir:left				
+chr:2:center:-62			//�t�L�_�V�����؂�߂��Ȃ��悤�ɂ�␔���𑽂߂ɂ���
+windowpos:304,-1
+wait:30	
+msg:2:11:Well, uh... see you,<BR>Recette! Be good!<KEY><W><C>
+
+windowpos:304,1			
+msg:1:1:I, uh... I will!<BR>See ya!<KEY><W><C>
+
+chr:2:moveto:540,0			//	�ړ�����W�A�_���ޏ�
+chr:2:speed:8
+chr:2:disp
+wait:60
+windowpos:304,-1
+chr:2:center:-190
+msg:2:11:Spare me!<BR>Sweet mercy, spare me!<KEY><W><C>
+
+rmb:40,10
+//�h�炷���߁A�����͂��̑傫���Ǝ���
+
+wait:30
+msg:2:11:I won't do it anymore,<BR>I swear!<KEY><W><C>
+rmb:40,10
+wait:30
+msg:2:11:Nothing but serious<BR>work from now on, I...<BR>NOT THE MOUSE!<KEY><W><C>
+rmb:40,20
+
+wait:60
+
+chr:1:grp:bmp/ivent/01recette_01.tga 512,512
+//���G�t�F�N�g
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:30,80
+chr:5:moveto:30,200
+chr:5:speed:0.5				//�X�s�[�h�͏����_��g���܂�
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+
+//���G�t�F�N�g�I���
+windowpos:304,1	
+msg:1:1:... Now I get why Tear<BR>says "Merde" so often...<KEY><W><C>
+
+chr:1:moveto:-390,0			//	�ړ�����W�A���Z�b�g�ޏ�
+chr:1:speed:8
+chr:1:disp
+
+
+wait:60
+//�ړ��̌�̓E�F�C�g������
+
+end:
+//�C�x���g�I��

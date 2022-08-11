@@ -1,0 +1,201 @@
+//�w�i�̐ݒ�
+//bgset:bmp/ivent/bg_guild.bmp
+//bgscroll:3.0F				//	�X�N���[�����x�A�}�C�i�X�ɂ���Ƌt����
+//	�|���S���w�i
+//polybg:xfile/map_mori/sky01.x
+
+//���t�F�[�h�C����60�t���Őݒ�
+fadeinb:240
+//60�t���҂�
+//��ʂ̉���}�X�N
+//windowset:
+//wait:40
+//rmb:40,40				//	��ʂ�h�炷�t���[�����A���ꂼ��w�i�ƃL����
+windowpos:100,-1//���Z�b�g��
+chr:3:center:-32
+chr:3:move:480,32
+chr:3:moveto:400,32
+chr:3:speed:4
+chr:3:grp:bmp/ivent/rece_chichi.tga 128,128
+chr:3:disp
+wait:60
+
+windowpos:100,-1
+msg:3:25:Heh heh heh...<BR>not too bad, you foul<BR>beast.<KEY>
+msg:3:25:However... I'm not backing<BR>down, either!<KEY><C><W>
+
+windowpos:100,0
+chr:3:center:-380
+msg:3:0:     RRROOOOOOAR!!!<KEY><C><W>
+
+windowpos:100,-1
+chr:3:center:-32
+msg:3:25:Take THIS, monster!<KEY><C><W>
+chr:3:moveto:-512,32
+chr:3:speed:15
+wait:120
+
+
+
+//���Z�b�g
+chr:1:dir:left
+chr:1:center:-32
+chr:1:move:480,0
+chr:1:moveto:290,0
+chr:1:speed:8
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
+chr:1:disp
+
+//�e�B�A
+chr:0:dir:left				//	����
+chr:0:center:-48
+chr:0:move:640,0				//	�\���ʒu
+chr:0:moveto:190,0
+chr:0:speed:8
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
+
+chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
+
+chr:0:disp
+wait:60
+
+windowpos:20,1
+chr:3:center:470
+msg:3:25:HOOOORAAAAH!<KEY><C><W>
+
+windowpos:304,-1
+msg:0:2:Hmm. He is fighting hard,<BR>but... to be honest, he is<BR>awful at this.<KEY>
+msg:0:2:Shall we aid him?<KEY><C><W>
+
+windowpos:304,-1
+//��
+chr:5:dir:left
+chr:5:grp:bmp/ivent/ase.tga 128,128
+chr:5:col:255,255,255,0
+chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,255
+chr:5:move:550,80
+chr:5:moveto:550,200
+chr:5:speed:0.5
+chr:5:col:255,255,255,255
+chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:colto:255,255,255,0
+chr:5:disp
+wait:60
+msg:1:1:... Um...<KEY><C><W>
+msg:0:2:Is something wrong?<KEY><C><W>
+
+wait:30
+windowpos:20,1
+chr:3:center:470
+msg:3:25:HaHA! That's right! Once I<BR>prove how great a hero I<BR>am, my dear, sweet<KEY>
+msg:3:25:daughter shall appreciate<BR>her Papa once again!<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:...<KEY><C><W>
+
+windowpos:20,1
+msg:3:25:Papa is doing his best,<BR>Recette!<KEY><C><W>
+
+wait:30
+windowpos:304,-1
+chr:0:grp:bmp/ivent/02tear_02.tga 512,512
+
+chr:4:dir:right
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:270,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:10
+chr:4:dir:right
+chr:4:grp:bmp/ivent/giku.tga 128,128
+chr:4:move:270,60
+chr:4:col:255,255,255,255
+chr:4:fadeframe:30			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:4:colto:255,255,255,255
+chr:4:fadeframe:10
+chr:4:colto:255,255,255,0
+chr:4:disp
+wait:30
+se:bin/se/01ti/event/tea_oh.bin
+msg:0:2:Wh-wh-what?!<KEY><C><W>
+
+windowpos:304,-1
+msg:1:1:... Oi...<KEY><C><W>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+wait:30
+msg:1:1:Hey. Tear. We need to<BR>move on, right?<KEY>
+se:bin/se/00re/event/re_tear_b.bin
+msg:1:1:Tear, let's go. You know,<BR>like, quick. Ish.<KEY><C><W>
+
+windowpos:304,-1
+msg:0:2:Wh-WHAT? Are... are you<BR>sure?...<KEY><C><W>
+se:bin/se/00re/event/re_ehe_b.bin
+msg:1:1:I-see-no-rea-son-to-<BR>stay-here-at-all.<KEY>
+msg:1:1:And I REALLY don't see a<BR>guy wearing a pair of<BR>pants as a mask.<KEY><C><W>
+
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:Well...<KEY><C><W>
+
+wait:60
+windowpos:20,1
+chr:1:grp:bmp/ivent/01recette_00.tga 512,512
+msg:3:25:HUAAAAAAAAAAAAAAAAAAA<BR>AAAAAAAAAAAAAAAAAAAAA<BR>AAAAAAAAAAAAAAAAAAAAA<KEY>
+msg:3:25:...<KEY>
+msg:3:25:... AAAAAAAAAAAAAAAGH!<KEY><C><W>
+msg:3:25:Our hero... is in quite<BR>a pickle!<KEY><C><W>
+msg:3:25:With the fire! And the<BR>claws! And the... lack of<BR>healing items!<KEY>
+msg:3:25:And the dying, that's not<BR>good either!<KEY><C><W>
+
+windowpos:304,-1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:You are... QUITE certain<BR>we do not need to aid<BR>him?<KEY><C><W>
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+msg:1:1:Yeahyeahyeahyeah, it's<BR>fine! So long as he, uh,<BR>doesn't die, right?<KEY><C><W>
+chr:0:grp:bmp/ivent/02tear_03.tga 512,512
+msg:0:2:I... would not be too<BR>sure about that...<KEY><C><W>
+
+wait:60
+windowpos:20,1
+msg:3:25:HUAAAAAAAAAAAAAAAAA<BR>...<BR>... agh.<KEY>
+msg:3:25:If... if someone is out<BR>there... tell...<KEY>
+msg:3:25:tell... my daughter...<BR>that... her... ... father...<BR>... ... ... ... ...<KEY>
+msg:3:25:... ... ... ... ... ... ... ... ...<BR>...                      ...<BR>... died a hero.<KEY><C><W>
+wait:30
+windowpos:304,-1
+chr:0:grp:bmp/ivent/02tear_00.tga 512,512
+msg:0:2:It seems to be over.<BR>I... think, at least.<KEY><C><W>
+chr:1:grp:bmp/ivent/01recette_05.tga 512,512
+se:bin/se/00re/shop/re_aaa.bin
+msg:1:1:I'm gonna go crawl into<BR>a hole and die of<BR>embarrassment, 'kay?<KEY><C><W>
+
+windowpos:20,1
+msg:3:25:...<KEY>
+msg:3:25:*Snore*<KEY><C><W>
+wait:60
+windowpos:304,-1
+chr:1:grp:bmp/ivent/01recette_04.tga 512,512
+se:bin/se/00re/action/00re_btl01b.bin
+msg:1:1:Okay we are leaving no<BR>more wasting time FEET<BR>FORWARD.<KEY><C><W>
+chr:1:moveto:640,0
+chr:1:speed:10
+msg:0:2:That would be for the<BR>best, I suppose.<KEY><C><W>
+
+
+chr:0:moveto:640,0
+chr:0:speed:10
+
+wait:80
+windowpos:20,1
+msg:3:25:*Snerk, Snore, Huagh*<KEY><C><W>
+
+wait:80
+
+//fadeoutb:60
+//wait:60
+end:
