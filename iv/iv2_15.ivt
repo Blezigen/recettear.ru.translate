@@ -39,7 +39,7 @@ wait:60
 
 windowpos:304,1
 se:bin/se/01ti/event/tea_chot.bin
-msg:2:2:Recette. May I have a<BR>moment, please?<KEY><W><C>
+msg:2:2:Recette. Можно тебя на<BR>минутку, пожалуйста?<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
 //�H
@@ -61,69 +61,70 @@ windowpos:304,-1
 msg:1:1:Да неужели?<KEY><W><C>
 
 windowpos:304,1
-msg:2:2:Concerning the debt...<KEY>
-msg:2:2:I have a suggestion<BR>concerning its repayment.<KEY><W><C>
+msg:2:2:Что касается долга...<KEY>
+msg:2:2:У меня есть предложение<BR>относительно его погашения.<KEY><W><C>
 
 windowpos:304,-1
-msg:1:1:You do?<KEY><W><C>
+msg:1:1:Слушаю?<KEY><W><C>
 
 windowpos:304,1
-msg:2:2:Paying it all back at once<BR>is wholly beyond your means,<KEY>
-msg:2:2:so I recommend smaller<BR>weekly payments to slowly<BR>chip away at it.<KEY><W><C>
+msg:2:2:Вернуть весь долг<BR>вам совершенно не по силам,<KEY>
+msg:2:2:поэтому я рекомендую делать<BR>меньшие еженедельные платежи,<BR> чтобы постепенно<KEY><W><C>
+msg:2:2:избавляться от них.<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 //��
 chr:5:dir:left
 chr:5:grp:bmp/ivent/ase.tga 128,128
 chr:5:col:255,255,255,0
-chr:5:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:fadeframe:10
 chr:5:colto:255,255,255,255
 chr:5:move:500,80
 chr:5:moveto:500,200
 chr:5:speed:0.5
 chr:5:col:255,255,255,255
-chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:5:fadeframe:60
 chr:5:colto:255,255,255,0
 chr:5:disp
 wait:60
 
 windowpos:304,-1
-msg:1:1:"Wholly beyond?"...<BR>uh, you know,<KEY>
-msg:1:1:you never told me how<BR>big Papa's debt is,<BR>exactly...<KEY><W><C>
+msg:1:1:"Совершенно не по силам?"...<BR>эм-э, знаешь,<KEY>
+msg:1:1:ты никогда не говорила мне,<BR>насколько велик долг папы,<BR>а точно..<KEY><W><C>
 
 windowpos:304,1
 chr:2:grp:bmp/ivent/02tear_04.tga 512,512
-msg:2:2:That is because you would<BR>faint if you found out.<BR>For now, it is a secret.<KEY><W><C>
+msg:2:2:Это потому, что вы бы упали в<BR>обморок, если бы узнали.<BR>На данный момент это секрет.<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_03.tga 512,512
 windowpos:304,-1
-msg:1:1:I-I'd... faint?...<KEY><W><C>
+msg:1:1:Я... я бы... упала<BR>в обморок?...<KEY><W><C>
 
 windowpos:304,1
 chr:2:grp:bmp/ivent/02tear_01.tga 512,512
-msg:2:2:As the store begins to<BR>build up steam, we will<BR>increase payment size.<KEY><W><C>
+msg:2:2:По мере того, как история<BR>начнет наращивать обороты,<BR>мы увеличим размер оплаты.<KEY><W><C>
 
 chr:0:dir:left
 chr:0:grp:bmp/ivent/carenda.tga 256,256
 chr:0:col:255,255,255,0
-chr:0:fadeframe:40			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:fadeframe:40
 chr:0:colto:255,255,255,255
 chr:0:move:200,80
 chr:0:disp
 wait:60
 
-msg:2:2:The repayment date<BR>nearest to the current<BR>date, along with the<KEY>
-msg:2:2:amount due, will be<BR>displayed on the calendar<BR>in the main menu.<KEY>
-msg:2:2:Please be sure to check<BR>it regularly.<KEY><W><C>
+msg:2:2:Следующая близжайшая дата<BR>погашения, вместе с<KEY>
+msg:2:2:суммой, которая подлежит к<BR>оплате, будет отображаться<BR>в календаре - в главном меню.<KEY>
+msg:2:2:Пожалуйста, обязательно<BR>регулярно проверяйте.<KEY><W><C>
 
 chr:0:col:255,255,255,255
-chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
+chr:0:fadeframe:60
 chr:0:colto:255,255,255,0
 
 windowpos:304,-1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 se:bin/se/00re/event/re_wkata_a.bin
-msg:1:1:Kay-ya! I'll keep an<BR>eye on it!<KEY><W><C>
+msg:1:1:Окей-я!<BR>Я буду следить за этим!<KEY><W><C>
 
 chr:2:moveto:-500,0
 chr:2:speed:8

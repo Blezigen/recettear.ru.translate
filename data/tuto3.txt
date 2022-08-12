@@ -1,0 +1,72 @@
+0,CHR1,1,Well. You seem more or<BR>less used to the basics of<BR>running an item shop.
+0,CHR0,4,Hehe... you think so?
+0,CHR1,0,... There is one other<BR>matter, however. You can<BR>not always be certain
+0,CHR1,0,that a customer will know<BR>what they want when<BR>they come in.
+0,CHR0,0,What do you mean?
+0,CHR1,0,They may come in thinking,<BR>"what should I make for<BR>dinner?",
+0,CHR1,0,"What would be a good<BR>weapon?" and so forth.<BR>They will not be quite
+0,CHR1,0,sure what exactly they<BR>wish to purchase when they<BR>come through our door.
+0,CHR1,0,In such a case, we must<BR>provide them with advice<BR>to help them decide.
+0,CHR0,3,W-wait, how could I do...
+0,CHR1,0,Many customers will<BR>simply give up if they do<BR>not find something
+0,CHR1,0,suitable for their needs<BR>on our counters...
+0,CHR1,0,Others, however, will<BR>realize that we may have<BR>reserve stock,
+0,CHR1,0,and will inquire as to<BR>whether or not we have<BR>something they seek.
+0,CHR1,0,That is when you may<BR>suggest an item you think<BR>they would like.
+0,CHR1,1,In a sense, it is the<BR>ultimate chance to show<BR>your skill as an
+0,CHR1,1,item-shop keeper - if<BR>you know what someone<BR>desires, you will very
+0,CHR1,1,likely impress them and<BR>cause them to return.
+0,CHR0,3,Yeek... no pressure,<BR>then, none at all...
+0,CHR1,0,Well, let us give it a<BR>little practice, shall we?
+0,CHR1,0,It is no different than<BR>a normal sale, really,<BR>beyond the fact that
+0,CHR1,0,you must choose the item<BR>to sell yourself.
+0,CHR1,0,Let us begin.
+0,CHR0,4,Kay-kay!
+0,TOUT,//※ Начало урока (выберите один раз из экрана, как обычно, и вернитесь)
+
+0,CHR0,4,Welcome!
+0,CHR1,0,I would like a sword,<BR>please.
+0,CHR0,0,... Soooooo...<BR>anything is okay as long<BR>as it's a sword?
+0,CHR1,0,Ultimately, you must pick <BR>something the person<BR>would like.
+0,CHR1,0,By the way, if I may give<BR>you a little advice: if you<BR>sell weapons and armor
+0,CHR1,0,to your adventurer<BR>friends, they will equip<BR>the items you sell them.
+0,CHR1,0,Meaning, of course, that<BR>if you sell items to them,<BR>then we do not need
+0,CHR1,0,to lend them any items at<BR>the start of a dungeon<BR>excursion, and will be
+0,CHR1,0,able to bring back more<BR>items for our own use.
+0,CHR1,0,Even if an adventurer<BR>must... "retreat" while in<BR>a dungeon,
+0,CHR1,0,the equipment is not lost,<BR>since it is their<BR>possession.
+0,CHR1,1,So selling better<BR>equipment to our<BR>adventuring friends
+0,CHR1,1,is a good idea... even if<BR>you must undersell to<BR>them a little.
+0,CHR1,0,Accessories work the<BR>same way, so think<BR>carefully about
+0,CHR1,0,who you sell what to, and<BR>what effect it may have<BR>on their performance.
+0,CHR0,3,Whoaaa... I hope I can<BR>keep track of all this...
+0,CHR1,0,If you look at the details<BR>of an item when selling<BR>to one of our
+0,CHR1,0,adventuring friends, you<BR>can also check what that<BR>person currently has.
+0,CHR1,0,Now then!<BR>We should continue.
+0,CHR0,1,Affirmatification!
+
+0,CHR1,0,I would like a sword,<BR>please.
+//(Окно продукта откройте окно, вот манекен, может быть, лучше, есть только 1 меч, я положу вещи, которые пока не имеют значения, но это тоже манекен)
+1,INVENTORY, 
+0,SLSWRD,10,11,
+
+//<Выбери меч>
+10,CHR1,0,Yes, excellent. The rest<BR>is like a normal sale.
+// (Чтобы закрыть учебное пособие "О программе")
+0,GOTO,19	//（Возврат к ценовому окну）
+
+//<Выберите Другое>
+11,CHR1,0,Recommending something<BR>other than what they ask<BR>
+0,CHR1,0,for will only anger a<BR>customer.
+// (Возврат к окну продукта)
+0,GOTO,1,	// К выбору элемента
+
+//※ О затягивании учебника
+19,CHR1,0,Well, once again, let us<BR>put the whole thing into<BR>practice.
+0,CHR1,0,I will ask for an item.<BR>Sell me what I ask for,<BR>and you will pass.
+0,CHR1,0,Let us begin.
+
+-1,-1,
+-2,Let us try again -<BR>practice fulfilling my<BR>requests.
+-3,Precisely done.<BR>Once more, then.
+-4,Fantastic. You are ready<BR>for everything, now.<C>If you ever wish to<BR>practice this again,<BR>simply ask.

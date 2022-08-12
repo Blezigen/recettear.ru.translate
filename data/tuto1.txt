@@ -1,0 +1,200 @@
+0,CHR1,0,Well then. The items are<BR>in place, and now you need<BR>to learn how to
+0,CHR1,0,actually sell things to<BR>people without embarrasing<BR>yourself!
+0,CHR0,4,O-kai-o!
+0,CHR1,0,So, to start with, I will<BR>lecture on the actual<BR>process of selling an
+0,CHR1,0,item we have displayed.
+0,CHR0,4,Yes, Professor!
+0,CHR1,5,... If the students do<BR>not listen, they do not<BR>get any credit.
+0,CHR0,0,Er...<BR>r-right...
+0,CHR1,0,Now then.
+0,CHR1,0,When a customer enters,<BR>be sure to greet them with<BR>a nice big "Welcome"!
+0,CHR0,0,Um, uh...<BR>W-welcome!
+0,CHR1,1,Greeting the customer<BR>helps them to feel<BR>comfortable and relaxed
+0,CHR1,1,while in the store. Their<BR>comfort is fundamental<BR>to our business - 
+0,CHR1,1,remember that as we<BR>continue.
+0,CHR1,0,Now! A typical customer<BR>will find an item they<BR>want on our displays,
+0,CHR1,0,and then they will come<BR>over to the counter to<BR>pay for it.
+0,CHR1,0,Let me demonstrate.
+0,TAGD,	//Появляется целевое окно и отобразится продукт (это может быть продукт, которого нет на полке)
+
+0,CHR1,0,Could I get this, please?
+0,CHR0,3,Er, um, uh, ah...
+0,CHR1,0,What they want will be<BR>in the "Target" window.
+0,CHR1,0,You will also be able to<BR>see the name and base<BR>price.
+0,CHR1,0,Pay close attention to<BR>that base price!
+0,CHR1,0,Also, if you press<BR>Button 3, you can view<BR>expanded information
+0,CHR1,0,on the item in question.
+0,CHR1,0,Consult the "custom.exe"<BR>program included with<BR>Recettear if you
+0,CHR1,0,wish to check or alter<BR>your button configuration.
+0,CHR0,7,Wait... "Button 3"?<BR>"custom.exe"?
+0,CHR1,0,Focus, Recette. Your<BR>life is hard enough to<BR>control as it is.
+0,CHR0,0,Uh... okay.
+//Comedy extras added!
+0,CHR1,0,Now then. Next, you must<BR>decide what price you<BR>wish to offer.
+0,CHR1,0,In general, you want to<BR>try and name a price<BR>higher than the base.
+0,CHR1,0,Try naming a price, if<BR>you will.
+0,CHR0,0,Uh... lesse...
+0,PRID,	//（Появится окно с вводом цены）
+
+0,CHR1,0,You likely noticed that<BR>the base price serves as<BR>your default.
+0,CHR1,0,To raise your offer,<BR>press up.
+0,CHR0,0,Press... up?...<BR>... okay...
+9,PRIA,	//	Это вводимая цена
+0,HIGH,11,10 //Пункт назначения филиала
+
+//＜Дешево или по той же цене, что и рыночная цена＞
+10,CHR1,2,No no, that is wrong! Set<BR>the price higher than the<BR>baseline!
+0,GOTO,9,	//9へ戻る
+
+//（Окно цены появится снова, пожалуйста, верните сумму к рыночной цене, повторяйте до тех пор, пока не будет достигнута высокая сумма.）
+//＜Предложите высокую цену＞
+11,CHR1,1,Yes, very good. That is<BR>how you adjust your<BR>offer.
+0,INIT_MNT_DTR // Определение начальной суммы
+
+0,CHR1,0,As might be obvious, if<BR>a customer is satisfied<BR>with your offer,
+0,CHR1,0,it is a sale and you get<BR>a little bit of experience<BR>along with the money.
+0,CHR1,0,If your price is too high,<BR>however, a customer can<BR>simply walk out.
+0,CHR1,0,Learning to determine<BR>the proper price - there<BR>lies the challenge!
+0,CHR1,0,Now, if a customer<BR>disagrees with a price,<BR>but not so much
+0,CHR1,0,that they want to storm<BR>out, then you can<BR>negotiate.
+0,CHR1,0,Remember what I said<BR>about comfort earlier?<BR>That is the key here.
+0,CHR1,0,Offer a price, but do not<BR>make it so outrageous<BR>that the customer
+0,CHR1,0,feels you are not acting<BR>in good faith.
+0,CHR1,0,So, if they disagree but<BR>stay, offer a new price.
+0,CHR1,0,Ideally you will lower<BR>your offer a little, and
+0,CHR1,0,they will take it and<BR>give you a sale.
+0,CHR1,0,Some customers may just<BR>be trying to sniff out<BR>a better price
+0,CHR1,0,when they are really<BR>willing to pay your initial<BR>price, however.
+0,CHR1,0,Whether or not you risk<BR>testing that possibility is<BR>up to you.
+0,CHR1,0,How long can you keep<BR>haggling... well, that<BR>depends on how
+0,CHR1,0,regular a customer the<BR>person in question is.
+0,CHR1,0,As we are starting out,<BR>you will not be able to<BR>haggle for very long,
+0,CHR1,0,but after customers<BR>begin to trust us a little,<BR>you can haggle for
+0,CHR1,0,a longer period of time.
+0,CHR1,1,Well. Time to put theory<BR>into practice.
+
+
+0,TAGN, //выключите цель.
+
+0,CHR0,1,Uhm, okay!
+//(Уровень исчезает с экрана один раз, появляется снова через 4 секунды)
+0,TOUT, //тиа, уходит с экрана хоть раз.
+
+
+0,CHR0,4,Ah, welcome!
+0,CHR1,1,Could I get this, please?
+0,TAGD,	//(Подходящий предмет, предмет фиксированный, его нет - это тоже хорошо)
+0,CHR0,0,Oooookaaaay...<BR>I pick a price, right?
+0,CHR0,0,Needs to be higher than<BR>the base price... "Up<BR>button"... Uh...
+//0,PRID,	// (Появится окно с ценами)
+19,PRIA,	//	Ввод цены
+0,PRCE,20,21,21,22,23,24,25	//	Разделите сумму, введенную в 7 этапов
+//0,PRCE,10,10,11,12,13,13,14
+//1.価格の50%未満
+//2.価格の70%未満
+//3.価格の100%未満
+//4.価格と同じ
+//5.価格の130%未満
+//6.価格の200%未満
+//7.価格の200%以上
+
+//＜Это лучшее приложение, которым я когда-либо пользовался.＞
+20,CHR1,2,With prices like that, we<BR>may as well close shop<BR>now.
+0,GOTO,19,//（Возврат к ценовому окну）
+
+//＜Установите его немного дешевле＞
+21,CHR1,0,Well, you can go under<BR>the base price, but you<BR>will make tiny amounts<BR>
+0,CHR1,0,of money... assuming you<BR>do not lose money outright.
+0,CHR1,0,Try aiming a little higher<BR>this time.
+0,GOTO,19,//（Возврат к ценовому окну）
+
+//＜я не буду этого менять.＞
+22,CHR1,1,Hmm. You can sell at the<BR>baseline price, yes, but<BR>let us try
+0,CHR1,0,aiming for the top, shall<BR>we?
+0,GOTO,19,//（Возврат к ценовому окну）
+
+//＜немного выше.＞
+23,CHR1,1,Good. At this level, a<BR>customer will likely buy<BR>immediately.
+0,GOTO,26,	//(К уроку по ведению переговоров со скидкой)
+
+//＜немного выше.＞
+24,CHR1,0,At this level, you will<BR>likely end up haggling a<BR>little.
+0,GOTO,26,//(К уроку по ведению переговоров со скидкой)
+
+//＜Моносуженный высокий＞
+25,CHR1,3,Oh dear. If you try to<BR>charge this much, the<BR>customer is likely
+0,CHR1,3,to throw the item in your<BR>face and storm out...
+0,GOTO,19,//（Возврат к ценовому окну）
+
+
+
+
+//※ Руководство по ведению переговоров о скидках
+26,CHR1,0,Alright then. Now for<BR>the fine art of haggling.
+0,INIT_MNT_DTR
+0,CHR1,0,Theoretically, what you<BR>wish to do is lower your<BR>price slowly,
+0,CHR1,0,but as I mentioned, there<BR>is a limit to how long you<BR>can haggle.
+0,CHR1,0,The idea is to deduce a<BR>customer's desired price<BR>and go from there.
+0,CHR0,3,You say "deduce the<BR>desired price", but how<BR>do I...
+0,CHR1,0,A large number of stores<BR>sell at about 30% over<BR>base price.
+//（% здесь применимо）
+0,CHR1,0,It is not a hard and fast<BR>rule, but people will usually<BR>accept that price level.
+0,CHR1,0,... Usually.
+0,CHR1,0,If you can manage to go<BR>over that, you will make a<BR>lot of money, but
+0,CHR1,0,you do not want to risk<BR>driving away a customer!
+0,CHR1,0,Right, then. So, as a<BR>customer, I am haggling.
+//Тиа, как только исчезнет с экрана, вернись
+0,TOUT, //тиа, убирайся с экрана хоть раз.
+0,CHR1,3,Could you make it a<BR>little bit cheaper?
+0,CHR0,0,Okay... gotta make it<BR>cheaper, but not too<BR>cheap...
+
+//0,PRID,	//	это откроет окно цены.
+29,PRIA,//	Это вводимая цена
+0,DISC,30,31,32,33,34,35,36
+
+//＜Это лучшее приложение, которым я когда-либо пользовался.＞
+30,CHR1,3,No no no! Do not crack<BR>like that! You can not<BR>offer so little that you
+0,CHR1,3,would take a huge loss on<BR>the sale!
+0,GOTO,29,//（Возврат к ценовому окну）
+
+//＜Дешевле рыночной цены＞
+31,CHR1,0,Going below the market<BR>baseline will get you a<BR>sale, but not money...
+0,GOTO,29,//（Возврат к ценовому окну）
+
+//<Установите немного дешевле (в пределах 30% от рыночной цены)>
+32,CHR1,1,There we are. Reducing<BR>the price to this level<BR>makes a sale likely.
+0,GOTO,37,//Продать учебник заканчивается)
+
+//<Установить немного дешевле (более 30% от рыночной цены)>
+33,CHR1,0,This is technically<BR>cheaper, but still high. It<BR>would be up to the
+0,CHR1,0,temperament of the<BR>customer as to whether<BR>or not you make a sale.
+0,GOTO,37,//Продать учебник заканчивается)
+
+//<Не менять (если последняя запрашиваемая цена находится в пределах 30%)>
+34,CHR1,1,Ah, good eye. Yes, at<BR>this level, it is possible<BR>the customer is 
+0,CHR1,1,simply bargain-hunting<BR>and holding the line can<BR>work in your favor.
+0,GOTO,37,//Продать учебник заканчивается)
+
+//<Не изменяются (более 30% от рыночной цены)>
+35,CHR1,0,Not lowering your price<BR>at this point is probably<BR>not very reasonable.
+//（Возврат к ценовому окну）
+0,GOTO,29,//（Возврат к ценовому окну）
+
+//<выше>
+36,CHR1,0,No, no. Raising the price<BR>in a situation like this<BR>will only serve to
+0,CHR1,0,anger a customer.
+//Возврат к ценовому окну）
+0,GOTO,29,//（Возврат к ценовому окну）
+
+37,TAGN,//выключите цель.
+
+0,CHR1,0,Well, that covers just<BR>about everything.
+//※ Затяните в потоке
+0,CHR1,0,Now let us put the entire<BR>lecture into practice all<BR>at once.
+0,CHR1,0,If you can sell me an<BR>item, you will be ready for<BR>what lies ahead.
+0,CHR1,0,Let us begin.
+
+-1,-1,
+-2,We will try again. Keep the<BR>principles of salesmanship<BR>in mind.
+-3,Excellent. Let us do that<BR>one more time, just to<BR>be sure.
+-4,Expertly done. If you<BR>ever wish to practice<BR>again, simply ask me<C>any time we are in the<BR>shop.

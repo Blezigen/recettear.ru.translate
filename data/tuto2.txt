@@ -1,0 +1,137 @@
+0,CHR1,1,Well then. You seem to<BR>have developed a basic<BR>understanding of how
+0,CHR1,1,to sell things to people<BR>and not drive them to<BR>burn the shop in anger.
+0,CHR0,4,Yepperoni!<BR>Easy as pie!
+0,CHR1,0,Being a truly great store<BR>owner involves more than<BR>selling things, however.
+0,CHR1,0,There are times when<BR>people will want to sell<BR>items TO you, as well.
+0,CHR0,0,Really?
+0,CHR1,0,I suspect we will begin<BR>to get such offers soon.
+0,CHR0,0,But I already buy stuff<BR>from the guild and the<BR>market.
+0,CHR0,0,So why should I worry<BR>about buying stuff from<BR>the customers?
+0,CHR1,0,There is one major<BR>difference between a guild<BR>or market purchase
+0,CHR1,0,and a purchase from an<BR>individual -
+0,CHR1,0,individuals do not have<BR>set prices. In other<BR>words...
+0,CHR1,0,you can haggle as you<BR>do when selling. Haggle<BR>DOWN, that is.
+0,CHR0,1,Ooooh, so I can get<BR>stuff really cheap?
+0,CHR0,3,But that seems like it'd<BR>be pretty hard...
+0,CHR1,0,Fundamentally, buying and<BR>selling are not that<BR>different.
+0,CHR1,0,The customer shows you<BR>an item they wish to sell,
+0,CHR1,0,and then you set a price,<BR>and perhaps negotiate.
+0,CHR1,0,Obviously, you wish to pay<BR>less than the base price<BR>of the item.
+0,CHR0,0,Okay! So... buy low, sell<BR>dear, right?
+0,CHR1,1,Just so. That is the very<BR>core of a successful<BR>business.
+0,CHR1,0,Now then, shall we<BR>practice?
+0,CHR1,0,The fundamental<BR>procedure is the same as<BR>when selling.
+0,CHR0,4,Kaio!
+0,TOUT,//ƒeƒBƒAˆê’U‰æ–ÊŠO‚Éo‚é
+
+0,CHR0,4,Welcome to Recettear!
+0,TAGD,	//ƒ^[ƒQƒbƒgƒEƒBƒ“ƒhƒE‚ªo‚Ä¤•i‚ª•\¦‚³‚ê‚éi‚±‚ê‚Í’I‚É–³‚¢¤•i‚Å‚à‚¢‚¢‚Å‚·j
+0,CHR1,0,Would you buy this from<BR>me?
+0,CHR0,0,Um, okay. Need to name<BR>a price lower than the<BR>base...
+0,CHR0,0,So, uh... think "press<BR>down"... come on, me, you<BR>can do this...
+0,CHR0,0,So what should I set<BR>it to?...
+9,PRIA,	//	‚±‚ê‚ÅCOST“ü—Í
+0,PRCE,10,11,12,13,14,15,16	//	“ü—Í‚³‚ê‚½‹àŠz‚ğ‚V’iŠK‚É•ªŠò
+//1.‰¿Ši‚Ì20%–¢–
+//2.‰¿Ši‚Ì70%–¢–
+//3.‰¿Ši‚Ì90%–¢–
+//4.‰¿Ši‚Ì100%–¢–
+//5.‰¿Ši‚Æ“¯‚¶
+//6.‰¿Ši‚Ì150%–¢–
+//7.‰¿Ši‚Ì150%ˆÈã
+//
+//
+//
+//
+//ƒsê‰¿Ši‚æ‚è‚à‚Ì‚·‚²‚­ˆÀ‚­’ñ¦„
+10,CHR1,3,If you make an offer<BR>that small, the customer<BR>will simply storm off.
+0,GOTO,9,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+//ƒsê‰¿Ši‚Ì70%–¢–„
+11,CHR1,1,Excellent, this is a good<BR>price level.
+0,GOTO,17,// Ÿ‚ÌŒğÂƒ`ƒ…[ƒgƒŠƒAƒ‹‚Éi‚Ş
+
+//ƒsê‰¿Ši‚Ì90%–¢–„
+12,CHR1,0,Not bad, but I suspect<BR>most customers will be fine<BR>with going lower.
+0,CHR1,0,Try lowering the price a<BR>bit more - 70% or less,<BR>perhaps.
+0,GOTO,9,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+//ƒsê‰¿Ši‚Ì100%–¢–„
+13,CHR1,0,At this level, there will<BR>not be much profit when<BR>we resell.
+0,CHR1,0,Go somewhat lower.
+0,GOTO,9,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+//ƒsê‰¿Ši‚Æ“¯‚¶„
+14,CHR1,0,Offering the base price<BR>can be useful if you<BR>desperately want the
+0,CHR1,0,item in question... but <BR>since we are practicing,<BR>try aiming lower.
+0,GOTO,9,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+//ƒsê‰¿Ši‚æ‚è‚‚­’ñ¦„
+15,CHR1,1,Well, for the customer<BR>that is a wonderful price,
+0,CHR1,0,but for the store, not<BR>so much. Try going lower.
+0,GOTO,9,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+//ƒsê‰¿Ši‚æ‚è‚à‚Ì¦‚­‚‚­’ñ¦„
+16,CHR1,2,That... are you trying to<BR>bankrupt the store,<BR>offering that price?
+0,CHR1,2,Lower. MUCH lower.
+0,GOTO,9,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+//iCOSTƒEƒBƒ“ƒhƒE‚ª‚Ü‚½o‚éA‹àŠz‚Ísê‰¿Ši‚É–ß‚µ‚Ä‚­‚¾‚³‚¢j
+
+//¦ŒğÂƒ`ƒ…[ƒgƒŠƒAƒ‹
+17,CHR1,0,Now then, let us practice<BR>haggling over the price<BR>a little.
+0,INIT_MNT_DTR
+0,CHR1,0,The concept is essentially<BR>the same as selling<BR>something.
+0,CHR1,0,Now that you have<BR>offered a price you<BR>believe to be fair,
+0,CHR1,0,adjust your offer until<BR>they agree to sell to you.
+0,CHR0,4,Okai!
+//'Kaaay
+0,CHR1,0,Let us begin, then.
+//Now then, let's begin.
+
+0,CHR1,3,... Could you offer me a<BR>little more? I think it is<BR>worth a lot...
+0,CHR0,0,Uh, ok. So I need to<BR>set a higher offering<BR>price...
+
+19,PRIA,	//	iCOSTƒEƒBƒ“ƒhƒE‚ªo‚éj
+0,COST,20,21,22,23,24
+
+//ƒˆÀ‚­’ñ¦„
+20,CHR1,3,The whole point of<BR>haggling is to get you<BR>to offer a better
+0,CHR1,3,price to the owner of<BR>the item. Why on earth<BR>would they go lower?
+0,GOTO,19,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+//ƒ“¯‚¶‹àŠz,’è‰¿‚Ì50%–¢–„
+21,CHR1,1,You should probably<BR>go up from here. This IS<BR>a bit low...
+0,GOTO,19,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+//ƒ“¯‚¶‹àŠzA50%ˆÈãA‚±‚Ì‰¿Ši‚Å‚ ‚ê‚Î‚±‚Ì‚Ü‚Ü‚Å‚à‡Ši‚³‚¹‚é„
+22,CHR1,1,Hmm...
+0,CHR1,1,Sticking to your offer<BR>at this level may net a<BR>good result, it is true.
+0,CHR1,1,You need to be careful,<BR>though. Being stubborn<BR>isn't always the answer.
+0,GOTO,27,//iŒğÂƒ`ƒ…[ƒgƒŠƒAƒ‹I—¹j
+
+//ƒ­‚µ‚‚­A90%–¢–„
+23,CHR1,0,Yes, between 50% and<BR>70% of the base is a<BR>good target.
+0,CHR1,0,You will gain an item to<BR>sell without giving up<BR>too much money.
+0,GOTO,27,//iŒğÂƒ`ƒ…[ƒgƒŠƒAƒ‹I—¹j
+
+//ƒ‚ß‚¿‚á‚‚­„
+24,CHR1,0,You've gone too high.
+0,CHR1,0,If you really desire<BR>the item it could be<BR>acceptable,
+0,CHR1,0,but remember not<BR>to break the bank.
+0,GOTO,19,//i„B„€„x„r„‚„p„„ „{ „ˆ„u„~„€„r„€„}„… „€„{„~„…j
+
+
+27,TAGN,//ƒ^[ƒQƒbƒgÁ‚·
+0,CHR1,0,And that... is essentially<BR>how it goes.
+0,CHR1,0,You seem to have a decent<BR>enough grasp of it.
+
+//¦—¬‚ê‚Å’÷‚ß
+0,CHR1,0,Well. Let us put theory<BR>into practice again.
+0,CHR1,0,I will "sell" you several<BR>items. If you buy them from<BR>me successfully,
+0,CHR1,0,I believe you will be ready<BR>to proceed.
+0,CHR1,0,Well, let us begin.
+
+-1,-1,
+-2,Let us try that again...<BR>remember what we discussed.
+-3,Yes, well done. Let us do<BR>that once more!
+-4,Very, very good. You are<BR>ready.<C>If you ever wish to<BR>practice again, simply ask.

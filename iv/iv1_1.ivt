@@ -13,7 +13,7 @@ chr:5:fadeframe:240			//�q�f�a�`�l�𑝌������܂ł̃t��
 chr:5:colto:255,255,255,0
 chr:5:move:0,0
 chr:5:disp
-wait:260
+//wait:260
 
 
 windowpos:304,1			//	���b�Z�[�W�E�B���h�E�̍����f�t�H���g320
@@ -32,11 +32,11 @@ chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
 
 chr:0:disp
 
-wait:60
+//wait:60
 
 // <KEY>���L�[���͑҂��A<W>��10�t���[���̃E�F�C�g�A<C>�̓��b�Z�[�W�E�B���h�E�����
 se:bin/se/01ti/event/tea_mataku.bin
-msg:0:2:Ох, да что ж ты будешь...<BR>Она всё ещё спит.<KEY><W><C>
+msg:0:2:АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ<BR>абвгдеёжзийклмнопрстуфхцчшщъыьэюя<KEY><W><C>
 chr:0:grp:bmp/ivent/02tear_05.tga 512,512
 //���ߑ�
 chr:6:dir:left
@@ -182,7 +182,7 @@ se:bin/se/01ti/event/tea_mataku.bin
 msg:0:2:Ох, пресвятые угодники. И из всех...<KEY>
 chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
 msg:0:2:Так, слушай. Иди умойся,<BR>и приведи себя<BR>в приличный вид,<KEY>
-msg:0:2:Как закончишь спустись вниз,<BR> я буду ждать возле витрин.<KEY><C><W>
+msg:0:2:затем встреться со мной<BR>внизу перед витринами.<KEY><C><W>
 
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
 windowpos:304,-1
