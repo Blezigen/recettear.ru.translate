@@ -73,7 +73,7 @@ windowpos:304,-1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
 se:bin/se/00re/shop/re_yata.bin
 msg:1:1:УР-Р-Р-РАСИКИ!<KEY>
-msg:1:1:Теперь я наконец-то могу называть<BR>себя настоящим торговцем!<KEY><C><W>
+msg:1:1:Теперь я наконец-то могу <BR>называть себя <BR>настоящим торговцем!<KEY><C><W>
 
 wait:30
 windowpos:304,1

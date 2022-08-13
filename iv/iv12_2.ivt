@@ -48,11 +48,11 @@ wait:60
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 se:bin/se/00re/shop/re_ira.bin
-msg:1:1:Welcome!<KEY><W><C>
+msg:1:1:Добро пожаловать!<KEY><W><C>
 
 windowpos:304,-1
-msg:4:10:I stand welcomed.<KEY>
-msg:4:10:Today I wo-<KEY><W><C>
+msg:4:10:Меня приветствуют.<KEY>
+msg:4:10:Сегодня я хотел бы-<KEY><W><C>
 wait:30
 msg:4:10:...<KEY><W><C>
 
@@ -75,7 +75,7 @@ chr:5:disp
 wait:30
 
 windowpos:304,1
-msg:1:1:Uh, Arma? You what?<KEY><W><C>
+msg:1:1:Эм, Арма? Ты чего?<KEY><W><C>
 
 //�n�k
 rmb:40,120
@@ -83,7 +83,7 @@ rmb:40,120
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
 chr:0:grp:bmp/ivent/02tear_02.tga 512,512
 se:bin/se/01ti/event/tea_oh.bin
-msg:0:2:What in the?!...<KEY><W><C>
+msg:0:2:Что за черт?!...<KEY><W><C>
 
 fadeout:120:255,255,255,255
 wait:180

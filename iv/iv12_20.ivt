@@ -35,10 +35,10 @@ chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:1:disp
 wait:60
 
-msg:2:1:Whew, we finally made it<BR>back...<KEY>
+msg:2:1:Фух, мы наконец-то<BR>вернулись...<KEY>
 se:bin/se/00re/system/00re_sys02a.bin
 chr:2:grp:bmp/ivent/01recette_05.tga 512,512
-msg:2:1:Maaaaan, I could sleep<BR>for a week. So tired...<KEY><W><C>
+msg:2:1:Мааааан, я могла бы проспать<BR>неделю. Так устала...<KEY><W><C>
 
 //�A���G�b�g
 chr:4:dir:left
@@ -60,30 +60,30 @@ chr:3:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:3:disp
 wait:60
 chr:2:grp:bmp/ivent/01recette_04.tga 512,512
-msg:2:1:Yayerations! Alouette and<BR>Prime are back, too!<KEY><W><C>
+msg:2:1:Вариатиура! Алуэтт и<BR>Прайм тоже вернулись!<KEY><W><C>
 chr:4:grp:bmp/ivent/11alouette_03.tga 512,512
 wait:30
 windowpos:304,-1
-msg:4:19:Um...<KEY><W><C>
+msg:4:19:Хм...<KEY><W><C>
 
 windowpos:304,1	
 chr:2:grp:bmp/ivent/01recette_00.tga 512,512
-msg:2:1:Is something wrong,<BR>Alouette?<KEY><W><C>
+msg:2:1:Что-то не так,<BR>Алуэтт?<KEY><W><C>
 
 windowpos:304,-1
-msg:4:19:Well, you see, that is,<BR>I, uh, um, ah...<KEY><W><C>
+msg:4:19:Ну, видите ли, это значит,<BR>что я, эм, эм, а...<KEY><W><C>
 windowpos:304,1	
-msg:2:1:Bwuh?<KEY><W><C>
+msg:2:1:Бу?<KEY><W><C>
 
 windowpos:304,-1
 chr:4:grp:bmp/ivent/11alouette_06.tga 512,512
-msg:4:19:I...<KEY>
+msg:4:19:Я...<KEY>
 chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
 se:bin/se/10al/event/a_14_b.bin
-msg:4:19:I... wasn't thinking I<BR>must've been an awful pain<BR>in the rear or anything!<KEY>
-msg:4:19:Naturally I could've<BR>solved this entire crisis<BR>on my own!<KEY>
+msg:4:19:Я... не думал, что я, должно<BR>быть, был ужасной занозой<BR>в заднице или что-то в этом <BR>роде!<KEY>
+msg:4:19:Естественно, я могла бы <BR>разрешить весь этот кризис<BR>самостоятельно!<KEY>
 chr:4:grp:bmp/ivent/11alouette_02.tga 512,512
-msg:4:19:I just... allowed you to<BR>solve it! So don't get a <BR>big head over it!<KEY><W><C>
+msg:4:19:Я просто... позволила тебе <BR>решить это! Так что не забивай <BR>себе этим голову!<KEY><W><C>
 
 windowpos:304,1	
 chr:5:dir:left
@@ -99,16 +99,16 @@ chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t��
 chr:5:colto:255,255,255,0
 chr:5:disp
 wait:60
-msg:2:1:Uh... I won't, then.<KEY><W><C>
+msg:2:1:Ух... Тогда я этого не сделаю.<KEY><W><C>
 
 windowpos:304,-1
-msg:4:19:Very good! Now, I have<BR>no time to waste here!<KEY>
-msg:4:19:I have a company to take<BR>back, and that starts with<BR>a long talk with Father!<KEY>
+msg:4:19:Очень хорошо! А теперь у <BR>меня нет времени, чтобы <BR>тратить его здесь впустую!<KEY>
+msg:4:19:Мне нужно вернуть компанию,<BR>и это начинается с долгого <BR>разговора с отцом!<KEY>
 chr:4:grp:bmp/ivent/11alouette_01.tga 512,512
-msg:4:19:So, I need to be going.<BR>And Recette...<BR>Well...<KEY>
+msg:4:19:Итак, мне нужно идти. <BR>И Recette... Что ж...<KEY>
 chr:4:grp:bmp/ivent/11alouette_08.tga 512,512
 se:bin/se/10al/event/a_13_b.bin
-msg:4:19:Well, pardonne moi!<BR>I really must be going!<KEY><W><C>
+msg:4:19:Ну, прости меня! <BR>Мне действительно пора идти!<KEY><W><C>
 chr:4:moveto:640,0			//	�ړ���
 chr:4:speed:8	
 wait:60
@@ -131,31 +131,31 @@ chr:6:colto:255,255,255,0
 chr:6:disp
 wait:60
 se:bin/se/11pr/prim13.bin
-msg:3:20:Oi... friggin', merde,<BR>and a buncha other swear<BR>words, too.<KEY>
+msg:3:20:Эй... Черт возьми, мерд, и куча<BR>других ругательств тоже.<KEY>
 chr:3:grp:bmp/ivent/12prime_01.tga 512,512
-msg:3:20:Well, despite the endless<BR>fountain of nonsense that<BR>spews from her mouth,<KEY>
-msg:3:20:she really is thankful,<BR>y'know. And... so am I.<BR>Thanks, guys.<KEY><W><C>
+msg:3:20:Что ж, несмотря на <BR>бесконечный фонтан чепухи, <BR>который извергается из ее рта,<KEY>
+msg:3:20:знаешь, она действительно <BR>благодарна. И... я тоже. <BR>Спасибо, ребята.<KEY><W><C>
 chr:4:center:-280
 se:bin/se/10al/event/a_01_a.bin
-msg:4:19:Prime, what are you<BR>DOING?! Come on! We have<BR>ground to cover!<KEY><W><C>
+msg:4:19:Прайм, что ты ДЕЛАЕШЬ?! <BR>Давай же! Нам есть что <BR>скрывать!<KEY><W><C>
 
 chr:3:grp:bmp/ivent/12prime_06.tga 512,512
 se:bin/se/11pr/prim09-03.bin
-msg:3:20:Shyeah, yeah...<BR>never ends, does it...<KEY>
+msg:3:20:Shyeah, да... это никогда не <BR>кончается, не так ли?..<KEY>
 chr:3:grp:bmp/ivent/12prime_07.tga 512,512
-msg:3:20:Well, I'll see you two<BR>around the shop, yeah?<KEY><W><C>
+msg:3:20:Что ж, увидимся в магазине, <BR>хорошо?<KEY><W><C>
 
 windowpos:304,1
-msg:1:2:We will be looking<BR>forward to it.<BR>Farewell, Prime.<KEY><W><C>
+msg:1:2:Мы будем с нетерпением ждать этого. Прощай, Prime.<KEY><W><C>
 chr:3:moveto:640,0			//	�ړ���
 chr:3:speed:10	
 wait:60
 
 windowpos:304,1	
 chr:2:grp:bmp/ivent/01recette_04.tga 512,512
-msg:2:1:Yep, we'll be here!<BR>Always! Baibai!<KEY><W><C>
+msg:2:1:Да, мы будем здесь!<BR>Всегда! Байбай!<KEY><W><C>
 se:bin/se/01ti/event/tea_sodesu.bin
-msg:1:2:Always... indeed.<KEY><W><C>
+msg:1:2:Всегда... действительно.<KEY><W><C>
 
 wait:60
 //�A���}
@@ -171,14 +171,14 @@ wait:60
 
 windowpos:304,1
 chr:2:grp:bmp/ivent/01recette_01.tga 512,512
-msg:2:1:Oh, Arma! Thanks for<BR>everything...<KEY><W><C>
+msg:2:1:О, Арма! Спасибо за все...<KEY><W><C>
 
 windowpos:304,-1
 chr:4:grp:bmp/ivent/10arma_01.tga 512,512
-msg:4:10:I am the one who owes<BR>you a debt of gratitude<BR>that cannot truly be<KEY>
-msg:4:10:repaid, Recette.<BR>However...<KEY>
+msg:4:10:Я тот, кто в долгу перед тобой<BR>в знак благодарности, которая <BR>на самом деле не может быть<KEY>
+msg:4:10:отплачено, Recette. Однако...<KEY>
 se:bin/se/09ar/shop/aruma20.bin
-msg:4:10:Here.<KEY><W><C>
+msg:4:10:Это.<KEY><W><C>
 
 chr:1:grp:bmp/ivent/02tear_00.tga 512,512
 chr:0:dir:left
@@ -193,12 +193,12 @@ wait:60
 windowpos:304,1
 chr:2:grp:bmp/ivent/01recette_07.tga 512,512
 se:bin/se/00re/event/re_fue.bin
-msg:2:1:Heuwha? An... Adventurer's<BR>Guild card?!<KEY>
-msg:2:1:When did you... wait, you<BR>didn't, uh...<KEY><W><C>
+msg:2:1:Хеувха? Одина... Карта Гильдии <BR>искателей приключений?!<KEY>
+msg:2:1:Когда ты... подожди, ты не.....<KEY><W><C>
 
 windowpos:304,-1
 chr:4:grp:bmp/ivent/10arma_03.tga 512,512
-msg:4:10:It... is not a forgery.<BR>I obtained it via legal<BR>channels.<KEY><W><C>
+msg:4:10:Это... не подделка. Я получил<BR>его по законным каналам.<KEY><W><C>
 
 windowpos:304,1
 chr:2:grp:bmp/ivent/01recette_04.tga 512,512
@@ -215,26 +215,26 @@ chr:5:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t��
 chr:5:colto:255,255,255,0
 chr:5:disp
 wait:60
-msg:2:1:Ahahaha yeah I had no<BR>doubt of that at all no<BR>sir!<KEY><W><C>
+msg:2:1:Ахахаха, да, я в этом нисколько <BR>не сомневался, нет, сэр!<KEY><W><C>
 
 chr:4:grp:bmp/ivent/10arma_00.tga 512,512
 chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
 chr:0:colto:255,255,255,0
 chr:0:disp
 wait:80
-msg:2:1:Really... thank you, Arma.<BR>I can't wait to go<BR>dungeon-diving with you!<KEY><W><C>
+msg:2:1:Действительно... спасибо тебе,<BR>Arma. Я не могу дождаться, <BR>когда отправлюсь с тобой <BR>нырять в подземелья!<KEY><W><C>
 windowpos:304,-1
 chr:4:grp:bmp/ivent/10arma_01.tga 512,512
-msg:4:10:I... look forward to it<BR>as well. I now have a large<BR>amount of free time,<KEY>
-msg:4:10:so simply ask whenever<BR>you wish.<KEY><W><C>
+msg:4:10:Я... тоже с нетерпением жду<BR>этого. Теперь у меня есть <BR>большое количество <BR>свободного времени,<KEY>
+msg:4:10:так что просто спрашивайте, <BR>когда пожелаете.<KEY><W><C>
 chr:4:moveto:640,0			//	�ړ���
 chr:4:speed:8	
 wait:80
 
 windowpos:304,1
 chr:2:grp:bmp/ivent/01recette_01.tga 512,512
-msg:2:1:Neat!<KEY>
-msg:2:1:Well, let's go home too,<BR>Tear.<KEY><W><C>
+msg:2:1:Аккуратно!<KEY>
+msg:2:1:Что ж, давай тоже пойдем <BR>домой, Tear.<KEY><W><C>
 chr:1:grp:bmp/ivent/02tear_00.tga 512,512
 chr:2:moveto:250,0			//	�ړ���
 chr:2:speed:6
@@ -247,45 +247,45 @@ chr:2:dir:left
 wait:20
 windowpos:304,-1
 chr:2:grp:bmp/ivent/01recette_00.tga 512,512
-msg:2:1:Uh, Tear? What's...<BR>what's wrong?<KEY><W><C>
+msg:2:1:Э-э, Слеза? Что... Что не так?<KEY><W><C>
 wait:30
 windowpos:304,1
-msg:1:2:I...<BR>I have no home now.<KEY>
-msg:1:2:I can not return to<BR>Terme Finance after what I<BR>have done,<KEY>
-msg:1:2:and once it is known I<BR>defied a powerful human,<BR>I will be unable<KEY>
-msg:1:2:to return to the land<BR>of the fairies, either.<KEY>
+msg:1:2:Я... у меня теперь нет дома.<KEY>
+msg:1:2:Я не могу вернуться в Терме <BR>Финанс после того, что я <BR>сделала,<KEY>
+msg:1:2:и как только станет известно, <BR>что я бросил вызов могущест-<BR>венному человеку, я не смогу<KEY>
+msg:1:2:вернуться в страну фей, тоже.<KEY>
 chr:1:grp:bmp/ivent/02tear_04.tga 512,512
-msg:1:2:It seems I am truly<BR>alone in the world, now.<KEY><W><C>
+msg:1:2:Кажется, теперь я<BR>действительно одна в этом <BR>мире.<KEY><W><C>
 windowpos:304,-1
 msg:2:1:Tear...<KEY><W><C>
 wait:30
 
 chr:2:grp:bmp/ivent/01recette_02.tga 512,512
 wait:30
-msg:2:1:Now hang on a minute!<KEY><W><C>
+msg:2:1:А теперь подождите минутку!<KEY><W><C>
 windowpos:304,1
 chr:1:grp:bmp/ivent/02tear_00.tga 512,512
 msg:1:2:Recette?<KEY><W><C>
 windowpos:304,-1
-msg:2:1:Don't you get it yet?!<BR>You have a place right<BR>here!<KEY>
-msg:2:1:And don't be all "oh I<BR>did not think of it",<BR>either!<KEY><W><C>
+msg:2:1:Ты что, еще не поняла?! <BR>У тебя есть место прямо здесь!<KEY>
+msg:2:1:И не надо говорить: "О, я об<BR>этом не подумал"!<KEY><W><C>
 chr:1:grp:bmp/ivent/02tear_03.tga 512,512
 windowpos:304,1
-msg:1:2:But... I-<KEY><W><C>
+msg:1:2:Но... Я-<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/01recette_04.tga 512,512
-msg:2:1:No buts! And maybe no<BR>if or ands, either!<KEY>
-msg:2:1:C'mon, Tear, let's go!<KEY>
-msg:2:1:Let's go back to the<BR>place we call home,<KEY>
-msg:2:1:and the place where<BR>everyone is waiting for<BR>us...<KEY>
-msg:2:1:Let's go back to<BR>Recettear!<KEY><W><C>
+msg:2:1:Никаких "но"! И, может быть,<BR>никаких "если" или "и" тоже<BR>нет!<KEY>
+msg:2:1:Давай, Tear, поехали!<KEY>
+msg:2:1:Давай вернемся в то место,<BR>которое мы называем домом,<KEY>
+msg:2:1:и место, где все нас ждут...<KEY>
+msg:2:1:Давайте вернемся к <BR>Recettear!<KEY><W><C>
 windowpos:304,1
 chr:1:grp:bmp/ivent/02tear_00.tga 512,512
 msg:1:2:R-Recette...<KEY><W><C>
 wait:30
 chr:1:grp:bmp/ivent/02tear_04.tga 512,512
 se:bin/se/01ti/event/tea_sodesu.bin
-msg:1:2:Yes. Let's... go home.<KEY><W><C>
+msg:1:2:Да. Давайте... пойдём домой.<KEY><W><C>
 
 chr:5:dir:left
 chr:5:grp:bmp/ivent/kuro.tga 640,480
