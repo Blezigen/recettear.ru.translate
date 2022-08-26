@@ -1,0 +1,138 @@
+# Файлы перевод которых завершён:
+- bmp
+  - [x] bmp/dungeonbord.tga
+  - [x] bmp/dungeon_clear.tga
+  - [x] bmp/ene_hp2.tga
+  - [x] bmp/gameover.tga
+  - [x] bmp/mood_para.tga
+  - [x] bmp/hpmp_base.tga
+  - [x] bmp/pause.tga
+  - [x] bmp/sousa_lui.tga
+  - [x] bmp/title_fuki.tga
+  - [x] bmp/title_bg2.bmp
+  - [x] bmp/system.bmp
+- bmp/ivent 
+    - [x] bmp/ivent/chrname.tga
+- bmp/title
+
+  
+# Что предстоит перевести:
+- bmp 
+  - [ ] bmp/data_win.tga
+  - [ ] bmp/data_win.psd
+  - [ ] bmp/test.tga
+  - [ ] bmp/brave_sel.tga
+  - [ ] bmp/sousa_tel.tga
+  - [ ] bmp/mappoint.tga
+  - [ ] bmp/sousa_cai.tga
+  - [ ] bmp/title01.tga
+  - [ ] bmp/sousa_arm.tga
+  - [ ] bmp/sousa_grf.tga
+  - [ ] bmp/shopmode.tga
+  - [ ] bmp/sousa_era.tga
+  - [ ] bmp/sousa_sya.tga
+  - [ ] bmp/sousa_nag.tga
+  - [ ] bmp/choushuu.tga
+  - [ ] bmp/item_win.tga
+  - [ ] bmp/pause_endless.tga
+- bmp/ivent
+  - [ ] bmp/ivent/carenda.tga
+  - [ ] bmp/ivent/comp.tga
+  - [ ] bmp/ivent/congra.tga
+  - [ ] bmp/ivent/ed_kasi01.tga
+  - [ ] bmp/ivent/ed_kasi02.tga
+  - [ ] bmp/ivent/ed_kasi03.tga
+  - [ ] bmp/ivent/ed_kasi04.tga
+  - [ ] bmp/ivent/ed_kasi05.tga
+  - [ ] bmp/ivent/ed_kasi06.tga
+  - [ ] bmp/ivent/ed_kasi07.tga
+  - [ ] bmp/ivent/ed_kasi08.tga
+  - [ ] bmp/ivent/ed_kasi09.tga
+  - [ ] bmp/ivent/ed_kasi10.tga
+  - [ ] bmp/ivent/ed_kasi11.tga
+  - [ ] bmp/ivent/ed_kasi12.tga
+  - [ ] bmp/ivent/ed_kasi13.tga
+  - [ ] bmp/ivent/ed_kasi14.tga
+  - [ ] bmp/ivent/ed_kasi15.tga
+  - [ ] bmp/ivent/ed_kasi16.tga
+  - [ ] bmp/ivent/ed_kasi17.tga
+  - [ ] bmp/ivent/ed_kasi18.tga
+  - [ ] bmp/ivent/egs.tga
+  - [ ] bmp/ivent/egs_pre.tga
+  - [ ] bmp/ivent/end_ss01.tga
+  - [ ] bmp/ivent/end_ss02.tga
+  - [ ] bmp/ivent/end_ss03.tga
+  - [ ] bmp/ivent/end_ss04.tga
+  - [ ] bmp/ivent/end_ss05.tga
+  - [ ] bmp/ivent/end_ss06.tga
+  - [ ] bmp/ivent/end_ss07.tga
+  - [ ] bmp/ivent/end_ss08.tga
+  - [ ] bmp/ivent/end_ss09.tga
+  - [ ] bmp/ivent/end_ss10.tga
+  - [ ] bmp/ivent/end_ss11.tga
+  - [ ] bmp/ivent/end_ss12.tga
+  - [ ] bmp/ivent/end_ss13.tga
+  - [ ] bmp/ivent/fairymeets.tga
+  - [ ] bmp/ivent/game_staff.tga
+  - [ ] bmp/ivent/gameover.tga
+  - [ ] bmp/ivent/gorem_serif01.tga
+  - [ ] bmp/ivent/gorem_serif02.tga
+  - [ ] bmp/ivent/gorem_serif03.tga
+  - [ ] bmp/ivent/gorem_serif04.tga
+  - [ ] bmp/ivent/hajimari.tga
+  - [ ] bmp/ivent/howto.tga
+  - [ ] bmp/ivent/jibunga.tga
+  - [ ] bmp/ivent/kitanokuni01.tga
+  - [ ] bmp/ivent/kitanokuni02.tga
+  - [ ] bmp/ivent/kitanokuni03.tga
+  - [ ] bmp/ivent/kitanokuni03_2.tga
+  - [ ] bmp/ivent/kitanokuni04.tga
+  - [ ] bmp/ivent/kitanokuni05.tga
+  - [ ] bmp/ivent/kousite.tga
+  - [ ] bmp/ivent/kuro.tga
+  - [ ] bmp/ivent/moji_imauchi.tga
+  - [ ] bmp/ivent/moji_kokone.tga
+  - [ ] bmp/ivent/moji_maiiwa.tga
+  - [ ] bmp/ivent/moji_nanahika.tga
+  - [ ] bmp/ivent/moji_sateoki.tga
+  - [ ] bmp/ivent/moji_shobo.tga
+  - [ ] bmp/ivent/moji_usai.tga
+  - [ ] bmp/ivent/music_staff.tga
+  - [ ] bmp/ivent/news_bel.tga
+  - [ ] bmp/ivent/news_bg.tga
+  - [ ] bmp/ivent/news_messe.tga
+  - [ ] bmp/ivent/nichijou.tga
+  - [ ] bmp/ivent/owari.tga
+  - [ ] bmp/ivent/recetter.tga
+  - [ ] bmp/ivent/song_staff.tga
+  - [ ] bmp/ivent/staff.tga
+  - [ ] bmp/ivent/thankyou.tga
+  - [ ] bmp/ivent/time01.tga
+  - [ ] bmp/ivent/time02.tga
+  - [ ] bmp/ivent/time03.tga
+  - [ ] bmp/ivent/totuzen.tga
+  - [ ] bmp/ivent/tuduku.tga
+  - [ ] bmp/ivent/voice_staff.tga
+- bmp/title
+  - [ ] bmp/title/bossname_arma.tga
+  - [ ] bmp/title/bossname_arma2.tga
+  - [ ] bmp/title/bossname_charme.tga
+  - [ ] bmp/title/bossname_gorem.tga
+  - [ ] bmp/title/bossname_griffe.tga
+  - [ ] bmp/title/bossname_griffe2.tga
+  - [ ] bmp/title/bossname_jijo.tga
+  - [ ] bmp/title/bossname_kabocha.tga
+  - [ ] bmp/title/bossname_kani.tga
+  - [ ] bmp/title/bossname_kingahriman.tga
+  - [ ] bmp/title/bossname_kingslim.tga
+  - [ ] bmp/title/bossname_kinoko.tga
+  - [ ] bmp/title/bossname_kurage.tga
+  - [ ] bmp/title/bossname_monster.tga
+  - [ ] bmp/title/bossname_omu.tga
+  - [ ] bmp/title/bossname_tiers.tga
+  - [ ] bmp/title/dungeon_title1.tga
+  - [ ] bmp/title/dungeon_title2.tga
+  - [ ] bmp/title/dungeon_title3.tga
+  - [ ] bmp/title/dungeon_title4.tga
+  - [ ] bmp/title/dungeon_title5.tga
+  - [ ] bmp/title/dungeon_title6.tga
