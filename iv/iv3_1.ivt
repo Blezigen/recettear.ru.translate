@@ -37,13 +37,13 @@ chr:1:disp
 wait:60
 windowpos:304,-1
 se:bin/se/00re/event/re_tear_b.bin
-msg:1:1:So this is the lowest<BR>floor of the dungeon,<BR>Tear?<KEY><W><C>
+msg:1:1:Так это самый нижний<BR>этаж подземелья, Тир?<KEY><W><C>
 
 windowpos:304,1
-msg:0:2:Not... precisely.<KEY>
-msg:0:2:While we can not currently<BR>proceed any further,<KEY>
+msg:0:2:Не... точно.<KEY>
+msg:0:2:Хотя в настоящее время мы <BR>не можем двигаться дальше,<KEY>
 chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
-msg:0:2:I strongly suspect that<BR>we can go even deeper in<BR>next time.<KEY><W><C>
+msg:0:2:Я сильно подозреваю, что в<BR>следующий раз мы можем <BR>пойти еще глубже.<KEY><W><C>
 
 //�H
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
@@ -62,25 +62,25 @@ chr:5:disp
 wait:30
 windowpos:304,-1
 se:bin/se/00re/event/re_nande_a.bin
-msg:1:1:Wait, huh? Why's that?<KEY><W><C>
+msg:1:1:Подожди, а? Почему это?<KEY><W><C>
 
 windowpos:304,1
-msg:0:2:The dungeons change<BR>shape every time someone<BR>enters them.<KEY>
-msg:0:2:Some theorize that they<BR>adapt to the strength<BR>of those who enter,<KEY>
-msg:0:2:and refer to it as the<BR>"living dungeon<BR>phenomenon".<KEY>
+msg:0:2:Подземелья меняют форму<BR>каждый раз, когда в них<BR>кто-то входит.<KEY>
+msg:0:2:Некоторые предполагают,<BR>что они приспосабливаются<BR>к силе тех, кто входит,<KEY>
+msg:0:2:и называется это <BR>"феномен живого подземелья"<KEY>
 chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
-msg:0:2:The truth of the matter<BR>is... unclear, however.<KEY><W><C>
+msg:0:2:Истина в том, что... <BR>неясно, однако.<KEY><W><C>
 
 windowpos:304,-1
 se:bin/se/00re/event/re_uu.bin
-msg:1:1:Uuuuuuhhh...<BR>okay...<KEY>
-msg:1:1:I wonder if the dungeon<BR>gets bored if it's alone...<KEY><W><C>
+msg:1:1:Ууууууххх...<BR>Ладно...<KEY>
+msg:1:1:Интересно, скучает ли<BR>подземелье, если оно<BR>совсем одно?..<KEY><W><C>
 wait:40
 windowpos:8,1
-msg:2:0:So, that would make the<BR>people who are foolish<BR>enough to enter a place<KEY>
-msg:2:0:like this the playthings<BR>of the underworld?<KEY>
+msg:2:0:Итак, это заставляет людей,<BR>которые достаточно глупы, <BR>войти в подобное место<KEY>
+msg:2:0:и становиться <BR>игрушками подземелья?<KEY>
 se:bin/se/03sy/event/sya48-2.bin
-msg:2:0:Heh, I see...<BR>I like the way you think,<BR>girl.<KEY><W><C>
+msg:2:0:Хех, теперь понимаю...<BR>Мне нравится ход твоих<BR>мыслей, девочка.<KEY><W><C>
 
 windowpos:304,-1
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
@@ -110,7 +110,7 @@ chr:4:colto:255,255,255,0
 chr:4:disp
 wait:30
 windowpos:304,0
-msg:0:0:     W-who's there?!<KEY><W><C>
+msg:0:0:Что, кто там?!<KEY><W><C>
 
 chr:0:moveto:-500,0
 chr:0:speed:10
