@@ -36,7 +36,7 @@ chr:0:disp
 
 // <KEY>���L�[���͑҂��A<W>��10�t���[���̃E�F�C�g�A<C>�̓��b�Z�[�W�E�B���h�E�����
 se:bin/se/01ti/event/tea_mataku.bin
-msg:0:2:АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ<BR>абвгдеёжзийклмнопрстуфхцчшщъыьэюя<KEY><W><C>
+msg:0:2: <KEY><W><C>
 chr:0:grp:bmp/ivent/02tear_05.tga 512,512
 //���ߑ�
 chr:6:dir:left
