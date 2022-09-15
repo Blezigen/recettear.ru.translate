@@ -40,7 +40,7 @@ chr:5:colto:255,255,255,0
 chr:5:disp
 wait:40
 se:bin/se/01ti/event/tea_uwa.bin
-msg:0:2:Guh... you.<KEY><W><C>
+msg:0:2:Гх... ты.<KEY><W><C>
 
 
 //�L�����Ɋւ���ݒ�
@@ -55,36 +55,36 @@ chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:2:disp
 wait:60
 windowpos:304,-1
-msg:2:4:Huh, not bad. This's a<BR>pretty nice-looking place.<KEY><W><C>
+msg:2:4:Хм, неплохо. Это довольно<BR>симпатичное место.<KEY><W><C>
 windowpos:304,1
 msg:0:2:...<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_00.tga 512,512
 se:bin/se/03sy/shop/sya23.bin
-msg:2:4:Y'know, is it really so<BR>kosher for an employee to<KEY>
-msg:2:4:give a customer a face<BR>like that?<KEY>
+msg:2:4:Знаешь, ты уверена что<BR>сотрудник должен <BR>показывать<KEY><W><C>
+msg:2:4:покупателю такое лицо?<KEY><W><C>
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:Thought a smile was the<BR>basis for "customer<BR>satisfaction".<KEY><W><C>
+msg:2:4:Я думала, что улыбка - это<BR>основа "обслуживания<BR>клиентов".<KEY><W><C>
 windowpos:304,1
 chr:0:grp:bmp/ivent/02tear_05.tga 512,512
-msg:0:2:Oh, for a normal customer,<BR>that is completely true.<KEY>
+msg:0:2:О, для обычного клиента это<BR>совершенно верно.<KEY>
 chr:0:grp:bmp/ivent/02tear_02.tga 512,512	//�t�@�C�����A�摜�T�C�Y
-msg:0:2:For someone who openly<BR>attempted to MURDER us,<BR>however,<KEY>
-msg:0:2:this is the only face I<BR>have to show.<KEY><W><C>
+msg:0:2:Однако для того, кто открыто<BR>пытался УБИТЬ нас, это<BR>единственное лицо,<KEY><W><C>
+msg:0:2:которое я могу показать.<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_06.tga 512,512
 msg:2:4:... Хмм...<KEY>
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:Well, it looks like she's<BR>got a different idea...<KEY><W><C>
+msg:2:4:Что ж, похоже, <BR>у нее другое мнение...<KEY><W><C>
 
 chr:0:moveto:-60,0			//	�ړ���
-chr:0:speed:4	
+chr:0:speed:4
 //���Z�b�g
 chr:1:dir:right				//	����
 chr:1:center:-32
 chr:1:move:-390,0				//	�\���ʒu
 chr:1:moveto:-160,0			//	�ړ���
-chr:1:speed:8			
+chr:1:speed:8
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512	//�t�@�C�����A�摜�T�C�Y
 chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
 chr:1:col:255,255,255,255	//�`��q�f�a�`�l
@@ -93,46 +93,46 @@ chr:1:disp
 wait:60
 windowpos:304,1
 se:bin/se/00re/shop/re_ira.bin
-msg:1:1:Yay! Charme, welcome!<KEY>
-msg:1:1:I'm so glad you came!<KEY><W><C>
+msg:1:1:Ура! Чарми,<BR>добро пожаловать!<KEY><W><C>
+msg:1:1:Я так рада, что ты пришла!<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
-msg:2:4:Yeah, well, I kept<BR>wonderin' about this place.<KEY>
-msg:2:4:Nice store you have<BR>here, Recette.<KEY><W><C>
+msg:2:4:Да, ну, я все думала<BR>об этом месте.<KEY><W><C>
+msg:2:4:Хороший у вас тут магазин, <BR>Ресетт.<KEY><W><C>
 windowpos:304,1
-msg:1:1:Aw, thank you! Make<BR>yourself at home, okay?<KEY><W><C>
+msg:1:1:О, спасибо вам! <BR>Чувствуй себя как дома,<BR>хорошо?<KEY><W><C>
 
 chr:1:moveto:-510,0			//	�ړ���
-chr:1:speed:6	
+chr:1:speed:6
 chr:1:disp
 
 chr:0:moveto:-100,0			//	�ړ���
 chr:0:speed:4
 wait:60
-msg:0:2:Recette...<KEY><W><C>
+msg:0:2:Ресетт...<KEY><W><C>
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
 windowpos:304,-1
 msg:2:4:... Видишь?<KEY><W><C>
 
 chr:0:grp:bmp/ivent/02tear_05.tga 512,512
 windowpos:304,1
-msg:0:2:I see all too clearly,<BR>thank you.<KEY><W><C>
+msg:0:2:Я все вижу слишком ясно,<BR>спасибо.<KEY><W><C>
 wait:40
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
 windowpos:304,-1
-msg:2:4:That Recette's a good<BR>girl... nice, trusting,<BR>honest.<KEY>
-msg:2:4:Don't you agree, Tear?<KEY><W><C>
+msg:2:4:Что Ресетт хорошая <BR>девушка... милая, <BR>доверчивая, честная.<KEY><W><C>
+msg:2:4:Ты не согласена, Тир?<KEY><W><C>
 
 windowpos:304,1
 se:bin/se/01ti/event/tea_sonako.bin
-msg:0:2:O-of course I do.<BR>You don't need to tell me<BR>that...<KEY><W><C>
+msg:0:2:О-конечно, я знаю.<BR>Тебе не нужно мне это<BR>говорить...<KEY><W><C>
 
 chr:0:moveto:-510,0			//	�ړ���
-chr:0:speed:6	
+chr:0:speed:6
 wait:100
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:Hehe. Knew these two<BR>would be fun...<KEY><W><C>
+msg:2:4:Хе-хе. Знала, что с этими<BR>двумя будет весело...<KEY><W><C>
 chr:2:moveto:640,0
 chr:2:speed:8
 wait:60

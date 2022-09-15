@@ -59,8 +59,8 @@
 - [X] iv3_{n}.ivt
     - [X] iv3_1.ivt
     - [X] iv3_2.ivt
-    - [ ] iv3_3.ivt
-    - [ ] iv3_4.ivt
+    - [X] iv3_3.ivt
+    - [X] iv3_4.ivt
     - [ ] iv3_5.ivt
     - [ ] iv3_6.ivt
     - [ ] iv3_7.ivt
