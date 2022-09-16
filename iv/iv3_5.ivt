@@ -36,17 +36,17 @@ chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:2:disp
 wait:60
 se:bin/se/00re/shop/re_ira.bin
-msg:4:1:Oh, Charme! Welcome!<KEY><W><C>
-windowpos:304,-1	
+msg:4:1:О, Чарми! Добро пожаловать!<KEY><W><C>
+windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
 se:bin/se/03sy/shop/sya17-3.bin
-msg:2:4:Heya, girl. Heaven, are<BR>you ever not bright and<BR>happy?<KEY><W><C>
-windowpos:304,1	
+msg:2:4:Привет, девочка. О небеса, <BR>разве ты будешь когда-нибудь<BR>не яркой и счастливой?<KEY><W><C>
+windowpos:304,1
 chr:4:grp:bmp/ivent/01recette_04.tga 512,512
-msg:4:1:Nope! A bright and happy<BR>welcome is the key to<BR>sales!<KEY><W><C>
+msg:4:1:Нет! Яркий и радостный <BR>прием - ключ к продажам!<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:And for that, Recette,<BR>I've got a bit of a<BR>present for you.<KEY><W><C>
+msg:2:4:И за это, Ресетт, у меня <BR>есть для тебя небольшой<BR>подарок.<KEY><W><C>
 
 chr:1:dir:left
 chr:1:grp:bmp/ivent/meisi.tga 256,256
@@ -57,23 +57,23 @@ chr:1:colto:255,255,255,255
 chr:1:disp
 wait:60
 msg:2:4:Вот. Возьми это.<KEY><W><C>
-windowpos:304,1	
+windowpos:304,1
 chr:4:grp:bmp/ivent/01recette_07.tga 512,512
-msg:4:1:This is!... you have an<BR>Adventurer's Guild card?<KEY><W><C>
+msg:4:1:Это!... у вас есть карточка<BR>Гильдии Искателей <BR>приключений?<KEY><W><C>
 chr:1:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
 chr:1:colto:255,255,255,0
 chr:1:disp
 wait:80
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
-msg:2:4:Darn straight. If you<BR>ever need the help of a<BR>professional berk such<KEY>
-msg:2:4:as myself, give me a<BR>look, okay?<KEY><W><C>
-windowpos:304,1	
+msg:2:4:Чертовски прямолинейно. <BR>Если тебе когда-нибудь<BR>понадобится помощь такого<KEY>
+msg:2:4:профессионального болвана, <BR>как я, дай мне знать,<BR>хорошо?<KEY><W><C>
+windowpos:304,1
 chr:4:grp:bmp/ivent/01recette_04.tga 512,512
-msg:4:1:I will, thank you!<KEY><W><C>
+msg:4:1:Я так и сделаю, спасибо!<KEY><W><C>
 chr:4:grp:bmp/ivent/01recette_01.tga 512,512
 wait:30
-msg:4:1:... Um, well...<KEY><W><C>
+msg:4:1:... Эм, хорошо...<KEY><W><C>
 //�s�R��
 se:bin/se/wav/piko.bin
 chr:6:dir:left
@@ -97,10 +97,10 @@ chr:6:colto:255,255,255,0
 chr:6:disp
 wait:40
 se:bin/se/00re/event/re_tear_b.bin
-msg:4:1:Tear!<KEY><W><C>
+msg:4:1:Тир!<KEY><W><C>
 
 chr:4:moveto:-160,0			//	�ړ���
-chr:4:speed:4	
+chr:4:speed:4
 
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
 chr:3:dir:right				//	����
@@ -116,7 +116,7 @@ chr:3:disp
 wait:60
 windowpos:304,1
 se:bin/se/01ti/tuika/ti_whats.bin
-msg:3:2:What is it?<KEY><W><C>
+msg:3:2:Что такое?<KEY><W><C>
 
 chr:3:grp:bmp/ivent/02tear_02.tga 512,512
 
@@ -144,24 +144,24 @@ wait:30
 
 
 windowpos:304,1
-msg:3:2:Tch! You...<KEY><W><C>
+msg:3:2:Тц! Ты...<KEY><W><C>
 chr:4:grp:bmp/ivent/01recette_04.tga 512,512
-msg:4:1:Tear, look! Charme gave<BR>me her card!<KEY><W><C>
+msg:4:1:Тир, смотри! Чарми дала мне<BR>свою визитку!<KEY><W><C>
 se:bin/se/01ti/event/tea_oh.bin
-msg:3:2:WHA?!... is this a joke?!<BR>YOU are a member of?...<KEY><W><C>
+msg:3:2:ЧТО?!... это что, шутка?!<BR>ВЫ являетесь частью?...<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
-msg:2:4:Well, Recette's been good<BR>to me. Consider it my way<BR>of paying you guys back<KEY>
-msg:2:4:for that trouble earlier.<BR>Payback's important,<BR>y'know? Right, Tear?<KEY><W><C>
+msg:2:4:Что ж, Ресетт была добра<BR>ко мне. Считайте, что это мой<BR>способ отплатить вам, ребята<KEY>
+msg:2:4:за ту неприятность, что была<BR>раньше. Расплата важна,<BR>понимаешь? Верно, Тир?<KEY><W><C>
 windowpos:304,1
 chr:3:grp:bmp/ivent/02tear_05.tga 512,512
-msg:3:2:I... suppose it is.<KEY><W><C>
+msg:3:2:Я... полагаю, что так<BR>оно и есть.<KEY><W><C>
 chr:2:grp:bmp/ivent/04charme_00.tga 512,512
 windowpos:304,-1
 msg:2:4:...<KEY>
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:Hey, Recette?<KEY>
-msg:2:4:Mind if I borrow Tear for<BR>a moment?<KEY><W><C>
+msg:2:4:Эй, Ресетт?<KEY>
+msg:2:4:Не возражаешь, если я<BR>позаимствую Тир ненадолго?<KEY><W><C>
 
 chr:3:grp:bmp/ivent/02tear_02.tga 512,512
 chr:4:grp:bmp/ivent/01recette_07.tga 512,512
@@ -188,25 +188,25 @@ chr:6:colto:255,255,255,0
 chr:6:disp
 wait:30
 
-windowpos:304,1	
+windowpos:304,1
 se:bin/se/00re/event/re_fue.bin
-msg:4:1:Heuwha? Uh...<KEY><W><C>
+msg:4:1:Хеувха? Ух...<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
-msg:2:4:I'll give her back right<BR>away, don't worry.<KEY><W><C>
+msg:2:4:Я верну ее через мгновение,<BR>не волнуйся.<KEY><W><C>
 
-windowpos:304,1	
+windowpos:304,1
 
 chr:4:grp:bmp/ivent/01recette_03.tga 512,512
-msg:4:1:Well, uh... be sure to<BR>give her back the same<BR>way you found her!<KEY><W><C>
+msg:4:1:Ну, э-э... обязательно верни<BR>ее в том же виде, в котором<BR>ты ее взяла!<KEY><W><C>
 
 
 chr:3:grp:bmp/ivent/02tear_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
-msg:3:2:... The same way?...<BR>What am I, property?<KEY><W><C>
+msg:3:2:... В том же виде?... <BR>Что я, собственность?<KEY><W><C>
 
 windowpos:304,-1
-msg:2:4:Well then! A-yoink!<KEY><W><C>
+msg:2:4:Ну что ж! А-йоинк!<KEY><W><C>
 
 fadeout:60:0,0,0,255
 wait:80
@@ -218,18 +218,18 @@ chr:3:move:-120,0
 fadein:60:0,0,0,255
 wait:80
 
-windowpos:304,1	
-msg:3:2:It stuns me that you gave<BR>her your card.<KEY>
-msg:3:2:... What are you really<BR>after?<KEY><W><C>
+windowpos:304,1
+msg:3:2:Меня ошеломляет, что<BR>ты дала ей свою визитку.<KEY>
+msg:3:2:... Чего ты на самом деле<BR>добиваешься?<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_00.tga 512,512
-msg:2:4:... Hey. Tear.<KEY>
-msg:2:4:Let me ask you...<KEY>
-msg:2:4:Are you really just some<BR>random, dispassionate<BR>loan-shark?<KEY><W><C>
+msg:2:4:... Привет. Тир.<KEY>
+msg:2:4:Позвольте мне спросить<BR>вас...<KEY>
+msg:2:4:Вы действительно просто<BR>какой-то случайный,<BR>бесстрастный ростовщик?<KEY><W><C>
 
 wait:15
-windowpos:304,1	
+windowpos:304,1
 chr:3:grp:bmp/ivent/02tear_02.tga 512,512
 //�I
 chr:5:dir:left
@@ -245,55 +245,55 @@ chr:5:fadeframe:50			//�q�f�a�`�l�𑝌������܂ł̃t��
 chr:5:colto:255,255,255,0
 chr:5:disp
 wait:30
-msg:3:2:What are you...<KEY><W><C>
+msg:3:2:Что ты...<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_06.tga 512,512
-msg:2:4:'Cause, y'know, I've been<BR>wondering.<KEY>
-msg:2:4:If all you're really after<BR>is getting that loan<BR>repaid,<KEY>
-msg:2:4:wouldn't it be a lot<BR>easier to just steal the<BR>house and cash out?<KEY>
-msg:2:4:There's nothing stopping<BR>you, after all...<BR>except for one thing.<KEY><W><C>
+msg:2:4:Потому что, знаешь, мне<BR>было интересно.<KEY>
+msg:2:4:Если все, что вам<BR>действительно нужно, - это<BR>вернуть этот кредит,<KEY>
+msg:2:4:разве не было бы намного<BR>проще просто украсть дом<BR>и продать его?<KEY>
+msg:2:4:В конце концов, тебя ничто<BR>не останавливает... за<BR>исключением одной вещи.<KEY><W><C>
 
-windowpos:304,1	
+windowpos:304,1
 chr:3:grp:bmp/ivent/02tear_03.tga 512,512
-msg:3:2:That... is not it at all.<BR>As an agent of Terme, I -<KEY><W><C>
+msg:3:2:Это... совсем не то.<BR>Как агент Терме, я -<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_00.tga 512,512
 wait:30
-msg:2:4:Take a little bit of<BR>friendly advice?<KEY>
-msg:2:4:The harder you try to<BR>spin some elaborate<BR>tale,<KEY>
-msg:2:4:the worse it ends up<BR>being when the web comes<BR>apart at the end.<KEY>
+msg:2:4:Воспользуешься небольшим<BR>дружеским советом?<KEY>
+msg:2:4:Чем усерднее вы пытаетесь<BR>сплести какую-нибудь<BR>замысловатую историю,<KEY>
+msg:2:4:тем хуже все кончается,<BR>когда в конце концов<BR>паутина разваливается.<KEY>
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:Heh... not that I have<BR>any room to lecture<BR>anyone on that front...<KEY><W><C>
+msg:2:4:Хех... не то чтобы у меня<BR>было право читать кому-либо<BR>нотации на этот счет...<KEY><W><C>
 
 chr:2:grp:bmp/ivent/04charme_00.tga 512,512
 wait:30
 windowpos:304,-1
 msg:2:4:...<KEY>
-msg:2:4:So. Sticking to your<BR>guns? Just a loan-shark,<BR>then?<KEY><W><C>
+msg:2:4:Итак, придерживаешься<BR>своего оружия? Значит, <BR>просто ростовщик?<KEY><W><C>
 
 chr:3:grp:bmp/ivent/02tear_00.tga 512,512
 windowpos:304,1
-msg:3:2:Unbelievable.<KEY>
-msg:3:2:Did you give her your<BR>card just to ask me that?<KEY><W><C>
+msg:3:2:Невероятно.<KEY>
+msg:3:2:Ты дала ей свою визитку<BR>только для того, чтобы<BR>спросить меня об этом?<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_06.tga 512,512
-msg:2:4:Heh... maybe I did.<KEY>
+msg:2:4:Хех... может, и так.<KEY>
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
-msg:2:4:Guess I've been a bit<BR>of a busybody, eh?<KEY><W><C>
+msg:2:4:Наверное, я была немного<BR>назойливой, а?<KEY><W><C>
 
 windowpos:304,1
 chr:3:grp:bmp/ivent/02tear_01.tga 512,512
-msg:3:2:Everyone who comes<BR>through that door is like<BR>that.<KEY>
+msg:3:2:Каждый, кто входит в эту<BR>дверь, такой же.<KEY>
 chr:3:grp:bmp/ivent/02tear_00.tga 512,512
-msg:3:2:That girl...<KEY>
-msg:3:2:Something about her...<BR>inspires people to care.<KEY><W><C>
+msg:3:2:Эта девушка...<KEY>
+msg:3:2:Что-то в ней есть... <BR>вдохновляет людей <BR>на заботу.<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:... I suppose she does<BR>at that.<KEY><W><C>
+msg:2:4:... Я полагаю, что так<BR>оно и есть.<KEY><W><C>
 
 fadeout:60:0,0,0,255
 wait:80
@@ -306,24 +306,24 @@ chr:3:move:-60,0
 fadein:60:0,0,0,255
 wait:80
 
-windowpos:304,1	
-msg:4:1:Hey, are you guys done<BR>talking?<KEY><W><C>
+windowpos:304,1
+msg:4:1:Эй, ребята, вы закончили<BR>разговаривать?<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
-msg:2:4:Sure are. As promised,<BR>one intact Tear, just as<BR>I found her!<KEY><W><C>
+msg:2:4:Конечно. Как и было обещано,<BR>одна нетронутая Тир,<BR>такая же как я и взяла её!<KEY><W><C>
 wait:30
 chr:2:grp:bmp/ivent/04charme_01.tga 512,512
-msg:2:4:Well then. Let me know<BR>if you need my help!<KEY><W><C>
+msg:2:4:Ну что ж. Дайте мне знать,<BR>если вам понадобится моя<BR>помощь!<KEY><W><C>
 
-windowpos:304,1	
+windowpos:304,1
 chr:4:grp:bmp/ivent/01recette_04.tga 512,512
-msg:4:1:I will! Thanks again!<KEY><W><C>
+msg:4:1:Я так и сделаю!<BR>Еще раз спасибо!<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/04charme_04.tga 512,512
 se:bin/se/03sy/action/03sy_14a.bin
-msg:2:4:Later!<KEY><W><C>
+msg:2:4:Пока!<KEY><W><C>
 
 chr:4:moveto:-500,0			//	�ړ���
 chr:4:speed:8	
