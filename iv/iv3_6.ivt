@@ -24,13 +24,13 @@ chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:2:disp
 wait:100
 se:bin/se/05ti/shop/t_kai_uun_02.bin
-msg:2:0:Big sis, waaaaait!<KEY><W><C>
+msg:2:0:Старшая сестренка, подожди<BR>меееняяяя!<KEY><W><C>
 
 chr:2:moveto:640,0
 chr:2:speed:8
 wait:60
 chr:2:center:300
-msg:2:0:You walk so fast!<BR>Wait up!<KEY><W><C>
+msg:2:0:Ты так быстро ходишь!<BR>Подождии!<KEY><W><C>
 chr:2:disp
 
 //�e�B�A
@@ -38,23 +38,23 @@ chr:0:dir:right				//	����
 chr:0:center:-48
 chr:0:move:-390,0				//	�\���ʒu
 chr:0:moveto:-80,0			//	�ړ���
-chr:0:speed:8	
+chr:0:speed:8
 chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
 chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:0:disp
 wait:60
 windowpos:304,1
-msg:0:2:That girl...<KEY><W><C>
+msg:0:2:Эта девушка...<KEY><W><C>
 
 chr:0:moveto:200,0			//	�ړ���
-chr:0:speed:8	
+chr:0:speed:8
 
 //���Z�b�g
 chr:1:dir:right				//	����
 chr:1:center:-32
 chr:1:move:-380,0				//	�\���ʒu
 chr:1:moveto:-100,0			//	�ړ���
-chr:1:speed:8			
+chr:1:speed:8
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512	//�t�@�C�����A�摜�T�C�Y
 chr:1:fadeframe:10			//�q�f�a�`�l�𑝌������܂ł̃t���[����
 chr:1:col:255,255,255,255	//�`��q�f�a�`�l
@@ -63,69 +63,69 @@ chr:1:disp
 wait:80
 
 se:bin/se/00re/event/re_tear.bin
-msg:1:1:Tear, is something wrong?<KEY><W><C>
+msg:1:1:Тира, что-то не так?<KEY><W><C>
 
 chr:0:dir:left
 chr:0:move:240,0			//	�ړ���
 wait:60
 windowpos:304,-1
-msg:0:2:Ah... no. It is nothing.<KEY><W><C>
+msg:0:2:Ах... нет. Это ничего.<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Oh, you were looking at<BR>those sisters!<KEY><W><C>
+msg:1:1:О, ты смотрела на этих<BR>сестер!<KEY><W><C>
 wait:30
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
-msg:1:1:... Hey, Tear?<KEY>
-msg:1:1:How do you think people<BR>see us?<KEY><W><C>
+msg:1:1:... Эй, Тира?<KEY>
+msg:1:1:Как ты думаешь, как нас<BR>видят люди?<KEY><W><C>
 
 windowpos:304,-1
-msg:0:2:How do?...<KEY><W><C>
+msg:0:2:Что?...<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Do you think we look like<BR>sisters?<KEY><W><C>
+msg:1:1:Как ты думаешь, мы похожи<BR>на сестер?<KEY><W><C>
 
 windowpos:304,-1
 chr:0:grp:bmp/ivent/02tear_03.tga 512,512	//�t�@�C�����A�摜�T�C�Y
-msg:0:2:Given that I am a fairy,<BR>I rather doubt it.<KEY><W><C>
+msg:0:2:Учитывая, что я фея, я<BR>в этом сильно сомневаюсь.<KEY><W><C>
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
-msg:1:1:Oh, right...<KEY>
-msg:1:1:Still, if we did, I'd be<BR>kinda happy...<KEY><W><C>
+msg:1:1:А, точно...<KEY>
+msg:1:1:Тем не менее, если бы это<BR>было так, я бы была <BR>счастлива...<KEY><W><C>
 windowpos:304,-1
 chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�T�C�Y
-msg:0:2:Really? Why is that?<KEY><W><C>
+msg:0:2:Действительно?<BR>И почему же?<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Well, since I'm bigger, I'd<BR>be the big sister, right?<KEY><W><C>
+msg:1:1:Ну, поскольку я больше, <BR>я буду старшей сестрой,<BR>верно?<KEY><W><C>
 
 windowpos:304,-1
 chr:0:grp:bmp/ivent/02tear_02.tga 512,512
-msg:0:2:... Your logic, as always,<BR>is breathtaking in its<BR>faultiness.<KEY><W><C>
+msg:0:2:.. Твоя логика, как всегда,<BR>поражает своей<BR>безупречностью.<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
-msg:1:1:Yeah, I guess you would<BR>be the big sister...<KEY>
+msg:1:1:Да, я думаю, ты бы была<BR>старшей сестрой...<KEY>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:But that'd be really nice,<BR>too!<KEY>
-msg:1:1:Right... sis?<KEY><W><C>
+msg:1:1:Но это тоже было бы<BR>очень мило!<KEY>
+msg:1:1:Верно... сестренка?<KEY><W><C>
 
 windowpos:304,-1
 chr:0:grp:bmp/ivent/02tear_05.tga 512,512
-msg:0:2:Keep this nonsense up,<BR>and I will leave you<BR>behind.<KEY><W><C>
+msg:0:2:Продолжай в том же духе,<BR>и я оставлю тебя позади.<KEY><W><C>
 
 
 chr:0:dir:right				//	����
 chr:0:move:200,0			//	�ړ���
 wait:30
 chr:0:moveto:640,0			//	�ړ���
-chr:0:speed:8	
+chr:0:speed:8
 
 wait:40
 windowpos:304,1
-msg:1:1:Hey, wait for me!<KEY><W><C>
+msg:1:1:Эй, подожди меня!<KEY><W><C>
 chr:1:moveto:640,0			//	�ړ���
 chr:1:speed:8	
 wait:80
