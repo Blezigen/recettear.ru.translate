@@ -36,9 +36,9 @@ chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:2:disp
 wait:60
 se:bin/se/00re/shop/re_ira.bin
-msg:1:1:Oh, Charme! Welcome!<KEY><W><C>
+msg:1:1:О, Чарми! Добро пожаловать!<KEY><W><C>
 windowpos:304,-1
-msg:2:4:HEEEeeeey! Recette!<BR>Lishen t'thish!<KEY><W><C>
+msg:2:4:Хиииииии! Реcетт!<BR>Послушай это!<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
 //�H
@@ -56,13 +56,13 @@ chr:5:colto:255,255,255,0
 chr:5:disp
 wait:40
 windowpos:304,1
-msg:1:1:What is it?<KEY>
+msg:1:1:Что это?<KEY>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:And... are you OK?<BR>You seem a little...<BR>different.<KEY><KEY><W><C>
+msg:1:1:И... ты в порядке? <BR>Ты кажешься немного... <BR>другой.<KEY><KEY><W><C>
 
 windowpos:304,-1
-msg:2:4:Sho, I gots a meshage<BR>fr'm th' guild t'day.<KEY>
-msg:2:4:They've TOOOOTALLY<BR>foun' a new dungeon!<BR>... or shumsuch'. *hic*<KEY><W><C>
+msg:2:4:Шо, сегодня у меня есть<BR>предложение от гильдии.<KEY>
+msg:2:4:Они СЛИШКОМ быстро<BR>нашли новое подземелье!<BR>... или несколько'. *hic*<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
 //�I
@@ -80,16 +80,16 @@ chr:5:colto:255,255,255,0
 chr:5:disp
 wait:30
 windowpos:304,1
-msg:1:1:Whoa, really?!<KEY><W><C>
+msg:1:1:Вау, правда?!<KEY><W><C>
 
 windowpos:304,-1
-msg:2:4:Really really SUPER really!<KEY>
-msg:2:4:Ever'one'sh callin' it th'<BR>"Amber Garden"!<KEY>
-msg:2:4:... Boy, I hope it'sh that<BR>kinda... amber...<KEY><W><C>
+msg:2:4:Правда, правда абсолютная,<BR>правда!<KEY>
+msg:2:4:Когда-то кто-то называл это<BR>"Янтарным садом"!<KEY>
+msg:2:4:... Боже, я надеюсь, что это<BR>что-то вроде... янтаря...<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
 windowpos:304,1
-msg:1:1:The Amber Garden?...<KEY><W><C>
+msg:1:1:Янтарный сад?...<KEY><W><C>
 
 wait:30
 chr:2:grp:bmp/ivent/04charme_15.tga 512,512
@@ -98,7 +98,7 @@ windowpos:304,-1
 msg:2:4:...<KEY><W><C>
 
 windowpos:304,1
-msg:1:1:... Uh, Charme?<KEY><W><C>
+msg:1:1:... Э-э, Чарми?<KEY><W><C>
 
 wait:30
 //zzz
@@ -117,7 +117,7 @@ chr:5:disp
 wait:60
 
 windowpos:304,-1
-msg:2:4:*snork* Amber...<BR>like water... hurble...<KEY><W><C>
+msg:2:4:*снорк* Янтарь... скорее вода... нырять...<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
@@ -136,7 +136,7 @@ chr:5:colto:255,255,255,0
 chr:5:disp
 wait:60
 
-msg:1:1:Uhhhh...<KEY><W><C>
+msg:1:1:Ухххх...<KEY><W><C>
 
 //�s�R��
 se:bin/se/wav/piko.bin
@@ -163,21 +163,21 @@ wait:30
 
 chr:2:grp:bmp/ivent/04charme_13.tga 512,512
 windowpos:304,-1
-msg:2:4:Huah! Whawas I talkin'<BR>'bout?...<KEY>
-msg:2:4:Awyea! Sho if you get<BR>th' chance, we should<BR>totally go!<KEY>
-msg:2:4:I mean, who knows whu'<BR>kinda, uh, "items" we could<BR>find?! Yeah, items...<KEY><W><C>
+msg:2:4:Хуах! О чем я говорю?...<KEY>
+msg:2:4:Эй, эй! Шо, если у тебя<BR>будет шанс, мы обязательно<BR>должны пойти!<KEY>
+msg:2:4:Я имею в виду, кто знает,<BR>какие, э-э, "предметы" мы<BR>могли бы найти?! Да, предметы...<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
-msg:1:1:Yeah, that's true!<KEY><W><C>
+msg:1:1:Да, это правда!<KEY><W><C>
 
 windowpos:304,-1
-msg:2:4:Well then! Back t'th' pub<BR>with me! Fwoosh!<KEY><W><C>
+msg:2:4:Ну что ж! Пойдем со мной<BR>в паб! Фу-ух!<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Um, right!<KEY>
-msg:1:1:Thanks for letting me<BR>know, Charme!<KEY><W><C>
+msg:1:1:Эм, точно!<KEY>
+msg:1:1:Спасибо, что дала мне знать,<BR>Чарми!<KEY><W><C>
 
 chr:2:moveto:640,0
 chr:2:speed:8
@@ -187,7 +187,7 @@ wait:30
 wait:60
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 wait:30
-msg:1:1:A new dungeon, huh...<KEY><W><C>
+msg:1:1:Новое подземелье, ха...<KEY><W><C>
 
 chr:1:moveto:-510,0			//	�ړ���
 chr:1:speed:8	
