@@ -38,27 +38,27 @@ chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:1:disp
 wait:60
 
-msg:1:1:Huh? Hey...<KEY><C><W>
+msg:1:1:А? Эй...<KEY><C><W>
 
 windowpos:304,1
-msg:0:2:Is something wrong?<KEY><C><W>
+msg:0:2:Что-то случилось?<KEY><C><W>
 
 windowpos:304,-1
-msg:1:1:There's someone over<BR>there...<KEY>
-msg:1:1:It looks like a... girl.<BR>A girl my age.<KEY><C><W>
+msg:1:1:Там кто-то есть...<KEY>
+msg:1:1:Это похоже на... девушку.<BR>Девушка моего возраста.<KEY><C><W>
 
 chr:0:grp:bmp/ivent/02tear_02.tga 512,512
 windowpos:304,1
 se:bin/se/01ti/event/tea_oh.bin
-msg:0:2:A... girl?<BR>In a place like THIS?<KEY><C><W>
+msg:0:2:... Девушка? В таком месте,<BR>как ЭТО?<KEY><C><W>
 windowpos:304,-1
-msg:1:1:I think she's... crying.<KEY><C><W>
+msg:1:1:Я думаю, она... плачет.<KEY><C><W>
 chr:0:grp:bmp/ivent/02tear_00.tga 512,512
 windowpos:304,1
-msg:0:2:Hmm. She is, perhaps, lost.<KEY><C><W>
+msg:0:2:Хмм. Возможно, она<BR>заблудилась.<KEY><C><W>
 windowpos:304,-1
 chr:1:grp:bmp/ivent/01recette_02.tga 512,512
-msg:1:1:Yeah, that's gotta be it!<BR>We need to help her!<KEY><C><W>
+msg:1:1:Да, должно быть, так оно<BR>и есть! Мы должны помочь ей!<KEY><C><W>
 
 chr:1:moveto:600,0
 chr:1:speed:10
@@ -67,10 +67,10 @@ wait:60
 chr:0:moveto:-60,0
 chr:0:speed:5
 windowpos:304,1
-msg:0:2:But wait a!...<BR>... second.<KEY>
+msg:0:2:Но подожди!... <BR>... секунду.<KEY>
 chr:0:grp:bmp/ivent/02tear_03.tga 512,512
-msg:0:2:... A lost girl...<KEY>
-msg:0:2:This deep in a dungeon?<BR>How could she...<KEY><C><W>
+msg:0:2:... Потерянная девушка...<KEY>
+msg:0:2:Так глубоко в подземелье?<BR>Как она могла...<KEY><C><W>
 
 chr:0:moveto:-600,0
 chr:0:speed:10

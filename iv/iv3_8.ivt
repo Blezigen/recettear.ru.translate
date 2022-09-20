@@ -37,20 +37,20 @@ chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:0:disp
 wait:60
 
-msg:1:1:The Lady Thief, huh...<KEY><W><C>
+msg:1:1:Леди-воровка, ха...<KEY><W><C>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
 se:bin/se/00re/event/re_ehe_c.bin
-msg:1:1:She was kinda cool!<KEY><W><C>
+msg:1:1:Она была в некотором роде<BR>классной!<KEY><W><C>
 
 chr:0:grp:bmp/ivent/02tear_02.tga 512,512
-msg:0:2:You will forgive me if I do<BR>not think the same way.<KEY><W><C>
+msg:0:2:Уж простите меня, если<BR>я не думаю так же.<KEY><W><C>
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 msg:1:1:...<KEY>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Heeey... are you...<BR>jealous?<KEY><W><C>
+msg:1:1:Хииии... ты... ревнуешь?<KEY><W><C>
 
 chr:0:grp:bmp/ivent/02tear_05.tga 512,512
-msg:0:2:Tch! Absolutely NOT!<KEY><W><C>
+msg:0:2:Тч! Абсолютно НЕТ!<KEY><W><C>
 
 chr:0:moveto:640,0
 chr:0:speed:10
