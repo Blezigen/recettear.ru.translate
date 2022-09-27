@@ -1,0 +1,154 @@
+grp00:ivent/09griffe_00.tga
+grp01:ivent/09griffe_01.tga
+grp02:ivent/09griffe_02.tga
+grp03:ivent/09griffe_03.tga
+grp04:ivent/09griffe_04.tga
+grp05:ivent/09griffe_05.tga
+grp06:ivent/09griffe_06.tga
+
+se00:bin/se/08gr/shop/gr_soka01.bin
+/ああ、そうか
+
+se01:bin/se/08gr/shop/gr_soka05.bin
+/ああ、そうか２
+
+se02:bin/se/08gr/shop/gr_oma01.bin
+/お前・・・
+
+se03:bin/se/08gr/shop/gr_sona01.bin
+/そうか
+
+se04:bin/se/08gr/shop/gr_sona03.bin
+/そう、なのか？
+
+se05:bin/se/08gr/shop/gr_ii03.bin
+/それでいい
+
+se06:bin/se/08gr/shop/gr_baka01.bin
+/馬鹿馬鹿しい（強め）
+
+se07:bin/se/08gr/shop/gr_baka04.bin
+/馬鹿馬鹿しい（あきれ気味）
+
+se08:bin/se/08gr/shop/gr_fuza01.bin
+/ふざけるな
+
+se09:bin/se/08gr/shop/gr_maa01.bin
+/まぁいい
+
+se10:bin/se/08gr/shop/gr_yate01.bin
+/やってられん
+
+se11:bin/se/08gr/shop/gr_waka02.bin
+/わかった
+
+se12:bin/se/08gr/shop/gr_waru02.bin
+/悪いな
+
+se13:bin/se/08gr/shop/gr_nani01.bin
+/何を言っている？
+
+se14:bin/se/08gr/shop/gr_sho04.bin
+/所詮こんな物か
+
+se15:bin/se/08gr/shop/gr_buy01.bin
+/買いに来てやったぞ
+
+se16:bin/se/08gr/shop/gr_sell01.bin
+/買い取ってもらおうか
+
+se17:bin/se/08gr/shop/gr_utte01.bin
+/売ってもらおうか
+
+se18:bin/se/08gr/shop/gr_can01.bin
+/売れるのか？
+
+se19:bin/se/08gr/shop/gr_hana01.bin
+/話にならん
+
+msg00:00:s16:Buy this! I demand it!<BR>... Possibly.
+msg00:00:s18:Will you purchase<BR>this?
+msg00:05:s18:Can this... be sold?
+msg00:06:s16:I need to sell this...<BR>living among humans without<BR>money is difficult.
+msg00:00:s16:Shall you buys this<BR>from me?
+
+msg01:00:s17:Sell this to me!<BR>I demand it!<BR>... Politely, that is.
+msg01:00:s17:Shall I buy this<BR>from you?
+msg01:04:s15:Is this for sale?
+
+msg02:01:s05:Very well. How much?
+msg02:01:s05:That is acceptable.
+msg02:01:s05:Yes, that is fine.
+msg02:01:s09:Very well... How much?
+msg02:06:s09:Very well. I can<BR>accept that.
+
+msg03:02:s13:What. Is. This.<BR>This item is worth more!
+msg03:06:s19:Far too little!
+msg03:02:s13:It should not be<BR>worth so little.
+msg03:02:s08:What is this price.<BR>Are you insinuating that<C>I'm selling some kind<BR>of cheap, imitation<BR>trash?!
+msg03:02:s08:I believe this is<BR>worth more. MUCH more.
+msg03:06:s19:I would never carry<BR>something of so little value.
+
+msg04:02:s13:What. Is. This.<BR>This item should cost<BR>less!
+msg04:02:s08:What. That's too much!
+msg04:02:s08:It should not<BR>be that expensive.
+msg04:06:s19:Still too expensive.
+msg04:06:s07:I have that much<BR>money, but that price is<BR>absurd.
+msg04:02:s06:I have the money,<BR>but I cannot possibly<BR>pay that much!
+
+msg05:00:s11:That price will do.
+msg05:00:s09:Very well. I'll accept<BR>that.
+msg05:00:s09:Well, all right.
+msg05:00:s05:That's acceptable...<BR>for now, at least.
+
+msg06:02:s02:What is this. Are<BR>you trying to say you<BR>don't want to sell it?
+msg06:02:s08:Are you trying to<BR>make a fool of me?
+msg06:05:s02:I am more surprised<BR>at your foolishness than<BR>the price!
+msg06:06:s19:Oh, forget I even<BR>came here.
+
+msg07:06:s14:I see I was a fool<BR>to ask you.
+msg07:06:s14:I see no point in<BR>continuing this.
+
+msg08:00:s14:You do not understand.<BR>Never mind.
+msg08:03:s02:That... isn't quite right.
+msg08:06:s19:I see I am not<BR>getting through...
+msg08:02:s08:Are you listening?<BR>I did not ask for such<BR>garbage!
+msg08:06:s14:You simply do not<BR>understand.
+
+msg09:03:s03:I see... you do not<BR>have any.
+msg09:03:s03:You do not have<BR>any, huh...
+msg09:00:s12:I suppose it was<BR>too much to ask.
+msg09:06:s19:Have some in next time.
+
+msg10:06:s19:This is going nowhere.
+msg10:00:s11:I see little point<BR>in staying here.
+
+msg11:02:s02:You don't intend to<BR>buy it, do you?
+msg11:02:s02:Are you trying to<BR>make a fool of me?
+msg11:06:s19:Oh, forget I even<BR>came here.
+
+msg12:00:s15:I am here to buy<BR><S>!
+msg12:00:s17:I need<BR><S>,<BR>you see.
+msg12:00:s17:Provide me with<BR><S>!
+msg12:00:s17:Sell me<BR><S>!
+msg12:01:s15:I have come! Now, sell me<BR><S>!
+
+msg13:01:s11:Very well. That price<BR>will do.
+msg13:04:s09:Very well. I'll accept<BR>that.
+msg13:00:s09:Well, all right.
+msg13:00:s05:That's acceptable...<BR>for now, at least.
+
+msg15:00:s17:I require<BR><D1> <S>.<C>I shall come for them<BR><DA>;<BR>have them ready.
+
+msg16:00:s15:I am here for my<BR>order of<BR><S>.
+msg16:00:s15:I have come for my<BR><S>!
+
+//	予約を断られたときのセリフ
+msg17:02:s02:You refuse my request?<BR>Hm.
+msg17:02:s14:Useless...
+
+//	予約の引き取り日を過ぎたとき
+msg18:06:s14:You cannot even keep<BR>an order deadline.<BR>Worthless...
+
+msg19:06:s19:I... do not have enough<BR>money on hand.
+msg19:03:s04:I do not actually<BR>have that much money...

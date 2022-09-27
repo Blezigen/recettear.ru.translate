@@ -1,0 +1,74 @@
+grp00:ivent/02tear_00.tga
+grp01:ivent/02tear_01.tga
+grp02:ivent/02tear_02.tga
+grp03:ivent/02tear_03.tga
+grp04:ivent/02tear_04.tga
+grp05:ivent/02tear_05.tga
+grp06:ivent/02tear_06.tga
+grp07:ivent/02tear_07.tga
+
+se00:bin/se/01ti/system/01ti_sys09.bin
+/É_ÉÅÉ_ÉÅÇ≈Ç∑
+se01:bin/se/01ti/event/tea_sodesu.bin
+/ÇªÇ§Ç≈Ç∑ÇÀ
+
+msg00:00:sno:What would you be willing<BR>to pay for this?
+//"How much would you be willing to buy this for?"
+
+msg01:00:sno:I would like this, please.
+//"I'd like this, please."
+
+msg02:01:s01:Oh, this is lovely...<BR>how much is it?
+//"Oh, this is quite nice... How much is it?"
+
+msg03:03:sno:Hmm... could you go a<BR>little higher, perhaps?
+//"Hmm... Could you go a bit higher?"
+
+
+msg04:03:sno:Hmm... could you go a<BR>little lower, perhaps?
+//"Hmm... Could you go a bit cheaper?"
+
+msg05:01:s01:Yes, an excellent price.
+//"Yes, that's a good price."
+msg05:01:s01:I agree, that is a fair<BR>price.
+//"Yes, I think that's a good price too."
+
+msg06:05:s00:No, no, too high! That<BR>will anger the customers!<C>Come, let us try again.
+//"That's too high! The customers will leave. Now, let's try again."
+
+msg07:05:s00:You are going far too<BR>low! You will only succeed<BR>at making the customers<C>furious this way.<BR>Come, let us try again.
+//"That's too low! The customers will leave. Now, let's try again."
+
+msg08:02:s00:That is incorrect...<BR>Please, pay attention.<C>Come, let us try again.
+//"No, that's not it. Listen properly, please. Now, let's try again."
+
+msg09:00:s01:You must be forthright<BR>if you don't have an item.<C>Come, let us try again.
+//"If you don't have it, you need to say so straight up. Now, let's try again."
+
+msg10:02:s00:Over-long haggling will<BR>anger customers. Try<BR>again.
+//"Negotiations are dragging on too long. Try again."
+
+msg11:02:s00:Over-long haggling will<BR>anger customers. Try<BR>again.
+//"Negotiations are dragging on too long. Try again."
+
+msg12:00:sno:I would like<BR><S>...<BR>however...
+//"I'd like an <S>, but..."
+
+msg13:01:s01:Yes, an excellent price.
+//"Yes, that's a good price."
+msg13:01:s01:I agree, that is a fair<BR>price.
+//"Yes, I think that's a good price too."
+
+msg14:05:s00:No, no, that is wrong,<BR>Recette!<BR>Once more!
+//"That's too high! Now, let's try again."
+msg15:05:s00:Wrong price, Recette!<BR>Once more!
+//"That's too high! The customers will leave. Now, let's try again."
+
+msg16:00:sno:Did you obtain the<BR><S><BR>I requested?
+//"Do you have the XX I was asking for?"
+
+msg17:03:sno:TO BE SAID WHEN<BR>CANCEL ORDARRRRR
+//"Line to be said when order cancelled"
+//	ó\ñÒÇÃà¯Ç´éÊÇËì˙ÇâﬂÇ¨ÇΩÇ∆Ç´
+msg18:03:sno:TO BE SAID WHEN ORDER<BR>IS LATE, SAD FACE
+//"Line to be said when day of order is past"

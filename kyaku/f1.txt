@@ -1,0 +1,187 @@
+grp00:ivent/21machi_00.tga
+grp01:ivent/21machi_01.tga
+grp02:ivent/21machi_02.tga
+grp03:ivent/21machi_03.tga
+grp04:ivent/21machi_04.tga
+
+se00:bin/se/21syo/shop/syozyo01-3.bin
+/Ç†ÇÃÇÀ
+
+se01:bin/se/21syo/shop/syozyo02-2.bin
+/Ç†ÇËÇ™Ç∆Ç§
+
+se02:bin/se/21syo/shop/syozyo03.bin
+/Ç§ÇÒÅAÇ¢Ç¢ÇÊ
+
+se03:bin/se/21syo/shop/syozyo04.bin
+/Ç¶Ç¶Å[
+
+se04:bin/se/21syo/shop/syozyo05.bin
+/Ç¶Ç÷Ç÷
+
+se05:bin/se/21syo/shop/syozyo06-3.bin
+/ÇøÇ™Ç§ÇÊÇß
+
+se06:bin/se/21syo/shop/syozyo07-3.bin
+/çÇÇ¢ÇÊÇß
+
+se07:bin/se/21syo/shop/syozyo08.bin
+/Ç±ÇÒÇ…ÇøÇÕ
+
+//F1 is the kyaku data for little girls, so obviously they sound like little girls.
+
+msg00:00:s00:Mommy asked me to sell<BR>this!
+//"Mommy told me to go sell this!"
+
+msg01:04:s04:I'm runnin' an errand!
+//"I'm running an errand!"
+msg01:04:s04:I'm on an errand today!<BR>Isn't that cool?
+//"I'm running an errand today!"
+msg01:04:s07:Miss Receeette!<BR>Please sell things at me!
+//"Rucette(nee-chan)! I came to buy!"
+msg01:04:s07:Hi! I want this today,<BR>please!
+//"Hello! I want this today, please!"
+msg01:04:s07:Can I buy this, please?
+//"Can I have this please?"
+msg01:01:s00:Mommy told me to buy<BR>this!
+//"Mommy told me to go buy this!"
+msg01:02:sno:This is for my brother!
+//"This... Big bro' is gonan use it, they said."
+msg01:04:s04:Oooooh, you have one!<BR>I really want one of these!
+//"Oh, it was sold here! I was wanting one of these~"
+msg01:04:s00:I waaaaaant... this!
+//"I want this~"
+msg01:04:s04:Heehee!<BR>You have it! Yay!
+//"Ehehe! Yay, you have it!"
+msg01:04:s00:This is a present for<BR>mommy!
+//"I'm gonna give this to mommy as a present!"
+msg01:04:s00:This is a present for<BR>daddy!
+//"I'm gonna give this to daddy as a present!"
+msg01:04:s00:This is a present for<BR>my brother!
+//""I'm gonna give this to my big brother as a present!"
+
+msg02:01:s02:Yeah, OK! How much?
+//"Yeah, that's fine. How much?"
+msg02:04:s04:Yeah, that! I'll take that!
+//Yeah, that! That!"
+
+msg03:03:s03:Huh? It's really that<BR>cheap?
+//"Ehhh? Is it really that cheap?"
+
+msg04:03:s06:That's a loooooot!<BR>I can't pay that much...
+//"That's too much~!"
+msg04:00:s06:Ummmm... that's a little<BR>too much.
+//"Umm... I think that's too much."
+msg04:04:s04:Could it be a bit cheaper?<BR>Pleeeease?
+//"Can you make it a bit cheaper? or something?"
+msg04:03:s06:You can't... make it just<BR>a bit less?...
+//"I'd sure like it ifyou'd make it a bit cheaper..."
+msg04:03:s03:Could I pay a little less?
+//"Make it a bit cheaper?"
+msg04:03:sno:Awwww! That's way too<BR>much!
+//"Waah... That's too much!"
+msg04:03:s03:Huh? It's that much?
+//"Eh? Is it that much?"
+msg04:02:s05:That's so much! You're<BR>being selfish! And mean!
+//"I'm not being selfish! That's too much!"
+msg04:04:s00:Um, could you make that<BR>a liiiittle cheaper?<BR>Ehehe...
+//"Um, I'd appreciate it if you'd make it a bit cheaper~ Ehehe..."
+msg04:02:sno:I'm not leaving 'till you<BR>make that cheaper!
+//"I'm not moving until you make it cheaper!"
+
+msg05:04:s02:Okay!
+//"Okay, that's fine!"
+
+msg05:01:s02:Okay!
+//"Okay, that's fine."
+msg05:04:s01:Okay! Thank you!
+//"Okay, that's fine! Thank you!"
+msg05:04:s01:Thank you, Miss Recette!
+//"Thank you, Rucette(nee-chan)!"
+msg05:04:s04:I'm a good shopper,<BR>right?
+//"Am I a good shopper?"
+
+msg06:03:s03:I don't have enough<BR>moneeeeey...
+//"I don't have enough money~"
+msg06:03:s03:Awww, I can't buy that<BR>at aaaalllll...
+//"I can't buy that at all~"
+msg06:03:s03:Awwwww... my allowance<BR>isn't that big...
+//"Aww... I can't buy that~"
+
+msg07:03:s03:Mommy'd get mad at me<BR>if I said yes to that!
+//"Mommy would get angry if I took that offer!"
+
+msg08:00:s05:No, I don't want that.
+//"No, that's not what I wanted."
+msg08:02:s05:No, no! That's not what<BR>I want!
+//"No, no! That's not it!"
+msg08:03:s05:I don't want those!
+//"I don't need any of those~!"
+msg08:00:s05:No, no, not that!
+//"I don't need that!
+msg08:00:s05:Miss Receeeette, you<BR>don't get it at all!
+//"Rucette(nee-chan), you don't get it at all!"
+
+msg09:00:s03:You don't have any?
+//"You don't have any?"
+msg09:03:s03:Aww, you don't have any?
+//"Eh? You don't have any~?"
+msg09:00:s03:Oooh. You don't have<BR>any...
+//"Oh, so you don't have any..."
+msg09:04:sno:No, no, it's okay! If you<BR>don't have any, you<BR>don't...
+//"No, it's okay! If you don't have any, there's not much you can do about it..."
+
+msg10:00:sno:This is getting dumb...
+//"I'm getting tired of this..."
+msg10:02:sno:I'm going home!
+//"I'm going home!"
+
+msg11:00:sno:This is getting dumb...
+//"I'm getting tired of this..."
+msg11:02:sno:I'm going home!
+//"I'm going home!"
+
+msg12:00:s00:Do you have<BR><S>?
+//"Can I buy an <S>?"
+msg12:01:s00:Can I get<BR><S>?
+//Do you have any <S> around?"
+
+msg12:03:s00:Do you have<BR><S>?
+//"I don't see any <S>."
+msg12:04:s00:Do you have<BR><S>?<BR>It's an errand!
+//"I wanna buy an S! It's an errand!"
+msg12:04:s00:I want<BR><S>!
+//"I want an <S>!"
+msg12:01:s00:If I want<BR><S>,<BR>what would be good?
+//"What would be good if I wanted an <S>?"
+
+msg13:04:s02:Okay!
+//"Okay, that's fine."
+msg13:01:s02:Yeah, that's great!
+//"Yeah, that'll be fine!"
+msg13:04:s01:That's great!<BR>Thank you!
+//Yeah, that's fine! Thank you!"
+msg13:04:s04:I'm a good shopper,<BR>right?
+//"Am I a good shopper?"
+
+msg15:04:s07:Miss Recette! I want to get<BR><D1> <S>,<BR>and I want them<C><DA>! If you<BR>can get them for me, you'll<BR>be awesome!
+//"I want <D1> <S>! I'll come and get them in <DA> days, so I'd really like it if you'd prepare the, for me...
+
+msg16:01:s07:I asked for some<BR><S>...<BR>do you have any?
+//"Do you have the <S>es I asked for before?"
+msg16:04:s00:Ummm... I'm here for the<BR><S>!
+//"Um, um, I've come to get those <S>es!"
+
+//	ó\ñÒÇífÇÁÇÍÇΩÇ∆Ç´ÇÃÉZÉäÉt
+//When refusing an order
+msg17:03:s03:Awww, really?
+//"Eh~ Really?"
+
+//	ó\ñÒÇÃà¯Ç´éÊÇËì˙ÇâﬂÇ¨ÇΩÇ∆Ç´
+msg18:03:s00:I had an order, but you<BR>weren't around...
+//"I had that order, but you weren't running the shop..."
+
+msg19:03:s03:Is it that expensive?<BR>My allowance isn't that<BR>big...
+//"Are you gonna make it that expensive? I can't pay that~"
+msg19:03:s06:I don't have enooouuugh...
+//"I don't have enough money~..."

@@ -1,0 +1,336 @@
+grp00:ivent/03lui_00.tga
+grp01:ivent/03lui_01.tga
+grp02:ivent/03lui_02.tga
+grp03:ivent/03lui_03.tga
+grp04:ivent/03lui_04.tga
+
+se00:bin/se/02li/shop/ryui_012_b.bin
+/よう、やってるか？
+se01:bin/se/02li/shop/ryui_013_b.bin
+/よう、来たぜ
+se02:bin/se/02li/shop/ryui_014.bin
+/買って欲しいものがあるんだけどさ
+se03:bin/se/02li/shop/ryui_015_b.bin
+/たのむよー
+se04:bin/se/02li/shop/ryui_016.bin
+/いいなコレ
+se05:bin/se/02li/shop/ryui_017_b.bin
+/いいなソレ
+se06:bin/se/02li/shop/ryui_018_b.bin
+/買い取ってくれないか？
+se07:bin/se/02li/shop/ryui_019.bin
+/掘り出し物だと思うぜ
+se08:bin/se/02li/shop/ryui_020.bin
+/コレくれ
+se09:bin/se/02li/shop/ryui_021.bin
+/売ってくれ
+se10:bin/se/02li/shop/ryui_022_c.bin
+/コレ欲しかったんだ
+se11:bin/se/02li/shop/ryui_023.bin
+/参ったなー
+se12:bin/se/02li/shop/ryui_025.bin
+/あぁ、それでいいぜ
+se13:bin/se/02li/shop/ryui_026.bin
+/まぁ、それでいいか
+se14:bin/se/02li/shop/ryui_027.bin
+/えっ・・・
+se15:bin/se/02li/shop/ryui_028_b.bin
+/もう一声！
+se16:bin/se/02li/shop/ryui_029.bin
+/ホントかよ
+se17:bin/se/02li/shop/ryui_030.bin
+/納得しないぜ
+se18:bin/se/02li/shop/ryui_031_b.bin
+/おぃおぃ
+se19:bin/se/02li/shop/ryui_032.bin
+/そんなに高いのか？
+se20:bin/se/02li/shop/ryui_033.bin
+/へ？そんなにするのかよ・・・
+se21:bin/se/02li/shop/ryui_034.bin
+/おっし、それでいいぜ
+se22:bin/se/02li/shop/ryui_035.bin
+/やったぜ
+se23:bin/se/02li/shop/ryui_036.bin
+/まぁそのくらいか
+se24:bin/se/02li/shop/ryui_037_b.bin
+/まぁそんなもんか
+se25:bin/se/02li/shop/ryui_038.bin
+/無理だ無理
+se26:bin/se/02li/shop/ryui_039.bin
+/今日はもう帰るぜ
+se27:bin/se/02li/shop/ryui_040.bin
+/違うなぁ
+se28:bin/se/02li/shop/ryui_041.bin
+/要らないな
+se29:bin/se/02li/shop/ryui_042.bin
+/違うだろ
+se30:bin/se/02li/shop/ryui_043_b.bin
+/また来るぜ
+se31:bin/se/02li/shop/ryui_044.bin
+/無いのかー
+se32:bin/se/02li/shop/ryui_045.bin
+/しょうがないな
+se33:bin/se/02li/shop/ryui_046.bin
+/他に行くぜ
+se34:bin/se/02li/shop/ryui_047_b.bin
+/ちょっといいか？
+se35:bin/se/02li/shop/ryui_048.bin
+/こういうのを探してるんだけどさ
+
+
+msg00:00:s02:Heeeey, Recette...<BR>any chance you'll buy this<BR>off me?
+//"So, this- any chance you'll buy it off me?"
+//Louie is your average young swordsman adventurer. Think of him like Ruven. Only poorer. And hungrier.
+msg00:03:s03:This month's a bit tight...<BR>could you buy this?
+//"This month's a bit tight- would you please buy this?"
+msg00:03:s02:This is a little treasure<BR>of mine, but, well, the<BR>taxmen want coins and<C>not treasure, you know?<BR>Can you give me anything<BR>for it?
+//"It's a little treasure of mine, but I need the money more.*
+//* - Lit. "I can't transform my back into my stomach,' an odd idiom; basically meaning "i can't
+//sacrifice something else (more important) for this other thing."
+msg00:00:s02:Hey, can I sell this?
+//"Hey, can I sell this?"
+msg00:04:s07:This is a family<BR>heirloom!... so it'll go for<BR>a lot, right?
+//"This is a family heirloom!"
+msg00:02:s02:Well, don't need THIS<BR>anymore. How much?
+//"...So, I don't need this any more."
+msg00:03:s02:I really don't want to<BR>sell this, but...
+//"I don't really want to sell this, but..."
+msg00:00:s07:Heh, found a little<BR>something in the wilds.<BR>Want to buy it?
+//"So I picked something like this up in a dungeon"
+msg00:00:s06:I picked this up while<BR>nosing around a cave...<BR>Can I sell it?
+//"So I picked this up in a dungeon"
+msg00:00:s02:I found this while<BR>cleaning up my place.<BR>Take it off my hands?
+//"Found this when I was cleaning up my place."
+msg00:01:s06:Check it out - a souvenir<BR>from some dungeon-<BR>diving. You want it?
+//"Here- something I brought back from the dungeon."
+msg00:04:s07:Check THIS out! What a<BR>find, eh? Eh? Buy it?
+//"Here- I bet this is a hell of a find!"
+
+msg01:01:s08:Yo, Recette! Ring this<BR>up, please!
+//"Hey, can I get this?"
+msg01:01:s09:Oooh! How much would<BR>this be?
+//"Ooh! Sell that over there to me!"
+msg01:00:s08:Hey, this item's for<BR>sale, right? Right?
+//"These things put out here are for sale, right?"
+msg01:04:s10:I was lookin' for one of<BR>these!
+//"I was just wanting one of these!"
+msg01:04:s10:Aw, yeah! I was lookin'<BR>for one of these!
+//"I was just looking for one of these!"
+msg01:00:s16:I've been looking for this.<BR>Is it really for sale?
+//"I was looking for this. Are you really selling it?"
+msg01:02:s08:Oooh, this month is tight,<BR>but... I really want that!
+//"This month is a little hard... but I really want this!"
+msg01:03:s11:And of course, you're<BR>selling this when I'm near<BR>broke...
+//"Why of all times does this have to be out when I have no money?"
+msg01:03:s11:Man, why do I always want<BR>stuff like this when I'm<BR>broke?
+//"It's only when I have no money that I start wanting stuff like this..."
+//(then what do you spend all your money on? -TR)
+msg01:01:s08:Hey! I'll be buying this.
+//"Hey! I'll be buying that."
+msg01:00:s16:Hey, is this really for<BR>sale?
+//"Hey, hey, are you really selling this?"
+msg01:04:s10:Dang, this is really nice!<BR>How much?
+//"Ooh, you're selling something nice here."
+msg01:04:s10:What, you have this?...<BR>I mean, of course you have<BR>this! How much?
+//"What? Man, this is where it was being sold?"
+msg01:04:s10:Ooh, I've been wanting<BR>this!
+//"Ohhh, I've been wanting this!"
+msg01:02:s08:So, this is the<BR>legendary... Recette!<BR>Sell me this! Please!
+//"So this is the legendary... Please! Sell this to me!"
+
+msg02:04:s05:Nice! How much?
+//"Nice, nice. How much?"
+msg02:04:s09:Yeah, that's it!<BR>How much?
+//"That's it! How much?"
+msg02:04:s05:Oooh, that's nice!<BR>How much?
+//"Ohh! That's nice! How much?"
+msg02:01:s12:That seems about right.<BR>So, how much?
+//"That seems like a safe bet. So, how much?"
+msg02:01:s12:Yeah, that'll do.<BR>How much?
+//"Yeah, that'll be fine. How much?
+msg02:00:s13:Yeah, that should<BR>be okay. How much?
+//"Well, I suppose that's good enough. How much?"
+msg02:01:s12:Hey, that's a good one!
+//"Hey, you do have a good one!"
+msg02:01:s12:If you recommend it,<BR>Recette, then it must be<BR>good!
+//"If it's your recommendation, Rucette, then that's fine!"
+msg02:00:s13:You think this'll do?...<BR>yeah, I think you're right.
+//"That, huh... Well, that's fine."
+
+msg03:03:s14:Eh? Aw, come on, can't<BR>you gimme a little more?
+//"Eh? ...Can't you give me a bit more?"
+msg03:03:s18:Whoa, hold on, is it<BR>really worth that little?
+//"Whoa, whoa, is it seriously worth that little?"
+msg03:02:s15:Come on, that price isn't<BR>right at all!
+//"One more voice!*"
+//*-As in F3.
+msg03:04:s16:Ahahaha, good one!...<BR>... that was a joke, right?
+//"Ahaha... that's a bad joke."
+msg03:02:s17:No way! I'm stickin' to<BR>my guns on this!
+//"Not yet! I'm sticking to this!"
+msg03:03:s17:No way, Recette. I can't<BR>accept that price!
+//"I can't accept that price!"
+msg03:02:s17:No way, Recette. You<BR>can give me more than<BR>that, I know it!
+//"Not yet! I'm sure I can get more than that!"
+msg03:03:s18:You sure about that?
+//"I dunno, I've heard this is worth a fair amount..."
+msg03:02:s17:My soul burns with an<BR>awesome power! This<BR>sensation tells me...<C>... that this here thing<BR>is worth more money!
+//"My soul is telling me "This is a pricy object!"
+msg03:03:s03:I have it on, uh, good<BR>authority that this is<BR>worth more.<C>... no, that authority is<BR>NOT my mom! Don't give<BR>me that look!
+//"My mom told me this was worth a lot more than that."
+
+msg04:03:s19:...what. Isn't that just<BR>a little much?
+//"...what. Isn't that a bit too high? 
+msg04:03:s18:Whoa, hold on, is it<BR>really that much?
+//"Whoa, whoa, does it seriously cost that much?"
+msg04:03:s16:Are you for real? You<BR>know I can't pay that<BR>much!
+//"Are you serious? I can't pay that."
+msg04:04:s16:Ahahaha, good one!...<BR>... that was a joke, right?
+//"Ahaha... that's a bad joke.
+msg04:02:s15:Come on, that price<BR>isn't right at all!
+//"One more voice!*"
+//*-As in F3.
+msg04:02:s17:No way! I'm stickin' to<BR>my guns on this!
+//"Not yet! I'm sticking to this!"
+msg04:03:s17:No way, Recette. I can't<BR>accept that price!
+//"I can't accept that price!"
+msg04:02:s15:No way, Recette. You<BR>can go a little lower,<BR>I know it!
+//"Not yet! I'm sure you can charge less than that!"
+msg04:03:s18:Does it look like I have<BR>that much money?
+//"Does it look like I have that much money?"
+msg04:00:s20:You have to be kidding,<BR>Recette!
+//"EH? Is this 
+
+msg05:04:s21:Awesome! Thanks, Recette,<BR>that's a great price.
+//"AWesome1 That price is great."
+msg05:00:s23:Yeah, that sounds about<BR>right.
+//"Well, that sounds about right."
+msg05:01:s22:That's a great deal!<BR>Thanks, Recette.
+//"Awesome, I got a great deal!"
+msg05:04:s21:Yeah, that'll be fine!
+//"Right! That'll be fine."
+msg05:01:s23:Heh, there's no beating<BR>you, Recette. Yeah, I'll<BR>take that price.
+//"As always, I can't beat you, Rucette. I get it, that price'll be fine."
+msg05:00:s24:Hmmm... yeah, that's<BR>about right. Deal!
+//"Hmmm... well, that seems about right, I suppose."
+msg05:00:s24:I guess that's a good<BR>price.
+//"I suppose that's an appropriate price... maybe?"
+
+msg06:02:s25:There's NO WAY I can<BR>pay that much, Recette!
+//"There's no way I can pay that price!"
+msg06:03:s25:Come on! You think I<BR>have that kind of money?!
+//"Do I look like I have that kind of money?"
+msg06:03:s25:... this really isn't<BR>working.
+//"...This isn't working."
+msg06:03:s26:*sigh*... Guess I can't<BR>afford it, then. See you,<BR>Recette.
+//"Sigh... I guess I can't afford it."
+msg06:03:s26:Right then, I'm heading<BR>home. Later.
+//"Right, I'm heading home for today."
+msg06:03:s26:Shoulda known I couldn't<BR>afford it...
+//"Well, I figured I wouldn't be able to get it."
+
+msg07:04:s25:Right! Let's just forget<BR>about this, then.
+//"Right! Let's just forget about this, then."
+msg07:03:s25:Sorry, Recette.<BR>No deal.
+//"Sorry, but I'm not selling at that price."
+msg07:02:s25:Even I got my limits on<BR>selling low.
+//"There's limits to even low price."
+msg07:00:s26:Sorry, Recette. I gotta<BR>find a place that'll pay<BR>me more.
+//"I'm gonna go find a shop that'll pay me more."
+
+msg08:00:s27:Mmm... not... quite,<BR>Recette.
+//"Hmm... That's not really what I was asking for."
+msg08:00:s28:That's not really what<BR>I need.
+//"I don't really need that."
+msg08:00:s27:Ah, nuts. Thought you'd<BR>know what I wanted, but...
+//"I thought you'd know what I wanted, but..."
+msg08:00:s28:That's not it at all.
+//"That's not it at all."
+msg08:00:s28:Nope, don't need that.
+//"Don't need that."
+msg08:00:s29:You did listen to what<BR>I asked for, right?
+//"Did you listen to what I asked for?"r
+msg08:00:s29:No... that's not quite it.
+//"No... That's not it."
+
+msg09:00:s31:I see. Sorry to bother<BR>you!
+//"I see. Sorry to bother you."
+msg09:00:s31:Don't have it, huh?<BR>Ah well.
+//"Don't have any, huh~"
+msg09:00:s32:If you don't have any,<BR>that's it, I suppose...
+//"If you don't have any, that's that, I suppose..."
+msg09:00:s32:Well, if you don't have<BR>any, you don't have any.
+//"Well, if you don't have any, you don't have any.
+msg09:00:s30:Could you get one in<BR>stock next time?
+//"Next time make sure to have one in stock!"
+
+msg10:00:s33:Oh well. Guess I'll go to<BR>a cheaper place.
+//"Oh well, guess I'll go to a cheaper place."
+msg10:03:s33:Guess I'll go find a<BR>cheaper store...
+//"Guess I'll go find a cheaper store."
+msg10:00:s33:This isn't going<BR>anywhere... see you later,<BR>Recette.
+//"Doesn't look like this is going anywhere... I'll go somewhere else."
+msg10:00:s32:Think I'm just wasting<BR>my time here...
+//"Looks like I'm just wasting my time here."
+
+msg11:00:s33:Oh well. Guess I'll find<BR>a place that'll give me<BR>more.
+//"I'm gonna go find a place that'll buy it for more."
+msg11:03:s33:Guess I'll go find a place<BR>that'll offer more...
+//"Guess I'll go find a place that'll buy it for more..."
+msg11:00:s33:This isn't going<BR>anywhere... see you later,<BR>Recette.
+//"Doesn't look like this is going anywhere... I'll go somewhere else."
+msg11:00:s32:Think I'm just wasting<BR>my time here...
+//"Looks like I'm just wasting my time here."
+
+msg12:00:s35:Recette! Buddy! Pal!<BR>Can you get me<BR><S>?
+//"I'd like an <S>."
+msg12:00:s34:Hey, Recette. Got<BR><S>?
+//"Got any <S>?"
+msg12:00:s35:Hey! Can you sell me<BR><S>?
+//"Hey, can you sell me an <S>?"
+msg12:00:s34:I don't suppose you<BR>have<BR><S>?
+//"Don't suppose you have an <S>, do you?"
+
+msg13:04:s21:Awesome! Thanks,<BR>Recette, that's a great<BR>price.
+//"Awesome! That's a fine price."
+msg13:04:s22:Whew! I should be able<BR>to get by with that.
+//"Ah, that's a relief. I should be able to make it with this."
+msg13:00:s23:Yeah, that sounds about<BR>right.
+//"That seems about right."
+msg13:01:s22:Didn't think I'd get that<BR>good a price!
+//"A lot better price than I thought!"
+msg13:04:s21:That's as good a price<BR>as any! Sold!
+//"Right, I'll sell at that price!"
+msg13:04:s21:Yeah, that'll do!
+//"Right! That'll do."
+msg13:00:s23:Hmmm... yeah, that's<BR>about right. Deal!
+//"Hmm... Well, I suppose that's about right."
+msg13:00:s23:I guess that's a good<BR>price.
+//"I suppose that's an appropriate price... maybe?"
+
+
+msg15:00:s04:Hey, Recette! I need<BR><D1> <S>,<BR><DA>.<C>D'you think you can get<BR>that together for me?
+//"I'd like <D1> <S>. Can I come and pick them up in <DA> days?"
+
+
+msg16:01:s01:Hey, I asked for<BR><S>.<BR>You got it?
+//"You got those <S> I asked for?"
+msg16:04:s01:Hey! Came to get my<BR><S>!
+//"Hey there! Came to pick up my <S>!"
+
+//	予約を断られたときのセリフ
+msg17:03:s11:You can't? Ah, blast...
+//"Oh.. Well, damn."
+
+//	予約の引き取り日を過ぎたとき
+msg18:03:s32:Recette! I had an order,<BR>remember?<C>Try to be here next<BR>time, okay?
+//"Hey, I had an order so could you try to be at your shop for me?"
+
+msg19:03:s18:Yeah, I have that much<BR>money... in my dreams.
+//"Hey, hey, there's no way I'd have that much money."
+msg19:03:s11:Man... I don't have that<BR>much money.
+//"Man... I don't have that much money."
+msg19:03:s11:Man... I don't have<BR>nearly enough.
+//"Man... I don't have nearly enough."
+msg19:03:s25:I wish I had that kind of<BR>cash!
+//"There's no way I'd have that much money."

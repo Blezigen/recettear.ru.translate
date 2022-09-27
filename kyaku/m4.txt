@@ -1,0 +1,146 @@
+grp00:ivent/26machi_00.tga
+grp01:ivent/26machi_01.tga
+grp02:ivent/26machi_02.tga
+grp03:ivent/26machi_03.tga
+grp04:ivent/26machi_04.tga
+
+msg00:00:sno:Hey there. Came by to<BR>sell this...
+//"I came to sell this..."
+//M4 is an old man. Get off his lawn. (Actually, he tends to be the nice old man type.)
+msg00:03:sno:Need to help th' ole'<BR>pension, y'see... what can I<BR>get for this?
+//"It's a little hard living on pension alone, y'see."
+msg00:01:sno:Any chance I could get<BR>you to buy this, little<BR>lady?
+//"Any chance I could get you to buy this?"
+
+msg01:01:sno:Ah, little lady, how much<BR>for this?
+//"Could I get this?"
+msg01:01:sno:Would you sell this to<BR>me, m'girl?
+//"Would you sell this to me?"
+msg01:04:sno:Heh heh... been lookin'<BR>for one of these.
+//"Ah, I was looking for this."
+msg01:04:sno:Ahhh, this'll do!
+//"Ah, this, this!"
+msg01:00:sno:M'daughter-in-law asked<BR>me to pick this up.
+//"My son's wife asked me to pick this up."
+
+msg02:01:sno:Aye, that'll do!
+//"Right, that!"
+msg02:04:sno:Hah! That's it!
+//"That's it!"
+
+msg03:03:sno:Y'won't buy it for a<BR>little more, missy?
+//"Won't you buy it for a bit more?"
+msg03:00:sno:Too little!
+//"Too little!"
+msg03:03:sno:C'mon now, is it really<BR>worth so little?
+//"Is it really worth that little?"
+msg03:03:sno:Now, now, that's far too<BR>little!
+//"That's too little!"
+msg03:03:sno:C'mon now, you won't go<BR>just a bit higher?
+//"Come on, can't it go a bit higher?"
+msg03:03:sno:C'mon now, you can't buy<BR>it for a bit more?
+//"Come on, Can't you buy it for a bit more?"
+msg03:03:sno:Is it... really that cheap<BR>to you?
+//"Is it really that cheap a thing?"
+msg03:00:sno:Y'can't go up just a hair<BR>more?
+//"Can't you up it a bit more?"
+
+msg04:03:sno:Can't you sell it for<BR>just a bit less?...
+//"I'd kind of like you to sell it for a bit less..."
+msg04:03:sno:It's really that<BR>expensive?
+//"Is it that expensive?"
+msg04:02:sno:Too expensive, girl!<BR>Make it cheaper!
+//"Too expensive! Make it cheaper!"
+msg04:03:sno:That's too much.<BR>Y'can't go a little lower?
+//"That's too much. Can't you make it a bit cheaper?"
+msg04:03:sno:It's that expensive?<BR>Y'can't go a little lower?
+//"Is it that expensive? Can't it be a bit cheaper?"
+msg04:03:sno:I can't buy it at that<BR>price, y'know.
+//"I can't buy it at that price, y'know."
+msg04:03:sno:You can't bring it down<BR>just a hair?
+//"Can't ya make it a bit cheaper?"
+msg04:03:sno:Is it... really that<BR>expensive?
+//"Is it that expensive a thing?"
+msg04:00:sno:Y'cant go down just a<BR>hair more?
+//"Can't you lower the price a bit?"
+
+msg05:01:sno:Ah, see, that's a fine<BR>price.
+//"That's a fine price."
+msg05:01:sno:All right, that's a good<BR>price.
+//"All right, I guess that's good."
+msg05:00:sno:Well, that'll do, I<BR>suppose.
+//"Well, I suppose I'll accept that price."
+msg05:01:sno:A good deal, little lady!
+//"Ah, a good deal."
+msg05:00:sno:...hmmmm. Well, it's<BR>reasonable enough.
+//"...Hm. Well, that seems reasonable."
+
+msg06:03:sno:Now that's just crazy-<BR>talk!
+//"That's crazy."
+msg06:03:sno:Bah, I'm goin' home.
+//"I'm goin' home."
+msg06:02:sno:Ain't no point t'this at<BR>all, I see...
+//"There's no point in even talking, I see."
+
+msg07:03:sno:Now that's just crazy-<BR>talk!
+//"That's crazy."
+msg07:03:sno:Bah, I'm goin' home.
+//"I'm goin' home."
+msg07:02:sno:Ain't no point t'this at<BR>all, I see...
+//"There's no point in even talking, I see."
+
+msg08:03:sno:Not what I wanted!
+//"That's not what I wanted."
+msg08:03:sno:Nope, don't need that!
+//"I don't need that!"
+msg08:00:sno:I don't need anything<BR>like that, missy!
+//"I don't need anything like that!"
+
+msg09:03:sno:So y'don't have any...
+//"So ya don't have any...
+msg09:03:sno:Well, y'don't have any,<BR>y'dont' have any.
+//"Well, if you don't have any, you don't have any."
+
+msg10:00:sno:Madness!
+//"That's crazy."
+msg10:03:sno:That's crazy no matter<BR>how you slice it.
+//"That's crazy no matter how you look at it."
+
+msg11:00:sno:I can't sell for that!
+//"I'm not gonna sell at that."
+msg11:03:sno:That's crazy no matter<BR>how you slice it.
+//"That's crazy no matter how you look at it."
+
+msg12:00:sno:I want to buy<BR><S>.
+//"I'd like to buy an <S>."
+msg12:00:sno:Little lady, you got<BR><S>?
+//"Got any <S>?
+msg12:04:sno:M'grandchild's been<BR>pestering me to get<BR><S>.
+//"My grandkid's been pestering me to get an <S>..."
+msg12:00:sno:I'd like<BR><S>.
+//"I'd like an <S>."
+
+msg13:01:sno:All right, all right.
+//"All right, all right."
+msg13:00:sno:Yeah, seems about right.
+//"That seems about right."
+msg13:00:sno:Well! Seems reasonable.
+//"Well, that seems reasonable."
+msg13:00:sno:Well... seems about right,<BR>I suppose.
+//"Well... That seems about right, I suppose."
+
+msg15:00:sno:Little lady, I'd like to get<BR><D1> <S>.<BR>If I come to pick 'em<C>up <DA>,<BR>will you have 'em ready?
+//"I'd like <D1> <S>... if I come and pick them up in <DA> days, will you have them ready?"
+
+msg16:00:sno:D'you have the<BR><S><BR>I asked for?
+//"Do you have the <S> I asked for?"
+
+msg17:03:sno:Well, nothing for it, I<BR>suppose.
+//"Ah well, nothing for it."
+
+//	—\–ñ‚Ìˆø‚«Žæ‚è“ú‚ð‰ß‚¬‚½‚Æ‚«
+msg18:02:sno:You weren't here the<BR>day I came t'get my<BR>order!<C>That's bad business,<BR>missy!
+//"You weren't here the day I came to pick up my order! That's not good business!"
+
+msg19:03:sno:I... don't have that kind<BR>of money!
+//"I... don't have that kind of money!"

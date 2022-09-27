@@ -1,0 +1,212 @@
+grp00:ivent/22machi_00.tga
+grp01:ivent/22machi_01.tga
+grp02:ivent/22machi_02.tga
+grp03:ivent/22machi_03.tga
+grp04:ivent/22machi_04.tga
+
+msg00:00:sno:Any chance I could turn<BR>this into some money?
+//"Any chance this might turn into some money?"
+//M2 is a young, married man- early-late 20s, I'd say. 
+msg00:00:sno:When she died, my<BR>grandmother told me to<BR>sell this off if I ever<C>got into trouble. Well...
+//"My grandmother told me to sell this if I ever got in trouble before she died."
+msg00:00:sno:This is something my<BR>grandmother treasured...<BR>but, well...
+//"This is something my grandmother always treasured..."
+msg00:00:sno:I'd like you to buy this,<BR>but... well, I want a good<BR>price, you know?
+//"I'd like you to buy this, but..."
+msg00:03:sno:You interested in buying<BR>this?
+///"So, this- any way it could turn into money?"
+msg00:03:sno:A tight balance sheet this<BR>month... this is precious,<BR>but I think I can sell it.
+//"I spent a little too much this month. This is kind of precious but I figure I can do without it."
+msg00:03:sno:I think this might sell...<BR>how much?
+//"This is about all I've got that looks like it might sell."
+msg00:01:sno:Hi, I came by to sell this<BR>today.
+//"I came to sell this today."
+
+msg01:01:sno:Hi! How much for this?
+//"Any chance you could sell this to me?"
+msg01:01:sno:Could I get this, please?
+//"I'd like you to sell this."
+msg01:04:sno:Ah, I was looking for this!
+//"Ah, I was looking for this!"
+msg01:04:sno:Haha, never thought I'd<BR>find one of these here!
+//"I never thought I'd find this here."
+msg01:04:sno:You have one of these?<BR>It's a lucky day for both<BR>of us, then!
+//"You've got this? Lucky!"
+msg01:01:sno:This is for sale, right?
+//"Is that thing there for sale?"
+msg01:00:sno:The wife asked me to pick<BR>this up.
+//"I was asked to go buy this..."
+
+msg02:01:sno:Yeah, that'll do. How much?
+//"Ah, that! How much is it?"
+msg02:00:sno:That? Huh, it'll do.
+//"That, huh... Well, it'll do."
+msg02:04:sno:Perfect! How much?
+//"Yeah, that, that!"
+msg02:04:sno:That's it! How much?
+//That's it!"
+
+msg03:03:sno:You can't buy it for a<BR>bit more?
+//"I'd like you to buy it for a bit more."
+msg03:00:sno:That's too cheap! Can't<BR>you make the offer a<BR>bit better?
+//"That's too cheap! Make it a bit better."
+msg03:03:sno:Is it that cheap? Come on,<BR>gimme a better offer.
+//"Is it THAT cheap? Come on, give me another offer."
+msg03:03:sno:That's way too little. I<BR>know you can give me more<BR>than that...
+//"That's way too cheap. Come on, can't you make it a bit better?"
+msg03:03:sno:Is it... really worth so<BR>little?...
+//"Is this worth that little? Can't you give me a bit more money?"
+msg03:03:sno:That's a problem... I can't<BR>balance the budget on<BR>that.
+//"That's a problem... I can't live off of that."
+msg03:03:sno:C'mon, pay a little more.<BR>Be a friend.
+//"Come on, buy it for a bit more than that."
+msg03:03:sno:Is it... really worth so<BR>little?...
+//"Eh? Is it worth that little?"
+msg03:00:sno:Hmm... you can't give me<BR>just a little more?
+//"Hmm... Could you give me a little bit more?"
+
+msg04:03:sno:You can't sell it for a<BR>bit less?
+//"I'd like you to sell it for a bit less than that."
+msg04:03:sno:It's that much? Really?
+//"Is it that expensive?"
+msg04:00:sno:Sweet heaven, that's too<BR>expensive! Please make it<BR>cheaper!
+//"Too expensive! Please, make it a bit cheaper."
+msg04:03:sno:I can't afford that...<BR>can't you make it cheaper?
+//"That's too much. Can't you make it a bit cheaper?"
+msg04:03:sno:It's that much? You can't<BR>bring it down at all?
+//"Is it that expensive? Can't you make it a bit cheaper?"
+msg04:03:sno:I can't buy it at that<BR>price...
+//"I can't buy it at that price."
+msg04:03:sno:Could you take it down<BR>just a little bit?
+//"Can't you make it a bit cheaper?"
+msg04:03:sno:What the... it's that much?<BR>Are you serious?
+//"Eh? Is it that expensive?"
+msg04:00:sno:Hmm... can't you give me<BR>a slightly better deal?
+//"Hmm... Can you make it a bit cheaper?"
+
+msg05:01:sno:All right, I'll take that<BR>price.
+//"All rigt. That's a good price."
+msg05:04:sno:Hah! Your haggling skills<BR>win, miss! I'll take it.
+//"Thank you. Sorry to ask for the impossible."
+msg05:01:sno:Ah, I can't ask you to<BR>go any lower. Right, I'll<BR>take it.
+//"Well, I suppose there's nothing for it. All right, that price will do."
+msg05:04:sno:Yeah, that'll do.
+//"Yeah, that price will do."
+msg05:00:sno:Okay, that seems fair.
+//"Okay, I can agree to that price."
+msg05:01:sno:That's a pretty good<BR>deal, to be honest.
+//"Actually, that's a pretty good price."
+msg05:01:sno:Ah, I can't ask you to<BR>go any lower. Right, I'll<BR>take it.
+//"All right, that's a fine price. It doesn't look like I can ask for anything else."
+msg05:00:sno:Well, that seems about<BR>right. Okay, here's the<BR>money.
+//"...well, that seems about right, I guess?"
+
+msg06:03:sno:Sorry, I can't pay that<BR>at all.
+//"There's no way I can pay that."
+msg06:03:sno:Alright, I'm heading home.
+//"...Okay, I'm going home for today."
+msg06:03:sno:I had no idea it'd be that<BR>much... time to go home, I<BR>guess.
+//"I had no idea it'd be that price."
+msg06:03:sno:Well... I'll stop by again,<BR>maybe.
+//"Sigh... I'll come by again."
+msg06:03:sno:Ah, this isn't even worth<BR>talking about.
+//"That's not even worth talking about."
+msg06:03:sno:This isn't going anywhere...
+//"This isn't going anywhere."
+msg06:03:sno:Are you serious? Oi...
+//"Are you serious?"
+msg06:03:sno:Right, let's forget this<BR>ever happened. I'll stop<BR>by again sometime.
+//"Okay, let's just pretend this never happened."
+
+msg07:03:sno:I'll be back some time,<BR>I guess.
+//"Right, I'll come again."
+msg07:03:sno:Time to go to a<BR>different store, I guess.
+//"I guess I'll go to a different store."
+msg07:03:sno:Sorry, I can't sell at<BR>that price.
+//"I don't really feel like selling at that price."
+msg07:03:sno:This is going nowhere.
+//"This isn't going anywhere."
+msg07:03:sno:Right, let's forget this<BR>ever happened. I'll stop<BR>by again sometime.
+//"Okay, let's just pretend this never happened."
+
+msg08:03:sno:That's not what I<BR>wanted...
+//"That's not what I wanted."
+msg08:00:sno:No, don't need that...
+//"I don't need that."
+msg08:00:sno:I don't need anything<BR>like that.
+//"I don't need anything like that."
+msg08:03:sno:This isn't it at all...<BR>Heaven, why does this<BR>have to be so hard?
+//"That isn't it at all... man, why does this have to be so hard?"
+msg08:03:sno:I don't think you<BR>understood what I wanted...
+//"Doesn't look like what I wanted got through to you."
+msg08:03:sno:If you don't have it, you<BR>can just say so, you know...
+//"If you don't have it, you could just say so."
+
+msg09:00:sno:I see... well, all right.
+//"I see... All right."
+msg09:03:sno:Don't have it, huh...<BR>blast...
+//"Don't have any, huh..."
+msg09:03:sno:Well, if you don't have it,<BR>you don't have it.
+//"Well, if you don't have any, not much you can do."
+
+msg10:00:sno:I can't buy at that price.
+//"I can't buy at that price."
+msg10:03:sno:Okay, no matter how you<BR>slice it, that's<BR>unreasonable.
+//"Okay, that price is unreasonable anyway you look at it."
+
+msg11:00:sno:I can't sell at that price.
+//"No way am I selling at that price."
+msg11:03:sno:Okay, no matter how you<BR>slice it, that's<BR>unreasonable.
+//"Okay, that price is unreasonable anyway you look at it."
+
+msg12:00:sno:I'd like to buy<BR><S>...
+//I'd like to buy an <S>..."
+msg12:00:sno:The wife asked me to get<BR><S>.
+//"I was told to go get an <S>."
+msg12:00:sno:Hey, got<BR><S>?
+//"Got any <S>?"
+msg12:04:sno:The wife's been up in my<BR>shorts about getting<BR><S>.
+//"My wife's been pestering me to get an <S>."
+msg12:00:sno:You don't have<BR><S>,<BR>do you?
+//"So I don't suppose you have an <S>, do you?"
+msg12:00:sno:I'd like<BR><S>.
+//"I'd like an <S>."
+msg12:01:sno:I'm present-shopping, and<BR>I could really use<BR><S>.
+//"I'm looking for an <S> for a present."
+
+msg13:01:sno:Yeah, that price'll do.
+//"All right. That price'll do."
+msg13:04:sno:Man, even stuff like<BR>this sells!
+//"Wow, even stuff like this sells."
+msg13:00:sno:Alright. It may not be<BR>much, but here.
+//"All right. It may not be much, but here."
+msg13:04:sno:I'll take that price!
+//"Right, I'll sell at that price."
+msg13:04:sno:That's a great deal!
+//"That price is fine."
+msg13:00:sno:Yeah, that seems about<BR>fair. Here you go.
+//"Hmm...Well, all right, that seems about right."
+msg13:00:sno:Yeah, that seems<BR>appropriate.
+//"That seems like a pretty appropriate amount of money."
+
+msg15:00:sno:Hey, miss, I need<BR><D1> <S>.<C>If I return<BR><DA>,<BR>will you have them ready?
+//"So, I want <D1> <S>. If I come by to buy them <DA> days from now, will you have them ready?"
+
+msg16:01:sno:I'm the guy who ordered<BR><S>...
+//"Do you have the <S> I asked for?"
+msg16:01:sno:Hey, do you have my<BR><S>?
+//"Hey, did you get those <S> I asked for in?"
+msg16:00:sno:I've come to get my<BR><S>.
+//"I've come to get the <S> I asked for."
+
+msg17:03:sno:Well, alright. Never mind,<BR>then.
+//"Well, all right. Never mind then."
+
+//	—\–ñ‚Ìˆø‚«Žæ‚è“ú‚ð‰ß‚¬‚½‚Æ‚«
+msg18:03:sno:I came by to get my<BR>order, but you weren't<BR>here...
+//"I came to get my order, but you weren't there..."
+
+msg19:03:sno:Ah, blast, I don't have<BR>the money on me.
+//"Sorry... I don't have the money on me."
+msg19:03:sno:Do I look like I have that<BR>kind of fortune?
+//"I don't have that kind of fortune."

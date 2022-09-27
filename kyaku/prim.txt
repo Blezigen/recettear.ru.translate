@@ -1,0 +1,263 @@
+grp00:ivent/12prime_00.tga
+grp01:ivent/12prime_01.tga
+grp02:ivent/12prime_02.tga
+grp03:ivent/12prime_03.tga
+grp04:ivent/12prime_04.tga
+grp05:ivent/12prime_05.tga
+grp06:ivent/12prime_06.tga
+grp07:ivent/12prime_07.tga
+
+se00:bin/se/11pr/prim04-03.bin
+/ふーん
+
+se01:bin/se/11pr/prim04-04.bin
+/ふぅーん
+
+se02:bin/se/11pr/prim05-02.bin
+/なぁにそれ？（笑）
+
+se03:bin/se/11pr/prim05-03.bin
+/なにそれ？（冷）
+
+se04:bin/se/11pr/prim06-02.bin
+/くひひひ
+
+se05:bin/se/11pr/prim06-04.bin
+/くひひひ（高）
+
+se06:bin/se/11pr/prim07-02.bin
+/あっはっはー
+
+se07:bin/se/11pr/prim07.bin
+/あーはっはー
+
+se08:bin/se/11pr/prim08-02.bin
+/なんだよぉ？●
+
+se09:bin/se/11pr/prim08-03.bin
+/なんだよ
+
+se10:bin/se/11pr/prim08-05.bin
+/なーんだよぉ・・・●
+
+se11:bin/se/11pr/prim09-03.bin
+/へいへい・・・
+
+se12:bin/se/11pr/prim10-04.bin
+/あんたさぁ？●
+
+se13:bin/se/11pr/prim10.bin
+/あんたさぁ・・・
+
+se14:bin/se/11pr/prim11-03.bin
+/でもさ●
+
+se15:bin/se/11pr/prim11-04.bin
+/でもさ（明）●
+
+se16:bin/se/11pr/prim11-05.bin
+/でもさ（暗）●
+
+se17:bin/se/11pr/prim12-02.bin
+/バーカバーカ（楽）●
+
+se18:bin/se/11pr/prim12-03.bin
+/バーカバーカ（軽）
+
+se19:bin/se/11pr/prim13-04.bin
+/あーあ
+
+se20:bin/se/11pr/prim13.bin
+/あーあ（タル）
+
+se21:bin/se/11pr/prim14-02.bin
+/ぃよお●
+
+se22:bin/se/11pr/prim14.bin
+/よぉ！
+
+se23:bin/se/11pr/prim30-02.bin
+/へっへー
+
+se24:bin/se/11pr/prim31_01.bin
+/ええー
+
+se25:bin/se/11pr/prim16-03.bin
+/きてやったよぉ
+
+se26:bin/se/11pr/prim16.bin
+/きてやったよぉ（タル）
+
+se27:bin/se/11pr/prim17-02.bin
+/何言っちゃってんの？（呆）
+
+se28:bin/se/11pr/prim17-03.bin
+/何言っちゃってんの？（楽）
+
+se29:bin/se/11pr/prim18-02.bin
+/高すぎ
+
+se30:bin/se/11pr/prim18-04.bin
+/た・か・す・ぎ
+
+se31:bin/se/11pr/prim19-02.bin
+/そりゃ高いって
+
+se32:bin/se/11pr/prim19.bin
+/そりゃ高いって
+
+se33:bin/se/11pr/prim20-03.bin
+/やーすすぎ
+
+se34:bin/se/11pr/prim20.bin
+/安すぎ
+
+se35:bin/se/11pr/prim21-02.bin
+/そりゃ安いって
+
+se36:bin/se/11pr/prim21-05.bin
+/そりゃ・・・安いって
+
+se37:bin/se/11pr/prim22-02.bin
+/まぁそれでいっか
+
+se38:bin/se/11pr/prim22.bin
+/まぁーそれでいっか
+
+se39:bin/se/11pr/prim23-03.bin
+/それでー我慢してやるよ
+
+se40:bin/se/11pr/prim23.bin
+/それで我慢してやるよ
+
+se41:bin/se/11pr/prim24-03.bin
+/ばっかじゃないの？
+
+se42:bin/se/11pr/prim24-04.bin
+/ばっかじゃないの!
+
+se43:bin/se/11pr/prim25-02.bin
+/違うって！
+
+se44:bin/se/11pr/prim25.bin
+/ちーがーうって
+
+se45:bin/se/11pr/prim26-02.bin
+/わっかんないかな？
+
+se46:bin/se/11pr/prim26.bin
+/わっかんないかな～
+
+se47:bin/se/11pr/prim27-03.bin
+/おーい
+
+se48:bin/se/11pr/prim27-04.bin
+/おーい
+
+se49:bin/se/11pr/prim28-04.bin
+/な、なんだよぉ
+
+se50:bin/se/11pr/prim29-04.bin
+/おーっす
+
+se51:bin/se/11pr/prim32_01-02.bin
+/なんとー●
+
+se52:bin/se/11pr/prim32_01-03.bin
+/なんとー
+
+
+msg00:00:s50:Hey, could ya buy this<BR>off me?
+msg00:01:s26:Any chance you'll buy<BR>this off me?
+msg00:04:s23:This is a little<BR>special something of mine!<BR>Nice, eh?
+msg00:01:s25:Would you buy this,<BR>please?
+msg00:01:s50:I don't need this<BR>anymore. How much?
+msg00:01:s22:Yo! Got somethin' I<BR>wantcha to buy!
+msg01:03:s20:Ugh. Selling stuff for<BR>Her Mistressness today...
+
+msg01:01:s48:Hey, you mind sellin'<BR>this to me?
+msg01:05:s52:Heeey, I've been<BR>lookin' for one of these!
+msg01:04:s50:Yo! I'll take this.
+msg01:03:s20:Friggin'... so<BR>apparently I need to buy<BR>one of these.
+msg01:03:s19:Her Mistressness<BR>would like one of these...<C>Should come herself if<BR>she wants it so badly,<BR>but...
+
+msg02:00:s37:Well, that seems okay.
+msg02:01:s38:Well, that seems okay.
+msg02:01:s39:All right, I suppose<BR>I can put up with that.
+msg02:01:s40:All right, I suppose<BR>I can put up with that.
+msg02:00:s11:Shyeah, yeah, that seems<BR>about right.
+msg02:00:s01:Hmmm... well, why the<BR>heck not. Deal.
+msg02:01:s37:Yeah, that seems right.
+
+msg03:02:s33:Way too little!<BR>What're you tryin' to pull?
+msg03:05:s27:What're you sayin'?<BR>No way it's that cheap!
+msg03:07:s28:What're you sayin'?<BR>Are you that clueless?
+msg03:02:s35:What the heck? Are you<BR>screwing with me?
+msg03:02:s36:What the heck? Are you<BR>serious about that price?
+msg03:06:s34:D'you really think I'll<BR>fall for a price that low?
+msg03:06:s45:You really think I'd<BR>bring something THAT cheap<BR>here?
+
+msg04:02:s29:Are you serious? Too<BR>much!
+msg04:02:s30:Way. Too. Much.
+msg04:06:s31:Whoa, whoa, way too<BR>high!
+msg04:06:s32:I don't care what you<BR>think OR smell, that's<BR>too much!
+msg04:02:s46:This ain't worth that<BR>much! Don't you get it?
+msg04:02:s29:Way, WAY too much!
+msg04:02:s03:What the heck? Too much!
+msg04:03:s10:Holy crap, you're<BR>really serious... no.<BR>Too much.
+
+msg05:01:s37:Yeah, that seems<BR>alright.
+msg05:01:s38:Yeah, that's fine.
+msg05:07:s04:Heh, went better than<BR>I hoped!
+msg05:07:s05:Heh, victory for the<BR>fairy.
+msg05:04:s23:Pretty good purchase,<BR>all things considered.
+msg05:07:s04:Like. A. Bandit.
+
+msg06:02:s41:Yeah, that's way too<BR>much. So much for this.
+msg06:05:s24:That's crazy! Get bent.
+msg06:02:s42:And how the heck<BR>am I supposed to buy<BR>at that price?
+msg06:02:s18:You fail as a merchant.<BR>Just for the record.
+msg06:07:s19:Yeah, okay, this is over.
+
+msg07:06:s20:Man, what a waste of<BR>time.
+msg07:06:s20:Heaven, I'm tired...
+
+msg08:03:s43:No, that ain't it!
+msg08:02:s44:Wrongoooo.
+msg08:03:s46:Dang, you sure are<BR>sharp. Not.
+msg08:03:s13:Could you, maybe,<BR>I dunno, pick somethin'<BR>reasonable?
+msg08:02:s09:The heck? Am I not<BR>getting through here?
+
+msg09:03:s09:What, you don't got any?
+msg09:01:s02:The heck is this?<BR>What kinda item shop do<BR>you run here?
+msg09:05:s24:You seriously don't<BR>have any?
+
+msg10:06:s10:Pff, it'd be cheaper<BR>to get it at Big Bash!
+msg10:05:s31:I can't buy that!
+msg10:00:s00:So much for trying<BR>to get a good price...
+
+msg11:02:s33:You seriously think<BR>I'd sell at that price?
+msg09:02:s03:The heck kind of<BR>offer is that? Nuts to this!
+msg09:06:s00:Aight, changed my<BR>mind. I ain't sellin'<BR>this after all.
+msg12:00:sno:Yo. Got<BR><S>?
+
+msg13:04:s06:Sweet, that went way<BR>better than I thought it<BR>would.
+msg13:04:s07:Haha, score!
+msg13:01:s37:Yeah, that's about<BR>right.
+msg13:01:s40:Yeah, fine, I'll put<BR>up with that.
+msg13:03:s49:Wha? No no, I sold it to<BR>you fair and square -<BR>no takebacks!
+
+msg15:01:s25:Hey, I wanna order<BR><D1> <S>.<C>Get 'em ready<BR><DA><BR>and I'll come get 'em!
+
+msg16:04:s50:Yo! Got those<BR><S>?
+msg16:04:s47:Came to get my<BR><S>!
+
+//	予約を断られたときのセリフ
+msg17:03:s05:You can't? Man...
+
+//	予約の引き取り日を過ぎたとき
+msg18:02:s05:Hey, kid. If you have<BR>an order with someone,<C>you should actually be<BR>in the shop to SELL it!<BR>Friggin'...
+
+msg19:03:s03:Yeah, I... DON'T<BR>have that much money.
+msg19:06:s43:Look, Alouette's<BR>folks don't pay me<BR>THAT much...
+

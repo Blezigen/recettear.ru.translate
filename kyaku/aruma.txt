@@ -1,0 +1,141 @@
+grp00:ivent/10arma_00.tga
+grp01:ivent/10arma_01.tga
+grp02:ivent/10arma_02.tga
+grp03:ivent/10arma_03.tga
+grp04:ivent/10arma_03.tga
+grp05:ivent/10arma_05.tga
+
+se00:bin/se/09ar/shop/aruma20.bin
+/コレ・・・
+
+se01:bin/se/09ar/shop/aruma21.bin
+/そう・・・
+
+se02:bin/se/09ar/shop/aruma22.bin
+/無理・・・
+
+se03:bin/se/09ar/shop/aruma23.bin
+/理解不能
+
+se04:bin/se/09ar/shop/aruma24.bin
+/理解できない
+
+se05:bin/se/09ar/shop/aruma25.bin
+/解った
+
+se06:bin/se/09ar/shop/aruma26.bin
+/これ以上は無駄
+
+se07:bin/se/09ar/shop/aruma27.bin
+/納得できない
+
+se08:bin/se/09ar/shop/aruma28.bin
+/ダメです
+
+se09:bin/se/09ar/shop/aruma29.bin
+/肯定します
+
+se10:bin/se/09ar/shop/aruma30.bin
+/否定します
+
+se11:bin/se/09ar/shop/aruma31.bin
+/これ・・・欲しい
+
+
+
+msg00:00:s00:This.
+//"This..."
+msg00:00:sno:I am depositing<BR>this item.
+//"..."
+
+msg01:00:s00:This.
+//"This..."
+msg01:00:sno:I an procuring<BR>this item
+//"..."
+msg01:00:s11:This is desired.
+//"This... I want it."
+
+msg02:00:s01:What is the required<BR>pix level?
+//"How many pix?"
+msg02:00:s01:Acceptable.
+//"...Right.
+
+msg03:00:s02:If this price is true,<BR>item is of too little<BR>value.
+//"Too cheap..."
+msg03:00:s07:Answer is<BR>unacceptable.
+//"Cannot accept that answer."
+
+msg04:00:s02:Item exceeds allowable<BR>price variance.
+//"Too much..."
+msg03:00:s07:Answer is<BR>unacceptable.
+//"Cannot accept that answer."
+
+msg05:00:s05:Understood.
+//"Understood."
+msg05:00:s05:I comprehend.
+//"I comprehend."
+
+msg06:00:s02:Impossible.
+//"Impossible."
+msg06:00:s04:Cannot comprehend.
+//"Cannot comprehend."
+msg06:00:s03:Impossible to<BR>comprehend.
+//"Impossible to comprehend."
+
+msg07:00:s02:Impossible.
+//"Impossible."
+msg07:00:s04:Cannot comprehend.
+//"Cannot comprehend."
+msg07:00:s03:Impossible to<BR>comprehend.
+//"Impossible to comprehend."
+
+msg08:00:s10:Unnecessary.
+//"Unnecessary."
+msg08:00:s10:That is in error.
+//"...That's wrong."
+
+msg09:00:s01:You lack the item?
+//"...Do you not have it?"
+msg09:00:s05:Understood.
+//"Understood."
+msg05:00:s05:I comprehend.
+//"I comprehend."
+
+msg10:00:s02:Impossible.
+//"Impossible."
+msg10:00:s01:... Understood.
+//"...I see."
+
+msg11:00:s02:Impossible.
+//"Impossible."
+msg11:00:s01:Continued<BR>negotiation is pointless.
+//"Continuation of this has no meaning..."
+msg11:00:s01:Negotiations<BR>ceasing.
+//"Negotiations have broken down..."
+
+msg12:00:s11:I desire<BR><S>.
+//<S>. I want it."
+msg12:00:s00:<S>.<BR>Produce such an item.
+//"<S>. Give...
+
+msg13:00:s05:Understood.
+//"Understood."
+msg13:00:s05:I comprehend.
+//"I comprehend."
+
+msg15:00:sno:<D1> <S><BR>required<BR><DA>.<C>Can you provide?
+//"Requesting <D1> <S>es. Will come to pick up in <DA> days. Are you able to prepare this?"
+
+msg16:00:sno:I have come for the<BR>previously requested<BR><S>.
+//"I have come to collect the <S> I previously ordered."
+
+//	予約を断られたときのセリフ
+msg17:00:s01:Understood.
+//"I see..."
+
+//	予約の引き取り日を過ぎたとき
+msg18:00:s04:You were not present<BR>on the designated day.
+//"You were not present on the designated day..."
+
+msg19:00:s02:Impossible...<BR>Funds non-sufficient.
+//"Impossible... Funds non-sufficient."

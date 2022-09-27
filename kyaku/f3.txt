@@ -1,0 +1,311 @@
+grp00:ivent/25machi_00.tga
+grp01:ivent/25machi_01.tga
+grp02:ivent/25machi_02.tga
+grp03:ivent/25machi_03.tga
+grp04:ivent/25machi_04.tga
+
+msg00:00:sno:Could I possibly get you<BR>to buy this off of me?
+//"Any chance I could get you to buy this off of me?"
+//F3 is a housewife, woman around the age of mid/late 20s to early 30s, often with a family.)
+msg00:00:sno:It's not much to look at,<BR>but do you think I could<BR>sell it?
+//"It's not much, but do you think it'll sell?"
+msg00:00:sno:I've something I'd like<BR>to sell you...
+//"I've got something I'd like you to buy off of me..."
+msg00:00:sno:So, this... Do you think<BR>I could turn it into a bit<BR>of coin?
+//"So, this... Do you think I could turn it into cash?"
+msg00:00:sno:My family needs a little<BR>more money...<BR>Would you take this?...
+//"So, we need a bit more money..."
+msg00:00:sno:Could you be a dear and<BR>buy this from me?
+//"I'd really like you to buy this from me."
+msg00:01:sno:I figured selling it off<BR>is better than throwing<BR>it away, you know?
+//"I figured selling it off is better than throwing it away, you know?"
+msg00:03:sno:My husband had THIS<BR>hidden in his den.<BR>How. Much.
+//"My husband had this hidden in his room."
+msg00:01:sno:I went and bought this,<BR>but absolutely no one<BR>uses it! Will you take it?
+//"I went and bought this, but absolutely no one uses it!"
+msg00:04:sno:We found this when<BR>cleaning out the cellar.<BR>Is it worth anything?
+//"When I was cleaning our cellar, this came out.
+//"I think it's worth something."
+msg00:01:sno:While I was tidying up,<BR>I came across this.<C>I don't think anyone will<BR>use it anymore, so...<BR>how much?
+//"I found this while I was cleaning."
+//"I don't think anyone's going to use it anymore, so..."
+msg00:01:sno:There're a lot of good<BR>memories tied to this...<BR>but...
+//"There's a lot of memories tied up in this, but..."
+msg00:01:sno:This is something my<BR>grandfather used with<BR>love before he passed...<C>I... think it's time<BR>to move on, though.<BR>Will you take it?
+//"It's something my grandfather always used lovingly before he died."
+msg00:03:sno:I got this from my<BR>neighbor's wife.<C>I have no interest<BR>in it, though...
+//"I got this from the neighbor's wife."
+//"But I don't really have any interest in this kind of thing..."
+msg00:03:sno:I got this from my<BR>neighbor's husband.<C>I have no interest in it,<BR>though, so...<BR>name a price!
+//"I got this from the neighbor's husband."
+//"But I don't really have any interest in this kind of thing..."
+msg00:03:sno:My mother-in-law bought<BR>this for me, but... well...
+//"My mother-in-law bought this for me, but..."
+
+msg01:00:sno:I'd like this, please.
+//"Could I get this?"
+msg01:01:sno:This, please.
+//"Could I get this?"*
+//* - While both lines are the same meaning-wise, the latter is slightly less polite.
+msg01:04:sno:This is nice!
+//"Oh, this is nice!"
+msg01:01:sno:This is just what I was<BR>looking for!
+//"This is just what I was looking for!"
+msg01:01:sno:Oooooh, I didn't know<BR>you had nice things like<BR>this!
+//"Ooh, you're selling things like this?"
+msg01:01:sno:I'd like this, please.
+//"I'd like this, please"
+msg01:01:sno:This'll be a good present<BR>for my mother-in-law.
+//"This'll be a good present for my mother in law."
+msg01:01:sno:Now this will be handy!
+//"Having this is convenient in a number of ways."
+msg01:03:sno:Finally found it! I didn't<BR>expect to find it here!
+//"I finally found it... So it was in this store."
+msg01:04:sno:I'd like this.
+//"Could I get this?"*
+//* - Next verse, same as the first. Even less polite.
+msg01:01:sno:This, please.
+//"This, please." (ed - ffff)
+msg01:01:sno:Ooooh, this is nice!
+//"Ooh, this is nice."
+msg01:04:sno:I've been thinking about<BR>getting one of these for<BR>a while now.
+//"This... I've been thinking about it for a while."
+
+msg02:01:sno:Lovely! How much?
+//"Oooh, that's nice! How much?"
+msg02:04:sno:Absolutely!
+//"That, that!"
+msg02:01:sno:Yes, that will be fine.
+//"Yes, that'll be fine."
+msg02:01:sno:Hmm... yes. That's fine.
+//"Hmm, all right. That's fine."
+msg02:01:sno:That's fine.
+//"That's fine."
+msg02:01:sno:Oh, that's perfect.
+//"That'll be plenty."
+msg02:04:sno:You did have it!<BR>Wonderful!
+//"Why, you did have it!"
+msg02:01:sno:Oh, yes. Give me one of<BR>those.
+//"Yes... Give me one of those?"
+msg02:01:sno:I hoped you'd have one.<BR>How much?
+//"You do have it like you should."
+msg02:00:sno:Oh my! You do have one!
+//"My... So you did have it.
+msg02:00:sno:This is just what I meant.
+//"That's just what I'm talking about."
+
+msg03:03:sno:Can't you pay a little<BR>bit more?
+//"Could you pay a little bit more?"
+msg03:02:sno:Oh, you can pay more<BR>than that, I'm sure.
+//"Oh, you can pay more than that."
+msg03:04:sno:Don't underestimate a<BR>housewife!
+//"Don't underestimate a housewife!"
+msg03:02:sno:No, that price isn't right!
+//"*************************
+//* - Idiom I'm not super familiar with, basically she's demanding another offer.
+//Lit. "One more voice!"
+msg03:02:sno:Isn't that a little...<BR>cheap?
+//"Isn't that a bit too cheap?"
+msg03:02:sno:As a housewife in charge<BR>of the family finances,<BR>I can't back down here.
+//"As a housewife in charge of the family finances,"
+//"I can't back down here."
+msg03:02:sno:No, I can't back down.<BR>More!
+//"I can't back down here."
+msg03:03:sno:Won't you buy it for<BR>just a little more?
+//"Won't you buy it for just a bit more?"
+msg03:01:sno:Oh come now, you can<BR>certainly pay more than<BR>that.
+//"Oh, I bet you can really pay more than that."
+msg03:04:sno:Really, you can pay more<BR>than that, right?
+//"But really you can pay more than that, right?"
+msg03:01:sno:Customer service seems<BR>to be a lost art these<BR>days...
+//"Come on, give me a little service."
+
+msg04:03:sno:Can't you make that a<BR>bit cheaper?
+//"Can't you make it a bit cheaper"
+msg04:03:sno:Come now, you can make it<BR>cheaper than that.
+//"I'll bet you can make it a bit cheaper than that."
+msg04:04:sno:Don't underestimate a<BR>housewife!
+//"Don't underestimate a housewife!"
+msg04:02:sno:No, that price isn't right!
+//"*************************
+//* - Idiom I'm not super familiar with, basically she's demanding another offer.
+msg04:02:sno:A bit expensive, isn't it?
+msg04:02:sno:That's really rather<BR>expensive.
+//"Isn't that a bit too expensive?"
+msg04:02:sno:As a housewife in charge<BR>of the family finances,<BR>I can't back down here.
+//"As a housewife in charge of the family finances,"
+//"I can't back down here."
+msg04:02:sno:No, I can't back down.<BR>Less, please!
+//"I can't back down here."
+msg04:03:sno:Won't you sell it for<BR>just a little less?
+//"Won't you sell it for just a bit cheaper?
+msg04:01:sno:Oh come now, you can<BR>certainly charge less<BR>than that.
+//"Oh, I bet you can make it a bit cheaper than that."
+msg04:04:sno:Really, you can charge<BR>less than that, right?
+//"But really you can make it a bit cheaper than that, right?
+msg04:01:sno:Customer service seems<BR>to be a lost art these<BR>days...
+//"Come on, give me a little service."
+
+msg05:01:sno:All right, I can accept<BR>that.
+//"All right, that price works."
+msg05:01:sno:Hmm. Alright, that seems<BR>about right.
+//"Hmm, all right. I suppose that's about right."
+msg05:04:sno:Heh, this was good<BR>shopping!
+//"He he, this was good shopping."
+msg05:04:sno:This was good shopping.
+//"This was good shopping."
+msg05:00:sno:Yes, that sounds about<BR>right.
+//"Well, that sound about right, I suppose."
+msg05:01:sno:That'll be fine.
+//"That'll be fine."
+msg05:01:sno:That seems about what<BR>it's worth, yes.
+//"I suppose that's what it's worth."
+msg05:01:sno:That's just fine.<BR>Thank you.
+//"That's fine. Thank you."
+msg05:01:sno:Yes, that will be fine.
+//"That'll be fine."
+msg05:01:sno:Can't haggle too much,<BR>really. That'll be fine.
+//"I suppose I can't for too much."
+//"That'll be fine."
+
+msg06:03:sno:Wait. I can't possibly pay<BR>that.
+//"...Hold on. There's no way I can pay that."
+msg06:00:sno:Really, it seems like we're<BR>getting nowhere.
+//"I can see there's nowhere to even start with you."
+msg06:03:sno:Well, be that way. I'm<BR>heading home.
+//"This isn't going anywhere. I'm heading home."
+msg06:00:sno:I'm going to look for a<BR>better store.
+//"I'm going to go look for a better store."
+
+msg07:00:sno:The way this is going, it's<BR>not even worth talking<BR>to you.
+//"It looks... like it's not even worth talking to you."
+msg07:03:sno:I really thought you<BR>would be more reasonable.
+//"I thought you'd be a bit more reasonable than that."
+
+msg08:00:sno:I've no interest in that.
+//"I don't have any interest in that."
+msg08:00:sno:That's not what I asked<BR>for.
+//"That's not what I ordered."
+msg08:03:sno:That's not... quite right.<BR>Goodbye.
+//"That's not quite right."
+msg08:03:sno:This is a problem...
+//"This is a problem..."
+msg08:00:sno:No, that's not what I<BR>want at all.
+//"That's not it, at all."
+msg08:03:sno:You just don't seem to<BR>understand...
+//"Do you just not get it?"
+
+msg09:00:sno:I see. Well, no sense in<BR>crying about it.
+//"I see. Well, no point crying about it."
+msg09:00:sno:Well, if you don't have<BR>it, there's nothing to be<BR>done.
+//"If you don't have any, there's nothing to do."
+msg09:00:sno:Sorry to bother you,<BR>then.
+//"Sorry to bother you, then."
+msg09:00:sno:Well, if you don't have<BR>it, there's nothing to be<BR>done.
+//"If you don't have it there's nothing to do about it."
+msg09:01:sno:If you don't have any,<BR>that's okay.
+//"If you don't have any, it's okay."
+msg09:03:sno:I see... I thought I could<BR>find it here. Oh well...
+//"I see... I thought I could find it here, but..."
+msg09:01:sno:Well, it happens. Don't<BR>worry too much, okay?
+//"Well, it happens. Don't worry about it."
+msg09:00:sno:Well, nothing to be done<BR>for it then.
+//"I suppose there's nothing to do about it, then."
+msg09:00:sno:I understand. I can't ask<BR>for something you don't<BR>have, after all!
+//"I understand. I can't ask for something you don't have, after all."
+
+msg10:00:sno:I'm going to go find a<BR>cheap store.
+//"I'm going to go find a cheap store."
+msg10:00:sno:I'm going to go find a<BR>cheaper store.
+//"I'm going to go find a cheaper store."
+msg10:00:sno:I'm going to a different<BR>store.
+//"I'm going to go to a different store."
+msg10:03:sno:This really isn't getting<BR>us anywhere.
+//"I can see this isn't going anywhere."
+msg10:03:sno:Sorry, but I'm not going<BR>any further with this.
+//"Unfortunately that's as far as I'm willing to go."
+msg10:00:sno:I'm going somewhere<BR>else.
+//"I'm gonna go somewhere else."
+msg10:00:sno:I wonder if a bigger<BR>shop might be better?
+//"I wonder if a bigger store might be better?"
+msg10:00:sno:Well, coming here was a<BR>mistake, I guess...
+//"I see coming here was wasted effort."
+msg10:00:sno:I thought you wouldn't<BR>sell it for so much.<C>No point in staying, then,<BR>I guess.
+//"I thought you'd sell it a bit cheaper than that."
+//"Oh well, no point in staying here."
+
+msg11:00:sno:I'm not selling it at<BR>that price.
+//"I'm not selling it at that price."
+msg11:00:sno:I'm going to a different<BR>store.
+//"I'm going to go to different store."
+msg11:00:sno:I'm going somewhere else.
+//"I'm going somewhere else."
+msg11:00:sno:Hmph, I'll find a better<BR>store.
+//"I'm going to go find a better store."
+msg11:03:sno:Well, trying to get<BR>anything from you seems<BR>pointless. Too bad...
+//"I suppose trying to get anything better out of you is pointless. Too bad."
+msg11:00:sno:I thought you wouldn't<BR>want so much for it.<C>No point in staying, then,<BR>I guess.
+//"I thought you'd buy it for a bit more than that..."
+//"Oh well, no point in staying here."
+
+
+msg12:00:sno:I would like<BR><S>.
+//"I'd like an <S>."
+msg12:00:sno:I've been looking for<BR><S>...
+//"I've been looking for an <S>..."
+msg12:00:sno:Do you have<BR><S>?
+//"Do you have any <S>?
+msg12:00:sno:We really need<BR><S>.
+//"We really need an <S>."
+msg12:00:sno:My family suddenly needs<BR><S>.
+//"So suddenly we need an <S>."
+msg12:00:sno:I need to get<BR><S>,<BR>really quickly...
+//"I need to get an <S> really quickly..."
+msg12:00:sno:Oh dear... we need<BR><S><BR>at home, you see...
+//"We ran out of <S> at home, you see..."
+
+msg13:01:sno:All right, I can accept<BR>that.
+//"All right, that price works."
+msg13:01:sno:Hmm. Alright, that seems<BR>about right.
+//"Hmm, all right. I suppose that's about right."
+msg13:04:sno:Heh, this was good<BR>shopping!
+//"He he, this was good shopping."
+msg13:04:sno:This was good shopping.
+//"This was good shopping."
+msg13:00:sno:Yes, that sounds about<BR>right.
+//"Well, that sound about right, I suppose."
+msg13:01:sno:That'll be fine.
+//"That'll be fine."
+msg13:01:sno:That seems about what<BR>it's worth, yes.
+//"I suppose that's what it's worth."
+msg13:01:sno:That's just fine.<BR>Thank you.
+//"That's fine. Thank you."
+msg13:01:sno:Yes, that will be fine.
+//"That'll be fine."
+msg13:01:sno:Can't haggle too much,<BR>really. That'll be fine.
+//"I suppose I can't for too much."
+//"That'll be fine."
+
+msg15:01:sno:I would very much like<BR>to place an order for<BR><D1> <S>.<C>I'll come for them<BR><DA>, so can<BR>you get them ready?
+//"I'd really like <D1> <S>. I'll come and get them in <DA> days, so can you get them ready?"
+msg15:03:sno:Would it be possible for<BR>you to have<BR><D1> <S><C>ready <DA>?
+//"Any chance you could get <D1> <S> in <DA> days from now?"
+msg15:00:sno:I really, really need<BR><D1> <S>,<BR>and I'm going to need<C>them <DA>.<BR>Can you have them by then?
+//"I need <d1> <S>. If I come pick 'em up in <DA> days, will you have 'em ready?"
+
+msg16:01:sno:The order I made... the<BR><S>.<BR>Did it come in?
+//"Did you get those <S> I asked for in?"
+msg16:01:sno:Do you have the things<BR>I asked for? The<BR><S>?
+//"Do you have that <S> I asked for?"
+
+msg17:03:sno:I see... well, nothing you<BR>can do, I guess.
+//"I see... Well, nothing you can do."
+msg17:03:sno:I see... I thought I could<BR>rely on you, but obviously<BR>not.
+//"I see... I thought I could do it here, but obviously not."
+
+//	—\–ñ‚Ìˆø‚«Žæ‚è“ú‚ð‰ß‚¬‚½‚Æ‚«
+msg18:02:sno:I can't believe it! You<BR>weren't open on the day<BR>I wanted my order to<C>come in!
+//"I can't believe you weren't open the day I asked for my stuff to be in."
+
+msg19:03:sno:Sorry, I didn't bring that<BR>much money today.
+//"Sorry, I didn't bring that much money today."

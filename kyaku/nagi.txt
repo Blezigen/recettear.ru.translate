@@ -1,0 +1,165 @@
+grp00:ivent/08nagi_00.tga
+grp01:ivent/08nagi_01.tga
+grp02:ivent/08nagi_02.tga
+grp03:ivent/08nagi_03.tga
+grp04:ivent/08nagi_04.tga
+grp05:ivent/08nagi_05.tga
+grp06:ivent/08nagi_06.tga
+
+se00:bin/se/07na/shop/n_17.bin
+/こんにちは
+
+se01:bin/se/07na/shop/n_18.bin
+/これ、売れるのかしら
+
+se02:bin/se/07na/shop/n_19.bin
+/はいなんでしょう？
+
+se03:bin/se/07na/shop/n_20.bin
+/売れます？
+
+se04:bin/se/07na/shop/n_21.bin
+/頂きますね
+
+se05:bin/se/07na/shop/n_22_a.bin
+/いいですね
+
+se06:bin/se/07na/shop/n_22_b.bin
+/いいですねぇ
+
+se07:bin/se/07na/shop/n_23.bin
+/売ってくださる？
+
+se08:bin/se/07na/shop/n_23.bin
+/売っていただけるかしら
+
+se09:bin/se/07na/shop/n_25.bin
+/少し高すぎませんか？
+
+se10:bin/se/07na/shop/n_26.bin
+/少々安すぎませんか？
+
+se11:bin/se/07na/shop/n_27.bin
+/それですよ
+
+se12:bin/se/07na/shop/n_28.bin
+/困りました
+
+se13:bin/se/07na/shop/n_29.bin
+/それは、ちょっと
+
+se14:bin/se/07na/shop/n_30.bin
+/ええ、いいですよ
+
+se15:bin/se/07na/shop/n_31.bin
+/ええ、いいですよ
+
+se16:bin/se/07na/shop/n_32.bin
+/あらぁー
+
+se17:bin/se/07na/shop/n_33.bin
+/それはそれは
+
+se18:bin/se/07na/shop/n_34.bin
+/欲しいものが、あるのですが
+
+se19:bin/se/07na/shop/n_35.bin
+/でなおしますね
+
+se20:bin/se/07na/shop/n_36.bin
+/お金が足りませんわ
+
+se21:bin/se/07na/shop/n_37.bin
+/残念です
+
+se22:bin/se/07na/shop/n_38.bin
+/良い買い物でした
+
+
+msg00:01:s01:How much would you<BR>buy this for, I wonder?
+msg00:05:s01:Could I sell this?
+msg00:00:s03:How much will this<BR>sell for?
+msg00:01:s03:I would like you to<BR>buy this, please.
+msg00:00:s00:My house is getting<BR>a little cramped, so I thought<BR>I'd sell off something.
+msg00:01:s00:I don't need this<BR>anymore. Will you buy it?
+msg00:01:s01:I believe this is<BR>valuable... will you buy it?
+
+msg01:04:s08:Can I have this, please?
+msg01:01:s05:My, this is quite nice.
+msg01:01:s06:This is quite nice.
+msg01:01:s07:I would like to buy<BR>this, please!
+msg01:04:s00:Hello, I'm here to do<BR>a little shopping today!
+msg01:04:s07:It took me three days<BR>to get here... but I simply<BR>must have this!
+msg01:01:s08:I've been looking for<BR>this.
+
+msg02:04:s05:Oh, yes, that!
+msg02:04:s06:I'm so glad you<BR>understand.
+msg02:04:s11:Hmhm! You really are<BR>quite good. Yes, I'll take<BR>that, please.
+msg02:01:s07:Oh, yes, could you sell<BR>that to me?
+
+msg03:03:s12:That's a bit low...
+msg03:03:s13:I can't sell at that<BR>price...
+msg03:03:s12:I can't afford to<BR>sell it at that price...
+msg03:03:s12:Oh, my, I... did not<BR>think it would be so<BR>little...
+msg03:00:s10:I would be very happy<BR>if you could buy it for<BR>a little more.
+msg03:03:s10:Can you please give<BR>me a little more than that?
+
+msg04:03:s12:That's a bit much...
+msg04:03:s13:I can't buy it at that<BR>price...
+msg04:00:s12:I can't afford to<BR>buy it at that price...
+msg04:03:s12:Oh, my, I... did not<BR>think it would be so<BR>much...
+msg04:00:s09:I would be very happy<BR>if you could sell it for<BR>a little less.
+msg04:03:s09:Can you please drop<BR>it down a little bit?
+
+msg05:04:s05:That price is fine,<BR>thank you.
+msg05:04:s04:Thank goodness, I can<BR>afford that much.
+msg05:01:s14:Yes, that's fine.<BR>Thank you very much!
+msg05:01:s15:Yes, that will be fine.
+msg05:04:s22:That is quite a<BR>bargain, Recette.
+
+msg06:03:s20:That is far too<BR>much to pay.
+msg06:03:s19:I'm afraid I simply<BR>cannot pay that.
+msg06:03:s21:I suppose I will<BR>not be buying that, then...
+
+msg07:03:s19:This is a bit tiring...<BR>I'm going home for today.
+msg07:03:s19:Ah, well. Pardon me, then,<BR>I shall come again.
+
+msg08:03:s13:That is... um...
+msg08:03:s12:Oh, dear. That's not<BR>what I need at all.
+msg08:03:s16:I'm sorry, but that is<BR>not what I need...
+
+msg09:03:s21:Ah, you do not have<BR>any... I'm sorry.
+msg09:00:s19:You do not have any?<BR>Well, that is simply how it<BR>is, I suppose.
+msg09:01:s19:No, no, my apologies<BR>for asking the impossible.
+
+msg10:03:s20:I cannot accept that<BR>price. I shall go elsewhere.
+msg10:03:s21:I'm afraid there's no<BR>way I can pay that much.
+
+msg11:03:s21:I'm afraid that price<BR>is unacceptable.
+msg11:02:s21:Far too cheap. I'm<BR>sorry, but that's the way<BR>it is!
+msg11:06:s16:Oh, my... well... I'm<BR>sorry, but that's<BR>unacceptable.
+
+msg12:01:s18:I'd like<BR><S>.
+msg12:00:s18:I'm looking for<BR><S>.
+msg12:01:s08:Are you selling<BR><S>,<BR>by any chance?
+msg12:01:s00:Do you have...<BR><S>?
+
+msg13:04:s14:Yes, that price is<BR>right.
+msg13:04:s15:Very good, I can sell<BR>at that price.
+msg13:04:s14:Yes, that's fine.<BR>Thank you very much!
+msg13:04:s15:I'll happily sell at<BR>that price.
+
+msg15:01:s18:Recette, I would like<BR><D1> <S>.<C>Can you have them<BR>ready<BR><DA>?
+
+msg16:04:s00:Do you have the<BR><S><BR>I ordered?
+msg16:01:s00:I have come for my<BR><S>.
+
+//	予約を断られたときのセリフ
+msg17:03:s21:I see... it is too bad.
+msg17:03:s19:Well, you cannot help<BR>it, I suppose.
+
+//	予約の引き取り日を過ぎたとき
+msg18:03:s21:I'm afraid I must<BR>cancel my order, since<BR>you were not here at<C>the deadline...
+
+msg19:06:s16:Oh, my, I... don't have<BR>enough money at all.
+msg19:03:s19:I cannot affford that<BR>at all, it seems...

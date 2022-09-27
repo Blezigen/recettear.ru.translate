@@ -1,0 +1,170 @@
+grp00:ivent/14eurya_00.tga
+grp01:ivent/14eurya_01.tga
+grp02:ivent/14eurya_02.tga
+grp03:ivent/14eurya_03.tga
+grp04:ivent/14eurya_04.tga
+grp05:ivent/14eurya_05.tga
+grp06:ivent/14eurya_06.tga
+grp07:ivent/14eurya_07.tga
+grp08:ivent/14eurya_08.tga
+grp09:ivent/14eurya_09.tga
+
+se00:bin/se/14eu/eruria01.bin
+/絵のある生活って素敵だと思いませんか
+
+se01:bin/se/14eu/eruria02.bin
+/絵に興味はありませんか
+
+se02:bin/se/14eu/eruria03.bin
+/お買い得ですよ
+
+se03:bin/se/14eu/eruria04.bin
+/凄いわ
+
+se04:bin/se/14eu/eruria05.bin
+/信じられない
+
+se05:bin/se/14eu/eruria06.bin
+/そんなことありませんよ
+
+se06:bin/se/14eu/eruria07.bin
+/そろそろ決めましょうよ
+
+se07:bin/se/14eu/eruria21.bin
+/ふふ、チョロイモンよ
+
+se08:bin/se/14eu/eruria22.bin
+/まいどありー
+
+se09:bin/se/14eu/eruria23.bin
+/ったく、シケてやがんな
+
+se10:bin/se/14eu/eruria24.bin
+/あーアホくさ
+
+se11:bin/se/14eu/eruria25.bin
+/んあーもうっ
+
+se12:bin/se/14eu/eruria19.bin
+/なんだよー
+
+se13:bin/se/14eu/eruria20.bin
+/あーかったりぃ
+
+se14:bin/se/14eu/eruria15.bin
+/こんにちは
+
+se15:bin/se/14eu/eruria16.bin
+/ちょっと、お持間いいですか
+
+se16:bin/se/14eu/eruria13.bin
+/いいですか？
+
+se17:bin/se/14eu/eruria12.bin
+/解ってないみたいですね
+
+se18:bin/se/14eu/eruria11.bin
+/違うんですよ
+
+se19:bin/se/14eu/eruria10.bin
+/ね、聞いて聞いて
+
+se21:bin/se/14eu/eruria09.bin
+/１日コーヒー１杯分ですよ
+
+se22:bin/se/14eu/eruria08.bin
+/私に少し、あなたの時間を下さい
+
+se23:bin/se/14eu/eruria17.bin
+/ん、そうね
+
+se24:bin/se/14eu/eruria18.bin
+/貧乏人が
+
+msg00:04:s01:Galleria Euria, here<BR>to bring color into your<BR>life!
+msg00:01:s00:Don't you think some<BR>wonderful art like this<BR>would make life better?
+msg00:04:s14:I'm here to sell this<BR>valuable piece of art,<BR>just to you!
+msg00:04:s19:My dear little<BR>shopkeeper, you are so<BR>lucky!<C>You'll never see a<BR>piece like this ever<BR>again!
+msg00:01:s01:So, you like art, right?
+msg00:01:s15:I have something<BR>wonderful, if you'd care<BR>to take a look.
+msg00:01:s22:Just take a quick<BR>look, it won't take long,<BR>trust me!
+msg00:04:s02:Here, have a peek at<BR>my special merchandise!
+msg00:01:s02:How about this? I<BR>promise you won't regret<BR>it!
+msg00:04:s14:This'll bring you a<BR>fortune, I guarantee it!
+msg00:02:s04:Hmm, this shop needs<BR>a little something...<BR>a little art.<C>And! I just happen to<BR>have the answer to your<BR>art woes right here!
+msg00:04:s14:Galleria Euria, here<BR>to solve all your art-<BR>related problems!
+
+msg01:00:sno:エウリアさんは買い物しません１
+//EDBT1
+msg02:00:sno:エウリアさんは買い物しません２
+//EDBT2
+* - Literally they are "Euria Doesn't Buy Things" 1 and 2- in other words, Euria has no buy dialog because she never will.
+
+msg03:02:s17:That's far too low!
+msg03:02:s17:I know it's expensive,<BR>but that's what it's worth!<BR>Trust me!
+msg03:03:s06:I'm sorry, but I<BR>can't let it go for that!
+msg03:03:s06:Well, how much WILL<BR>you pay, then?
+msg03:03:s06:Can you stop playing<BR>and decide, please?
+msg03:00:s17:Perhaps your sense<BR>of aesthetics isn't very<BR>good,<C>but this is an<BR>incredible piece!
+msg03:09:s16:Hmm, perhaps you<BR>don't appreciate how<BR>great this piece is?
+msg03:01:s16:Shall I explain<BR>the wonders of this<BR>piece again?
+msg03:01:s02:This piece has value<BR>far beyond mere money, I<BR>guarantee you!
+msg03:04:s19:But I'm sure you and<BR>this piece are fated to<BR>be together!
+msg03:02:s16:If you don't buy<BR>it now, you'll regret it<BR>later. Trust me.
+msg03:01:s21:Well... if you divide<BR>it up and think of it<BR>as the price of a<C>cup of coffee a day,<BR>it's cheap!
+
+msg04:00:sno:エウリアさんは買い物しません３
+//EDBT3
+msg05:00:sno:エウリアさんは買い物しません４
+//EDBT4
+msg06:00:sno:エウリアさんは買い物しません５
+//EDBT5
+
+msg07:08:s11:Argh, come on, that was<BR>a waste of time! Gimme<BR>something, at least!
+msg07:06:s10:I don't have time to<BR>keep this up.
+msg07:08:s09:Ahh, you ain't going<BR>for it, are you...
+msg07:09:s18:How cruel of you! I'll<BR>starve in the streets<BR>now! Really!...
+
+msg08:00:sno:エウリアさんは買い物しません６
+//EDBT6
+msg09:00:sno:エウリアさんは買い物しません７
+//EDBT7
+msg10:00:sno:エウリアさんは買い物しません８
+//EDBT8
+
+msg11:08:s24:Tch, friggin' beggar!
+msg11:06:s24:I guess it was too<BR>much for a pauper like you.
+msg11:08:s24:Oh, why do I even<BR>bother!
+msg11:08:s09:Ahh, you ain't going<BR>for it, are you...
+msg11:06:s12:Bah, I can't get you<BR>to go for it, can I.
+msg11:08:s11:The hell kind of price<BR>is that? Ah, forget it...
+msg11:09:s18:How cruel of you! I'll<BR>starve in the streets<BR>now! Really!...
+
+msg12:00:sno:エウリアさんは買い物しません９
+//EDBT9
+
+msg13:04:s08:Hehe! Thanks as<BR>alwaaaays...
+msg13:07:s07:Hook, line and sinker...
+msg13:07:s07:Man, profit like this<BR>should be illegal. I think<BR>it IS, but, details!...
+msg13:04:s08:Thank you!...<BR>Heheh. This is why I<BR>just can't quit...
+msg13:04:s07:Why thank you!...<BR>Ah, like a duck in a barrel...
+msg13:07:s08:Gooood little fishy.
+msg13:05:s04:Can't believe I<BR>actually managed to sell<BR>that.
+
+msg15:00:sno:<S>を<BR><D1>個欲しいんだけど<C><DA>買いに来るから<BR>ちゃんと用意しなさいよ
+//Hey, I want <D1> <S>es. I'll come and pay in <DA> days so have them ready!
+
+* - I am not sure why these lines exist. Euria *doesn't buy anything.* My suspicion is that, since it seems the 'order' system was implemented later, they forgot that she doesn't buy things and created lines for her :V
+
+msg16:00:sno:頼んでおいた<BR><S><BR>ちゃんと用意できた？
+//You got my <S>es ready?
+msg16:00:sno:おーい<BR><S><BR>受け取りに来たわよ
+//Hey, came to get those <S>es
+
+//	予約を断られたときのセリフ
+msg17:03:sno:なんだよ、使えねーな
+//Man, you're useless.
+
+//	予約の引き取り日を過ぎたとき
+msg18:02:sno:予約してんだから<BR>ちゃんと店にいてよね！<BR>・・・もういいわ
+//Hey, make sure to be in your damn shop when you got an order! ...whatever.

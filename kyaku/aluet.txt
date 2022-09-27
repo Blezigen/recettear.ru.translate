@@ -1,0 +1,143 @@
+grp00:ivent/11alouette_00.tga
+grp01:ivent/11alouette_01.tga
+grp02:ivent/11alouette_02.tga
+grp03:ivent/11alouette_03.tga
+grp04:ivent/11alouette_04.tga
+grp05:ivent/11alouette_05.tga
+grp06:ivent/11alouette_06.tga
+grp07:ivent/11alouette_07.tga
+grp08:ivent/11alouette_08.tga
+grp09:ivent/11alouette_09.tga
+
+se00:bin/se/10al/event/a_09.bin
+/ごめんあそばせ
+
+se01:bin/se/10al/event/a_10_a.bin
+/そうですわね
+
+se02:bin/se/10al/event/a_11.bin
+/ええっ？
+
+se03:bin/se/10al/event/a_13_a.bin
+/行きますわよ
+
+se04:bin/se/10al/event/a_13_b.bin
+/行きますわよ（テンション低い）
+
+se05:bin/se/10al/event/a_14_a.bin
+/あーら（おしゃまに）
+
+se06:bin/se/10al/event/a_14_b.bin
+/あーら（いやみっぽく）
+
+se07:bin/se/10al/event/a_15_a.bin
+/ビンボー人が働いていますわね（不思議そうに）
+
+se08:bin/se/10al/event/a_15_b.bin
+/ビンボー人が働いていますわね(淡々と）
+
+se09:bin/se/10al/event/a_17_a.bin
+/物の価値もわからないなんて（さげすむ）
+
+se10:bin/se/10al/event/a_17_b.bin
+/物の価値もわからないなんて（感嘆）
+
+se11:bin/se/10al/event/a_18_b.bin
+/流石貧乏人ですわ
+
+se12:bin/se/10al/event/a_20_b.bin
+/何ですって？
+
+se13:bin/se/10al/event/a_05.bin
+/ふーん
+
+se14:bin/se/10al/event/a_08.bin
+/あなたねぇ
+
+
+msg00:08:s00:It pains me to part with<BR>this, but for your sake,<BR>I'll sell you this!<C>Hopefully it will make<BR>this place look less like<BR>a shanty!
+//"It's a pity but I'll sell this to you for your sake!
+//"I mean, maybe it'll help your store be a little more elegant?"
+
+msg01:01:s06:My, even this racket-<BR>trap sometimes has nice<BR>things!
+//"My, so even your store carries good things."
+msg01:01:s08:Aren't you proud that<BR>I come to shop here?
+//"You can be proud that I came to shop here."
+
+msg02:01:s13:Not bad, Recette...<BR>for you, anyway.
+//"Not a bad choice for you, Rucette."
+msg02:04:s05:You actually have it!<BR>Will wonders never cease?
+//"Why, you actually had it! Amazing!"
+
+msg03:02:s12:What! You think I'd sell<BR>it for so little? You insult<BR>me!
+//"Do you think I would take something so cheap?"
+msg03:06:s09:Such ignorance about<BR>the value of things...
+//"To think you know so little about the value of things..."
+msg03:05:s10:Such ignorance about<BR>the value of things...<BR>Hmph. Plebeians.
+//"To think you know so little about the value of things... How complex you poor people are."
+
+msg04:05:s06:Such naked avarice...<BR>"Captialism, ho!",<BR>indeed!
+//"My, do you really have no ability to judge things?"
+msg04:06:s09:Such ignorance about<BR>the value of things...
+//"To think you know so little about the value of things..."
+msg04:03:s10:Such ignorance about<BR>the value of things...<BR>Poverty is a sin, really.
+//"To think you know so little about the value of things... Being poor really is a sin."
+
+msg05:01:s01:I suppose I can<BR>deign to accept.
+//"Well, I suppose that's fine."
+msg05:01:s01:Well... oh, fine, I<BR>accept. Not too bad...<BR>for a prole.
+//"Well... All right, I'll be convinced."
+
+msg06:06:s11:Bah! Negotiating<BR>with a plebeian is<BR>pointless! 
+//"*8"
+
+//*8-To hell with trying to translate this. Basically it amounts to 'this isn't even getting
+//started," "we can't even talk about this (while you're like that,)" "this isn't going to go
+//anywhere," etc. Lit. it's "this isn't becoming a conversation," and it basically means
+//the other person said something so stupid it's impossible to go anywhere from there.
+
+msg07:06:s14:If shopkeeping is an<BR>art, Recette, then you<BR>are Picasso.
+//"Are you sure you aren't an idiot?"
+msg07:06:s11:Bah! Negotiating<BR>with a plebeian is<BR>pointless! 
+//"See *8"
+
+msg08:05:s06:Hmph. I shouldn't have<BR>expected much of a prole.
+//"Oh my, it seems this is beyond the understanding of peasants."
+
+msg09:08:s04:I'm not surprised your<BR>little racket can't give me<BR>what I want.
+//"Well, I didn't think this shop would have what I wanted."
+
+msg10:02:s14:Oh, for... negotiating<BR>with a plebeian is<BR>pointless! 
+//"Oh, for... *8"
+
+msg11:02:s14:Oh, for... negotiating<BR>with a plebeian is<BR>pointless! 
+//"Oh, for... *8
+
+msg12:08:s00:I'll lower myself to<BR>buying something from you:<BR><S>.
+//"I'd be willing to buy <S>"
+
+msg13:01:s01:Well, fine.
+//"Well, that's fine."
+
+msg15:01:s00:Alright, Miss Capitalist!<BR><DA>,<BR>I want you to get<C><D1> <S><BR>for me!
+//"Prepare <D1> <S>es in <DA> days for me!
+
+msg16:01:s00:I assume you have my<BR><S>?
+//"I've come to get my <S>"
+msg16:01:s05:My <S>!<BR>You DO have it, don't<BR>you?
+//"<S>! Of course, you have it, right?"
+
+msg17:08:s04:This is all I can expect<BR>of a place like this,<BR>I suppose.
+//"In the end this is all I could expect, I suppose."
+
+
+//	予約の引き取り日を過ぎたとき
+msg18:02:s14:You... FORGOT my order?!<BR>You revolting, uppity<BR>PROLE!
+//"To forget my order... You've got some nerve!"
+
+msg19:03:sno:Oh. Well, er, I, uh,<BR>seem to be a little short<BR>on funds... um...
+//"What? I just don't happen to have it on hand today."
+
+
+
+

@@ -1,0 +1,164 @@
+grp00:ivent/07elan_00.tga
+grp01:ivent/07elan_01.tga
+grp02:ivent/07elan_02.tga
+grp03:ivent/07elan_03.tga
+grp04:ivent/07elan_04.tga
+grp05:ivent/07elan_05.tga
+grp06:ivent/07elan_06.tga
+
+se00:bin/se/06el/shop/kai01.bin
+/買い取ってくれねーか
+
+se01:bin/se/06el/shop/kai02a.bin
+/コレなんだけどな
+
+se02:bin/se/06el/shop/kai03.bin
+/売ってくれねーか
+
+se03:bin/se/06el/shop/kai04.bin
+/あのよぉ
+
+se04:bin/se/06el/shop/kai05.bin
+/おぅ、元気か？
+
+se05:bin/se/06el/shop/kai06.bin
+/あぁそれでいい
+
+se06:bin/se/06el/shop/kai07.bin
+/それでいい
+
+se07:bin/se/06el/shop/kai08a.bin
+/安いな
+
+se08:bin/se/06el/shop/kai09.bin
+/高いな
+
+se09:bin/se/06el/shop/kai10.bin
+/頼むよ
+
+se10:bin/se/06el/shop/kai11.bin
+/悪いな
+
+se11:bin/se/06el/shop/kai12.bin
+/しゃあねぇか
+
+se12:bin/se/06el/shop/kai13.bin
+/まっ、そんなもんか
+
+se13:bin/se/06el/shop/kai14.bin
+/そりゃ無理だ
+
+se14:bin/se/06el/shop/kai15.bin
+/ちょっと待ってくれ
+
+se15:bin/se/06el/shop/kai16.bin
+/それじゃねぇんだな
+
+se16:bin/se/06el/shop/kai17.bin
+/そうじゃねぇんだよな
+
+se17:bin/se/06el/shop/kai18a.bin
+/そうか・・・
+
+se18:bin/se/06el/shop/kai19.bin
+/ほしい物があるんだけどな
+
+se19:bin/se/06el/shop/kai20.bin
+/よし、OKだ
+
+se20:bin/se/06el/shop/kai21.bin
+/参ったなぁ
+
+se21:bin/se/06el/shop/kai22.bin
+/どうした？
+
+
+
+msg00:00:s00:Hey, Recette. Got<BR>something I want you to<BR>buy.
+msg00:00:s00:Would ya buy this<BR>off me?
+msg00:00:s01:Any chance I could<BR>sell this?
+msg00:00:s01:Came by to sell this.
+msg00:00:s00:Mind buyin' something<BR>off me?
+msg00:04:s01:I found this in a<BR>dungeon. How much is it?
+msg00:00:s00:Can I sell this? I<BR>really need the cash...
+
+msg01:00:s02:Mind sellin' this<BR>to me?
+msg01:01:s02:Hey, didn't know<BR>this was sold here!
+msg01:01:s04:Hey, you doin' okay?<BR>I'll take this today.
+msg01:01:s02:Hey, Recette! Mind<BR>sellin' this to me?
+
+msg02:04:s05:Yeah, that's good!
+msg02:01:s06:Yeah, that should be<BR>okay.
+msg02:04:s19:Perfect!
+
+msg03:06:s07:That's a bit cheap!
+msg03:03:s09:Mmph, that's not quite<BR>enough... can you go up a<BR>bit more? For me?
+msg03:03:s09:Any chance you could<BR>give me just a bit more?
+msg03:06:s07:Is it that cheap?
+msg03:03:s14:C'mon, this is worth<BR>more!
+
+msg04:03:s08:It's that expensive?
+msg04:03:s09:Can't you give me a<BR>bit of a bargain?
+msg04:03:s08:Ouch, not sure I can<BR>pay that...
+msg04:03:s09:Please, I'm begging<BR>ya, bring it down a bit.
+msg04:03:s09:Eh, this month's<BR>kinda tight... gotta pay off<BR>the bar tab, too.
+msg04:05:s10:Sorry, missie, but I<BR>can't haggle much here.
+
+msg05:04:s11:Hah, all right,<BR>alright, that'll do.
+msg05:01:s12:Yeah, I can pay that.
+msg05:04:s12:That's about right!<BR>Thanks, Recette.
+msg05:04:s19:Awesome deal!<BR>Thanks, Recette.
+msg05:01:s12:Yeah, that'll do.
+
+msg06:03:s13:There's no way I<BR>can pay that much.
+msg06:06:s20:Seriously? That<BR>much? I can't believe it.
+msg06:03:s13:This is goin' nowhere...
+msg06:06:s14:Hold it! That price<BR>is insane!
+
+msg07:03:s20:Well, nothin' for it.<BR>I'll head someplace else.
+msg07:03:s17:No go, huh? Man, being<BR>poor stinks...
+msg07:03:s17:I'm headin' home for<BR>today.
+
+msg08:00:s15:Nah, that ain't it.
+msg08:00:s15:Er, not quite, Recette.
+msg08:00:s16:Uh, no. Not that.
+msg08:00:s16:Naw, that ain't it.
+msg08:03:s20:I don't think I'm<BR>gettin' through to you...
+
+msg09:03:s17:Don't have any, huh...
+msg09:03:s17:Don't have any? Blast...
+msg09:03:s17:I see... sorry to<BR>bother you.
+msg09:03:s17:You don't have any...<BR>Well, don't lose sleep over<BR>it, I'll be okay.
+msg09:03:s17:I see... ah, don't<BR>worry, sorry to waste your<BR>time.
+
+msg10:03:s20:Wonder if there's<BR>someplace cheaper?...
+msg10:03:s20:I'll come back later.
+
+msg11:03:s07:That is way too cheap!
+msg11:03:s07:I can't sell at that<BR>price!
+msg11:03:s10:I might as well just<BR>keep it at that price.
+
+msg12:00:s03:Hey, I'm lookin' for<BR><S>.
+msg12:00:s18:Yo! I'd like<BR><S>.
+msg12:00:s03:Hey, do you have<BR><S>?
+msg12:00:s01:Recette! Do you have<BR><S>?
+
+msg13:01:s06:Hah, all right,<BR>alright, that'll do.
+msg13:05:s12:Yeah, that's a good<BR>price, I think.
+msg13:01:s12:That's about right!<BR>Thanks, Recette.
+msg13:04:s19:Awesome deal!<BR>Thanks, Recette.
+msg13:01:s19:Yeah, that'll do.
+
+msg15:00:s18:Yo, Recette! I need<BR><D1> <S>.<BR>Can I come and<C>pick them up<BR><DA>?
+
+msg16:01:s03:Yo, do you have the<BR><S><BR>I asked for?
+
+//	予約を断られたときのセリフ
+msg17:03:s17:I see... nah, don't<BR>worry about it, sorry for<BR>asking too much.
+
+//	予約の引き取り日を過ぎたとき
+msg18:03:s20:Recette, you mind<BR>bein' in the store when<BR>I come to get my order?
+
+msg19:03:s13:Since when do I<BR>have that kind of<BR>money?
+msg19:03:s13:I'll never have<BR>THAT much money...
+

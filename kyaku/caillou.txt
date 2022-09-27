@@ -1,0 +1,194 @@
+grp00:ivent/05caillou_00.tga
+grp01:ivent/05caillou_01.tga
+grp02:ivent/05caillou_02.tga
+grp03:ivent/05caillou_03.tga
+grp04:ivent/05caillou_04.tga
+grp05:ivent/05caillou_05.tga
+
+se00:bin/se/04ca/shop/caillou17a.bin
+/おーい
+
+se01:bin/se/04ca/shop/caillou18b.bin
+/買い取ってくれよ
+
+se02:bin/se/04ca/shop/caillou19c.bin
+/売ってやるよ
+
+se03:bin/se/04ca/shop/caillou20a.bin
+/売ってくれよ
+
+se04:bin/se/04ca/shop/caillou21a.bin
+/なんだよ１
+
+se05:bin/se/04ca/shop/caillou21d.bin
+/なんだよ２
+
+se06:bin/se/04ca/shop/caillou21g.bin
+/なんだよ３
+
+se07:bin/se/04ca/shop/caillou22a.bin
+/これで我慢してやる
+
+se08:bin/se/04ca/shop/caillou22b.bin
+/これでー我慢してやる
+
+se09:bin/se/04ca/shop/caillou23a.bin
+/あーそれそれ
+
+se10:bin/se/04ca/shop/caillou24a.bin
+/なんだよ、それ
+
+se11:bin/se/04ca/shop/caillou24d.bin
+/なんだよぉ、それ
+
+se12:bin/se/04ca/shop/caillou24e.bin
+/なんだよ？、それ
+
+se13:bin/se/04ca/shop/caillou25a.bin
+/安すぎ
+
+se14:bin/se/04ca/shop/caillou26b.bin
+/舐めんな！
+
+se15:bin/se/04ca/shop/caillou27a.bin
+/高すぎ
+
+se16:bin/se/04ca/shop/caillou28c.bin
+/わかってねーな
+
+se17:bin/se/04ca/shop/caillou29a.bin
+/(ﾟДﾟ)ﾊｧ? 何言ってんだ？
+
+se18:bin/se/04ca/shop/caillou30c.bin
+/まぁ、いいか
+
+se19:bin/se/04ca/shop/caillou31a.bin
+/無理だよ
+
+se20:bin/se/04ca/shop/caillou32c.bin
+/ダメだよ
+
+se21:bin/se/04ca/shop/caillou33a.bin
+/馬鹿にすんなよ
+
+se22:bin/se/04ca/shop/caillou34a.bin
+/バーカ
+
+se23:bin/se/04ca/shop/caillou34b.bin
+/バーカ２
+
+se24:bin/se/04ca/shop/caillou34e.bin
+/バーカ３
+
+se25:bin/se/04ca/shop/caillou35b.bin
+/欲しいモンがあるんだけどさ
+
+se26:bin/se/04ca/shop/caillou36c.bin
+/まぁ、しょうがないか
+
+msg00:00:s01:Hey, buy this off of me.
+msg00:00:s01:Buy this from me, would<BR>you?
+msg00:00:s02:Hey. I don't need this<BR>any more, so... buy it?
+msg00:00:s01:You'll buy this, right?
+msg00:00:s02:Here, I'll sell this to<BR>you.
+msg00:01:s02:Hey. Came by to sell<BR>this to you.
+msg00:00:s02:I don't need this any<BR>more, so I'm selling it to<BR>you.
+msg00:04:s00:Hey! I brought you<BR>something nice.
+
+msg01:00:s03:Hey, sell this to me.
+msg01:01:s03:Sell this to me, would<BR>you?
+msg01:00:s03:Huh, you actually have<BR>one.
+msg01:01:s03:Well, you're as "busy"<BR>as ever. Here, I'd like to<BR>buy this.
+msg01:01:s03:You don't look too<BR>busy. Here, I want to buy<BR>this.
+msg01:03:s03:Oh, so it's sold here?<BR>Man, I wasted all that<BR>time walking around...
+msg01:02:s03:Hey, you're selling<BR>this, right?
+msg01:00:s03:I need something for<BR>my experiments... this'll<BR>do, I guess.
+
+msg02:01:s09:Hey, that's not a bad<BR>suggestion. Thanks.
+msg02:01:s09:Hey, yeah, that's a<BR>pretty good choice.
+msg02:01:s08:All right, that'll do,<BR>I think.
+msg02:00:s07:I can live with that.
+msg02:00:s18:Yeah, that's okay.
+msg02:01:s09:Yeah, that's what I need!
+
+msg03:02:s10:Hey, offer a bit more<BR>money!
+msg03:02:s17:Whaaat, there's no way<BR>it's that cheap.
+msg03:02:s13:No way! That's too<BR>cheap! Raise it!
+msg03:02:s13:That's still too cheap!
+msg03:02:s11:You don't have any<BR>idea what this stuff is<BR>worth, do you?
+msg03:02:s06:Is it really THAT<BR>cheap?
+msg03:02:s13:Don't you think that's<BR>just a little cheap?
+
+msg04:02:s10:Make it a bit cheaper,<BR>would you?
+msg04:02:s15:No, way too expensive!<BR>Make it cheaper!
+msg04:03:s15:That's still too<BR>expensive!
+msg04:03:s15:Too much!
+msg04:02:s17:What? There's no way<BR>it's that expensive!
+msg04:02:s01:That's still too<BR>expensive!
+msg04:02:s11:You don't have any<BR>idea what this stuff is<BR>worth, do you?
+msg04:02:s15:Don't you think that's<BR>just a BIT much?
+msg04:02:s17:What? That's way too<BR>much!
+
+
+msg05:01:s26:Alright, I've got no<BR>choice, really. I'll take<BR>it.
+msg05:00:s26:That'll do, I suppose.
+msg05:00:s18:Yeah, sounds about right.
+msg05:01:s18:That's about right, I<BR>guess.
+msg05:01:s18:Well, alright.<BR>That is a pretty good<BR>price, to be honest.
+msg05:00:s18:Well, alright.
+
+msg06:02:s17:What. How the heck am<BR>I supposed to pay that?
+msg06:02:s21:You're trying to make<BR>me look like an idiot,<BR>aren't you?
+msg06:02:s14:You're kidding, right?<BR>What are you thinking?
+msg06:02:s14:Wh- are you an idiot?
+msg06:02:s20:I'm not gonna get<BR>anywhere with this.
+msg06:02:s22:You ninny, who'd buy it<BR>at that price?!
+msg06:02:s19:There's no way that's<BR>gonna work!
+
+msg07:00:s10:I was an idiot for<BR>even asking you...
+msg07:02:s20:I'm outta here.
+msg07:03:s20:Man, just dealing with<BR>you is tiring.
+
+msg08:00:s04:Not interested.
+msg08:00:s16:Not quite what I<BR>need.
+msg08:00:s16:Uh... not what I<BR>wanted.
+msg08:00:s16:Look, that's not what<BR>I wanted. Sheesh...
+msg08:03:s16:Why do I even bother...
+
+msg09:00:s04:Don't have any, huh?<BR>Hmm...
+msg09:03:s05:You don't have any?<BR>Great.
+msg09:00:s06:You need to stock<BR>the store better.
+msg09:00:s10:I should head home,<BR>then.
+msg09:00:s11:You'd better have one<BR>next time!
+
+msg10:00:s11:I'm going someplace<BR>cheaper.
+msg10:02:s22:As if I'd buy it at<BR>a store like this? Get<BR>real!
+
+msg11:02:s11:Nah, I don't wanna<BR>sell it at that price.
+msg11:02:s11:The heck is - oh, forget<BR>it.
+msg11:02:s11:The heck is - I'll<BR>go sell this somewhere<BR>else, then!
+
+msg12:01:s25:Hey, I want<BR><S>.
+msg12:01:s25:I'm looking for<BR><S>.
+msg12:01:s25:Hey, I'd like<BR><S>.
+msg12:01:s25:Do you have<BR><S>,<BR>by any chance?
+msg12:01:s25:Do you have<BR><S>?
+
+msg13:01:s26:Alright, I've got no<BR>choice, really. I'll take<BR>it.
+msg13:01:s18:Yeah, that'll do.
+msg13:01:s18:That's about right, I<BR>guess.
+msg13:01:s18:Suppose that's about<BR>as good as I can get from<BR>you.
+msg15:00:s25:Hey, I want to order<BR><D1> <S>,<BR>and I want them<C><DA>.<BR>Make sure you have them!
+
+msg16:00:s00:Hey, do you have my<BR><S><BR>order?
+msg16:00:s00:I'm here for my<BR><S>!
+
+//	予約を断られたときのセリフ
+//"When refusing an order"
+msg17:03:s05:Man, you're useless.
+
+//	予約の引き取り日を過ぎたとき
+//"When the order date has passed"
+msg18:02:s05:Man, if you've got<BR>someone who has an order<BR>out, at least be<C>in your friggin'<BR>shop!... now I don't<BR>even care.
+
+msg19:03:s19:I, uh... don't have<BR>enough money today.

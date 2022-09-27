@@ -1,0 +1,176 @@
+/msg:00:挨拶
+/msg:01:アバウト注文での返答
+/msg:02:アバウト注文での返答でキャンセル
+/msg:03:売り交渉失敗
+/msg:04:買取交渉失敗
+/msg:05:売り交渉成立
+/msg:06:買取交渉成立
+/msg:07:買取報告
+/msg:08:売り報告
+/msg:09:売値選択
+/msg:10:買値選択
+
+grp00:ivent/01recette_00.tga
+grp01:ivent/01recette_01.tga
+grp02:ivent/01recette_02.tga
+grp03:ivent/01recette_03.tga
+grp04:ivent/01recette_04.tga
+grp05:ivent/01recette_05.tga
+grp06:ivent/01recette_06.tga
+grp07:ivent/01recette_07.tga
+
+se00:bin/se/00re/shop/re_ira.bin
+se01:bin/se/00re/shop/re_ari.bin
+se02:bin/se/00re/shop/re_kon.bin
+se03:bin/se/00re/shop/re_yata.bin
+se04:bin/se/00re/shop/re_ureta.bin
+se05:bin/se/00re/shop/re_katta.bin
+se06:bin/se/00re/shop/re_kaitotta.bin
+se07:bin/se/00re/shop/re_kaetta.bin
+se08:bin/se/00re/shop/re_angry_a.bin
+se09:bin/se/00re/shop/re_kore.bin
+se10:bin/se/00re/shop/re_ikura.bin
+se11:bin/se/00re/shop/re_gomen.bin
+se12:bin/se/00re/shop/re_korekore_b.bin
+se13:bin/se/00re/shop/re_ari.bin
+se14:bin/se/00re/shop/re_aaa.bin
+se15:bin/se/00re/system/00re_sys04c.bin
+se16:bin/se/00re/event/re_ehe_a.bin
+
+msg00:04:s00:Hello!<BR>Welcome to Recettear!
+//"Hello!*  Welcome to Recettear!"
+msg00:04:s00:Hi there!
+//"Hello~*"
+msg00:01:s00:Welcome!
+//Hello!*"
+msg00:04:s00:Oh, hi! Welcome!
+//"Ah... Hello!*"
+msg00:04:s00:Welcome!<BR>Can I help you with<BR>anything?
+//"Hello!* Can I help you with anything?"
+msg00:04:s00:Welcome!<BR>If you need anything,<BR>just ask!
+//"Hello!* If you need anything, just ask!"
+msg00:01:s02:Hi there!<BR>What can I get you?
+//"Hello! What would you like today?"
+msg00:04:s02:Welcome!<BR>Looking for something<BR>special?
+//"Hello! Are you looking for something in specific?"
+
+
+//*- Technically these are closer to 'welcome' than 'hello-' irrashaimase is a phrase used
+//specifically with customers. However, since she ALSO says welcome in the first line, I'm
+//translating it as "Hello." The last two "Hello!"s are actually proper hellos (konnichi wa)
+
+
+msg01:01:s09:How about something<BR>like this?
+//"How about something like this?"
+msg01:01:s09:Would this do?
+//"This might be what you want."
+msg01:01:s09:Yeah, we have that!
+//"I've got this."
+msg01:00:s09:Is this good?
+//"Would this be good?"
+msg01:04:s12:Oh, I know!<BR>How's this?
+//"I've got it! This, right?"
+msg01:04:s09:This might be what you<BR>want.
+//"I think this might be okay."
+msg01:00:s09:Hmm... how about this?
+//"Hmm... How about this?"
+msg01:04:s09:How about this?
+//"I found this~"
+msg01:04:s09:Would something like this<BR>work?
+//"Would something like this work?"
+msg01:04:s12:Bum-ba-da-baaaa!<BR>This is it, right?
+//"(fanfare-ish sound)*! This is it, right?"
+msg01:01:s09:Okay, then...<BR>How about this?
+//"Hmm, right... How about this?"
+msg01:04:s12:This should be perfect!<BR>... I think.
+//"This is perfect for those times!"
+msg01:04:s09:I think this is what<BR>you're looking for.
+//"I think this'll be what you're looking for."
+msg01:04:s09:You want this, right?
+//"Oh, this, right?"
+
+msg02:03:s11:I'm so sorry, but we don't<BR>have any right now...
+//"I'm sorry. We don't have any right now..."
+msg02:00:s11:We don't have anything<BR>like that, I'm afraid.
+//"We don't have anything like that."
+msg02:00:s11:We're, uh, a little<BR>understocked on that...
+//"Hmm... We're a little understocked on that..."
+msg02:03:s11:We don't have any of<BR>those... I'm sorry!
+//"It doesn't look like we have any... I'm sorry."
+
+msg03:03:s07:... Well, they went home...
+//"...They went home."
+msg03:03:s08:... I made them mad,<BR>didn't I...
+//"...I wonder if I made them angry."
+msg03:03:s14:Aw, I'm terrible at this...
+//"This isn't going well..."
+msg03:05:s14:I screwed up, didn't I...
+//"Did I mess up?"
+msg03:05:s14:I wonder... do I really<BR>have no talent?...
+//"I wonder if I don't have any talent..."
+
+msg04:00:s07:... Well, they went home...
+//"...They went home."
+msg04:03:s14:Aw, I'm terrible at this...
+//"This isn't going well..."
+msg04:03:s14:I screwed up, didn't I...
+//"Did I mess up?"
+
+msg05:04:s01:Thank you so much!
+//"Thank you very much!"
+msg05:04:s01:Thanks!<BR>Please come again!
+//"Thank you very much! Please come again!"
+
+msg06:04:s01:Thank you so much!
+//"Thank you very much!"
+msg06:04:s01:Thanks!<BR>Please come again!
+//"Thank you very much! Please come again!"
+
+msg07:01:s06:Yay! I got<BR><I><BR>for <Y>!
+//"I picked up an <I> for <Y>!
+msg07:04:s05:Yay! I scored<BR><I><BR>for <Y>!
+//"I bought an <I> at <Y>!
+
+msg08:04:s04:Yay! I sold<BR><I><BR>for <Y>!
+//"I sold <I> for <Y>!"
+msg08:04:s04:Glee! I sold<BR><I><BR>for <Y>!
+//"I sold <I> for <Y>!"
+
+msg09:04:s10:How much should I?...
+//"How much should I sell it for?"
+msg09:00:s10:Capitalism, ho!
+//"How much should I sell it for?"
+
+msg10:01:s10:What should I pay?...
+//"How much should I buy it for?"
+msg10:00:s10:What's a good price?...
+//"How much should I buy it for?"
+
+//予約を受けたとき
+//"When taking an order"
+msg11:04:s16:Well, I have an order!
+//"I took an order!"
+
+//予約を断ったとき
+//"When refusing an order"
+msg12:03:s11:I'm sorry, I can't.
+//"I'm sorry."
+msg12:03:s11:I can't take this order...<BR>I'm so sorry!
+//"I'm afraid I can't take that order.. I'm sorry."
+
+//	予約を受けるかどうかの選択
+//	"Choosing whether to accept an order or not"
+msg13:00:sno:So they want<BR><D1> <S>...<BR><DA>... Should I?...
+//"It's an order for <D1> <S> in <DA> days... Should I?" 
+
+//予約を受けたとき
+//"When taking an order"
+msg14:03:s11:I refused.
+//"I refused."
+msg14:03:s14:I refused an order.
+//"I refused an order."
+//(I'm pretty sure these are not used in-game, but better safe than sorry for two lines. -TR)
+
+
+
+
