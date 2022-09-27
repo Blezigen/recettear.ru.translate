@@ -24,7 +24,7 @@ chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:2:disp
 wait:60
 se:bin/se/05ti/shop/t_kai_uun_02.bin
-msg:2:0:Aaahhhh... I... I...<BR>S-si...ssss...<KEY><W><C>
+msg:2:0:Ааааа... Я... Я... <BR>С-си... ссссс...<KEY><W><C>
 
 //���Z�b�g
 chr:5:dir:right				//	����
@@ -40,11 +40,11 @@ chr:5:disp
 wait:60
 windowpos:304,1
 se:bin/se/00re/action/00re_btl02b.bin
-msg:5:1:Are you okay?! Oh Heaven,<BR>I think we really, really<BR>hurt her!<KEY><W><C>
+msg:5:1:Ты в порядке?! О Небеса, <BR>я думаю, мы действительно,<BR>сделали ей больно!<KEY><W><C>
 
 wait:30
 
-msg:5:1:Tear! Tear! Is she badly<BR>hurt?<KEY><W><C>
+msg:5:1:Тира! Тир!<BR>Она же сильно пострадала?<KEY><W><C>
 
 chr:5:moveto:-160,0			//	�ړ���
 chr:5:speed:4	
@@ -61,14 +61,14 @@ chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:1:disp
 wait:60
 
-msg:1:2:Well, we certainly did a<BR>number on her, as the<BR>saying goes...<KEY>
+msg:1:2:Что ж, как говорится, мы<BR>определенно над ней<BR>постарались...<KEY>
 chr:1:grp:bmp/ivent/02tear_02.tga 512,512
-msg:1:2:I think, however, that her<BR>life can be saved if we<BR>take her home and get<KEY>
-msg:1:2:her to a proper doctor.<KEY>
-msg:1:2:If we wish to do so,<BR>however, we must leave<BR>NOW.<KEY><W><C>
+msg:1:2:Я думаю, однако, что ее<BR>жизнь можно спасти, <BR>если мы отвезем ее домой<KEY>
+msg:1:2:и отведём её к хорошему<BR>врачу<KEY>
+msg:1:2:Однако, если мы хотим<BR>это сделать, мы должны<BR>уйти СЕЙЧАС.<KEY><W><C>
 
 chr:5:grp:bmp/ivent/01recette_02.tga 512,512
-msg:5:1:R-right! Let's go back,<BR>right now!<KEY><W><C>
+msg:5:1:П-правильно! Давай<BR>вернемся, прямо сейчас!<KEY><W><C>
 
 chr:6:dir:right
 chr:6:grp:bmp/ivent/siro.tga 640,480
@@ -88,9 +88,9 @@ chr:6:disp
 wait:140
 
 chr:5:grp:bmp/ivent/01recette_07.tga 512,512
-msg:5:1:... Huh?<KEY><W><C>
+msg:5:1:... А?<KEY><W><C>
 chr:1:grp:bmp/ivent/02tear_00.tga 512,512
-msg:1:2:A treasue chest?<BR>That was... sudden.<KEY><W><C>
+msg:1:2:Сундук с сокровищами?<BR>Это было... неожиданно.<KEY><W><C>
 
 chr:6:dir:right
 chr:6:grp:bmp/ivent/siro.tga 640,480
@@ -105,8 +105,8 @@ wait:140
 
 chr:5:grp:bmp/ivent/01recette_00.tga 512,512
 msg:5:1:...<KEY>
-msg:5:1:It... kind of feels like<BR>it's saying, "open me!"<KEY><W><C>
-msg:1:2:... You have no idea.<KEY><W><C>
+msg:5:1:Он... как будто говорит:<BR>"Открой меня!"<KEY><W><C>
+msg:1:2:... Думаю у тебя больше<BR>нет идей.<KEY><W><C>
 
 chr:0:dir:right
 chr:0:grp:bmp/ivent/takarabako.tga 256,256
@@ -156,12 +156,12 @@ chr:8:colto:255,255,255,0
 chr:8:disp
 
 wait:60
-msg:5:1:Ah! This is...<KEY><W><C>
+msg:5:1:Ах! Это...<KEY><W><C>
 wait:30
 chr:5:grp:bmp/ivent/01recette_00.tga 512,512
-msg:5:1:... Some kind of...<BR>medicine?...<KEY><W><C>
+msg:5:1:... Какое-то... <BR>лекарство?...<KEY><W><C>
 
-msg:1:2:That... that medicine.<BR>I must be delusional.<BR>It can not be...<KEY><W><C>
+msg:1:2:Это... это лекарство. <BR>Должно быть, я брежу.<BR>Этого не может быть...<KEY><W><C>
 
 
 chr:1:moveto:-510,0			//	�ړ���
