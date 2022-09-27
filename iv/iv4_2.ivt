@@ -25,7 +25,7 @@ chr:2:disp
 wait:60
 
 se:bin/se/05ti/shop/t_kai_uun_02.bin
-msg:2:0:*sniffle*... Sis...<BR>Where are you?...<KEY><W><C>
+msg:2:0:*шмыгает носом*... <BR>Сестренка... Где ты?...<KEY><W><C>
 
 //���Z�b�g
 chr:1:dir:right				//	����
@@ -40,7 +40,7 @@ chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:1:disp
 wait:60
 windowpos:304,1
-msg:1:1:H-hey there!<KEY><W><C>
+msg:1:1:П-привет!<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_05.tga 512,512
 //�r�N�b
@@ -64,9 +64,9 @@ chr:5:fadeframe:10
 chr:5:colto:255,255,255,0
 chr:5:disp
 wait:30
-msg:2:0:Ah!<KEY><W><C>
+msg:2:0:Ах!<KEY><W><C>
 windowpos:304,1
-msg:1:1:Are you okay? If you're<BR>lost, we can...<KEY><W><C>
+msg:1:1:Ты в порядке? Если ты <BR>заблудилась, мы можем...<KEY><W><C>
 
 chr:2:grp:bmp/ivent/06tiers_02.tga 512,512
 chr:2:moveto:280,0
@@ -74,13 +74,13 @@ chr:2:speed:8
 chr:2:center:-256
 windowpos:304,0
 se:bin/se/05ti/damage/05ti_18.bin
-msg:2:0:  D-DON'T COME NEAR ME!<KEY><W><C>
+msg:2:0:  Д-НЕ ПОДХОДИ КО МНЕ!<KEY><W><C>
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
-msg:1:1:Heuwha?<KEY><W><C>
+msg:1:1:Хеувха?<KEY><W><C>
 windowpos:304,0
 se:bin/se/05ti/start/05ti_14.bin
-msg:2:0:  Don't come any closer,<BR>   nasty humanperson!<KEY><W><C>
+msg:2:0:    Не подходи ближе, <BR>   мерзкий человечишка!<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
 //��
@@ -98,9 +98,9 @@ chr:5:colto:255,255,255,0
 chr:5:disp
 wait:60
 windowpos:304,1
-msg:1:1:Uh, what are you, I mean,<BR>uh...<BR>humanperson?<KEY><W><C>
+msg:1:1:Эм, что ты, я имею в виду, <BR>эм... человекоподобная?<KEY><W><C>
 windowpos:304,0
-msg:2:2:        Get away...<BR>      GET AWAAAAAY!<KEY><W><C>
+msg:2:2:        Уходи...<BR>      Уходиииии!<KEY><W><C>
 rmb:40,120
 chr:2:col:255,255,255,255	//�`��q�f�a�`�l
 chr:2:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
@@ -109,7 +109,7 @@ chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
 wait:60
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
-msg:1:1:Wait, WHAT?!<KEY><W><C>
+msg:1:1:ПОДОЖДИ, ЧТО?!<KEY><W><C>
 
 chr:1:moveto:-160,0			//	�ړ���
 chr:1:speed:10	
@@ -126,20 +126,20 @@ chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:0:disp
 wait:60
 
-msg:0:2:This girl...<KEY>
-msg:0:2:I am sure of it...<BR>she is an elf!<KEY><W><C>
-msg:1:1:An elf?<KEY><W><C>
-msg:0:2:Yes, but... this is<BR>shocking.<KEY>
-msg:0:2:I did not think I would<BR>ever meet an elf this<BR>young.<KEY><W><C>
+msg:0:2:Эта девушка...<KEY>
+msg:0:2:Я уверена в этом... <BR>Она эльфийка!<KEY><W><C>
+msg:1:1:Эльф?<KEY><W><C>
+msg:0:2:Да, но... это шокирует.<KEY>
+msg:0:2:Я не думал, что <BR>когда-нибудь встречу такого<BR>молодого эльфа.<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_03.tga 512,512
-msg:1:1:Uh, I don't think we have<BR>time to wonder about her<BR>age...<KEY><W><C>
+msg:1:1:Э-э, я не думаю, что у нас<BR>есть время задаваться <BR>вопросом о ее возрасте...<KEY><W><C>
 chr:2:moveto:200,0
 se:bin/se/05ti/attack/05ti_01.bin
 chr:2:speed:8
 wait:30
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
-msg:1:1:She's coming!<KEY><W><C>
+msg:1:1:Она идет!<KEY><W><C>
 
 chr:0:moveto:-510,0			//	�ړ���
 chr:0:speed:10	
