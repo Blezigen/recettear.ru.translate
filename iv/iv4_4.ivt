@@ -31,7 +31,7 @@ chr:4:disp
 wait:160
 
 se:bin/se/05ti/shop/t_kai_uun_02.bin
-msg:2:0:Uhhn... Sis?...<KEY><W><C>
+msg:2:0:Ухн... Сестренка?...<KEY><W><C>
 wait:60
 
 chr:2:grp:bmp/ivent/06tiers_03.tga 512,512
@@ -57,7 +57,7 @@ chr:5:fadeframe:10
 chr:5:colto:255,255,255,0
 chr:5:disp
 wait:20
-msg:2:0:... Whu...<KEY><W><C>
+msg:2:0:... Чт...<KEY><W><C>
 
 //���Z�b�g
 chr:1:dir:right				//	����
@@ -72,7 +72,7 @@ chr:1:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:1:disp
 wait:60
 windowpos:304,1
-msg:1:1:Hey... are you awake?<KEY><W><C>
+msg:1:1:Эй... ты проснулась?<KEY><W><C>
 
 //�r�N�b
 chr:2:grp:bmp/ivent/06tiers_05.tga 512,512
@@ -102,11 +102,11 @@ windowpos:304,0
 chr:2:moveto:280,0
 chr:2:speed:8
 se:bin/se/05ti/damage/05ti_16a.bin
-msg:2:0:            Ah!<KEY><W><C>
+msg:2:0:            Ах!<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
 windowpos:304,1
-msg:1:1:No no! Don't move so<BR>suddenly...<KEY><W><C>
+msg:1:1:Нет, нет! Не двигайся так<BR>внезапно...<KEY><W><C>
 
 windowpos:304,-1
 chr:2:center:-32
@@ -116,27 +116,27 @@ msg:2:0:...<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:My name is Recette.<BR>This is my house...<KEY><W><C>
+msg:1:1:Меня зовут Ресетт.<BR>Это мой дом...<KEY><W><C>
 
 windowpos:304,-1
-msg:2:0:... Wha...<KEY><W><C>
+msg:2:0:... Что...<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 wait:30
-msg:1:1:You don't remember?<KEY>
-msg:1:1:I'm the one who spoke to<BR>you in the dungeon...<KEY>
-msg:1:1:You attacked, so we, uh,<BR>had to fight back, and<BR>you got hurt...<KEY>
-msg:1:1:but I really don't mean<BR>to do anything bad to you.<KEY><W><C>
+msg:1:1:Ты не помнишь?<KEY>
+msg:1:1:Я тот, кто говорил с тобой<BR>в подземелье...<KEY>
+msg:1:1:Ты напала, так что нам,<BR>э-э, пришлось дать отпор,<BR>и ты пострадала...<KEY>
+msg:1:1:но я действительно не хотела<BR>сделать тебе плохо.<KEY><W><C>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:I guess you find that<BR>kinda hard to believe,<BR>though, huh?<KEY><W><C>
+msg:1:1:Я думаю, тебе все же<BR>трудно в это поверить, да?<KEY><W><C>
 wait:60
 
 chr:2:grp:bmp/ivent/06tiers_00.tga 512,512
 windowpos:304,-1
 msg:2:0:...<KEY>
 se:bin/se/05ti/shop/t_kai_ano_01.bin
-msg:2:0:Ummm... that medicine...<KEY><W><C>
+msg:2:0:Ммм... это лекарство...<KEY><W><C>
 
 chr:3:dir:right
 chr:3:move:210,-32
@@ -149,8 +149,8 @@ wait:80
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
-msg:1:1:Oh, this?<KEY>
-msg:1:1:This stuff was amazing.<BR>It healed your injuries<BR>like they were bugbites!<KEY><W><C>
+msg:1:1:О, это?<KEY>
+msg:1:1:Это зелье был потрясающим.<BR>Оно исцелило твои раны, как<BR>будто это укусы насекомых!<KEY><W><C>
 
 chr:3:colto:255,255,255,255
 chr:3:fadeframe:40
@@ -159,33 +159,33 @@ chr:3:disp
 wait:60
 
 windowpos:304,-1
-msg:2:0:That's... elf medicine.<KEY><W><C>
+msg:2:0:Это... эльфийская медицина.<KEY><W><C>
 
 windowpos:304,1
-msg:1:1:Tear told me about that.<KEY>
-msg:1:1:Oh, duh. Tear is the fairy<BR>with me, and...<KEY>
-msg:1:1:well, the two of us run<BR>an item shop.<KEY>
+msg:1:1:Тир рассказала мне об этом.<KEY>
+msg:1:1:Аx, да. Тира - это фея<BR>которая была со мной, и...<KEY>
+msg:1:1:ну, мы вдвоем управляем<BR>магазином товаров для дома.<KEY>
 chr:1:grp:bmp/ivent/01recette_05.tga 512,512
-msg:1:1:She's not always, uh, the<BR>most civil of people...<KEY>
-msg:1:1:and she can be a little<BR>hard-headed when it<BR>comes to money...<KEY><W><C>
+msg:1:1:Она не всегда, э-э,<BR>вежливая с людьми...<KEY>
+msg:1:1:и она может быть немного<BR>упрямой, когда дело доходит<BR>до денег...<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_03.tga 512,512
-msg:2:0:That medicine is...<BR>really, really valuable.<KEY><W><C>
+msg:2:0:Это лекарство есть... <BR>действительно очень<BR>ценный предмет.<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
-msg:1:1:... Yeah, Tear wouldn't<BR>shut up about it...<KEY><W><C>
+msg:1:1:... Да, Тира не стала бы<BR>затыкаться по этому <BR>поводу...<KEY><W><C>
 
 windowpos:304,-1
-msg:2:0:So why use it on me?<BR>I mean, I...<KEY><W><C>
+msg:2:0:Так зачем же использовать<BR>это на мне? Я имею в виду,<BR>я..<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
-msg:1:1:Well, uh, I dunno if I have<BR>the perfect answer,<KEY>
-msg:1:1:but we hurt you, and we<BR>had the medicine, and it<BR>was perfect, and...<KEY>
+msg:1:1:Ну, э-э, я не знаю, есть ли<BR>у меня идеальный ответ,<KEY>
+msg:1:1:но мы причинили тебе боль,<BR>и у нас было лекарство,<BR>и оно было идеальным, и...<KEY>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:I guess you could just<BR>say, "I wanted to."<BR>I felt I had to.<KEY><W><C>
+msg:1:1:Я думаю, можно бы просто<BR>сказать: "Я захотела" или <BR>"Было чувство, что я должен"<KEY><W><C>
 
 wait:30
 chr:2:grp:bmp/ivent/06tiers_00.tga 512,512
@@ -193,48 +193,48 @@ chr:2:moveto:240,0
 chr:2:speed:4
 wait:30
 windowpos:304,-1
-msg:2:0:... Tielle.<KEY><W><C>
+msg:2:0:... Тиэль.<KEY><W><C>
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
-msg:1:1:Bwuh?<KEY><W><C>
+msg:1:1:Бвух?<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_01.tga 512,512
-msg:2:6:That's my name...<BR>I'm Tielle.<KEY><W><C>
+msg:2:6:Это мое имя...<BR>Я Тиэль.<KEY><W><C>
 windowpos:304,1
-msg:1:1:Tielle...<KEY>
+msg:1:1:Тиэль...<KEY>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Nice to meet you, Tielle!<KEY><W><C>
+msg:1:1:Приятно познакомиться с <BR>тобой, Тиэль!<KEY><W><C>
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_04.tga 512,512
-msg:2:6:Yeah!<KEY><W><C>
+msg:2:6:Да!<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
 wait:30
 se:bin/se/00re/event/re_soieba.bin
-msg:1:1:But, hey.<KEY>
-msg:1:1:Why were you there all<BR>alone?<KEY><W><C>
+msg:1:1:Но, эй.<KEY>
+msg:1:1:Почему ты была там<BR>совсем одна?<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_03.tga 512,512
 se:bin/se/05ti/shop/t_kai_anone_02.bin
-msg:2:6:Well, I was with my big<BR>sister at first.<KEY>
-msg:2:6:But then we got<BR>separated, and I... I...<KEY><W><C>
+msg:2:6:Ну, сначала я была со<BR>своей старшей сестрой.<KEY>
+msg:2:6:Но потом мы расстались,<BR>и я... я..<KEY><W><C>
 
 windowpos:304,1
-msg:1:1:Oh man. I can see why<BR>you'd be so afraid...<KEY><W><C>
+msg:1:1:О боже. Я понимаю, почему<BR>ты так боишься...<KEY><W><C>
 windowpos:304,-1
-msg:2:6:I'm sorry I attacked<BR>you... I...<KEY><W><C>
+msg:2:6:Мне жаль, что я напала<BR>на тебя... Я..<KEY><W><C>
 
 windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:It's okay, really!<BR>I should be the one<BR>apologizing.<KEY>
-msg:1:1:You just rest until you're<BR>all better, okay?<KEY><W><C>
+msg:1:1:Все в порядке, правда!<BR>Это я должена извиняться.<KEY>
+msg:1:1:Ты просто отдыхай, пока<BR>тебе не станет лучше, <BR>хорошо?<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_01.tga 512,512
-msg:2:6:Okay. Thank you,<BR>Recette...<KEY><W><C>
+msg:2:6:Хорошо. Спасибо тебе,<BR>Ресетт...<KEY><W><C>
 chr:2:moveto:640,0
 chr:2:speed:8
 chr:2:disp
@@ -244,7 +244,7 @@ windowpos:304,1
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 msg:1:1:...<KEY><W><C>
 chr:1:grp:bmp/ivent/01recette_00.tga 512,512
-msg:1:1:Well, you're furious, I bet.<KEY><W><C>
+msg:1:1:Ну, держу пари, ты в ярости<KEY><W><C>
 chr:1:moveto:240,0
 chr:1:speed:8
 
@@ -259,31 +259,31 @@ chr:0:grp:bmp/ivent/02tear_00.tga 512,512	//�t�@�C�����A�摜�
 chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:0:disp
 wait:50
-msg:0:2:Hardly.<KEY><W><C>
+msg:0:2:Едва.<KEY><W><C>
 chr:1:dir:left
 wait:30
-msg:0:2:While it is true that had<BR>we decided to sell the<BR>medicine,<KEY>
-msg:0:2:you could have made more<BR>money than most kings<BR>ever dream of and<KEY>
-msg:0:2:repaid the debt at a<BR>single blow...<KEY><W><C>
+msg:0:2:Хотя это правда, что если<BR>бы мы решили продать<BR>лекарство,<KEY>
+msg:0:2:ты могла бы заработать<BR>настолько много денег,<BR>что даже представить сложно<KEY>
+msg:0:2:погасил долг одним<BR>платежём...<KEY><W><C>
 
 windowpos:304,-1
 chr:1:grp:bmp/ivent/01recette_03.tga 512,512
-msg:1:1:Yeah...<KEY><W><C>
+msg:1:1:Да...<KEY><W><C>
 windowpos:304,1
-msg:0:2:Your choice to use it to<BR>save her life instead...<KEY>
+msg:0:2:Ты выбрала, спасти<BR>жизнь вместо этого...<KEY>
 chr:0:grp:bmp/ivent/02tear_04.tga 512,512
-msg:0:2:Well. You saved something<BR>more valuable than gold,<BR>I think.<KEY>
-msg:0:2:I certainly have no<BR>objections.<KEY><W><C>
+msg:0:2:Хорошо. Я думаю, ты спасла<BR>что-то более ценное,<BR>чем золото.<KEY>
+msg:0:2:У меня, конечно, нет<BR>возражений.<KEY><W><C>
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 windowpos:304,-1
-msg:1:1:Tear!...<KEY><W><C>
+msg:1:1:Тира!...<KEY><W><C>
 windowpos:304,1
-msg:0:2:Let us hope she recovers<BR>quickly.<KEY><W><C>
+msg:0:2:Будем надеяться, что она<BR>быстро поправится.<KEY><W><C>
 
 windowpos:304,-1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
 se:bin/se/00re/event/re_aritear.bin
-msg:1:1:Thank you, Tear! I...<KEY><W><C>
+msg:1:1:Спасибо тебе, Тира! Я...<KEY><W><C>
 wait:30
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
 //�r�N�b
@@ -307,15 +307,15 @@ chr:5:fadeframe:10
 chr:5:colto:255,255,255,0
 chr:5:disp
 wait:30
-msg:1:1:Oh! I... need to change<BR>her bandages!<KEY><W><C>
+msg:1:1:О, мне... нужно сменить<BR>ей повязки!<KEY><W><C>
 
 chr:0:grp:bmp/ivent/02tear_01.tga 512,512
 windowpos:304,1
-msg:0:2:Er, slow down before<BR>you...<KEY><W><C>
+msg:0:2:Э-э, будь аккуратна ...<KEY><W><C>
 
 windowpos:304,-1
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:I'm okay! I'm-<KEY><W><C>
+msg:1:1:Я в порядке! Я в по-<KEY><W><C>
 chr:1:moveto:580,0
 chr:1:speed:8
 wait:60
@@ -323,7 +323,7 @@ rmb:20,20
 chr:0:grp:bmp/ivent/02tear_00.tga 512,512
 chr:1:center:-228
 se:bin/se/00re/event/re_fue.bin
-msg:1:1:HeuaAAAH!<KEY><W><C>
+msg:1:1:Хеуаааа!<KEY><W><C>
 
 windowpos:304,1
 chr:0:grp:bmp/ivent/02tear_05.tga 512,512
@@ -343,14 +343,14 @@ chr:6:disp
 wait:30
 se:bin/se/01ti/event/tea_mataku.bin
 wait:30
-msg:0:2:... fall. Merde...<KEY><W><C>
+msg:0:2:... падение. Мерде...<KEY><W><C>
 
 wait:30
 chr:0:grp:bmp/ivent/02tear_00.tga 512,512
-msg:0:2:Still.<KEY>
-msg:0:2:The rare elven medicine,<BR>showing up at that exact<BR>moment...<KEY>
-msg:0:2:Living dungeons...<KEY>
-msg:0:2:Perhaps it is not quite<BR>as wild a theory as some<BR>think it is... I wonder...<KEY><W><C>
+msg:0:2:Все еще.<KEY>
+msg:0:2:Редкое эльфийское лекарство,<BR>появившееся именно в этот<BR>момент...<KEY>
+msg:0:2:Живые подземелья...<KEY>
+msg:0:2:Возможно, это не такая уж<BR>дикая теория, как некоторые<BR>думают... Я удивлена...<KEY><W><C>
 
 chr:0:moveto:-512,0			//	�ړ���
 chr:0:speed:10	
