@@ -35,14 +35,14 @@ chr:2:grp:bmp/ivent/06tiers_01.tga 512,512
 chr:2:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:2:disp
 wait:60
-msg:1:1:Welcome to...<KEY>
-msg:1:1:... oh! Tielle!<KEY><W><C>
+msg:1:1:Добро пожаловать в...<KEY>
+msg:1:1:... о! Тиэль!<KEY><W><C>
 windowpos:304,-1	
 chr:2:grp:bmp/ivent/06tiers_04.tga 512,512	
 se:bin/se/05ti/shop/t_kai_ehehe_01.bin
-msg:2:6:Ehehe!<KEY><W><C>
+msg:2:6:Э-э-э-э!<KEY><W><C>
 windowpos:304,1	
-msg:1:1:What's up? You seem super<BR>happy.<KEY><W><C>
+msg:1:1:Как дела? Ты кажешься очень<BR>счастливой.<KEY><W><C>
 windowpos:304,-1	
 
 chr:0:dir:left
@@ -54,7 +54,7 @@ chr:0:colto:255,255,255,255
 chr:0:disp
 
 wait:30
-msg:2:6:Ta-da-daaaaah!<KEY><W><C>
+msg:2:6:Та-да-дааааа!<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_07.tga 512,512
 
@@ -82,30 +82,30 @@ chr:4:disp
 wait:20
 
 windowpos:304,1	
-msg:1:1:This is!...<KEY><W><C>
+msg:1:1:Это!...<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_01.tga 512,512	
-msg:2:6:Up until now I could only<BR>tag along with sis,<KEY>
-msg:2:6:but I just finished the<BR>Hall of Trials!<KEY>
-msg:2:6:And so, and so... I heard<BR>I should give my card<BR>to all the<KEY>
-msg:2:6:people I want to help,<BR>and I thought of you,<BR>Recette!<KEY><W><C>
+msg:2:6:До сих пор я могла только<BR>таскаться за сестрой,<KEY>
+msg:2:6:но я только что закончила<BR>Зал Испытаний!<KEY>
+msg:2:6:И так, и этак... Я слышала,<BR>что должена отдать свою<BR>визитку всем людям<KEY>
+msg:2:6:которым я хочу помочь,<BR>и я подумал о тебе,<BR>Ресетт!<KEY><W><C>
 
 windowpos:304,1	
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Oooh! I see!<KEY>
+msg:1:1:Оооо! Я вижу!<KEY>
 
 chr:0:fadeframe:60			//�q�f�a�`�l�𑝌������܂ł̃t���[����
 chr:0:colto:255,255,255,0
 chr:0:disp
 wait:80
 
-msg:1:1:Thank you so much, Tielle!<KEY><W><C>
+msg:1:1:Большое тебе спасибо,<BR>Тиэль!<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_04.tga 512,512	
 se:bin/se/05ti/shop/t_kai_yokatta_01.bin
-msg:2:6:I'm just glad you're happy!<BR>Ask me to come with you<BR>any time you want!<KEY><W><C>
+msg:2:6:Я рада, что ты счастлива!<BR>Можешь позвать меня пойти<BR>с тобой в любое время!<KEY><W><C>
 
 chr:0:moveto:-512,0
 chr:0:speed:10

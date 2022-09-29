@@ -37,16 +37,16 @@ chr:1:disp
 wait:60
 
 windowpos:304,1	
-msg:1:1:Hey! Feeling better?<KEY><W><C>
+msg:1:1:Привет!<BR>Чувствуешь себя лучше?<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_04.tga 512,512	
-msg:2:6:Yep! I'm all better,<BR>and it's all thanks to you!<KEY><W><C>
+msg:2:6:Да! Мне стало лучше,<BR>и все это благодаря тебе!<KEY><W><C>
 
 windowpos:304,1	
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:Well, I'm glad...<KEY>
-msg:1:1:I still feel kind of bad<BR>for hurting you in the<BR>first place...<KEY><W><C>
+msg:1:1:Что ж, я рада...<KEY>
+msg:1:1:Я все еще чувствую себя<BR>немного виноватой из-за<BR>того, что напала на тебя<KEY><W><C>
 
 chr:1:moveto:-160,0
 chr:1:speed:4
@@ -61,22 +61,22 @@ chr:0:grp:bmp/ivent/02tear_01.tga 512,512	//�t�@�C�����A�摜�
 chr:0:normal_shade	//	�ʏ�`��A�J���[�l����Z
 chr:0:disp
 wait:60
-msg:0:2:So. You intend to search<BR>the city for your sister?<KEY><W><C>
+msg:0:2:Так. Вы намерены обыскивать<BR>город в поисках своей<BR>сестры?<KEY><W><C>
 
 chr:2:grp:bmp/ivent/06tiers_00.tga 512,512
 windowpos:304,-1	
-msg:2:6:Yeah... it's what I need<BR>to do, I think.<KEY>
-msg:2:6:She's probably looking for<BR>me too, and must be<BR>worried...<KEY><W><C>
+msg:2:6:Да... Я думаю, это то,<BR>что мне нужно сделать.<KEY>
+msg:2:6:Она, наверное, тоже ищет<BR>меня и, должно быть,<BR>волнуется...<KEY><W><C>
 
 chr:1:grp:bmp/ivent/01recette_01.tga 512,512
 windowpos:304,1
-msg:1:1:I hope you find her soon...<KEY>
+msg:1:1:Я надеюсь, ты скоро<BR>найдешь ее...<KEY>
 chr:1:grp:bmp/ivent/01recette_04.tga 512,512
-msg:1:1:and if you need anything,<BR>feel free to visit!<KEY><W><C>
+msg:1:1:и если вам что-нибудь<BR>понадобится, не стесняйтесь<BR>заходить!<KEY><W><C>
 
 windowpos:304,-1
 chr:2:grp:bmp/ivent/06tiers_04.tga 512,512	
-msg:2:6:I will! Thank you,<BR>Recette!<KEY><W><C>
+msg:2:6:Я так и сделаю!<BR>Спасибо тебе, Ресетт!<KEY><W><C>
 
 chr:0:moveto:-512,0
 chr:0:speed:10
